@@ -342,7 +342,6 @@ class Labeler:
                 tag, t = pi[i][j][k][1:3]
                 tagged[i][3] = tag
         i -= 1
-        print i, t, j
         while i >= 0:
             tagged[i][3] = pi[i][t][j][1]
             j = t
@@ -411,6 +410,7 @@ if len(sys.argv) > 1:
     else:
         labeler.train(IOBData.dev_iob.sents[:ntrain], niter)
         faults = labeler.evaluate(IOBData.dev_iob.sents[ntrain:ntrain+ntest])
+
 
 f = open('log.txt', 'w')
 for fault in faults:
