@@ -282,16 +282,17 @@ class Labeler:
     def tag(self, tagged_sent):
         roled = [[self._normalize(word), tag, chk, None] for word, tag, chk in tagged_sent]
 
-        for idx, (word, tag, chunk, role) in enumerate(roled):
-            # pred = self.single_tag_words.get(word)
-            pred = None
-            if not pred:
-                features = self._get_features(idx, roled)
-                if features['i is-predicate'] == 1:
-                    pred = 'E-V'
-                else:
-                    pred = self.perceptron.predict(features)
-            roled[idx][3] = pred
+	for it in range(3):
+	        for idx, (word, tag, chunk, role) in enumerate(roled):
+        	    # pred = self.single_tag_words.get(word)
+	            pred = None
+        	    if not pred:
+                	features = self._get_features(idx, roled)
+	                if word[0] == '*':
+        	            pred = 'E-V'
+	                else:
+        	            pred = self.perceptron.predict(features)
+	            roled[idx][3] = pred
 
         # in_role = 'O'
         # for idx, (word, tag, chunk, role) in enumerate(roled):
@@ -340,7 +341,6 @@ class Labeler:
                 tag, t = pi[i][j][k][1:3]
                 tagged[i][3] = tag
         i -= 1
-        print i, t, j
         while i >= 0:
             tagged[i][3] = pi[i][t][j][1]
             j = t
@@ -399,9 +399,9 @@ test_rate = 0.07
 ntrain = int(len(IOBData.dev_iob.sents) * train_rate)
 ntest = int(len(IOBData.dev_iob.sents) * test_rate)
 labeler = Labeler()
-# labeler.train(IOBData.trn_iob.sents, 10)
+labeler.train(IOBData.trn_iob.sents, 20)
 # faults = labeler.evaluate(IOBData.dev_iob.sents)
-labeler.train(IOBData.dev_iob.sents[:ntrain], 10)
+# labeler.train(IOBData.dev_iob.sents[:ntrain], 10)
 # faults = labeler.evaluate(IOBData.dev_iob.sents[ntrain:ntrain+ntest])
 faults = labeler.evaluate(IOBData.dev_iob.sents)
 
