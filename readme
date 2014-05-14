@@ -1,0 +1,116 @@
+Mid-Term Project: Semantic Role Labeling
+
+---------------
+Important dates
+----------------------------------------------------------
+    Train and devlopment data availible:    April 14, 2014
+    Test data availible:                    May 5, 2014
+    System submission due:                  May 12, 2014
+    Report submission due:                  May 19, 2014
+    
+-----------------
+Tasks Description
+    Goal: Given a set of sentences and the semantic roles on them, build a semantic
+    role labeler using sequence model.
+    
+    To learn more about semantic role labeling:
+      http://www.lsi.upc.edu/~srlconll/st04/st04.html 
+      http://www.lsi.upc.edu/~srlconll/st04/papers/intro.pdf
+    
+
+
+========================================================================================
+The files under this directory are for the Mid-Term Project of the course EMNLP.
+All files are encoded in UTF8.
+
+This directory contains
+    Directory:      data
+    Perl script:    srl-eval.pl
+
+The directory 'data' contains:
+    Plain text files:
+    dev.wrd     trn.wrd
+    dev.pos-chk trn.pos-chk
+    dev.props   trn.props
+
+
+Train and Development Data
+    .wrd:       One word per line;
+                Sentences are seperated by empty lines.
+    .pos-chk:   Corresponding POS and chunk;
+                Two columns, the first of which is POSs, the second chunks;
+                Chunks are in the format '([chunk]*' '*' ... '*' '*[chunk])'.
+    .props:     Corresponding semantic roles;
+                The words (not '-') in the first column are the target word in
+                the sentence. Next come several columns, each corresponding
+                to one target, in order. The chunks in those columns are the
+                semantic roles of the corresponding target. (See the example
+                below)
+
+------------------
+Example for .props
+------------------------------------------------------
+-	(A0*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*A0)	*	*	*	*
+-	(AM-TMP*AM-TMP)	*	*	*	*
+签署	(V*V)	*	*	*	*
+-	*	*	*	*	*
+-	(A1*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*A1)	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	(A0*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+互利	*	(V*V)	*	*	*
+互补	*	*	(V*V)	*	*
+-	*	*	*	*	*
+-	*	*	*	*	*
+-	*	*	*	*A0)	*
+-	*	*	*	(AM-DIR*	*
+-	*	*	*	*AM-DIR)	*
+进入	*	*	*	(V*V)	*
+-	*	*	*	*	*
+-	*	*	*	(A1*	*
+-	*	*	*	*	*
+新	*	*	*	*	(V*V)
+-	*	*	*	*	*
+-	*	*	*	*A1)	(A0*A0)
+-	*	*	*	*	*
+
+    In the above sentence, there are 5 targets, namely, '签署', '互利', '互补',
+    '进入', '新', so there are 6 columns. Column 1 gives the targets, while
+    column 2 is the semantic roles for '签署', column 3 for '互利', and so
+    forth. In column 2, there are 4 chunks, namely, (A0******A0),
+    (AM-TMP*AM-TMP), (V*V), (A1********A1), which are the semantic roles of
+    '签署'. The rest columns give the semantci roles similarly.
+
+Test Data
+    Only .wrd file is provided;
+
+Evaluation
+    Precision, recall and F messure are considered.
+    You can run srl-eval.pl to evaluate your result on the development data.
+
+Requrements:
+    1.  Build your own system. (Anyone caught cheating will not receive credit)
+    2.  Submit your system and report in time. (Your credits will be penalized
+        by 30% if your submission is late)
+    3.  If you want to use POSs and chunks for the test data, build your own POS
+        tagger and chunker. We strongly recommend you to do so.
+    4.  Your submission of system is supposed to include source codes,
+        excecutables, results in the format descripted above, and a simple
+        readme file.
+    5.  Your report is supposed to be a .pdf file, in formal paper format, 
+        demonstrating your idea, algorithm, implementation, experiments,
+        and other ralated information.
+
