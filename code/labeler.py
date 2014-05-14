@@ -7,6 +7,7 @@ from helper import printc
 from helper import cstr
 import copy
 import IOBData
+import sys
 
 
 class Labeler:
@@ -282,16 +283,17 @@ class Labeler:
     def tag(self, tagged_sent):
         roled = [[self._normalize(word), tag, chk, None] for word, tag, chk in tagged_sent]
 
-        for idx, (word, tag, chunk, role) in enumerate(roled):
-            # pred = self.single_tag_words.get(word)
-            pred = None
-            if not pred:
-                features = self._get_features(idx, roled)
-                if features['i is-predicate'] == 1:
-                    pred = 'E-V'
-                else:
-                    pred = self.perceptron.predict(features)
-            roled[idx][3] = pred
+        for it in range(3):
+            for idx, (word, tag, chunk, role) in enumerate(roled):
+                # pred = self.single_tag_words.get(word)
+                pred = None
+                if not pred:
+                    features = self._get_features(idx, roled)
+                    if features['i is-predicate'] == 1:
+                        pred = 'E-V'
+                    else:
+                        pred = self.perceptron.predict(features)
+                roled[idx][3] = pred
 
         # in_role = 'O'
         # for idx, (word, tag, chunk, role) in enumerate(roled):
@@ -393,17 +395,22 @@ class Labeler:
         return faults
 
 
-train_rate = 1
-test_rate = 0.07
+train_rate = 0.93
+test_rate = 1 - train_rate
 
 ntrain = int(len(IOBData.dev_iob.sents) * train_rate)
 ntest = int(len(IOBData.dev_iob.sents) * test_rate)
 labeler = Labeler()
-# labeler.train(IOBData.trn_iob.sents, 10)
-# faults = labeler.evaluate(IOBData.dev_iob.sents)
-labeler.train(IOBData.dev_iob.sents[:ntrain], 10)
-# faults = labeler.evaluate(IOBData.dev_iob.sents[ntrain:ntrain+ntest])
-faults = labeler.evaluate(IOBData.dev_iob.sents)
+
+faults = []
+if len(sys.argv) > 1:
+    niter = int(sys.argv[2])
+    if sys.argv[1] == 'real':
+        labeler.train(IOBData.trn_iob.sents, niter)
+        faults = labeler.evaluate(IOBData.dev_iob.sents)
+    else:
+        labeler.train(IOBData.dev_iob.sents[:ntrain], niter)
+        faults = labeler.evaluate(IOBData.dev_iob.sents[ntrain:ntrain+ntest])
 
 f = open('log.txt', 'w')
 for fault in faults:
