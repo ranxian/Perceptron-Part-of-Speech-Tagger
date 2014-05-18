@@ -172,19 +172,51 @@ class Chunker:
 
         in_bracket = False
         for idx, (word, tag, chunk) in enumerate(chked):
-            if chunk.startswith("("):
-                in_bracket = True
-            if chunk.endswith(")"):
-                if not in_bracket:
-                    if chked[idx-1][2] == chunk:
-                        chked[idx-1][2] = '*'
+            if chunk.startswith('('):
+                if in_bracket:
+                    if chunk.endswith(')'):  # in brack
+                        j = idx-1
+                        while j > 0:
+                            if chked[j][2].startswith('('):
+                                break
+                            j -= 1
+                        chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                        in_bracket = False
                     else:
-                        chked[idx-1][2] = '(' + chunk[1:-2]
-                in_bracket = False
-
-            if in_bracket and not chunk[0] == '(':
-                chked[idx][2] = '*'
-
+                        chked[idx][2] = '*'
+                else:
+                    if not chunk.endswith(')'):
+                        in_bracket = True
+            elif chunk.endswith(')'):
+                if in_bracket:
+                    j = idx-1
+                    while j > 0:
+                        if chked[j][2].startswith('('):
+                            break
+                        j -= 1
+                    chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                    in_bracket = False
+                else:
+                    chunk = chunk[1:-2]
+                    chked[idx][2] = '(' + chunk + '*' + chunk + ')'
+            else:
+                if in_bracket:
+                    if idx == len(chked)-1:
+                        j = idx-1
+                        while j > 0:
+                            if chked[j][2].startswith('('):
+                                break
+                            j -= 1
+                        chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                    else:
+                        chked[idx][2] = '*'
+            if in_bracket and idx == len(chked)-1:
+                j = idx-1
+                while j > 0:
+                    if chked[j][2].startswith('('):
+                        break
+                    j -= 1
+                chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
         return chked
 
     def tag2(self, sent):

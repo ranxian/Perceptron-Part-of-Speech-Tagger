@@ -97,8 +97,12 @@ def srl2iob(srl_path, trn=False, test=False):
                     if p != '-':
                         cnt += 1
                 cnt = 1 if cnt == 0 else cnt
-                roles = ['O'] * cnt
+                npred = 0
                 for p in preds:
+                    roles = ['O' for i in range(cnt)]
+                    if p != '-':
+                        roles[npred] = 'EB-V'
+                        npred += 1
                     dest.write('%s\t%s\n' % (p, '\t'.join(roles)))
                 preds = []
             dest.write('\n')
@@ -153,7 +157,6 @@ def iob2token(wordpath, poschkpath, target, srlpath):
                 roles = [ [] for i in range(len(lineroles)) ]
 
             if '-VP' in chunk:
-
                 if chunk == 'B-VP' or chunk == 'EB-VP':
                     see_in_the_begin = lineroles;
 
@@ -186,18 +189,16 @@ def iob2token(wordpath, poschkpath, target, srlpath):
             else:
                 if chunk[0] == 'B' or (chunk[0] == 'E' and chunk[1] == 'B'):
                     see_in_the_begin2 = lineroles
+                    # print chunk
                 if chunk[0] == 'E':
                     words.append(word)
                     chunks.append(chunk)
 
                     poses.append(pos)
                     for idx, role in enumerate(lineroles):
-                        print word, lineroles, idx
                         if role[0] == 'E':
                             roles[idx].append(role)
                         else:
-                            print see_in_the_begin2
-                            print word
                             roles[idx].append(see_in_the_begin2[idx])
                     see_in_the_begin2 = []
                 if chunk[0] == 'O':
@@ -209,18 +210,24 @@ def iob2token(wordpath, poschkpath, target, srlpath):
 
         else:
             for _roles in roles:
+                # printc(_roles)
                 if len(_roles) == 0:
                     continue
                 for idx, role in enumerate(_roles):
-                    if chunks[idx] == 'E-VP' or chunks[idx] == 'EB-VP':
+                    if role.__class__ == tuple:
                         chunk_to_write = chunks[idx]
                         if '-' in chunk_to_write:
                             chunk_to_write = chunk_to_write.split('-')[1]
+                        if normrole(role[2]) == '-':
+                            print role
                         dest.write('%s\t%s\t%s\t%s\n' % (role[0], role[1], chunk_to_write, normrole(role[2])))
                     else:
                         chunk_to_write = chunks[idx]
                         if '-' in chunk_to_write:
                             chunk_to_write = chunk_to_write.split('-')[1]
+                        # print role
+                        if normrole(role) == '-':
+                            print words[idx], role
                         dest.write('%s\t%s\t%s\t%s\n' % (words[idx], poses[idx], chunk_to_write, normrole(role)))
                 dest.write('\n')
             roles = []

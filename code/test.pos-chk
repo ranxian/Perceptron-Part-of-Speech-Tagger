@@ -65,11 +65,11 @@ NR	(NP*NP)
 PU	*
 VV	(VP*VP)
 NN	(NP*
-NN	*NP)
+NN	*
 PU	*
-NN	(NP*NP)
+NN	*
 PU	*
-NN	(NP*
+NN	*
 NN	*NP)
 DEG	(DNP*DNP)
 NN	(NP*
@@ -116,14 +116,14 @@ LC	(LCP*LCP)
 AD	(ADVP*ADVP)
 VV	(VP*VP)
 NN	(NP*
-NN	*NP)
-PU	*
+NN	*
+PU	*NP)
 DEC	*
 NN	(NP*NP)
 PU	*
 CC	*
-VC	(VP*
-VV	*VP)
+VC	(VP*VP)
+VV	(VP*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
 CC	*
@@ -136,7 +136,7 @@ NN	*NP)
 PU	*
 VV	(VP*VP)
 NN	(NP*NP)
-JJ	(ADJP*ADJP)
+JJ	(NP*NP)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -312,7 +312,7 @@ DT	(DP*
 M	*DP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 VA	(VP*VP)
 CC	*
 AD	(VP*
@@ -335,7 +335,7 @@ NN	(NP*
 NN	*NP)
 PU	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
 VV	(NP*NP)
@@ -505,8 +505,8 @@ NN	(NP*
 NN	*
 NN	*NP)
 LC	(LCP*LCP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
@@ -691,15 +691,15 @@ PU	*
 DT	(DP*DP)
 NN	(NP*
 NN	*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 VA	(VP*VP)
 PU	*
 NN	(NP*
 NN	*
 NN	*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 NN	(NP*NP)
 AD	(VP*
@@ -709,9 +709,9 @@ PU	*
 VV	(VP*VP)
 DT	(DP*DP)
 NN	(NP*NP)
-JJ	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+JJ	(ADJP*ADJP)
+NN	(NP*
+NN	*NP)
 PU	*
 
 P	(PP*PP)
@@ -757,7 +757,7 @@ VA	*VP)
 PU	*
 NN	(NP*NP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 PU	*
 NN	(NP*NP)
 AD	(VP*
@@ -805,8 +805,8 @@ PU	*
 
 AD	(ADVP*ADVP)
 PU	*
-AD	(ADVP*ADVP)
-VE	(NP*NP)
+AD	(VP*
+VE	*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
 CD	(QP*
@@ -849,7 +849,7 @@ NN	(NP*NP)
 NN	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 
 P	(PP*PP)
@@ -866,7 +866,7 @@ DEC	*
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -1039,8 +1039,8 @@ NN	*
 NN	*NP)
 LC	(LCP*LCP)
 PU	*
-AD	(VP*
-VV	*
+AD	(ADVP*ADVP)
+VV	(VP*
 VV	*VP)
 NR	(NP*NP)
 NN	(NP*NP)
@@ -1205,8 +1205,8 @@ PU	*NP)
 NN	(NP*NP)
 PU	*
 NR	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 P	(PP*PP)
 DT	(DP*DP)
 NN	(NP*NP)
@@ -1270,8 +1270,8 @@ VV	(VP*VP)
 PU	*
 VA	(VP*VP)
 DEV	(DVP*DVP)
-VV	(V
-AS	*VP)
+VV	(VP*VP)
+AS	(V*V)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -1466,8 +1466,8 @@ VV	(VP*VP)
 DT	(DP*DP)
 NN	(NP*NP)
 NN	(NP*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 NN	(NP*NP)
 PU	*
 
@@ -1561,9 +1561,9 @@ AD	(VP*
 VA	*VP)
 PU	*
 NN	(NP*
-NN	*
+NN	*NP)
 CC	*
-NN	*
+NN	(NP*
 NN	*NP)
 AD	(VP*
 VA	*VP)
@@ -1594,8 +1594,8 @@ PU	*
 
 NT	(NP*NP)
 PU	*
-AD	(ADVP*ADVP)
-VE	(NP*NP)
+AD	(VP*
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*
@@ -1693,8 +1693,8 @@ DEC	*
 NN	(NP*
 NN	*NP)
 PU	*
-AD	(ADVP*ADVP)
-AD	(ADVP*ADVP)
+AD	(VP*
+AD	*VP)
 P	(PP*PP)
 NN	(NP*
 NN	*
@@ -1760,8 +1760,8 @@ PU	*
 
 NT	(NP*NP)
 PU	*
-AD	(ADVP*ADVP)
-VE	(NP*NP)
+AD	(VP*
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*
@@ -1797,7 +1797,7 @@ NN	(NP*NP)
 AD	(VP*
 AD	*
 VV	*
-VV	(NP*NP)
+VV	*VP)
 PN	(NP*NP)
 P	(PP*PP)
 VV	(VP*VP)
@@ -1966,9 +1966,9 @@ VV	(VP*VP)
 VA	(VP*VP)
 DEC	*
 NN	(NP*
-NN	*NP)
+NN	*
 CC	*
-VV	(VP*VP)
+VV	*NP)
 DEC	*
 NN	(NP*NP)
 PU	*
@@ -2003,8 +2003,8 @@ NR	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 CD	(QP*QP)
-NN	(NP*NP)
 NN	(NP*
+NN	*
 NN	*NP)
 PU	*
 
@@ -2184,8 +2184,8 @@ NT	(NP*NP)
 NR	(NP*NP)
 AD	(VP*
 AD	*
-VV	(V
-AS	*VP)
+VV	*VP)
+AS	(V*V)
 NN	(NP*
 NN	*
 NN	*NP)
@@ -2235,8 +2235,8 @@ NN	(NP*NP)
 NN	(NP*NP)
 CC	*
 VV	(VP*VP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 AD	(VP*
 VV	*VP)
 PU	*
@@ -2310,9 +2310,9 @@ NN	*
 NN	*NP)
 PU	*
 NN	(NP*
-NN	*
+NN	*NP)
 CC	*
-NN	*
+NN	(NP*
 NN	*NP)
 VV	(VP*
 AS	*VP)
@@ -2320,7 +2320,7 @@ JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -2364,7 +2364,7 @@ NN	(NP*NP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*NP)
 NR	(NP*NP)
 P	(PP*PP)
@@ -2407,9 +2407,9 @@ NN	(NP*
 NN	*
 NN	*
 NN	*
-NN	*NP)
+NN	*
 PU	*
-NN	(NP*
+NN	*
 NN	*NP)
 VV	(VP*VP)
 DEC	*
@@ -2493,8 +2493,8 @@ NR	*
 NN	*NP)
 PU	*
 NR	(NP*
-NR	*
-NN	*NP)
+NR	*NP)
+NN	(NP*NP)
 CC	*
 NR	(NP*
 NR	*
@@ -2621,8 +2621,8 @@ NN	(NP*
 NN	*NP)
 AD	(VP*
 AD	*
-AD	*VP)
-P	(PP*PP)
+AD	*
+P	*VP)
 NN	(NP*
 NN	*NP)
 VV	(VP*VP)
@@ -2726,7 +2726,7 @@ NN	(NP*NP)
 P	(PP*PP)
 NN	(NP*
 PU	*
-P	(PP*PP)
+P	*NP)
 VV	(VP*VP)
 P	(PP*PP)
 VV	(NP*NP)
@@ -2762,12 +2762,12 @@ AS	*VP)
 JJ	(ADJP*ADJP)
 DEG	(DNP*DNP)
 NN	(NP*
-NN	*
+NN	*NP)
 PU	*
-NN	*
-NN	*
+NN	(NP*
+NN	*NP)
 PU	*
-NN	*
+NN	(NP*
 NN	*
 ETC	*NP)
 NN	(NP*
@@ -2775,7 +2775,7 @@ NN	*NP)
 PU	*
 AD	(VP*
 AD	*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -2783,8 +2783,8 @@ NN	(NP*
 NN	*
 PU	*
 NN	*
-NN	*
-ETC	*NP)
+NN	*NP)
+ETC	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 PU	*
@@ -2929,8 +2929,8 @@ PU	(NP*
 NT	*
 PU	*NP)
 NN	(NP*NP)
-AD	(VP*
-VV	*VP)
+AD	(ADVP*ADVP)
+VV	(VP*VP)
 NR	(NP*NP)
 VV	(VP*
 VV	*VP)
@@ -3001,8 +3001,8 @@ NN	*NP)
 VV	(VP*VP)
 DEC	*
 NR	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 VV	(VP*VP)
 AD	(ADVP*ADVP)
 CD	(QP*
@@ -3100,8 +3100,8 @@ NN	(NP*
 NN	*NP)
 NT	(NP*NP)
 P	(PP*PP)
-NR	(NP*NP)
-NN	(NP*NP)
+NR	(NP*
+NN	*NP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
 NN	(NP*
@@ -3112,8 +3112,8 @@ NR	(NP*NP)
 NN	(NP*
 NN	*NP)
 VV	(VP*VP)
-NR	(NP*
-NN	*
+NR	(NP*NP)
+NN	(NP*
 NN	*
 NN	*
 NN	*
@@ -3215,8 +3215,8 @@ NR	(NP*NP)
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VV	(V
-AS	*VP)
+VV	*VP)
+AS	(V*V)
 NT	(NP*NP)
 LC	(LCP*LCP)
 NR	(NP*NP)
@@ -3253,8 +3253,8 @@ P	(PP*PP)
 NR	(NP*NP)
 NN	(NP*
 NN	*NP)
-VE	(V
-AS	*VP)
+VE	(NP*NP)
+AS	(V*V)
 AD	(VP*
 VA	*VP)
 DEC	*
@@ -3308,7 +3308,7 @@ PU	*
 DT	(DP*DP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*NP)
@@ -3347,7 +3347,7 @@ PU	*
 
 AD	(ADVP*ADVP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 JJ	(NP*
@@ -3444,7 +3444,7 @@ DT	(DP*
 M	*DP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*QP)
 CC	*
 CD	(QP*
@@ -3459,7 +3459,7 @@ PU	*
 NT	(NP*NP)
 NN	(NP*NP)
 LC	(LCP*LCP)
-AD	(VP*
+AD	(ADVP*ADVP)
 VE	(NP*NP)
 CD	(QP*
 M	*QP)
@@ -3500,8 +3500,8 @@ NN	(NP*NP)
 JJ	(NP*
 JJ	*NP)
 NN	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 LC	(LCP*LCP)
 VV	(VP*VP)
 PU	*
@@ -3598,7 +3598,7 @@ DEC	*
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 AD	(VP*
 VV	*VP)
 CD	(QP*
@@ -3865,8 +3865,8 @@ DEC	*
 NN	(NP*
 NN	*NP)
 PU	*
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 JJ	(NP*NP)
 NN	(NP*NP)
 NN	(NP*NP)
@@ -3937,7 +3937,7 @@ LC	(LCP*LCP)
 DEC	*
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -4013,7 +4013,7 @@ VV	(VP*VP)
 NN	(NP*
 NN	*NP)
 DT	(DP*
-M	*QP)
+M	*DP)
 VA	(VP*VP)
 CD	(QP*
 M	*QP)
@@ -4037,7 +4037,7 @@ PU	*
 
 NN	(NP*NP)
 VV	(NP*
-LC	(LCP*LCP)
+LC	*NP)
 PU	*
 AD	(ADVP*ADVP)
 P	(PP*PP)
@@ -4240,8 +4240,8 @@ JJ	(NP*NP)
 NN	(NP*NP)
 NN	(NP*
 PU	*
-VV	(V
-AS	*VP)
+VV	*NP)
+AS	(V*V)
 P	(PP*PP)
 NN	(NP*
 NN	*
@@ -4273,10 +4273,10 @@ CD	(QP*QP)
 NN	(NP*NP)
 VV	(VP*VP)
 VV	(VP*VP)
-NN	(NP*NP)
 NN	(NP*
+NN	*NP)
 CC	*
-NN	*
+NN	(NP*
 NN	*NP)
 VV	(VP*VP)
 P	(PP*PP)
@@ -4296,7 +4296,7 @@ NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -4349,9 +4349,9 @@ AD	(ADVP*ADVP)
 P	(PP*PP)
 NT	(NP*
 NT	*
-NT	*
-CC	*
 NT	*NP)
+CC	*
+NT	(NP*NP)
 P	(PP*PP)
 NR	(NP*NP)
 VV	(VP*VP)
@@ -4435,8 +4435,8 @@ NR	(NP*NP)
 AD	(VP*
 VV	*VP)
 NR	(NP*NP)
-AD	(VP*
-VA	*VP)
+AD	(ADVP*ADVP)
+VA	(VP*VP)
 DEC	*
 NN	(NP*
 NN	*NP)
@@ -4573,16 +4573,16 @@ DEC	*
 NR	(NP*
 NR	*NP)
 P	(PP*PP)
-NN	(NP*
-PU	*
-JJ	*NP)
 NN	(NP*NP)
 PU	*
 JJ	(NP*NP)
 NN	(NP*NP)
-NN	(NP*
+PU	*
+JJ	(NP*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 CC	*
-JJ	*NP)
+JJ	(NP*NP)
 NN	(NP*NP)
 CD	(QP*QP)
 JJ	(ADJP*ADJP)
@@ -4611,7 +4611,7 @@ NN	(NP*
 NN	*NP)
 P	(PP*PP)
 NR	(NP*
-NR	(NP*
+NR	*
 NN	*
 NN	*NP)
 PU	*
@@ -4629,8 +4629,8 @@ JJ	(NP*NP)
 NN	(NP*
 NN	*NP)
 NN	(NP*NP)
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 PU	*
 
 AD	(ADVP*ADVP)
@@ -4669,7 +4669,7 @@ VV	(VP*VP)
 PU	(NP*
 NT	*
 PU	*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*NP)
 
 NR	*
@@ -4733,8 +4733,8 @@ VV	(VP*VP)
 DEC	*
 JJ	(NP*
 JJ	*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 PU	*
 VV	(VP*VP)
 PN	(NP*NP)
@@ -4887,7 +4887,7 @@ PU	*
 NT	(NP*
 NT	*NP)
 VV	(VP*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -4926,8 +4926,8 @@ VA	(VP*VP)
 DEC	*
 NN	(NP*NP)
 VV	(VP*
+VV	*
 VV	*VP)
-VV	(VP*VP)
 NN	(NP*NP)
 VV	(VP*VP)
 JJ	(NP*NP)
@@ -4942,20 +4942,20 @@ JJ	(NP*NP)
 NN	(NP*NP)
 NN	(NP*NP)
 VV	(VP*
+VV	*
 VV	*VP)
-VV	(VP*VP)
 JJ	(NP*NP)
 VV	(VP*VP)
 NN	(NP*NP)
 JJ	(ADJP*ADJP)
-NN	(NP*
+NN	(NP*NP)
 CC	*
-NN	*NP)
+NN	(NP*NP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
 NN	(NP*
+NN	*
 NN	*NP)
-NN	(NP*NP)
 PU	*
 
 P	(PP*PP)
@@ -5023,7 +5023,7 @@ VV	*VP)
 DT	(DP*DP)
 NN	(NP*NP)
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 PU	*
 
 NT	(NP*NP)
@@ -5062,8 +5062,8 @@ NT	*NP)
 LC	(LCP*LCP)
 PU	*
 AD	(ADVP*ADVP)
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 NN	(NP*
 NN	*
 NN	*NP)
@@ -5121,7 +5121,7 @@ NR	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 PU	*
 VV	(VP*VP)
 PN	(NP*NP)
@@ -5156,7 +5156,7 @@ NN	(NP*
 NN	*
 NN	*NP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 VA	(VP*VP)
 PU	*
 DT	(DP*DP)
@@ -5186,11 +5186,11 @@ NR	(NP*NP)
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 DEC	*
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*QP)
 NN	(NP*NP)
 PU	*
@@ -5220,7 +5220,7 @@ NN	*NP)
 VV	(VP*
 AS	*VP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 DEC	*
 NN	(NP*
 NN	*NP)
@@ -5260,7 +5260,7 @@ PU	*
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 DEC	*
 NN	(NP*NP)
 LC	(LCP*LCP)
@@ -5277,8 +5277,8 @@ PU	*
 
 P	(PP*PP)
 NN	(NP*NP)
-AD	(VP*
-VV	*VP)
+AD	(ADVP*ADVP)
+VV	(VP*VP)
 DEC	*
 JJ	(NP*NP)
 AD	(VP*
@@ -5314,7 +5314,7 @@ NN	(NP*NP)
 PU	*
 NR	(NP*NP)
 VV	(VP*
-P	(PP*PP)
+P	*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
 VV	(NP*NP)
@@ -5342,13 +5342,13 @@ CD	(QP*
 M	*QP)
 PU	*
 PN	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 AD	(VP*
 VV	*VP)
 PU	*
-AD	(ADVP*ADVP)
-VE	(VP*VP)
+AD	(VP*
+VE	*VP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
@@ -5557,7 +5557,7 @@ AD	(VP*
 VV	*
 AS	*VP)
 NR	(NP*
-NN	(NP*
+NN	*
 NN	*NP)
 PU	*
 NR	(NP*NP)
@@ -5595,8 +5595,8 @@ VV	(VP*VP)
 NR	(NP*NP)
 NN	(NP*
 NN	*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 VA	(VP*VP)
 DEC	*
 NN	(NP*NP)
@@ -5711,8 +5711,8 @@ JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
 CD	(QP*QP)
-VC	(VP*
-VV	*
+VC	(VP*VP)
+VV	(VP*
 VV	*VP)
 CC	*
 VV	(VP*VP)
@@ -5729,7 +5729,7 @@ VV	(VP*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
 VV	(VP*
-VV	(VP*
+VV	*
 VV	*VP)
 VV	(VP*VP)
 DEC	*
@@ -5751,14 +5751,14 @@ JJ	(NP*NP)
 NN	(NP*NP)
 CC	*
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 PU	*
 CD	(QP*QP)
 VC	(VP*VP)
 P	(PP*PP)
 VV	(VP*VP)
-NR	(NP*NP)
-NN	(NP*NP)
+NR	(NP*
+NN	*NP)
 CC	*
 NR	(NP*NP)
 NN	(NP*
@@ -5837,7 +5837,7 @@ VV	*VP)
 VV	(VP*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
-M	(CLP*CLP)
+M	(QP*QP)
 LC	(LCP*LCP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
@@ -5869,7 +5869,7 @@ CC	*
 VV	(VP*VP)
 NR	(NP*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 DT	(DP*
 M	*DP)
 NN	(NP*
@@ -5936,8 +5936,8 @@ JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
 
-NR	(NP*NP)
-NN	(NP*NP)
+NR	(NP*
+NN	*NP)
 VC	(VP*VP)
 NR	(NP*NP)
 CD	(QP*
@@ -6343,7 +6343,7 @@ NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 AD	(VP*
-VV	(ADVP*ADVP)
+VV	*VP)
 NN	(NP*NP)
 PU	*
 CD	(QP*
@@ -6357,7 +6357,7 @@ PU	*
 CD	(QP*
 M	*QP)
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 NN	(NP*NP)
 VA	(VP*VP)
 PU	*
@@ -6516,8 +6516,8 @@ NN	*NP)
 PU	*
 
 NR	(NP*
-NN	*NP)
-NN	(NP*
+NN	*
+NN	*
 NN	*NP)
 AD	(VP*
 VV	*VP)
@@ -6579,9 +6579,9 @@ NT	*NP)
 PU	*
 NR	(NP*
 NR	*
-NR	*
-NN	*
-NN	*
+NR	*NP)
+NN	(NP*NP)
+NN	(NP*
 NN	*NP)
 NN	(NP*
 NN	*NP)
@@ -6590,8 +6590,8 @@ NR	(NP*NP)
 VV	(VP*
 AS	*VP)
 JJ	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 PU	*
 
 DT	(DP*
@@ -6625,9 +6625,9 @@ NN	*NP)
 CC	*
 NR	(NP*
 NR	*
-NR	*
-NN	*
-NN	*
+NR	*NP)
+NN	(NP*NP)
+NN	(NP*
 NN	*NP)
 VV	(VP*
 AS	*VP)
@@ -6728,7 +6728,7 @@ PU	*
 DT	(DP*DP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*
@@ -6745,7 +6745,7 @@ PU	*
 VV	(VP*VP)
 DT	(DP*DP)
 NN	(NP*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
 CD	(QP*QP)
@@ -6760,7 +6760,7 @@ CD	(QP*
 M	*QP)
 PU	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 JJ	(NP*NP)
@@ -6842,12 +6842,12 @@ NN	*NP)
 PU	*
 VV	(NP*NP)
 NR	(NP*NP)
-NN	(NP*NP)
 NN	(NP*
-CC	*
 NN	*NP)
-PU	*
+CC	*
 NN	(NP*
+PU	*
+NN	*
 PU	*
 NN	*NP)
 DEG	(DNP*DNP)
@@ -7061,8 +7061,8 @@ NR	(NP*
 NN	*
 NN	*NP)
 VV	(VP*
-VV	(V
-AS	*VP)
+VV	*VP)
+AS	(V*V)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -7176,7 +7176,7 @@ PU	*
 DT	(DP*DP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*
@@ -7230,8 +7230,8 @@ M	*QP)
 AD	(VP*
 VV	*VP)
 DEC	*
-NR	(NP*
-NN	*
+NR	(NP*NP)
+NN	(NP*
 NN	*NP)
 LC	(LCP*LCP)
 PU	*
@@ -7249,9 +7249,9 @@ PU	*
 NN	(NP*NP)
 AD	(VP*
 VV	*VP)
-CD	(QP*QP)
-CC	*
 CD	(QP*
+CC	*
+CD	*
 M	*QP)
 PU	*
 
@@ -7261,8 +7261,8 @@ DEG	(DNP*DNP)
 JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
-NR	(NP*
-NN	*NP)
+NR	(NP*NP)
+NN	(NP*NP)
 DEC	*
 NN	(NP*
 NN	*NP)
@@ -7365,12 +7365,12 @@ PU	*
 
 P	(PP*PP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*
 NN	*NP)
 PU	*
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 P	(PP*PP)
 NN	(NP*NP)
 NN	(NP*NP)
@@ -7409,7 +7409,7 @@ PU	*
 
 P	(PP*PP)
 NT	(NP*
-NT	(NP*NP)
+NT	*NP)
 LC	(LCP*LCP)
 PU	*
 CD	(QP*QP)
@@ -7438,8 +7438,8 @@ AD	(VP*
 VV	*VP)
 PU	*
 P	(PP*PP)
-VV	(VP*VP)
-VV	(VP*VP)
+VV	(VP*
+VV	*VP)
 CD	(QP*
 M	*QP)
 JJ	(NP*NP)
@@ -7544,8 +7544,8 @@ PU	*
 NN	(NP*
 NN	*NP)
 AD	(VP*
-AD	(ADVP*ADVP)
-CD	(QP*QP)
+AD	*
+CD	*VP)
 CC	*
 CD	(QP*
 M	*QP)
@@ -7558,8 +7558,8 @@ VV	(VP*
 VV	*VP)
 CD	(QP*
 CC	*
-CD	*
-M	*QP)
+CD	*QP)
+M	(Q*Q)
 PU	*
 
 NN	(NP*
@@ -7571,8 +7571,8 @@ AD	*
 VV	*VP)
 CD	(QP*
 CC	*
-CD	*
-M	*QP)
+CD	*QP)
+M	(Q*Q)
 VV	(VP*
 VV	*VP)
 DEC	*
@@ -7635,10 +7635,10 @@ NN	*NP)
 PU	*
 CD	(QP*QP)
 NN	(NP*NP)
-NN	(NP*
-CC	*
-NN	*NP)
 NN	(NP*NP)
+CC	*
+NN	(NP*
+NN	*NP)
 VV	(VP*
 VV	*VP)
 PU	*
@@ -7649,8 +7649,8 @@ VA	(VP*VP)
 PU	*
 VV	(VP*VP)
 NN	(NP*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 NN	(NP*
 PU	*
 NN	*
@@ -7708,9 +7708,9 @@ NN	(NP*NP)
 VV	(VP*VP)
 PU	*
 
-NR	(NP*
+NR	(NP*NP)
+NN	(NP*
 NN	*NP)
-NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 VV	(VP*VP)
@@ -7943,7 +7943,7 @@ CC	*
 NT	*NP)
 PU	*
 NR	(NP*NP)
-JJ	(ADJP*ADJP)
+JJ	(NP*NP)
 NN	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
@@ -8017,7 +8017,7 @@ NN	(NP*NP)
 DEC	*
 NN	(NP*NP)
 VV	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 
 NN	(NP*NP)
@@ -8079,8 +8079,8 @@ LC	(LCP*LCP)
 PU	*
 DT	(DP*DP)
 JJ	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 AD	(VP*
 AD	*
 VV	*VP)
@@ -8188,9 +8188,9 @@ PU	*
 NT	(NP*NP)
 PU	*
 NR	(NP*NP)
-PU	(ADJP*
+PU	(NP*
 JJ	*
-PU	*ADJP)
+PU	*NP)
 NN	(NP*NP)
 NN	(NP*NP)
 VV	(VP*VP)
@@ -8359,7 +8359,7 @@ JJ	(ADJP*ADJP)
 NN	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
-VV	(ADVP*ADVP)
+VV	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -8369,8 +8369,8 @@ JJ	(ADJP*ADJP)
 NN	(NP*NP)
 PU	*
 NR	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 CC	*
@@ -8488,8 +8488,8 @@ NR	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
 AD	*
-CD	(QP*
-M	*QP)
+CD	*
+M	*VP)
 VV	(VP*VP)
 VV	(VP*
 VV	*VP)
@@ -8520,7 +8520,7 @@ VV	(VP*
 AS	*VP)
 CD	(QP*
 CC	*
-CD	(QP*
+CD	*
 M	*QP)
 CD	(QP*QP)
 PU	*
@@ -8595,10 +8595,10 @@ PU	*
 NR	*
 NN	(NP*
 NN	*NP)
-NN	(NP*
+NN	(NP*NP)
 CC	*
-NR	*
-NN	*
+NR	(NP*NP)
+NN	(NP*
 NN	*NP)
 NN	(NP*NP)
 AD	(VP*
@@ -8660,8 +8660,8 @@ M	*QP)
 VV	(VP*VP)
 NR	*
 DEC	*
-NR	(NP*NP)
-NN	(NP*NP)
+NR	(NP*
+NN	*NP)
 PU	*
 
 P	(PP*PP)
@@ -9152,8 +9152,8 @@ PU	*
 
 NN	(NP*
 NN	*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 NN	(NP*
@@ -9197,7 +9197,7 @@ PU	*
 
 NR	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NN	(NP*
 NN	*NP)
 CD	(QP*
@@ -9305,9 +9305,9 @@ VV	*VP)
 DEC	*
 PU	*
 CD	(QP*QP)
-NN	(NP*
+NN	(NP*NP)
 CC	*
-NN	*
+NN	(NP*
 NN	*
 NN	*
 NN	*
@@ -9322,8 +9322,8 @@ P	(PP*PP)
 NR	(NP*
 NR	*NP)
 CC	*
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 VV	(NP*NP)
 NT	(NP*NP)
 NN	(NP*NP)
@@ -9434,7 +9434,7 @@ DT	(DP*
 M	*DP)
 NN	(NP*
 NN	*
-NN	(NP*NP)
+NN	*NP)
 VV	(VP*VP)
 CD	(QP*
 M	*QP)
@@ -9460,9 +9460,9 @@ NN	*NP)
 DEG	(DNP*DNP)
 CD	(QP*
 CC	*
-NN	(NP*
 NN	*
-NN	*NP)
+NN	*
+NN	*QP)
 DEG	(DNP*DNP)
 CD	(QP*QP)
 LC	(LCP*LCP)
@@ -9522,8 +9522,8 @@ NR	(NP*NP)
 NN	(NP*
 NN	*NP)
 LC	(LCP*LCP)
-VV	(VP*VP)
-VV	(VP*VP)
+VV	(VP*
+VV	*VP)
 DEC	*
 NN	(NP*NP)
 PU	*
@@ -9532,8 +9532,8 @@ AD	*
 VC	*VP)
 NR	(NP*
 NR	*
-NR	*
 NR	*NP)
+NR	(NP*NP)
 NN	(NP*
 NN	*NP)
 DEG	(DNP*DNP)
@@ -9658,7 +9658,7 @@ PU	*
 P	(PP*PP)
 NN	(NP*NP)
 LC	(LCP*LCP)
-AD	(VP*
+AD	(ADVP*ADVP)
 VE	(NP*NP)
 NN	(NP*NP)
 PU	*
@@ -9667,8 +9667,8 @@ NN	*NP)
 VA	(NP*NP)
 PU	*
 AD	(VP*
-VV	*
 VV	*VP)
+VV	(VP*VP)
 PU	*
 
 PU	*
@@ -9716,8 +9716,8 @@ P	(PP*PP)
 VV	(VP*VP)
 DEC	*
 NN	(NP*NP)
-AD	(VP*
-VV	*VP)
+AD	(ADVP*ADVP)
+VV	(VP*VP)
 PU	*
 NN	(NP*
 NN	*NP)
@@ -9738,8 +9738,8 @@ NN	*
 CC	*
 NN	*NP)
 AD	(VP*
-VV	*
 VV	*VP)
+VV	(VP*VP)
 NR	(NP*NP)
 NN	(NP*
 NN	*NP)
@@ -9760,7 +9760,7 @@ NN	(NP*NP)
 PU	*
 NN	(NP*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 
 P	(PP*PP)
@@ -9855,8 +9855,8 @@ NN	(NP*
 NN	*NP)
 P	(PP*PP)
 NT	(NP*NP)
-VE	(V
-AS	*VP)
+VE	(NP*NP)
+AS	(V*V)
 JJ	(NP*NP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
@@ -9870,8 +9870,8 @@ NN	(NP*
 NN	*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
-VE	(V
-AS	*VP)
+VE	(NP*NP)
+AS	(V*V)
 NN	(NP*NP)
 PU	*
 
@@ -9967,9 +9967,9 @@ NN	(NP*
 CC	*
 NN	*NP)
 VV	(VP*VP)
-NN	(NP*
+NN	(NP*NP)
 CC	*
-JJ	*NP)
+JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
 NN	(NP*NP)
@@ -10020,7 +10020,7 @@ CC	*
 NN	*NP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 AD	(ADVP*ADVP)
 JJ	(NP*NP)
 NN	(NP*NP)
@@ -10078,8 +10078,8 @@ P	(PP*PP)
 NN	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
-VV	(V
-AS	*VP)
+VV	*VP)
+AS	(V*V)
 P	(PP*PP)
 NN	(NP*
 PU	*
@@ -10171,9 +10171,9 @@ NN	(NP*
 NN	*
 PU	*
 NN	*
-NN	*NP)
+NN	*
 CC	*
-JJ	(NP*NP)
+JJ	*NP)
 NN	(NP*NP)
 VV	(VP*VP)
 PU	*
@@ -10190,7 +10190,7 @@ NN	(NP*
 NN	*
 NN	*NP)
 ETC	(NP*NP)
-JJ	(ADJP*ADJP)
+JJ	(NP*NP)
 NN	(NP*NP)
 VV	(VP*VP)
 PU	*
@@ -10251,8 +10251,8 @@ NN	(NP*
 NN	*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 VA	(VP*VP)
 PU	*
 NN	(NP*NP)
@@ -10322,8 +10322,8 @@ OD	(QP*QP)
 JJ	(ADJP*ADJP)
 M	(QP*QP)
 NN	(NP*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -10375,8 +10375,8 @@ VA	(VP*VP)
 DEC	*
 NN	(NP*
 NN	*
-NN	*NP)
-NN	(NP*
+NN	*
+NN	*
 NN	*NP)
 VV	(NP*NP)
 PU	*
@@ -10394,8 +10394,8 @@ M	*QP)
 PU	*
 NN	(NP*
 NN	*NP)
-VV	(V
-AS	*VP)
+VV	(ADVP*ADVP)
+AS	(V*V)
 NN	(NP*
 NN	*
 NN	*NP)
@@ -10554,8 +10554,8 @@ VV	*
 PU	*
 
 PU	*
-NR	(NP*NP)
-NN	(NP*
+NR	(NP*
+NN	*
 NN	*NP)
 PU	*
 
@@ -10632,7 +10632,7 @@ NN	(NP*NP)
 PU	*
 NN	(NP*
 CC	*
-VV	(VP*VP)
+VV	*NP)
 NN	(NP*
 NN	*NP)
 JJ	(ADJP*ADJP)
@@ -10654,7 +10654,7 @@ NN	*
 NN	*NP)
 AD	(VP*
 AD	*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 JJ	(NP*
 JJ	*NP)
@@ -10731,7 +10731,7 @@ NN	(NP*NP)
 PU	*
 CC	*
 VV	(VP*
-VV	(VP*
+VV	*
 DT	*VP)
 NN	(NP*NP)
 NN	(NP*NP)
@@ -10743,7 +10743,7 @@ NN	*NP)
 PU	*
 CC	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NN	(NP*NP)
 VV	(VP*VP)
 DT	(DP*DP)
@@ -10929,12 +10929,12 @@ NN	(NP*
 PU	*
 NN	*
 PU	*
-JJ	*NP)
-NN	(NP*NP)
+JJ	*
+NN	*
 PU	*
-NN	(NP*
-NN	*NP)
-ETC	(NP*NP)
+NN	*
+NN	*
+ETC	*NP)
 VV	(VP*VP)
 JJ	(NP*NP)
 NN	(NP*
@@ -10957,7 +10957,7 @@ DEC	*
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 JJ	(NP*NP)
 NN	(NP*
 NN	*NP)
@@ -10967,7 +10967,7 @@ NN	(NP*
 NN	*NP)
 DEC	*
 NN	(NP*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*NP)
 PU	*
 NN	(NP*
@@ -10988,8 +10988,8 @@ NN	*
 NN	*NP)
 PU	*
 NN	(NP*
-NN	*
-ETC	*NP)
+NN	*NP)
+ETC	(NP*NP)
 PU	*
 
 DT	(DP*DP)
@@ -11029,7 +11029,7 @@ JJ	(ADJP*ADJP)
 NN	(NP*NP)
 PU	*
 NR	(NP*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*NP)
 NN	(NP*NP)
 JJ	(ADJP*ADJP)
@@ -11171,7 +11171,7 @@ JJ	*NP)
 NN	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
-VV	*
+VV	*VP)
 VE	(NP*NP)
 VA	(NP*NP)
 DEC	*
@@ -11248,7 +11248,7 @@ NN	(NP*NP)
 P	(PP*PP)
 NT	(NP*NP)
 VV	(VP*
-VV	(ADVP*ADVP)
+VV	*VP)
 CD	(QP*QP)
 PU	*
 
@@ -11256,7 +11256,7 @@ AD	(ADVP*ADVP)
 PU	*
 NR	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*NP)
@@ -11312,7 +11312,7 @@ NN	(NP*NP)
 VV	(VP*VP)
 PU	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*QP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
@@ -11348,7 +11348,7 @@ NN	(NP*NP)
 PU	*
 NN	(NP*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 
 NT	(NP*NP)
@@ -11687,8 +11687,8 @@ VV	*VP)
 DEC	*
 NN	(NP*
 CC	*
-NN	*NP)
-NN	(NP*
+NN	*
+NN	*
 NN	*NP)
 AD	(VP*
 VV	*VP)
@@ -11728,7 +11728,7 @@ PU	*
 CC	*
 VV	(VP*VP)
 NR	(NP*
-NR	(NP*NP)
+NR	*NP)
 NN	(NP*NP)
 CC	*
 NR	(NP*NP)
@@ -11880,7 +11880,7 @@ AD	(VP*
 VV	*VP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -12041,9 +12041,9 @@ M	*QP)
 VV	(NP*NP)
 NN	(NP*NP)
 PU	*
-NN	(NP*NP)
-PU	*
 NN	(NP*
+PU	*
+NN	*
 CC	*
 NN	*
 ETC	*NP)
@@ -12060,7 +12060,7 @@ DEG	(DNP*DNP)
 NN	(NP*
 NN	*NP)
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	(NP*
 NN	*
 PU	*NP)
@@ -12103,8 +12103,8 @@ NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 AD	(VP*
-VV	(V
-AS	*VP)
+VV	*VP)
+AS	(V*V)
 JJ	(NP*NP)
 NN	(NP*
 NN	*NP)
@@ -12119,15 +12119,15 @@ NR	*
 NN	*
 NN	*NP)
 CC	*
-NR	(NP*NP)
-NN	(NP*
+NR	(NP*
+NN	*
 NN	*NP)
 AD	(VP*
 VV	*VP)
 CD	(QP*
 CC	*
-CD	*
-M	*QP)
+CD	*QP)
+M	(Q*Q)
 NN	(NP*NP)
 DEC	*
 NN	(NP*
@@ -12248,7 +12248,7 @@ NN	(NP*
 NN	*NP)
 DEC	*
 NN	(NP*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*NP)
 NN	(NP*NP)
 JJ	(ADJP*ADJP)
@@ -12292,7 +12292,7 @@ NN	*NP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
 NN	(NP*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*
 NN	*NP)
 P	(PP*PP)
@@ -12364,11 +12364,11 @@ VV	*
 VV	*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
-NN	(NP*
+NN	(NP*NP)
 CC	*
-NN	*
-NN	*
-NN	*
+NN	(NP*
+NN	*NP)
+NN	(NP*
 NN	*NP)
 VV	(VP*
 AS	*VP)
@@ -12528,8 +12528,8 @@ NN	(NP*NP)
 NN	(NP*NP)
 LC	(LCP*LCP)
 PU	*
-AD	(VP*
-VV	*
+AD	(ADVP*ADVP)
+VV	(VP*
 AS	*VP)
 PU	*
 P	(PP*PP)
@@ -12593,7 +12593,7 @@ M	*QP)
 NN	(NP*NP)
 PU	*
 
-CD	(LST*LST)
+CD	(QP*QP)
 VC	(VP*VP)
 P	(PP*PP)
 NT	(NP*
@@ -12813,7 +12813,7 @@ NR	(NP*
 PU	*
 NR	*
 PU	*
-NR	(NP*NP)
+NR	*NP)
 PU	*
 NR	(NP*
 PU	*
@@ -12821,9 +12821,9 @@ NR	*NP)
 NN	(NP*NP)
 PU	*
 NR	(NP*NP)
-NN	(NP*
+NN	(NP*NP)
 PU	*
-NN	*NP)
+NN	(NP*NP)
 CC	*
 NN	(NP*
 NN	*NP)
@@ -12890,7 +12890,7 @@ DEG	(DNP*DNP)
 NN	(NP*NP)
 AD	(VP*
 AD	*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 P	(PP*PP)
 NR	(NP*NP)
@@ -13066,7 +13066,7 @@ NR	(NP*NP)
 VV	(VP*
 AD	*
 VV	*
-VV	(NP*
+VV	*
 VA	*VP)
 NN	(NP*NP)
 JJ	(ADJP*ADJP)
@@ -13189,8 +13189,8 @@ PU	*
 NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 P	(PP*PP)
 NR	(NP*NP)
 VV	(VP*VP)
@@ -13211,8 +13211,8 @@ JJ	(ADJP*ADJP)
 NN	(NP*NP)
 CC	*
 JJ	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 PU	*
 
 NR	(NP*NP)
@@ -13239,7 +13239,7 @@ NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -13317,8 +13317,8 @@ PU	*
 AD	(VP*
 VA	*VP)
 DEV	(DVP*DVP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 PN	(NP*NP)
 DT	(DP*DP)
 NN	(NP*NP)
@@ -13381,8 +13381,8 @@ AS	*VP)
 JJ	(NP*NP)
 NN	(NP*
 CC	*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 PU	*
@@ -13570,8 +13570,8 @@ AD	(VP*
 VV	*VP)
 PU	*
 PU	(VP*
-VV	*VP)
-BA	(VP*VP)
+VV	*
+BA	*VP)
 PN	(NP*NP)
 PN	(NP*NP)
 DEG	(DNP*DNP)
@@ -13606,7 +13606,7 @@ JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 PN	(NP*NP)
 NN	(NP*NP)
 VA	(VP*VP)
@@ -13731,8 +13731,8 @@ JJ	(NP*NP)
 NN	(NP*NP)
 CC	*
 NN	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 PU	*
@@ -13741,8 +13741,8 @@ AD	(ADVP*ADVP)
 P	(PP*PP)
 NR	(NP*NP)
 NN	(NP*
+NN	*
 NN	*NP)
-NN	(NP*NP)
 LC	(LCP*LCP)
 VV	(NP*NP)
 AD	(VP*
@@ -13803,8 +13803,8 @@ NR	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*
 NN	*
+NN	*
 NN	*NP)
-NN	(NP*NP)
 VV	(VP*
 VV	*VP)
 PU	*
@@ -13861,15 +13861,15 @@ AD	(ADVP*ADVP)
 VV	(VP*VP)
 NN	(NP*
 NN	*NP)
-VV	(VP*
-VV	*VP)
+VV	(VP*VP)
+VV	(VP*VP)
 NN	(NP*NP)
 PU	*
 JJ	(NP*NP)
-NN	(NP*
-PU	*
-NN	*NP)
 NN	(NP*NP)
+PU	*
+NN	(NP*
+NN	*NP)
 AD	(VP*
 VV	*VP)
 PU	*
@@ -13940,8 +13940,8 @@ P	(PP*PP)
 P	(PP*PP)
 NN	(NP*
 PU	*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 VV	(VP*VP)
 NN	(NP*NP)
 LC	(LCP*LCP)
@@ -13982,8 +13982,8 @@ CD	(QP*QP)
 PU	*
 NR	(NP*NP)
 NN	(NP*
+NN	*
 NN	*NP)
-NN	(NP*NP)
 CC	*
 NR	(NP*NP)
 NN	(NP*
@@ -14036,7 +14036,7 @@ VV	(VP*
 VV	*VP)
 CD	(QP*
 M	*QP)
-JJ	(ADJP*ADJP)
+JJ	(NP*NP)
 NN	(NP*NP)
 P	(PP*PP)
 NN	(NP*
@@ -14073,8 +14073,8 @@ VV	*VP)
 NR	(NP*NP)
 DEC	*
 NN	(NP*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 CD	(QP*
 M	*QP)
 DEC	*
@@ -14149,9 +14149,9 @@ P	(PP*PP)
 NN	(NP*NP)
 NN	(NP*NP)
 NN	(NP*
-NN	*NP)
+NN	*
 CC	*
-NN	(NP*
+NN	*
 NN	*NP)
 CC	*
 NN	(NP*
@@ -14510,8 +14510,8 @@ VV	*VP)
 CD	(QP*
 M	*QP)
 PU	*
-VV	(VP*
-VC	*VP)
+VV	(VP*VP)
+VC	(VP*VP)
 VV	(VP*VP)
 CD	(QP*
 M	*QP)
@@ -14542,7 +14542,7 @@ NN	(NP*NP)
 DEC	*
 P	(PP*PP)
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 AD	(VP*
 VA	*VP)
 DEC	*
@@ -14825,7 +14825,7 @@ PU	*
 
 NR	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*NP)
@@ -14841,8 +14841,8 @@ PU	*
 
 NN	(NP*
 NN	*
+NN	*
 NN	*NP)
-NN	(NP*NP)
 AD	(VP*
 VV	*VP)
 VA	(VP*VP)
@@ -14875,8 +14875,8 @@ VV	(VP*
 AS	*VP)
 PU	*
 NR	(NP*
-NR	*NP)
-NN	(NP*
+NR	*
+NN	*
 NN	*
 NN	*NP)
 VV	(VP*VP)
@@ -14902,8 +14902,8 @@ VV	*VP)
 NN	(NP*
 NN	*NP)
 CC	*
-NN	*
-ETC	*
+NN	(NP*NP)
+ETC	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*
 NN	*NP)
@@ -14955,9 +14955,9 @@ NN	(NP*NP)
 LC	(LCP*LCP)
 PU	*
 AD	(ADVP*ADVP)
-VV	(VP*
+VV	(VP*VP)
 CC	*
-VV	*VP)
+VV	(VP*VP)
 NN	(NP*NP)
 PU	*
 P	(PP*PP)
@@ -15179,13 +15179,13 @@ P	(PP*PP)
 NT	(NP*NP)
 NR	(NP*NP)
 SB	(VP*
-VV	(NP*NP)
+VV	*VP)
 VC	(VP*VP)
 NN	(NP*NP)
 P	(PP*PP)
 NN	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 LC	(LCP*LCP)
 PU	*
 PN	(NP*NP)
@@ -15197,8 +15197,8 @@ VV	*VP)
 PU	*
 
 P	(PP*PP)
-NR	(NP*
-NN	*
+NR	(NP*NP)
+NN	(NP*
 NN	*
 NN	*NP)
 NN	(NP*NP)
@@ -15246,8 +15246,8 @@ NR	*NP)
 NN	(NP*NP)
 DEC	*
 NN	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 VV	(VP*
 AS	*VP)
 NN	(NP*NP)
@@ -15394,7 +15394,7 @@ PU	*
 NN	*
 NN	*
 PU	*
-VV	(VP*VP)
+VV	*NP)
 NN	(NP*NP)
 ETC	*
 PU	*
@@ -15464,8 +15464,8 @@ VV	(VP*VP)
 DEC	*
 NR	(NP*NP)
 JJ	(ADJP*ADJP)
+NN	(NP*NP)
 NN	(NP*
-NN	*
 NN	*NP)
 VV	(VP*VP)
 CD	(QP*QP)
@@ -15542,8 +15542,8 @@ M	*QP)
 PU	*
 VV	(VP*VP)
 JJ	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 PU	*
 
 AD	(VP*
@@ -15747,8 +15747,8 @@ VV	*VP)
 VA	(VP*VP)
 DEC	*
 JJ	(NP*NP)
-NN	(V
-AS	*VP)
+NN	(NP*NP)
+AS	(V*V)
 PU	*
 VV	(VP*VP)
 DEC	*
@@ -15816,7 +15816,7 @@ VV	(VP*VP)
 NR	(NP*NP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -15957,8 +15957,8 @@ JJ	(ADJP*ADJP)
 NN	(NP*
 NN	*
 NN	*NP)
-AD	(ADVP*ADVP)
-VE	(NP*NP)
+AD	(VP*
+VE	*VP)
 AD	(ADVP*ADVP)
 JJ	(NP*NP)
 NN	(NP*NP)
@@ -16053,9 +16053,9 @@ PU	*
 NN	(NP*
 NN	*NP)
 PU	*
-NN	(NP*NP)
+NN	(NP*
 CC	*
-NR	(NP*
+NR	*
 NR	*
 NR	*NP)
 NN	(NP*
@@ -16336,8 +16336,8 @@ NN	*
 NN	*
 NN	*
 NN	*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 VV	(NP*NP)
 PU	*
 P	(PP*PP)
@@ -16405,7 +16405,7 @@ NN	*
 NN	*NP)
 NN	(NP*NP)
 DT	(DP*
-M	*QP)
+M	*DP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -16528,8 +16528,8 @@ NN	*NP)
 DEG	(DNP*DNP)
 NN	(NP*
 PU	*
-NN	*NP)
-NN	(NP*
+NN	*
+NN	*
 NN	*NP)
 DEC	*
 JJ	(NP*NP)
@@ -16563,8 +16563,8 @@ PU	*
 NR	(NP*NP)
 VV	(VP*VP)
 NR	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 VV	(VP*VP)
 P	(PP*PP)
 NR	(NP*NP)
@@ -16593,8 +16593,8 @@ VV	(VP*VP)
 JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 P	(PP*PP)
 NR	(NP*NP)
 NN	(NP*NP)
@@ -16660,12 +16660,12 @@ VV	(VP*VP)
 DEC	*
 NN	(NP*
 CC	*
-VV	(V
-AS	*VP)
+VV	*NP)
+AS	(V*V)
 NR	(NP*NP)
 NN	(NP*
 CC	*
-NN	(NP*NP)
+NN	*NP)
 NN	(NP*NP)
 PU	*
 CC	*
@@ -16718,8 +16718,8 @@ NR	(NP*
 NN	*NP)
 P	(PP*PP)
 NR	(NP*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 CD	(QP*
 M	*QP)
 NN	(NP*
@@ -16824,8 +16824,8 @@ P	(PP*PP)
 NR	(NP*NP)
 NN	(NP*NP)
 DEC	*
-NN	(V
-AS	*VP)
+NN	(NP*NP)
+AS	(V*V)
 PU	*
 
 PN	(NP*NP)
@@ -16881,12 +16881,12 @@ NN	(NP*NP)
 LC	(LCP*LCP)
 VV	(NP*
 DEC	*
-DT	(DP*DP)
+DT	*NP)
 NN	(NP*NP)
 PU	*
-AD	(VP*
-AD	*
-SB	*VP)
+AD	(ADVP*ADVP)
+AD	(ADVP*ADVP)
+SB	(VP*VP)
 NR	(NP*NP)
 VV	(VP*VP)
 NN	(NP*NP)
@@ -16938,7 +16938,7 @@ NN	(NP*NP)
 VV	(VP*
 AS	*VP)
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 PU	*
 P	(PP*PP)
 VV	(VP*VP)
@@ -17041,7 +17041,7 @@ NN	*NP)
 PU	*
 
 AD	(VP*
-VV	(PP*PP)
+VV	*VP)
 NN	(NP*
 CC	*
 NN	*NP)
@@ -17068,15 +17068,15 @@ PU	*
 NR	(NP*
 NR	*NP)
 P	(PP*PP)
-NT	(NP*NP)
 NT	(NP*
+NT	*
 CC	*
 NT	*NP)
 P	(PP*PP)
 NR	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 LC	(LCP*LCP)
 PU	*
 VV	(VP*
@@ -17129,8 +17129,8 @@ M	*QP)
 NN	(NP*
 NN	*NP)
 PU	*
-VV	(V
-AS	*VP)
+VV	(ADVP*ADVP)
+AS	(V*V)
 NR	(NP*NP)
 NN	(NP*NP)
 NN	(NP*NP)
@@ -17140,13 +17140,13 @@ VV	(VP*VP)
 DEC	*
 NN	(NP*
 NN	*
-NN	(NP*NP)
+NN	*NP)
 PU	*
 
 P	(PP*PP)
 NR	(NP*
 NR	*
-NN	(NP*NP)
+NN	*NP)
 PU	*
 DT	(DP*
 M	*DP)
@@ -17223,8 +17223,8 @@ NR	(NP*NP)
 AD	(VP*
 VV	*VP)
 P	(PP*PP)
-NR	(NP*
-NN	*
+NR	(NP*NP)
+NN	(NP*
 NN	*
 NN	*NP)
 VV	(NP*NP)
@@ -17248,7 +17248,7 @@ P	(PP*PP)
 NR	(NP*NP)
 VV	(VP*VP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NN	(NP*NP)
 PU	*
 
@@ -17291,8 +17291,8 @@ NN	(NP*NP)
 CD	(QP*
 M	*QP)
 AD	(VP*
-VV	(V
-AS	*VP)
+VV	*VP)
+AS	(V*V)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -17430,7 +17430,7 @@ P	(PP*PP)
 NR	(NP*NP)
 VV	(VP*VP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 PN	(NP*NP)
 NN	(NP*NP)
 PU	*
@@ -17615,9 +17615,9 @@ NR	*NP)
 LC	(LCP*LCP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
-AD	(ADVP*ADVP)
-AD	(ADVP*ADVP)
-P	(PP*PP)
+AD	(VP*
+AD	*
+P	*VP)
 NR	(NP*
 NR	*NP)
 VV	(VP*VP)
@@ -17696,8 +17696,8 @@ NR	*NP)
 LC	(LCP*LCP)
 P	(PP*PP)
 NN	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 LC	(LCP*LCP)
 AD	(ADVP*ADVP)
 VV	(VP*
@@ -17797,8 +17797,8 @@ DEG	(DNP*DNP)
 NN	(NP*NP)
 PU	*
 PU	*
-PU	(VP*
-VC	*VP)
+PU	*
+VC	(VP*VP)
 DT	(DP*DP)
 CD	(QP*
 M	*QP)
@@ -17829,7 +17829,7 @@ PN	(NP*NP)
 VC	(VP*VP)
 PU	*
 VV	(VP*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
@@ -17840,8 +17840,8 @@ VC	*VP)
 OD	(QP*
 M	*QP)
 NN	(NP*
-NN	*
-PU	*NP)
+NN	*NP)
+PU	*
 PU	*
 
 PU	(NP*
@@ -17854,7 +17854,7 @@ VV	(VP*VP)
 NN	(NP*NP)
 VC	(VP*VP)
 PU	(VP*
-VV	(VP*VP)
+VV	*VP)
 VA	(VP*VP)
 DEC	*
 NN	(NP*
@@ -17889,8 +17889,8 @@ NN	*NP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
 NN	(NP*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -17934,7 +17934,7 @@ DEC	*
 NN	(NP*
 NN	*
 CC	*
-VV	(NP*NP)
+VV	*NP)
 DEC	*
 NN	(NP*
 NN	*NP)
@@ -17956,10 +17956,10 @@ CD	(QP*
 M	*QP)
 NN	(NP*NP)
 PU	*
-CS	(ADVP*ADVP)
-AD	(VP*
-VV	*
+CS	(VP*
+AD	*
 VV	*VP)
+VV	(VP*VP)
 NN	(NP*NP)
 VA	(VP*VP)
 DEC	*
@@ -18015,8 +18015,8 @@ VV	(VP*VP)
 NN	(NP*NP)
 MSP	*
 AD	(VP*
-VC	*
-VV	*VP)
+VC	*VP)
+VV	(VP*VP)
 NN	(NP*NP)
 PU	*
 VV	(VP*VP)
@@ -18053,7 +18053,7 @@ PU	*
 
 PU	*
 VV	(VP*
-VV	(VP*VP)
+VV	*VP)
 NN	(NP*
 NN	*NP)
 VV	(VP*VP)
@@ -18126,8 +18126,8 @@ NN	*NP)
 PU	*
 AD	(ADVP*ADVP)
 P	(PP*PP)
-NT	(NP*
-NN	*NP)
+NT	(NP*NP)
+NN	(NP*NP)
 LC	(LCP*LCP)
 JJ	(NP*NP)
 NN	(NP*NP)
@@ -18276,7 +18276,7 @@ NN	(NP*NP)
 PU	*
 CC	*
 VV	(VP*
-VV	(NP*NP)
+VV	*VP)
 VV	(VP*VP)
 DT	(DP*DP)
 NN	(NP*NP)
@@ -18301,9 +18301,9 @@ P	(PP*PP)
 JJ	(NP*NP)
 NN	(NP*NP)
 VV	(VP*
-VV	(NP*
+VV	*
 DEC	*
-NN	*NP)
+NN	*VP)
 VC	(VP*VP)
 VV	(VP*VP)
 NN	(NP*NP)
@@ -18580,7 +18580,7 @@ PU	*
 
 NR	(NP*
 PU	*
-NR	(NP*NP)
+NR	*NP)
 ETC	(NP*NP)
 P	(PP*PP)
 NT	(NP*NP)
@@ -18673,8 +18673,8 @@ NR	(NP*NP)
 PU	*
 PU	*
 PU	*
-NN	*
-NR	*
+NN	(NP*NP)
+NR	(NP*NP)
 PU	*
 PU	*
 PU	*
@@ -18747,18 +18747,18 @@ NR	(NP*
 NN	*
 NN	*NP)
 NN	(NP*
-NN	*
-PU	*
-NN	*
-NN	*
-NN	*
-NN	*
 NN	*NP)
 PU	*
 NN	(NP*
 NN	*
+NN	*NP)
+NN	(NP*
+NN	*NP)
+PU	*
+NN	(NP*
 NN	*
 NN	*NP)
+NN	(NP*NP)
 P	(PP*PP)
 NN	(NP*NP)
 LC	(LCP*LCP)
@@ -18795,7 +18795,7 @@ NN	(NP*NP)
 PU	*
 JJ	(NP*NP)
 NN	(NP*NP)
-JJ	(NP*NP)
+JJ	(ADJP*ADJP)
 NN	(NP*NP)
 CD	(QP*QP)
 NN	(NP*NP)
@@ -18994,8 +18994,8 @@ PU	*
 JJ	(NP*NP)
 NN	(NP*NP)
 NR	(NP*NP)
-VV	(VP*VP)
-VV	(VP*VP)
+VV	(VP*
+VV	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*NP)
@@ -19004,8 +19004,8 @@ DEG	(DNP*DNP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VV	*
 VV	*VP)
+VV	(VP*VP)
 P	(PP*PP)
 NN	(NP*NP)
 PU	*
@@ -19066,8 +19066,8 @@ NN	(NP*NP)
 LC	(LCP*LCP)
 AD	(ADVP*ADVP)
 AD	(ADVP*ADVP)
-VV	(VP*VP)
-AD	(VP*
+VV	(VP*
+AD	*
 VV	*VP)
 PN	(NP*NP)
 PU	*
@@ -19117,7 +19117,7 @@ NN	(NP*
 NN	*NP)
 DEG	(DNP*DNP)
 AD	(VP*
-AD	(ADVP*ADVP)
+AD	*VP)
 CD	(QP*QP)
 CD	(QP*QP)
 NN	(NP*NP)
@@ -19185,7 +19185,7 @@ NN	(NP*NP)
 NN	(NP*NP)
 DEC	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NR	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
@@ -19271,7 +19271,7 @@ VV	*VP)
 P	(PP*PP)
 JJ	(NP*NP)
 VV	(VP*
-NN	(NP*NP)
+NN	*VP)
 VV	(NP*NP)
 NN	(NP*
 NN	*
@@ -19354,8 +19354,8 @@ M	*DP)
 NN	(NP*NP)
 PU	*
 JJ	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 CC	*
 JJ	(NP*NP)
 NN	(NP*NP)
@@ -19364,8 +19364,8 @@ VV	(VP*VP)
 PU	*
 CC	*
 VV	(VP*VP)
-NR	(NP*NP)
-NN	(NP*
+NR	(NP*
+NN	*
 NN	*NP)
 P	(PP*PP)
 DT	(DP*DP)
@@ -19434,7 +19434,7 @@ NR	*
 CC	*
 PN	*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 AD	(ADVP*ADVP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
@@ -19496,13 +19496,13 @@ NN	(NP*NP)
 AD	(VP*
 AD	*
 AD	*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*
 NN	*NP)
 PU	*
 AD	(ADVP*ADVP)
-NR	(NP*
-NN	*NP)
+NR	(NP*NP)
+NN	(NP*NP)
 P	(PP*PP)
 VV	(VP*VP)
 NN	(NP*
@@ -19655,10 +19655,10 @@ VV	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*
-NN	*
+NN	*NP)
 CC	*
-AD	*NP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 NT	(NP*
 NN	*NP)
 PU	*
@@ -19831,8 +19831,8 @@ NN	(NP*NP)
 AD	(ADVP*ADVP)
 NN	(NP*
 NN	*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
@@ -19959,8 +19959,8 @@ NT	*NP)
 PU	*
 NR	(NP*NP)
 NN	(NP*
+NN	*
 NN	*NP)
-NN	(NP*NP)
 AD	(VP*
 VV	*VP)
 JJ	(NP*NP)
@@ -20118,8 +20118,8 @@ ETC	*NP)
 PU	*
 
 DT	(DP*DP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 AD	(ADVP*ADVP)
 P	(PP*PP)
 DT	(DP*DP)
@@ -20267,7 +20267,7 @@ DEG	(DNP*DNP)
 NN	(NP*NP)
 AD	(VP*
 AD	*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 AD	(ADVP*ADVP)
 P	(PP*PP)
@@ -20288,9 +20288,9 @@ VV	*
 PU	*
 
 NR	*
-NN	(NP*NP)
-VV	(VP*
-VV	*VP)
+NN	(N*N)
+VV	*
+VV	(VP*VP)
 NT	(NP*NP)
 NR	(NP*NP)
 NN	(NP*NP)
@@ -20307,9 +20307,9 @@ NN	*
 NR	*
 NN	*
 NN	*
-NN	*
-VV	*
-VV	(VP*VP)
+NN	(N*N)
+VV	(VP*
+VV	*VP)
 NT	(NP*NP)
 NR	(NP*NP)
 NN	(NP*NP)
@@ -20370,8 +20370,8 @@ LC	(LCP*LCP)
 OD	(QP*
 M	*QP)
 P	(PP*PP)
-NR	(NP*
-NR	*NP)
+NR	(NP*NP)
+NR	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 NN	(NP*NP)
@@ -20447,8 +20447,8 @@ PU	*
 P	(PP*PP)
 NR	(NP*
 NR	*
-NN	*
-NR	*NP)
+NN	*NP)
+NR	(NP*NP)
 LC	(LCP*LCP)
 PU	*
 NR	(NP*NP)
@@ -20460,14 +20460,14 @@ VV	(VP*VP)
 PU	*
 AD	(VP*
 VV	*
-VV	(N
-NR	*NP)
+VV	*VP)
+NR	(N*N)
 NN	(NP*NP)
-PU	*
-CD	(QP*QP)
+PU	(QP*
+CD	*
 PU	*
 DEC	*
-NN	(NP*NP)
+NN	*QP)
 PU	*
 
 AD	(ADVP*ADVP)
@@ -20603,9 +20603,9 @@ LC	(LCP*LCP)
 P	(PP*PP)
 NR	(NP*NP)
 NN	(NP*NP)
-AD	(VP*
-AD	*
-VV	*VP)
+AD	(ADVP*ADVP)
+AD	(ADVP*ADVP)
+VV	(VP*VP)
 NN	(NP*
 NN	*NP)
 PU	*
@@ -20636,10 +20636,10 @@ VV	(VP*
 AS	*VP)
 VV	(VP*VP)
 DT	(DP*DP)
-NN	(NP*NP)
+NN	(NP*
 PU	*
-DT	(DP*
-M	*DP)
+DT	*NP)
+M	(D*D)
 NN	(NP*NP)
 AD	(VP*
 VV	*VP)
@@ -20729,15 +20729,15 @@ DEC	*
 DT	(DP*DP)
 NN	(NP*NP)
 NN	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 P	(PP*PP)
 VV	(NP*
 NN	*NP)
-VV	(V
-AS	*VP)
+VV	(NP*NP)
+AS	(V*V)
 AD	(ADVP*ADVP)
 NN	(NP*NP)
 PU	*
@@ -20803,8 +20803,8 @@ VA	(VP*VP)
 DEC	*
 NN	(NP*
 NN	*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 NR	(NP*NP)
 LC	(LCP*LCP)
 PU	*
@@ -20862,8 +20862,8 @@ PU	*
 P	(PP*PP)
 NR	(NP*NP)
 NN	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 VV	(VP*VP)
@@ -20871,8 +20871,8 @@ DEC	*
 NN	(NP*NP)
 VC	(VP*VP)
 NR	(NP*
-NN	*
 NN	*NP)
+NN	(NP*NP)
 PU	*
 AD	(VP*
 AD	*
@@ -20919,9 +20919,9 @@ PU	*
 AD	(ADVP*ADVP)
 PN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
-LC	(V
-AS	*VP)
+VE	*VP)
+LC	(LCP*LCP)
+AS	(V*V)
 PU	*
 PU	*
 
@@ -21040,7 +21040,7 @@ PU	*
 VE	(NP*NP)
 NR	(NP*NP)
 VV	(VP*
-VV	(PP*PP)
+VV	*VP)
 BA	(VP*VP)
 VV	(VP*VP)
 NT	(NP*NP)
@@ -21110,8 +21110,8 @@ NN	*
 PU	*NP)
 VV	(VP*VP)
 PN	(NP*NP)
-VE	(V
-AS	*VP)
+VE	(NP*NP)
+AS	(V*V)
 CD	(QP*
 M	*QP)
 VA	(VP*VP)
@@ -21163,7 +21163,7 @@ PU	*
 VV	(VP*VP)
 NN	(NP*
 CC	*
-VV	(VP*VP)
+VV	*NP)
 NN	(NP*NP)
 LC	(LCP*LCP)
 AD	(ADVP*ADVP)
@@ -21351,8 +21351,8 @@ VV	(VP*VP)
 PU	*
 CD	(LST*LST)
 PU	*
-AD	(VP*
-VV	*VP)
+AD	(ADVP*ADVP)
+VV	(VP*VP)
 NR	(NP*NP)
 NN	(NP*NP)
 DEC	*
@@ -21385,8 +21385,8 @@ VV	(VP*VP)
 NR	(NP*NP)
 NN	(NP*NP)
 DEC	*
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 PU	*
 CS	(ADVP*ADVP)
 PN	(NP*NP)
@@ -21482,8 +21482,8 @@ PU	*
 
 CD	(LST*LST)
 PU	*
-AD	(VP*
-VV	*VP)
+AD	(ADVP*ADVP)
+VV	(VP*VP)
 NR	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
@@ -21714,7 +21714,7 @@ AS	*VP)
 AD	(VP*
 AD	*
 PU	*
-VV	(ADVP*ADVP)
+VV	*VP)
 CD	(QP*QP)
 DEC	*
 NR	(NP*NP)
@@ -21733,9 +21733,9 @@ NR	(NP*
 NN	*NP)
 VV	(VP*VP)
 NR	(NP*
-NR	*
+NR	*NP)
+NN	(NP*
 NN	*NP)
-NN	(NP*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
 MSP	*
@@ -21782,7 +21782,7 @@ NN	*NP)
 LC	(LCP*LCP)
 VC	(VP*VP)
 AD	(VP*
-VA	(NP*NP)
+VA	*VP)
 DEC	*
 PU	*
 
@@ -21989,8 +21989,8 @@ NR	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 VV	(VP*VP)
-VV	(N
-NR	*NP)
+VV	(ADVP*ADVP)
+NR	(N*N)
 NN	(NP*NP)
 LC	(LCP*LCP)
 DEC	*
@@ -22098,7 +22098,7 @@ M	*QP)
 CD	(QP*
 M	*QP)
 CD	(QP*
-DEG	(DNP*DNP)
+DEG	*QP)
 JJ	(NP*NP)
 NN	(NP*NP)
 VV	(VP*VP)
@@ -22438,13 +22438,13 @@ P	(PP*PP)
 CD	(QP*
 M	*QP)
 DEG	(DNP*DNP)
-NN	(NP*NP)
+NN	(NP*
 CC	*
-NN	(NP*NP)
+NN	*NP)
 PU	*
 AD	(VP*
-VE	(V
-AS	*VP)
+VE	*VP)
+AS	(V*V)
 JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
@@ -22537,7 +22537,7 @@ NN	*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NN	(NP*NP)
 PU	*
 
@@ -22552,9 +22552,9 @@ VV	(VP*
 AS	*VP)
 NR	(NP*NP)
 NN	(NP*
-NN	*
+NN	*NP)
 CC	*
-NN	*
+NN	(NP*
 NN	*NP)
 DEG	(DNP*DNP)
 NN	(NP*
@@ -22597,7 +22597,7 @@ JJ	(NP*NP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NN	(NP*NP)
 PU	*
 CC	*
@@ -22689,8 +22689,8 @@ AD	(VP*
 VV	*VP)
 PU	*
 PN	(NP*NP)
-VV	(VP*VP)
-BA	(VP*VP)
+VV	(VP*
+BA	*VP)
 VV	(VP*VP)
 NN	(NP*NP)
 PU	*
@@ -22827,7 +22827,7 @@ VV	(VP*VP)
 DT	(DP*DP)
 NN	(NP*NP)
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 NN	(NP*NP)
 VV	(VP*
 VV	*VP)
@@ -22837,8 +22837,8 @@ LC	(LCP*LCP)
 AD	(ADVP*ADVP)
 VV	(VP*VP)
 P	(PP*PP)
-NR	(NP*
-NN	*
+NR	(NP*NP)
+NN	(NP*
 NN	*NP)
 MSP	*
 VV	(VP*VP)
@@ -22861,8 +22861,8 @@ NN	*NP)
 VV	(VP*VP)
 NN	(NP*NP)
 DEC	*
-NR	(NP*
-NN	*NP)
+NR	(NP*NP)
+NN	(NP*NP)
 PU	*
 AD	(VP*
 SB	*
@@ -22886,7 +22886,7 @@ CD	(QP*
 M	*QP)
 P	(PP*PP)
 NN	(NP*
-NN	(NP*
+NN	*
 NN	*NP)
 VV	(VP*VP)
 NN	(NP*NP)
@@ -22926,8 +22926,8 @@ PU	*
 
 P	(PP*PP)
 VV	(VP*VP)
-NR	(NP*
-NN	*NP)
+NR	(NP*NP)
+NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*
 CC	*
@@ -22943,8 +22943,8 @@ NT	(NP*NP)
 VV	(VP*VP)
 PU	(NP*
 NN	*
-NN	*
-PU	*NP)
+NN	*NP)
+PU	*
 DT	(DP*DP)
 CD	(QP*QP)
 VA	(VP*VP)
@@ -22961,8 +22961,8 @@ NN	*
 NN	*
 PU	*NP)
 P	(PP*PP)
-NR	(NP*
-NN	*NP)
+NR	(NP*NP)
+NN	(NP*NP)
 LC	(LCP*LCP)
 AD	(VP*
 VV	*
@@ -23094,7 +23094,7 @@ NN	*
 PU	*
 
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 AD	(VP*
 VV	*VP)
 NN	(NP*NP)
@@ -23158,8 +23158,8 @@ VV	(VP*VP)
 PU	*
 DT	(DP*
 M	*DP)
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 NN	(NP*NP)
 VV	(NP*NP)
 P	(PP*PP)
@@ -23248,7 +23248,7 @@ NN	(NP*NP)
 VV	(VP*VP)
 P	(PP*PP)
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 AD	(VP*
 VA	*VP)
 DEC	*
@@ -23280,13 +23280,13 @@ CD	(QP*
 M	*QP)
 PU	*
 AD	(VP*
-VV	(ADVP*ADVP)
+VV	*VP)
 NT	(NP*NP)
 SB	(VP*
 VV	*VP)
 NN	(NP*NP)
-AD	(VP*
-VA	*VP)
+AD	(ADVP*ADVP)
+VA	(VP*VP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
 NR	(NP*NP)
@@ -23300,7 +23300,7 @@ VA	*VP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
 NR	(NP*NP)
-NN	(NP*
+NN	(NP*NP)
 NN	(NP*NP)
 PU	*
 
@@ -23323,8 +23323,8 @@ LC	(LCP*LCP)
 DEG	(DNP*DNP)
 CD	(QP*
 CC	*
-CD	*
-M	*QP)
+CD	*QP)
+M	(Q*Q)
 NN	(NP*
 CC	*
 NN	*
@@ -23345,9 +23345,9 @@ PU	*
 
 NT	(NP*
 NT	*
-NT	*
+NT	*NP)
 CC	*
-NT	*
+NT	(NP*
 NT	*NP)
 NR	(NP*NP)
 NN	(NP*
@@ -23380,7 +23380,7 @@ CC	*
 NN	*
 NN	*NP)
 ETC	(NP*NP)
-JJ	(ADJP*ADJP)
+JJ	(NP*NP)
 NN	(NP*NP)
 NN	(NP*NP)
 P	(PP*PP)
@@ -23427,8 +23427,8 @@ PU	*
 
 NR	(NP*NP)
 VV	(VP*VP)
-NT	(NP*NP)
-NN	(NP*NP)
+NT	(NP*
+NN	*NP)
 
 NR	*
 NR	*
@@ -23485,9 +23485,9 @@ VV	(VP*VP)
 DT	(DP*DP)
 NN	(NP*NP)
 JJ	(ADJP*ADJP)
-NN	(NP*
+NN	(NP*NP)
 CC	*
-NN	*
+NN	(NP*
 NN	*NP)
 JJ	(ADJP*ADJP)
 NN	(NP*NP)
@@ -23598,8 +23598,8 @@ DT	(DP*DP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 AD	(VP*
 VV	*VP)
 CC	*
@@ -23707,8 +23707,8 @@ VV	*VP)
 CC	*
 VV	(VP*VP)
 JJ	(NP*NP)
-NN	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
+NN	*NP)
 PU	*
 P	(PP*PP)
 VV	(VP*VP)
@@ -23781,7 +23781,7 @@ NN	*NP)
 NN	(NP*
 NN	*NP)
 VV	(VP*
-VV	(NP*NP)
+VV	*VP)
 PU	*
 
 PN	(NP*NP)
@@ -23949,8 +23949,8 @@ VE	(VP*VP)
 VV	(VP*VP)
 CD	(QP*
 CC	*
-CD	*
-M	*QP)
+CD	*QP)
+M	(Q*Q)
 NN	(NP*NP)
 PU	*
 
@@ -23979,7 +23979,7 @@ NN	(NP*NP)
 AD	(VP*
 VV	*
 AD	*
-VV	(ADVP*ADVP)
+VV	*VP)
 CD	(QP*
 M	*QP)
 PU	*
@@ -23995,9 +23995,9 @@ PU	*
 AD	(ADVP*ADVP)
 P	(PP*PP)
 JJ	(NP*NP)
-NN	(NP*NP)
+NN	(NP*
 CC	*
-NN	(NP*NP)
+NN	*NP)
 AD	(VP*
 VV	*VP)
 NN	(NP*NP)
@@ -24009,9 +24009,9 @@ M	*QP)
 NN	(NP*
 NN	*NP)
 CD	(QP*
-NN	(NP*
 NN	*
-NN	*NP)
+NN	*
+NN	*QP)
 PU	*
 
 PU	*
@@ -24415,7 +24415,7 @@ VV	*VP)
 VV	(VP*VP)
 P	(PP*PP)
 NR	(NP*NP)
-JJ	(ADJP*ADJP)
+JJ	(NP*NP)
 NN	(NP*
 NN	*NP)
 DEG	(DNP*DNP)
@@ -24424,7 +24424,7 @@ NN	(NP*NP)
 PU	*
 VV	(VP*
 AD	*
-VV	(NP*NP)
+VV	*VP)
 VV	(VP*VP)
 NN	(NP*
 NN	*NP)
@@ -24675,7 +24675,7 @@ NN	*
 NR	*
 PU	*
 
-M	(NP*NP)
+M	(Q*Q)
 VV	(VP*VP)
 NN	(NP*
 NN	*NP)
@@ -24711,7 +24711,7 @@ CD	(QP*
 M	*QP)
 NN	(NP*NP)
 LC	(LCP*LCP)
-PU	(Q
+PU	*
 
 P	(PP*PP)
 DT	(DP*
@@ -24754,11 +24754,11 @@ NN	(NP*NP)
 VA	(VP*VP)
 PU	*
 P	(PP*PP)
-VV	(VP*VP)
-VV	(VP*VP)
+VV	(VP*
+VV	*VP)
 DEC	*
-JJ	(Q
-M	*QP)
+JJ	(ADJP*ADJP)
+M	(Q*Q)
 VV	(VP*VP)
 NN	(NP*
 NN	*NP)
@@ -24818,8 +24818,8 @@ PU	*
 
 DT	(DP*
 M	*DP)
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+VV	*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*NP)
@@ -24921,8 +24921,8 @@ NN	(NP*
 NN	*NP)
 P	(PP*PP)
 NR	(NP*
-NR	*NP)
-NN	(NP*
+NR	*
+NN	*
 NN	*
 NN	*NP)
 JJ	(NP*NP)
@@ -25009,8 +25009,8 @@ DEG	(DNP*DNP)
 NN	(NP*
 NN	*NP)
 P	(PP*PP)
-NT	(NP*NP)
-NN	(NP*NP)
+NT	(NP*
+NN	*NP)
 VV	(VP*VP)
 VV	(VP*VP)
 JJ	(NP*NP)
@@ -25070,9 +25070,9 @@ CD	(QP*QP)
 NN	(NP*NP)
 PU	*
 CD	(QP*QP)
-NN	(NP*NP)
+NN	(NP*
 CC	*
-CD	(QP*QP)
+CD	*NP)
 NN	(NP*NP)
 PU	*
 
@@ -25118,7 +25118,7 @@ P	(PP*PP)
 NR	(NP*NP)
 CC	*
 NN	(NP*
-NN	(NP*NP)
+NN	*NP)
 DEG	(DNP*DNP)
 JJ	(NP*NP)
 NN	(NP*NP)
@@ -25202,8 +25202,8 @@ PU	*
 CS	(ADVP*ADVP)
 NT	(NP*NP)
 VE	(NP*NP)
+CD	(NP*NP)
 CD	(QP*
-CD	*
 M	*QP)
 NN	(NP*NP)
 VV	(VP*VP)
@@ -25227,8 +25227,8 @@ PU	*
 
 PN	(NP*NP)
 VV	(VP*VP)
-NT	(NP*NP)
-NN	(NP*NP)
+NT	(NP*
+NN	*NP)
 VV	(VP*VP)
 AD	(VP*
 VA	*VP)
@@ -25280,9 +25280,9 @@ VV	(VP*VP)
 CD	(QP*
 M	*QP)
 NN	(NP*NP)
-AD	(ADVP*ADVP)
-AD	(ADVP*ADVP)
-VV	(VP*VP)
+AD	(VP*
+AD	*
+VV	*VP)
 PU	*
 AD	(ADVP*ADVP)
 NN	(NP*
@@ -25359,7 +25359,7 @@ NN	(NP*NP)
 DEG	(DNP*DNP)
 NN	(NP*NP)
 CS	(VP*
-VV	(ADVP*ADVP)
+VV	*VP)
 PN	(NP*NP)
 NN	(NP*NP)
 DEG	(DNP*DNP)
@@ -25415,7 +25415,7 @@ VV	(VP*VP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VE	(NP*NP)
+VE	*VP)
 VV	(VP*VP)
 NN	(NP*
 NN	*NP)
@@ -25446,8 +25446,8 @@ DEG	(DNP*DNP)
 NN	(NP*NP)
 VV	(VP*VP)
 JJ	(NP*NP)
-NN	(NP*
-NN	*NP)
+NN	(NP*NP)
+NN	(NP*NP)
 PU	*
 NN	(NP*NP)
 NR	(NP*NP)
@@ -25507,7 +25507,7 @@ NN	(NP*NP)
 VV	(VP*VP)
 PU	*
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 DEC	*
 NT	(NP*NP)
 VC	(VP*VP)
@@ -25627,8 +25627,8 @@ PU	*
 VV	(VP*
 AS	*VP)
 VV	(VP*
+VV	*
 VV	*VP)
-VV	(VP*VP)
 DEC	*
 NN	(NP*NP)
 PU	*
@@ -25675,7 +25675,7 @@ NR	(NP*NP)
 NN	(NP*NP)
 PU	*
 AD	(VP*
-VV	(NP*NP)
+VV	*VP)
 NN	(NP*NP)
 P	(PP*PP)
 NR	(NP*NP)
@@ -26046,9 +26046,9 @@ AD	(VP*
 VV	*VP)
 NN	(NP*
 NN	*
-NN	*
+NN	*NP)
 PU	*
-NN	*
+NN	(NP*
 NN	*
 NN	*NP)
 CD	(QP*QP)
