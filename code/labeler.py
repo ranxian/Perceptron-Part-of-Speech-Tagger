@@ -8,6 +8,7 @@ from helper import cstr
 import copy
 import IOBData
 import sys
+import time
 
 
 class Labeler:
@@ -186,6 +187,8 @@ class Labeler:
         pred_pos = 0
         predicate = None
 
+        add('i pos', str(i))
+
         if word[0] == '*':
             add('i is-predicate')
             word = word[:1]
@@ -236,12 +239,13 @@ class Labeler:
         add('pred-tag', pre_pos)
         add('pred-before-tag', pretag(pred_pos-1))
         add('pred-after-tag', pretag(pred_pos+1))
+        add('pred pos', str(pred_pos))
 
         add('pred-1 bp', prechk(pred_pos-1))
         add('pred-2 bp', prechk(pred_pos-2))
         add('pred+1 bp', prechk(pred_pos+1))
         add('pred+2 bp', prechk(pred_pos+2))
-          
+
         if i == 0:
             add('i begin')
 
@@ -254,7 +258,7 @@ class Labeler:
         add('i tag', tag)
         add('i suffix2', word[-6:])
         add('i suffix1', word[-3:])
-        
+
         add('i-1 word', pword1)
         add('i-1 tag', ptag1)
         add('i-1 role', prole1)
@@ -358,7 +362,7 @@ class Labeler:
         likely = {}
         faults_count = defaultdict(int)
 
-        f = open('props.txt', 'w')
+        f = open('test.props.txt', 'w')
         for roled_sent in roled_sents:
             tagged_sent = [(word, tag, chunk) for (word, tag, chunk, role) in roled_sent]
             roled = self.tag(tagged_sent)
@@ -402,15 +406,23 @@ ntest = int(len(IOBData.dev_iob.sents) * test_rate)
 labeler = Labeler()
 
 faults = []
+start = time.clock()
 if len(sys.argv) > 1:
     niter = int(sys.argv[2])
     if sys.argv[1] == 'real':
         labeler.train(IOBData.trn_iob.sents, niter)
         faults = labeler.evaluate(IOBData.dev_iob.sents)
-    else:
+    elif sys.argv[1] == 'fake':
+        labeler.train(IOBData.dev_iob.sents, niter)
+        faults = labeler.evaluate(IOBData.dev_iob.sents)
+    elif sys.argv[1] == 'train':
         labeler.train(IOBData.dev_iob.sents[:ntrain], niter)
         faults = labeler.evaluate(IOBData.dev_iob.sents[ntrain:ntrain+ntest])
-
+    elif sys.argv[1] == 'test':
+        labeler.train(IOBData.trn_iob.sents, niter)
+        faults = labeler.evaluate(IOBData.tst_iob.sents)
+elapsed = time.clock() - start
+print elapsed, 'secs'
 
 f = open('log.txt', 'w')
 for fault in faults:

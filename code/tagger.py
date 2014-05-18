@@ -7,6 +7,7 @@ from perceptron import Perceptron
 from helper import printc
 from helper import cstr
 import copy
+import time
 
 
 class Tagger:
@@ -99,6 +100,10 @@ class Tagger:
 
         features = defaultdict(int)
         add('bias')
+        if word[0] == '*':
+            add('i is v')
+        else:
+            add('i not v')
         add('i suffix', word[-3:])
         add('i-1 suffix', pword1[-3:])
         add('i+1 suffix', fword1[-3:])
@@ -186,12 +191,13 @@ class Tagger:
 
         return tagged
 
-    def evaluate(self, tagged_sents):
+    def evaluate(self, tagged_sents, log=False):
         ntotal = 0
         ncorrect = 0
         faults = []
         likely = {}
         faults_count = defaultdict(int)
+        file = open('test.pos', 'w')
 
         for tagged_sent in tagged_sents:
             sent = [word for (word, tag) in tagged_sent]
@@ -208,38 +214,46 @@ class Tagger:
             #     if word in likely:
             #         tagged[idx][1] = 'NR'
             has_false = False
-            for idx, (word, tag) in enumerate(tagged_sent):
-                ntotal += 1
-                if tag == tagged[idx][1] or (tag[0] == 'N' and tagged[idx][1][0] == 'N') or (tag == 'DEC' and tagged[idx][1] == 'DEG') or \
-                    (tag == 'DEG' and tagged[idx][1] == 'DEC'):
-                    ncorrect += 1
-                else:
-                    has_false = True
-            if has_false:
-                record = []
-                for idx, (word, tag) in enumerate(tagged_sent):
-                    if tag == tagged[idx][1] or (tag[0] == 'N' and tagged[idx][1][0] == 'N') or (tag == 'DEC' and tagged[idx][1] == 'DEG') or \
-                    (tag == 'DEG' and tagged[idx][1] == 'DEC'):
-                        record.append((word, tag, tagged[idx][1]))
-                    else:
-                        record.append((word, tag, '【' + tagged[idx][1] + '】'))
-                        faults_count[tag + ' is tagged as ' + tagged[idx][1]] += 1
-                faults.append(record)
 
-        print 'precision:', ncorrect / ntotal * 100, '%'
-        sorted_fault_count = sorted(faults_count.items(), key=lambda item: item[1], reverse=True)
-        for key, value in sorted_fault_count:
-            print key, value
+            for (word, tag) in tagged:
+                word = word[1:] if word[0] == '*' else word
+                file.write('%s\t%s\n' % (word, tag))
+                
+            file.write('\n')
+
+            if log:
+                for idx, (word, tag) in enumerate(tagged_sent):
+                    ntotal += 1
+                    if tag == tagged[idx][1] or (tag[0] == 'N' and tagged[idx][1][0] == 'N') or (tag == 'DEC' and tagged[idx][1] == 'DEG') or \
+                        (tag == 'DEG' and tagged[idx][1] == 'DEC') or ((tag[0] == 'V' and tagged[idx][1][0] == 'V')):
+                        ncorrect += 1
+                    else:
+                        has_false = True
+            if log:
+                if has_false:
+                    record = []
+                    for idx, (word, tag) in enumerate(tagged_sent):
+                        if tag == tagged[idx][1] or (tag[0] == 'N' and tagged[idx][1][0] == 'N') or (tag == 'DEC' and tagged[idx][1] == 'DEG') or \
+                        (tag == 'DEG' and tagged[idx][1] == 'DEC') or (tag[0] == 'V' and tagged[idx][1][0] == 'V'):
+                            record.append((word, tag, tagged[idx][1]))
+                        else:
+                            record.append((word, tag, '【' + tagged[idx][1] + '】'))
+                            faults_count[tag + ' is tagged as ' + tagged[idx][1]] += 1
+                    faults.append(record)
+
+        if log:
+            print 'precision:', ncorrect / ntotal * 100, '%'
+        file.close()
+        if log:
+            sorted_fault_count = sorted(faults_count.items(), key=lambda item: item[1], reverse=True)
+            for key, value in sorted_fault_count:
+                print key, value
         return faults
 
 
 tagger = Tagger()
-tagger.train(dataset.train.tagged_sents, 5)
-faults = tagger.evaluate(dataset.develop.tagged_sents)
-
-# print len(faults)
-
-f = open('log.txt', 'w')
-for fault in faults:
-    f.write(cstr(fault))
-    f.write('\n\n')
+start = time.clock()
+tagger.train(dataset.train.tagged_sents, 7)
+faults = tagger.evaluate(dataset.read_words('test.wrd', 'test.tgt'))
+elapsed = time.clock() - start
+print elapsed, 'secs'

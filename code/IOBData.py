@@ -21,3 +21,4 @@ class IOBData:
 
 trn_iob = IOBData('../data/trn.tokens')
 dev_iob = IOBData('../data/dev.tokens')
+tst_iob = IOBData('test.tokens')

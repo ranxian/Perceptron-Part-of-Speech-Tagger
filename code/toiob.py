@@ -1,4 +1,5 @@
 from helper import printc
+import sys
 
 def poschk2iob(pos_chk_path):
     poschk = open(pos_chk_path, 'r')
@@ -40,11 +41,12 @@ def poschk2iob(pos_chk_path):
     poschk.close()
     dest.close()
 
-def srl2iob(srl_path, trn=False):
+def srl2iob(srl_path, trn=False, test=False):
     srl = open(srl_path, 'r')
     dest = open(srl_path+'.iob', 'w')
 
     in_chunk = None
+    preds = []
     while True:
         line = srl.readline()
         if line == '':
@@ -52,39 +54,53 @@ def srl2iob(srl_path, trn=False):
         line = line.rstrip('\n')
 
         if line != '':
-            sp = line.split('\t')
-            word = sp[0]
-            roles = sp[1:]
+            if not test:
+                sp = line.split('\t')
+                word = sp[0]
+                roles = sp[1:]
 
-            if len(roles) == 0:
-                roles = ['O']
+                if len(roles) == 0:
+                    roles = ['O'] * 20
 
-            for idx, role in enumerate(roles):
-                if in_chunk is None:
-                    in_chunk = ['O'] * len(roles)
-                if role.startswith('(') and role.endswith(')'):
-                    head = role[1:-2]
-                    if trn:
-                        head = head[0:(len(head) / 2)]
-                    role = 'EB-' + head
-                    in_chunk[idx] = 'O'
-                elif role.startswith('('):
-                    head = role[1:-1]
-                    role = 'B-' + head
-                    in_chunk[idx] = head
-                elif role.endswith(')'):
-                    role = 'E-' + in_chunk[idx]
-                    in_chunk[idx] = 'O'
-                else:
-                    if in_chunk[idx] != 'O':
-                        role = 'I-' + in_chunk[idx]
+                for idx, role in enumerate(roles):
+                    if in_chunk is None:
+                        in_chunk = ['O'] * len(roles)
+                    if role.startswith('(') and role.endswith(')'):
+                        head = role[1:-2]
+                        if trn:
+                            head = head[0:(len(head) / 2)]
+                        role = 'EB-' + head
+                        in_chunk[idx] = 'O'
+                    elif role.startswith('('):
+                        head = role[1:-1]
+                        role = 'B-' + head
+                        in_chunk[idx] = head
+                    elif role.endswith(')'):
+                        role = 'E-' + in_chunk[idx]
+                        in_chunk[idx] = 'O'
                     else:
-                        role = in_chunk[idx]
-                roles[idx] = role
+                        if in_chunk[idx] != 'O':
+                            role = 'I-' + in_chunk[idx]
+                        else:
+                            role = in_chunk[idx]
+                    roles[idx] = role
 
 
-            dest.write('%s\t%s\n' % (word, '\t'.join(roles)))
+                dest.write('%s\t%s\n' % (word, '\t'.join(roles)))
+            else:
+                word = line
+                preds.append(word)
         else:
+            if test:
+                cnt = 0
+                for p in preds:
+                    if p != '-':
+                        cnt += 1
+                cnt = 1 if cnt == 0 else cnt
+                roles = ['O'] * cnt
+                for p in preds:
+                    dest.write('%s\t%s\n' % (p, '\t'.join(roles)))
+                preds = []
             dest.write('\n')
             in_chunk = None
 
@@ -92,7 +108,7 @@ def srl2iob(srl_path, trn=False):
     dest.close()
 
 
-def iob2token(wordpath, poschkpath, target, srlpath=False):
+def iob2token(wordpath, poschkpath, target, srlpath):
 
     def normrole(role):
         if role.startswith('EB'):
@@ -176,9 +192,12 @@ def iob2token(wordpath, poschkpath, target, srlpath=False):
 
                     poses.append(pos)
                     for idx, role in enumerate(lineroles):
+                        print word, lineroles, idx
                         if role[0] == 'E':
                             roles[idx].append(role)
                         else:
+                            print see_in_the_begin2
+                            print word
                             roles[idx].append(see_in_the_begin2[idx])
                     see_in_the_begin2 = []
                 if chunk[0] == 'O':
@@ -354,7 +373,22 @@ def token2props(token_path, word_path, dest_path):
     wordfile.close()
     tokenfile.close()
 
-token2props('props.txt', '../data/dev.wrd', '../result.txt')
+if len(sys.argv) > 1:
+    if sys.argv[1] == 'train':
+        poschk2iob('../data/trn.pos-chk')
+        srl2iob('../data/trn.props', True)
+        iob2token('../data/trn.wrd', '../data/trn.pos-chk.iob', '../data/trn.tokens', '../data/trn.props.iob')
+    elif sys.argv[1] == 'dev':
+        poschk2iob('../data/dev.pos-chk')
+        srl2iob('../data/dev.props')
+        iob2token('../data/dev.wrd', '../data/dev.pos-chk.iob', '../data/dev.tokens', '../data/dev.props.iob')        
+    elif sys.argv[1] == 'props':
+        token2props('props.txt', '../data/dev.wrd', '../result.txt')
+    elif sys.argv[1] == 'test':
+        poschk2iob('test.pos-chk')
+        srl2iob('test.tgt', test=True)
+        iob2token('test.wrd', 'test.pos-chk.iob', 'test.tokens', 'test.tgt.iob')
+
 
 # poschk2iob('../data/dev.pos-chk')
 # srl2iob('../data/dev.props')

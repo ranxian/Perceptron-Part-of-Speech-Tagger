@@ -1,0 +1,3 @@
+#! /bin/sh
+python ./toiob.py props
+perl ../srl-eval.pl ../data/dev.props ../result.txt
