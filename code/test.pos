@@ -4,12 +4,12 @@
 与	CC
 法制	NN
 建设	NN
-同步	AD
+同步	NN
 
 新华社	NR
 上海	NR
-CAL	NT
-CAL	NT
+二月	NT
+十日	NT
 电	NN
 （	PU
 记者	NN
@@ -20,7 +20,7 @@ CAL	NT
 
 上海	NR
 浦东	NR
-CAL	NT
+近年	NT
 来	LC
 颁布	VV
 实行	VV
@@ -40,7 +40,7 @@ CAL	NT
 等	ETC
 领域	NN
 的	DEG
-NUM	CD
+七十一	CD
 件	M
 法规性	NN
 文件	NN
@@ -58,7 +58,7 @@ NUM	CD
 开发	NN
 开放	NN
 是	VC
-NUM	CD
+一	CD
 项	M
 振兴	VV
 上海	NR
@@ -104,7 +104,7 @@ NUM	CD
 采取	VV
 “	PU
 干	VV
-NUM	CD
+一	CD
 段	M
 时间	NN
 ，	PU
@@ -129,7 +129,7 @@ NUM	CD
 和	CC
 深圳	NR
 等	ETC
-LOCATION	NN
+特区	NN
 的	DEG
 经验	NN
 教训	NN
@@ -154,7 +154,7 @@ LOCATION	NN
 这些	DT
 经济	NN
 活动	NN
-NUM	AD
+一	AD
 出现	VV
 就	P
 被	SB
@@ -163,14 +163,14 @@ NUM	AD
 轨道	NN
 。	PU
 
-CAL	NT
+去年	NT
 初	LC
 浦东	NR
-LOCATION	NN
+新区	NN
 诞生	VV
 的	DEC
 中国	NR
-NUM	OD
+第一	OD
 家	M
 医疗	NN
 机构	NN
@@ -181,7 +181,7 @@ NUM	OD
 ，	PU
 正	AD
 因为	P
-NUM	NT
+一	NT
 开始	VV
 就	P
 比较	AD
@@ -195,9 +195,9 @@ NUM	NT
 一亿多	CD
 元	M
 ，	PU
-没有	VE
+没有	VV
 发现	VV
-NUM	CD
+一	CD
 例	M
 回扣	NN
 。	PU
@@ -207,16 +207,16 @@ NUM	CD
 开发	VV
 浦东	NR
 的	DEC
-NUM	CD
+一	CD
 项	M
 主要	JJ
 经济	NN
 活动	NN
 ，	PU
 这些	DT
-CAL	M
+年	M
 有	VE
-NUM	CD
+数百	CD
 家	M
 建筑	NN
 公司	NN
@@ -243,12 +243,12 @@ NUM	CD
 无序	JJ
 现象	NN
 ，	PU
-LOCATION	NN
+新区	NN
 管委会	NN
 根据	P
 国家	NN
 和	CC
-LOCATION	NN
+上海市	NN
 的	DEG
 有关	JJ
 规定	NN
@@ -261,9 +261,9 @@ LOCATION	NN
 及时	AD
 出台	VV
 了	AS
-NUM	CD
+一	CD
 系列	M
-规范	VV
+规范	VA
 建设	NN
 市场	NN
 的	DEG
@@ -291,7 +291,7 @@ NUM	CD
 通信	NN
 设施	NN
 及	CC
-管线	JJ
+管线	NN
 配套	NN
 建设	NN
 意见	NN
@@ -324,7 +324,7 @@ NUM	CD
 建筑	NN
 公司	NN
 进	VV
-LOCATION	NN
+区	NN
 ，	PU
 有关	JJ
 部门	NN
@@ -345,12 +345,12 @@ LOCATION	NN
 
 尽管	CS
 浦东	NR
-LOCATION	NN
+新区	NN
 制定	VV
 的	DEC
-法规性	JJ
+法规性	NN
 文件	NN
-有些	NN
+有些	DT
 比较	AD
 “	PU
 粗	VV
@@ -395,7 +395,7 @@ LOCATION	NN
 ，	PU
 到	VV
 浦东	NR
-LOCATION	NN
+新区	NN
 投资	VV
 办事	NN
 有	VE
@@ -425,8 +425,8 @@ LOCATION	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+十一日	NT
 电	NN
 （	PU
 记者	NN
@@ -438,13 +438,13 @@ CAL	NT
 表明	VV
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 （	PU
-CAL	NT
+一九九０年	NT
 ―	PU
-CAL	NT
+一九九五年	NT
 ）	PU
 ，	PU
 中国	NR
@@ -462,20 +462,20 @@ CAL	NT
 出口	NN
 年均	AD
 增长	VV
-NUM	CD
+百分之四十三点二	CD
 ，	PU
 进口	NN
 年均	AD
 增长	VV
-NUM	CD
+百分之三十八点六	CD
 。	PU
 
-CAL	NT
+去年	NT
 实现	VV
 进出口	NN
 总值	NN
 达	VV
-NUM	CD
+一千零九十八点二亿	CD
 美元	M
 ，	PU
 占	VV
@@ -487,12 +487,12 @@ NUM	CD
 比重	NN
 由	P
 上	DT
-CAL	M
+年	M
 的	DEG
-NUM	CD
+百分之三十七	CD
 提高	VV
 到	VV
-NUM	CD
+百分之三十九	CD
 。	PU
 
 外商	NN
@@ -511,7 +511,7 @@ NUM	CD
 作用	NN
 。	PU
 
-CAL	NT
+去年	NT
 外商	NN
 投资	NN
 企业	NN
@@ -526,15 +526,15 @@ CAL	NT
 以上	LC
 ，	PU
 达	VV
-NUM	CD
+四百三十八点八亿	CD
 美元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 增长	VV
 了	AS
-NUM	CD
+百分之三十六点七	CD
 ，	PU
 明显	AD
 高于	VV
@@ -566,9 +566,9 @@ NUM	CD
 是	VC
 服装	NN
 ，	PU
-CAL	NT
+去年	NT
 为	VC
-NUM	CD
+七十六点八亿	CD
 美元	M
 。	PU
 
@@ -590,11 +590,11 @@ NUM	CD
 ）	PU
 
 中国	NR
-NUM	CD
+十四	CD
 个	M
 边境	NN
 开放	NN
-LOCATION	NN
+城市	NN
 经济	NN
 建设	NN
 成就	NN
@@ -602,19 +602,19 @@ LOCATION	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+十二日	NT
 电	NN
 
 中国	NR
-NUM	CD
+十四	CD
 个	M
 边境	NN
 对	P
 外	NN
 开放	NN
-LOCATION	NN
-CAL	NT
+城市	NN
+一九九五年	NT
 经济	NN
 建设	NN
 取得	VV
@@ -626,27 +626,27 @@ CAL	NT
 统计	NN
 ，	PU
 这些	DT
-LOCATION	NN
-CAL	NT
+城市	NN
+去年	AD
 完成	VV
 国内	NN
 生产	NN
 总值	NN
-NUM	CD
+一百九十多亿	CD
 元	M
 ，	PU
 比	P
 开放	NN
 前	LC
 的	DEG
-CAL	NT
+一九九一年	NT
 增长	VV
 九成多	CD
 。	PU
 
 国务院	NN
 于	P
-CAL	NT
+一九九二年	NT
 先后	AD
 批准	VV
 了	AS
@@ -660,36 +660,36 @@ CAL	NT
 、	PU
 瑞丽	NN
 等	ETC
-NUM	CD
+十四	CD
 个	M
 边境	NN
-LOCATION	NN
+城市	NN
 为	VC
 对	P
 外	NN
 开放	NN
-LOCATION	NN
+城市	NN
 ，	PU
 同时	AD
 还	AD
 批准	VV
 这些	DT
-LOCATION	NN
+城市	NN
 设立	VV
-NUM	CD
+十四	CD
 个	M
 边境	NN
 经济	NN
-LOCATION	NN
+合作区	NN
 。	PU
 
-NUM	CD
-CAL	M
+三	CD
+年	M
 多	AD
 来	LC
 ，	PU
 这些	DT
-LOCATION	NN
+城市	NN
 社会	NN
 经济	NN
 发展	NN
@@ -704,7 +704,7 @@ LOCATION	NN
 经济	NN
 年平均	AD
 增长	VV
-NUM	CD
+百分之十七	CD
 ，	PU
 高于	VV
 全	DT
@@ -718,37 +718,37 @@ NUM	CD
 介绍	NN
 ，	PU
 这	DT
-NUM	CD
+十四	CD
 个	M
-LOCATION	NN
+城市	NN
 的	DEG
-LOCATION	NN
+城市	NN
 建设	NN
 和	CC
-LOCATION	NN
+合作区	NN
 开发	NN
 建设	NN
 步伐	NN
 加快	VV
 。	PU
 
-NUM	CD
-CAL	M
+三	CD
+年	M
 来	LC
 ，	PU
 这些	DT
-LOCATION	NN
+城市	NN
 累计	AD
 完成	VV
 固定	JJ
 资产	NN
 投资	NN
-NUM	CD
+一百二十亿	CD
 元	M
 ，	PU
-CAL	NT
+昔日	NT
 边境	NN
-LOCATION	NN
+城市	NN
 的	DEG
 “	PU
 楼	NN
@@ -780,26 +780,26 @@ LOCATION	NN
 。	PU
 
 经济	NN
-LOCATION	NN
+合作区	NN
 内	LC
 已	AD
 开发	VV
-NUM	CD
+二十二点六	CD
 平方公里	M
 ，	PU
 引进	VV
 “	PU
-NUM	CD
+三	CD
 资	NN
 ”	PU
 企业	NN
-NUM	CD
+二百八十七	CD
 家	M
 ，	PU
 实际	AD
 利用	VV
 外资	NN
-NUM	CD
+八点九亿	CD
 美元	M
 。	PU
 
@@ -809,14 +809,14 @@ NUM	CD
 有	VE
 内联	JJ
 企业	NN
-NUM	CD
+五千一百	CD
 家	M
 ，	PU
 已	AD
 投产	VV
 工业	NN
 项目	NN
-NUM	CD
+一百七十五	CD
 个	M
 。	PU
 
@@ -835,14 +835,14 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+十三日	NT
 电	NN
 
 中国	NR
 建筑	NN
 市场	NN
-CAL	NT
+近年	NT
 来	LC
 对	P
 外	NN
@@ -867,14 +867,14 @@ CAL	NT
 承包商	NN
 已	AD
 有	VE
-NUM	CD
+一百三十七	CD
 家	M
 ，	PU
 承包	VV
 的	DEC
 工程	NN
 达	VV
-NUM	CD
+一百四十一	CD
 项	M
 ，	PU
 其中	NN
@@ -883,17 +883,17 @@ NUM	CD
 的	DEC
 项目	NN
 达	VV
-NUM	CD
+二十七点七亿	CD
 元	M
 ；	PU
 中外	NN
 合资	JJ
 合作	NN
-的	DEC
+的	DEG
 建筑	NN
 企业	NN
 近	AD
-NUM	CD
+二千	CD
 家	M
 。	PU
 
@@ -903,11 +903,11 @@ NUM	CD
 外	NN
 开放	VV
 始于	VV
-CAL	NT
+八十年代	NT
 。	PU
 
 十几	CD
-CAL	M
+年	M
 来	LC
 ，	PU
 已	AD
@@ -936,7 +936,7 @@ CAL	M
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 的	DEC
 境外	NN
 企业	NN
@@ -956,7 +956,7 @@ LOCATION	NN
 最	AD
 大	VA
 的	DEC
-NUM	CD
+二百二十五	CD
 家	M
 国际	NN
 承包商	NN
@@ -1049,8 +1049,8 @@ NUM	CD
 项目	NN
 。	PU
 
-CAL	NT
-CAL	NT
+一九九五年	NT
+九月	NT
 建设部	NN
 和	CC
 外经贸部	NN
@@ -1108,21 +1108,21 @@ CAL	NT
 
 新华社	NR
 拉萨	NR
-CAL	NT
-CAL	NT
+二月	NT
+二日	NT
 电	NN
 （	PU
 记者	NN
-央珍	NN
+央珍	NR
 ）	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 （	PU
-NUM	NT
+一九九一	NT
 至	CC
-CAL	NT
+一九九五年	NT
 ）	PU
 期间	NN
 ，	PU
@@ -1169,10 +1169,10 @@ CAL	NT
 转变	NN
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
 全	DT
-LOCATION	NN
+区	NN
 各	DT
 项	M
 存款	NN
@@ -1180,10 +1180,10 @@ LOCATION	NN
 次	M
 突破	VV
 了	AS
-CAL	NT
+年	NT
 净	AD
 增	VV
-NUM	CD
+二十亿	CD
 元	M
 大关	NN
 。	PU
@@ -1193,19 +1193,19 @@ NUM	CD
 人民	NN
 银行	NN
 西藏	NR
-LOCATION	NN
+自治区	NN
 分行	NN
 行长	NN
 索朗达吉	NN
 介绍	VV
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 ，	PU
 西藏	NR
-LOCATION	NN
+自治区	NN
 分行	NN
 在	P
 全	DT
@@ -1221,12 +1221,12 @@ LOCATION	NN
 农业	NN
 银行	NN
 西藏	NR
-LOCATION	NN
+自治区	NN
 分行	NN
 于	P
-CAL	NT
-CAL	NT
-CAL	NT
+去年	NT
+七月	NT
+一日	NT
 正式	AD
 对	P
 外	NN
@@ -1276,9 +1276,9 @@ CAL	NT
 流失	NN
 。	PU
 
-CAL	NT
+去年	NT
 全	DT
-LOCATION	NN
+区	NN
 各	DT
 项	M
 存款	NN
@@ -1294,7 +1294,7 @@ LOCATION	NN
 ，	PU
 实现	VV
 了	AS
-年初	NT
+年初	NN
 金融	NN
 工作	NN
 会议	NN
@@ -1338,15 +1338,15 @@ LOCATION	NN
 供应量	NN
 。	PU
 
-CAL	NT
+去年	NT
 新增	VV
 贷款	NN
-NUM	CD
+十四点四一亿	CD
 元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 增加	VV
 八亿多	CD
 元	M
@@ -1362,62 +1362,62 @@ CAL	M
 ）	PU
 比	P
 上	DT
-CAL	M
+年	M
 新增	VV
-NUM	CD
+四点三八亿	CD
 元	M
 ；	PU
-LOCATION	NN
+乡镇	NN
 企业	NN
 贷款	NN
 增幅	NN
 为	VC
-NUM	CD
+百分之六十一点八三	CD
 。	PU
 
 到	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
 全	DT
-LOCATION	NN
+区	NN
 各	DT
 项	M
 存款	NN
 余额	NN
 达	VV
-NUM	CD
+七十一点六三亿	CD
 元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 同	DT
 期	NN
 增长	VV
-NUM	CD
+百分之四十一点七八	CD
 ，	PU
 其中	NN
 ，	PU
-LOCATION	NN
+城乡	NN
 居民	NN
 储蓄	NN
 存款	NN
 为	VC
-NUM	CD
+十九点三七亿	CD
 元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 同	DT
 期	NN
 增长	VV
-NUM	CD
+百分之四十八点二	CD
 。	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 各	DT
@@ -1425,22 +1425,22 @@ NUM	NT
 存款	NN
 比	P
 “	PU
-NUM	NT
+七五	NT
 ”	PU
 （	PU
-NUM	NT
+一九八六	NT
 至	CC
-CAL	NT
+一九九０年	NT
 ）	PU
 末	LC
 净增	VV
-NUM	CD
+五十亿	CD
 元	M
 ，	PU
-CAL	NT
+年	NT
 平均	AD
 增长	VV
-NUM	CD
+百分之二十七点四九	CD
 。	PU
 
 在	P
@@ -1453,7 +1453,7 @@ NUM	CD
 定期	NN
 存款	NN
 占	VV
-NUM	CD
+百分之七十二点一五	CD
 。	PU
 
 货币	NN
@@ -1464,7 +1464,7 @@ NUM	CD
 为	P
 平抑	VV
 全	DT
-LOCATION	NN
+区	NN
 物价	NN
 发挥	VV
 了	AS
@@ -1482,13 +1482,13 @@ LOCATION	NN
 贷款	NN
 余额	NN
 近	AD
-NUM	CD
+一千亿	CD
 元	M
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+十三日	NT
 电	NN
 
 据	P
@@ -1498,7 +1498,7 @@ CAL	NT
 统计	VV
 ，	PU
 截至	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
 中国	NR
@@ -1513,22 +1513,22 @@ CAL	NT
 余额	NN
 已	AD
 达	VV
-NUM	CD
+九百九十五点六亿	CD
 元	M
 ，	PU
 这	DT
-NUM	CD
+一	CD
 数字	NN
 比	P
 上	DT
-CAL	M
+年	M
 末	LC
 增加	VV
-NUM	CD
+二百零三点三亿	CD
 元	M
 ，	PU
 增长	VV
-NUM	CD
+百分之二十七点六	CD
 。	PU
 
 据	P
@@ -1536,7 +1536,7 @@ NUM	CD
 ，	PU
 近	AD
 几	CD
-CAL	M
+年	M
 ，	PU
 随着	P
 中国	NR
@@ -1581,14 +1581,14 @@ CAL	M
 投资	NN
 项目	NN
 近	AD
-NUM	CD
+二十五点九万	CD
 个	M
 ，	PU
 实际	AD
 使用	VV
 外资	NN
 金额	NN
-NUM	CD
+一千三百五十四亿	CD
 美元	M
 。	PU
 
@@ -1627,7 +1627,7 @@ NUM	CD
 总局	NN
 统计	VV
 ，	PU
-CAL	NT
+去年	NT
 全	DT
 国	NN
 外商	NN
@@ -1640,14 +1640,14 @@ CAL	NT
 的	DEC
 所得税	NN
 达	VV
-NUM	CD
+七十五点六七亿	CD
 元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 增长	VV
-NUM	CD
+百分之五十七点一	CD
 。	PU
 
 据	P
@@ -1676,7 +1676,7 @@ NUM	CD
 。	PU
 
 仅	AD
-CAL	NT
+去年	NT
 中国	NR
 银行	NN
 就	AD
@@ -1687,7 +1687,7 @@ CAL	NT
 企业	NN
 提供	VV
 了	AS
-NUM	CD
+六百九十多亿	CD
 元	M
 的	DEC
 人民币	NN
@@ -1703,7 +1703,7 @@ NUM	CD
 外汇	NN
 现汇	NN
 贷款	NN
-NUM	CD
+四十多亿	CD
 美元	M
 ，	PU
 这些	DT
@@ -1724,7 +1724,7 @@ NUM	CD
 统计	NN
 ，	PU
 到	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
 中国	NR
@@ -1743,10 +1743,10 @@ CAL	NT
 人民币	NN
 贷款	NN
 达到	VV
-NUM	CD
+二百一十亿	CD
 美元	M
 和	CC
-NUM	CD
+二千五百九十三亿	CD
 元	M
 ，	PU
 人民币	NN
@@ -1754,7 +1754,7 @@ NUM	CD
 余额	NN
 已	AD
 近	AD
-NUM	CD
+四百五十四亿	CD
 元	M
 。	PU
 
@@ -1762,7 +1762,7 @@ NUM	CD
 ，	PU
 约	AD
 有	VE
-NUM	CD
+十五万	CD
 家	M
 外商	NN
 投资	NN
@@ -1791,7 +1791,7 @@ NUM	CD
 负责人	NN
 透露	VV
 ，	PU
-CAL	NT
+今年	NT
 中国	NR
 银行	NN
 仍	AD
@@ -1886,8 +1886,8 @@ CAL	NT
 
 新华社	NR
 上海	NR
-CAL	NT
-CAL	NT
+二月	NT
+十三日	NT
 电	NN
 （	PU
 通讯员	NN
@@ -1949,7 +1949,7 @@ CAL	NT
 之后	LC
 设立	VV
 的	DEC
-NUM	CD
+第七	CD
 个	M
 海关	NN
 机构	NN
@@ -1958,7 +1958,7 @@ NUM	CD
 崇明	AD
 是	VC
 中国	NR
-NUM	OD
+第三	OD
 大	JJ
 岛	NN
 ，	PU
@@ -1976,7 +1976,7 @@ NUM	OD
 开放	NN
 以来	LC
 ，	PU
-LOCATION	NR
+崇明县	NR
 的	DEG
 经济	NN
 建设	NN
@@ -2002,10 +2002,10 @@ LOCATION	NR
 中国	NR
 综合	JJ
 实力	NN
-NUM	CD
+百	CD
 强	NN
-LOCATION	NN
-NUM	NN
+县	NN
+之一	NN
 。	PU
 
 随着	P
@@ -2015,7 +2015,7 @@ NUM	NN
 的	DEG
 设立	NN
 ，	PU
-LOCATION	NN
+崇明县	NN
 内	LC
 的	DEG
 单位	NN
@@ -2034,7 +2034,7 @@ LOCATION	NN
 对	P
 进一步	AD
 改善	VV
-LOCATION	NN
+崇明县	NN
 的	DEG
 投资	NN
 环境	NN
@@ -2091,27 +2091,27 @@ LOCATION	NN
 外	NN
 开放	VV
 成绩	NN
-斐然	VV
+斐然	VA
 
 新华社	NR
 南宁	NR
-CAL	NT
-CAL	NT
+二月	NT
+十四日	NT
 电	NN
 （	PU
 记者	NN
-刘水玉	NN
+刘水玉	NR
 ）	PU
 
 数	CD
-CAL	M
+年	M
 前	LC
 ，	PU
 北海	NR
 还	AD
 是	VC
 北部湾	NR
-NUM	CD
+一	CD
 个	M
 默默无闻	VA
 的	DEC
@@ -2119,21 +2119,21 @@ NUM	CD
 渔村	NN
 ，	PU
 然而	AD
-NUM	CD
-CAL	M
+三五	CD
+年	M
 时间	NN
 北海	NR
 已	AD
 建成	VV
 了	AS
-NUM	CD
+一	CD
 个	M
 现代化	NN
-LOCATION	NN
+都市	NN
 的	DEG
 框架	NN
 ，	PU
-LOCATION	NN
+街	NN
 上	LC
 客流	NN
 如	VV
@@ -2153,21 +2153,21 @@ LOCATION	NN
 中	LC
 升起	VV
 的	DEC
-NUM	CD
+一	CD
 颗	M
 明星	NN
 。	PU
 
-LOCATION	NR
+北海市	NR
 的	DEG
 崛起	NN
 ，	PU
 是	VC
-CAL	NT
+近年	NT
 来	LC
 广西	NR
 壮族	NN
-LOCATION	NN
+自治区	NN
 对	P
 外	NN
 开放	VV
@@ -2177,7 +2177,7 @@ LOCATION	NN
 的	DEC
 重要	JJ
 标志	NN
-NUM	NN
+之一	NN
 。	PU
 
 现在	NT
@@ -2188,15 +2188,15 @@ NUM	NN
 了	AS
 沿海	NN
 开放	NN
-LOCATION	NN
+城市	NN
 、	PU
 沿海	NN
 经济	NN
-LOCATION	NN
+开放区	NN
 、	PU
 边境	NN
 开放	NN
-LOCATION	NN
+城镇	NN
 相	AD
 结合	VV
 ，	PU
@@ -2228,7 +2228,7 @@ LOCATION	NN
 显示	VV
 ，	PU
 过去	NT
-CAL	NT
+五年	NT
 广西	NR
 对	P
 外	NN
@@ -2244,30 +2244,30 @@ CAL	NT
 贸易额	NN
 累计	AD
 达到	VV
-NUM	CD
+一百亿	CD
 美元	M
 ，	PU
 其中	NN
 出口	NN
-NUM	CD
+六十八点七亿	CD
 美元	M
 ，	PU
 分别	AD
 比	P
 “	PU
-NUM	NT
+七五	NT
 ”	PU
 时期	NN
 （	PU
-NUM	NT
+一九八六	NT
 至	CC
-CAL	NT
+一九九０年	NT
 ）	PU
 增长	VV
-NUM	CD
+一点七八	CD
 倍	M
 和	CC
-NUM	CD
+一点四三	CD
 倍	M
 ；	PU
 实际	AD
@@ -2275,7 +2275,7 @@ NUM	CD
 外资	NN
 累计	AD
 达到	VV
-NUM	CD
+三十三点二四亿	CD
 美元	M
 ，	PU
 占	VV
@@ -2284,27 +2284,27 @@ NUM	CD
 以来	LC
 累计	AD
 总额	NN
-NUM	CD
+三十八点三九亿	CD
 美元	M
 的	DEG
-NUM	CD
+百分之八十四点四	CD
 ；	PU
 边贸	NN
 成交额	NN
-NUM	CD
+一百二十四亿	CD
 元	M
 。	PU
 
-CAL	NT
+近年	NT
 来	LC
 ，	PU
 广西	NR
 壮族	NN
-LOCATION	NN
+自治区	NN
 政府	NN
 对	P
 全	DT
-LOCATION	NN
+区	NN
 经济	NN
 发展	NN
 战略	NN
@@ -2339,7 +2339,7 @@ LOCATION	NN
 外	NN
 下放	VV
 权	NN
-NUM	CD
+三	CD
 个	M
 文件	NN
 。	PU
@@ -2354,7 +2354,7 @@ NUM	CD
 以	P
 北海	NR
 、	PU
-LOCATION	NR
+钦州	NR
 、	PU
 防城	NN
 为	VC
@@ -2370,7 +2370,7 @@ LOCATION	NR
 对	P
 外	NN
 开放	NN
-LOCATION	NN
+城市	NN
 的	DEG
 作用	NN
 ，	PU
@@ -2384,23 +2384,23 @@ LOCATION	NN
 开放	VV
 ；	PU
 办好	VV
-LOCATION	NR
-LOCATION	NN
-综合	JJ
+柳州市	NR
+城市	NR
+综合	NN
 改革	NN
-LOCATION	NN
+试验区	NN
 、	PU
 玉林	NN
-LOCATION	NN
-LOCATION	NN
+地区	NN
+城乡	NN
 综合	JJ
 改革	NN
-LOCATION	NN
+试验区	NN
 、	PU
 桂林	NR
 旅游	NN
 开发	NN
-LOCATION	NN
+试验区	NN
 ，	PU
 建设	VV
 右江	NN
@@ -2422,7 +2422,7 @@ LOCATION	NN
 投资	VV
 一千三百多	CD
 个	M
-NUM	CD
+亿	CD
 ，	PU
 加强	VV
 基础	NN
@@ -2458,7 +2458,7 @@ NUM	CD
 广西	NR
 出台	VV
 了	AS
-NUM	CD
+一	CD
 系列	M
 利用	VV
 外资	NN
@@ -2468,7 +2468,7 @@ NUM	CD
 
 近	AD
 几	CD
-CAL	M
+年	M
 来	LC
 ，	PU
 外商	NN
@@ -2477,7 +2477,7 @@ CAL	M
 相当	AD
 活跃	VA
 ，	PU
-生产性	NN
+生产性	JJ
 项目	NN
 、	PU
 大型	JJ
@@ -2510,7 +2510,7 @@ CAL	M
 。	PU
 
 到	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
 广西	NR
@@ -2520,7 +2520,7 @@ CAL	NT
 企业	NN
 已	AD
 突破	VV
-NUM	CD
+六千	CD
 家	M
 。	PU
 
@@ -2540,7 +2540,7 @@ NUM	CD
 、	PU
 云南	NR
 、	PU
-LOCATION	NR
+贵州	NR
 、	PU
 湖南	NR
 、	PU
@@ -2548,9 +2548,9 @@ LOCATION	NR
 、	PU
 上海	NR
 等	ETC
-LOCATION	NN
-LOCATION	NN
-LOCATION	NN
+省	NN
+区	NN
+市	NN
 的	DEG
 横向	JJ
 经济	NN
@@ -2566,19 +2566,19 @@ LOCATION	NN
 仅	AD
 与	P
 西南	NN
-NUM	CD
-LOCATION	NN
-NUM	CD
-LOCATION	NN
+三	CD
+省	NN
+一	CD
+区	NN
 （	PU
 四川	NR
 、	PU
-LOCATION	NR
+贵州	NR
 、	PU
-LOCATION	NR
+云南省	NR
 和	CC
 西藏	NR
-LOCATION	NN
+自治区	NN
 ）	PU
 实施	VV
 了	AS
@@ -2589,7 +2589,7 @@ LOCATION	NN
 ，	PU
 协议	NN
 资金	NN
-NUM	CD
+数十亿	CD
 元	M
 。	PU
 
@@ -2597,25 +2597,25 @@ NUM	CD
 完	VV
 ）	PU
 
-LOCATION	NR
+甘肃省	NR
 涉外	JJ
 保险业	NN
 发展	NN
 迅速	VA
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+兰州	NR
+二月	NT
+十五日	NT
 电	NN
 （	PU
 记者	NN
-曲直	NN
+曲直	NR
 ）	PU
 
 如今	NT
 ，	PU
-LOCATION	NR
+甘肃省	NR
 的	DEG
 外资	NN
 企业	NN
@@ -2637,16 +2637,16 @@ LOCATION	NR
 进行	NN
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 （	PU
-NUM	NT
+一九九一	NT
 至	CC
-CAL	NT
+一九九五年	NT
 ）	PU
 ，	PU
-LOCATION	NR
+甘肃省	NR
 涉外	JJ
 保险业	NN
 发展	NN
@@ -2655,7 +2655,7 @@ LOCATION	NR
 累计	AD
 已经	AD
 提供	VV
-NUM	CD
+六百一十一亿	CD
 元	M
 的	DEC
 风险	NN
@@ -2671,7 +2671,7 @@ NUM	CD
 信用	NN
 、	PU
 人身	NN
-NUM	CD
+四	OD
 大	JJ
 类	M
 主	JJ
@@ -2683,17 +2683,17 @@ NUM	CD
 。	PU
 
 据	P
-LOCATION	NR
+甘肃省	NR
 有关	JJ
 部门	NN
 介绍	VV
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 以来	LC
 ，	PU
-LOCATION	NR
+甘肃省	NR
 利用	VV
 外资	NN
 蓬勃	AD
@@ -2712,7 +2712,7 @@ LOCATION	NR
 人民	NN
 保险	NN
 公司	NN
-LOCATION	NN
+甘肃省	NN
 分公司	NN
 适应	VV
 外商	NN
@@ -2759,7 +2759,7 @@ LOCATION	NN
 企业	NN
 开办	VV
 了	AS
-常规	JJ
+常规	NN
 的	DEG
 运输	NN
 保险	NN
@@ -2800,7 +2800,7 @@ LOCATION	NN
 企业	NN
 投保率	NN
 达到	VV
-NUM	CD
+百分之九十	CD
 以上	LC
 。	PU
 
@@ -2808,32 +2808,32 @@ NUM	CD
 统计	NN
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 ，	PU
 人保	NN
 公司	NN
 为	P
-LOCATION	NR
+甘肃省	NR
 进出口	NN
 贸易	NN
 承担	VV
 风险	NN
 金额	NN
 达	VV
-NUM	CD
+七点七一亿	CD
 元	M
 ，	PU
 支付	VV
 赔款	NN
-NUM	CD
+一千三百八十五点五万	CD
 元	M
 ，	PU
 有力	VA
 地	DEV
-促进	NN
-LOCATION	NN
+促进	JJ
+甘肃省	NN
 进出口	NN
 贸易	NN
 发展	VV
@@ -2858,12 +2858,12 @@ LOCATION	NN
 水利	NN
 工程	NN
 ，	PU
-LOCATION	NR
+甘肃省	NR
 人保	NN
 公司	NN
 为	P
 其中	NN
-NUM	CD
+十三	CD
 家	M
 中外	NN
 承包商	NN
@@ -2873,7 +2873,7 @@ NUM	CD
 风险	NN
 保障额	NN
 达	VV
-NUM	CD
+六点九三亿	CD
 元	M
 。	PU
 
@@ -2889,7 +2889,7 @@ NUM	CD
 工程	NN
 提供	VV
 了	AS
-NUM	CD
+一点九亿	CD
 美元	M
 的	DEC
 安装	NN
@@ -2905,7 +2905,7 @@ NUM	CD
 发展	NN
 需求	NN
 ，	PU
-人保	NN
+人保	JJ
 公司	NN
 积极	AD
 推出	VV
@@ -2926,7 +2926,7 @@ NUM	CD
 ，	PU
 使	VV
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 凡	AD
@@ -2943,7 +2943,7 @@ NUM	NT
 保障	NN
 。	PU
 
-LOCATION	NR
+甘肃省	NR
 还	AD
 积极	AD
 探索	VV
@@ -2952,7 +2952,7 @@ LOCATION	NR
 业务	NN
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 ，	PU
@@ -2962,17 +2962,17 @@ NUM	NT
 的	DEG
 共保	NN
 ，	PU
-分担	VV
+分担	VA
 的	DEC
 风险	NN
 金额	NN
 达	VV
-NUM	CD
+一千万	CD
 元	M
 ，	PU
 支付	VV
 赔款	NN
-NUM	CD
+五百万	CD
 元	M
 ，	PU
 成为	VV
@@ -2995,7 +2995,7 @@ NUM	CD
 业务	NN
 ，	PU
 为	P
-LOCATION	NN
+省	NN
 国际	NN
 公司	NN
 中标	VV
@@ -3005,7 +3005,7 @@ LOCATION	NN
 项目	NN
 提供	VV
 近	AD
-NUM	CD
+三千万	CD
 美元	M
 的	DEC
 建筑	NN
@@ -3013,7 +3013,7 @@ NUM	CD
 一切险	NN
 ；	PU
 为	P
-LOCATION	NR
+兰州	NR
 石油	NN
 化工	NN
 机械厂	NN
@@ -3027,14 +3027,14 @@ LOCATION	NR
 了	AS
 责任	NN
 限额	NN
-NUM	CD
+一千三百万	CD
 美元	M
-的	DEC
+的	DEG
 风险	NN
 保障	NN
 ；	PU
 为	P
-LOCATION	NN
+甘肃省	NN
 海外	NN
 经贸	NN
 洽谈会	NN
@@ -3050,7 +3050,7 @@ LOCATION	NN
 ，	PU
 还	AD
 为	P
-LOCATION	NR
+省	NR
 火电	NN
 公司	NN
 海外	NN
@@ -3077,8 +3077,8 @@ LOCATION	NR
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+十六日	NT
 电	NN
 
 中国	NR
@@ -3136,8 +3136,8 @@ CAL	NT
 一致	VV
 。	PU
 
-CAL	NT
-CAL	NT
+去年	NT
+十月	NT
 ，	PU
 中国	NR
 进出口	NN
@@ -3168,7 +3168,7 @@ CAL	NT
 进出口	NN
 银行	NN
 决定	VV
-先	NN
+先	AD
 在	P
 日本	NR
 取得	VV
@@ -3217,7 +3217,7 @@ CAL	NT
 全面	AD
 介绍	VV
 了	AS
-CAL	NT
+今年	NT
 来	LC
 中国	NR
 金融	NN
@@ -3242,7 +3242,7 @@ CAL	NT
 发展	NN
 现状	NN
 以及	CC
-以后	JJ
+以后	LC
 的	DEG
 发展	NN
 目标	NN
@@ -3265,31 +3265,31 @@ CAL	NT
 完	VV
 ）	PU
 
-LOCATION	NR
+杭州	NR
 高	JJ
 新	JJ
 技术	NN
 产业	NN
-LOCATION	NN
+开发区	NN
 成果	NN
 显著	VA
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+杭州	NR
+二月	NT
+二十一日	NT
 电	NN
 （	PU
 记者	NN
-唐庆忠	NN
+唐庆忠	NR
 ）	PU
 
-LOCATION	NR
+杭州	NR
 高	JJ
 新	JJ
 技术	NN
 产业	NN
-LOCATION	NN
+开发区	NN
 积极	AD
 转化	VV
 高	JJ
@@ -3306,10 +3306,10 @@ LOCATION	NN
 为止	LC
 ，	PU
 全	DT
-LOCATION	NN
+区	NN
 已	AD
 有	VE
-NUM	CD
+四百一十	CD
 家	M
 企业	NN
 ，	PU
@@ -3322,7 +3322,7 @@ NUM	CD
 产业	NN
 的	DEG
 有	VE
-NUM	CD
+二百二十三	CD
 家	M
 。	PU
 
@@ -3342,7 +3342,7 @@ NUM	CD
 企业	NN
 约	AD
 占	VV
-NUM	CD
+百分之七十	CD
 。	PU
 
 迄今	AD
@@ -3358,43 +3358,43 @@ NUM	CD
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 联合	VV
 ，	PU
 兴办	VV
 了	AS
-NUM	CD
+七十八	CD
 家	M
 外商	NN
 投资	NN
 企业	NN
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
-LOCATION	NR
+开发区	NR
 技	NN
 工	NN
 贸	NN
 总	JJ
 收入	NN
 达	VV
-NUM	CD
+三十亿	CD
 元	M
 ，	PU
 税利	NN
-NUM	CD
+４亿	CD
 元	M
 ，	PU
 出口	VV
 创汇	VV
-NUM	CD
+二千万	CD
 美元	M
 。	PU
 
 这	DT
 个	M
-LOCATION	NN
+开发区	NN
 位	VV
 于	P
 中国	NR
@@ -3402,12 +3402,12 @@ LOCATION	NN
 风景	NN
 旅游城	NN
 ――	PU
-LOCATION	NR
-LOCATION	NN
+杭州	NR
+市区	NN
 内	LC
 ，	PU
 是	VC
-CAL	NT
+一九九一年	NT
 国务院	NN
 批准	VV
 建设	VV
@@ -3417,7 +3417,7 @@ CAL	NT
 新	JJ
 技术	NN
 产业	NN
-LOCATION	NN
+开发区	NN
 。	PU
 
 产品	NN
@@ -3428,7 +3428,7 @@ LOCATION	NN
 ，	PU
 是	VC
 该	DT
-LOCATION	NN
+区	NN
 的	DEG
 重要	JJ
 特点	NN
@@ -3438,14 +3438,14 @@ LOCATION	NN
 了解	NN
 ，	PU
 进	VV
-LOCATION	NN
+区	NN
 的	DEC
 每	DT
 个	M
 企业	NN
 都	AD
 有	VE
-NUM	CD
+一	CD
 至	CC
 多	CD
 个	M
@@ -3457,7 +3457,7 @@ NUM	CD
 产品	NN
 ，	PU
 目前	NT
-LOCATION	NN
+区	NN
 内	LC
 已	AD
 有	VE
@@ -3478,16 +3478,16 @@ LOCATION	NN
 。	PU
 
 其中	NN
-NUM	CD
+五十七	CD
 项	M
 被	SB
 批准	VV
 列入	VV
 国家	NN
 、	PU
-LOCATION	NN
+省	NN
 、	PU
-LOCATION	NN
+市	NN
 火炬	NN
 计划	NN
 ，	PU
@@ -3501,7 +3501,7 @@ LOCATION	NN
 新	JJ
 技术	NN
 产业	NN
-LOCATION	NN
+开发区	NN
 中	LC
 名列前茅	VV
 。	PU
@@ -3544,7 +3544,7 @@ LOCATION	NN
 是	VC
 这	DT
 个	M
-LOCATION	NN
+开发区	NN
 的	DEG
 突出	JJ
 特点	NN
@@ -3578,11 +3578,11 @@ LOCATION	NN
 活	AD
 疫苗	AD
 ，	PU
-CAL	NT
+去年	NT
 经	P
 卫生部	NN
 批准	VV
-正式	JJ
+正式	AD
 投入	VV
 生产	NN
 和	CC
@@ -3590,7 +3590,7 @@ CAL	NT
 ，	PU
 目前	NT
 该	DT
-LOCATION	NN
+区	NN
 生产	VV
 此	DT
 疫苗	NN
@@ -3599,9 +3599,9 @@ LOCATION	NN
 公司	NN
 已	AD
 形成	VV
-CAL	AD
+年	AD
 产	VV
-NUM	CD
+五百万	CD
 人份	M
 的	DEG
 生产	NN
@@ -3627,7 +3627,7 @@ NUM	CD
 转化	NN
 在	P
 该	DT
-LOCATION	NN
+区	NN
 尤为	AD
 突出	VA
 。	PU
@@ -3640,19 +3640,19 @@ LOCATION	NN
 奖	NN
 的	DEG
 以	P
-氮	JJ
+氮	NN
 作	VV
 保护气	NN
 直拉	VV
-硅	NN
+硅	JJ
 单晶	NN
 技术	NN
 ，	PU
 已	AD
 由	P
 该	DT
-LOCATION	NN
-浙大	NN
+区	NN
+浙大	AD
 半导体厂	NN
 转化	VV
 为	VV
@@ -3665,7 +3665,7 @@ LOCATION	NN
 佼佼者	NN
 ，	PU
 目前	NT
-硅	DEG
+硅	DT
 单晶	NN
 年产	NN
 已	AD
@@ -3676,7 +3676,7 @@ LOCATION	NN
 居	VV
 全	DT
 国	NN
-NUM	NN
+第一	NN
 ，	PU
 其	PN
 销售	NN
@@ -3697,18 +3697,18 @@ NUM	NN
 完	VV
 ）	PU
 
-CAL	NT
-NUM	CD
+去年	NT
+两	CD
 岸	NN
 贸易额	NN
 为	VC
-NUM	CD
+二百亿	CD
 美元	M
 
 新华社	NR
 香港	NR
-CAL	NT
-CAL	NT
+二月	NT
+二十三日	NT
 电	NN
 
 据	P
@@ -3718,12 +3718,12 @@ CAL	NT
 ”	PU
 统计	VV
 ，	PU
-CAL	NT
-NUM	CD
+去年	NT
+两	CD
 岸	NN
 贸易额	NN
 为	VC
-NUM	CD
+二百零九亿	CD
 美元	M
 。	PU
 
@@ -3735,36 +3735,36 @@ NUM	CD
 大陆	NN
 输出值	NN
 为	VC
-NUM	CD
+一百七十八亿	CD
 美元	M
 ，	PU
 比	P
 上	DT
-NUM	CD
-CAL	M
+一	CD
+年	M
 增长	VV
-NUM	CD
+百分之二十	CD
 ；	PU
 输入值	NN
 为	VC
-NUM	CD
+三十一亿	CD
 美元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 增长	VV
-NUM	CD
+百分之七十四	CD
 。	PU
 
 台湾	NR
 在	P
-NUM	CD
+两	CD
 岸	NN
 贸易	NN
 中	LC
 顺差	NN
-NUM	CD
+一百四十七亿	CD
 美元	M
 。	PU
 
@@ -3781,7 +3781,7 @@ NUM	CD
 大型化	NN
 。	PU
 
-CAL	NT
+去年	NT
 经	P
 台	NR
 当局	NN
@@ -3790,12 +3790,12 @@ CAL	NT
 台商	NN
 投资案	NN
 共	AD
-NUM	CD
+四百九十	CD
 项	M
 ，	PU
 金额	NN
 为	VC
-NUM	CD
+十点九二亿	CD
 美元	M
 。	PU
 
@@ -3805,9 +3805,9 @@ NUM	CD
 上	LC
 比	P
 上	DT
-CAL	M
+年	M
 减少	VV
-NUM	CD
+四百四十四	CD
 件	M
 ，	PU
 但	AD
@@ -3816,7 +3816,7 @@ NUM	CD
 却	AD
 比	P
 上	DT
-CAL	M
+年	M
 增加	VV
 一点三亿多	CD
 美元	M
@@ -3827,7 +3827,7 @@ CAL	M
 ）	PU
 
 中国	NR
-京杭	AD
+京杭	NN
 大	JJ
 运河	NN
 经济带	NN
@@ -3836,8 +3836,8 @@ CAL	M
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+二十四日	NT
 电	NN
 
 古老	VA
@@ -3858,7 +3858,7 @@ CAL	NT
 ，	PU
 而且	CC
 带动起	VV
-NUM	CD
+一	CD
 条	M
 欣欣向荣	VA
 的	DEC
@@ -3877,7 +3877,7 @@ NUM	CD
 古来	AD
 繁华	VV
 ，	PU
-NUM	CD
+两	CD
 岸	NN
 商贾	NN
 云集	VV
@@ -3931,7 +3931,7 @@ NUM	CD
 仅	AD
 运量	AD
 在	P
-NUM	CD
+万	CD
 吨	M
 上	LC
 的	DEC
@@ -3943,7 +3943,7 @@ NUM	CD
 ，	PU
 小	VA
 的	DEC
-LOCATION	NN
+乡镇	NN
 企业	NN
 则	AD
 不计其数	VV
@@ -3952,7 +3952,7 @@ LOCATION	NN
 大	JJ
 运河	NN
 作为	P
-NUM	CD
+一	CD
 条	M
 水运	NN
 大	JJ
@@ -3987,7 +3987,7 @@ NUM	CD
 ，	PU
 苏钢	AD
 每	DT
-CAL	M
+年	M
 要	VV
 靠	P
 大	JJ
@@ -3996,14 +3996,14 @@ CAL	M
 原料	NN
 、	PU
 成品	NN
-NUM	CD
+一百五十万	CD
 吨	M
 。	PU
 
 其中	NN
 煤炭	NN
 从	P
-LOCATION	NN
+徐州	NN
 运来	VV
 ，	PU
 走	VV
@@ -4015,23 +4015,23 @@ LOCATION	NN
 每	DT
 吨	M
 便宜	VA
-NUM	CD
+十五	CD
 元	M
 ，	PU
 仅	AD
 此	DT
-NUM	CD
+一	CD
 项	M
 大	JJ
 运河	NN
 每	DT
-CAL	M
+年	M
 就	AD
 为	P
 厂家	NN
 节约	VV
 成本	NN
-NUM	CD
+二千多万	CD
 元	M
 。	PU
 
@@ -4046,14 +4046,14 @@ NUM	CD
 建	VV
 了	AS
 新	JJ
-LOCATION	NN
+厂区	NN
 ，	PU
 并	CC
 自筹	VV
 资金	NN
 建设	VV
 了	AS
-NUM	CD
+一	CD
 座	M
 跨运河	NN
 大	JJ
@@ -4090,12 +4090,12 @@ NUM	CD
 支柱	NN
 。	PU
 
-LOCATION	NR
+常州市	NR
 沿	P
 运河	NN
-NUM	CD
+两	CD
 岸	NN
-NUM	CD
+零点五	CD
 平方公里	M
 范围	NN
 内	LC
@@ -4105,16 +4105,16 @@ NUM	CD
 矿	NN
 企业	NN
 有	VE
-NUM	CD
+一百八十六	CD
 家	M
 。	PU
 
 在	P
-LOCATION	NR
+常州	NR
 重点	AD
 培育	VV
 的	DEC
-NUM	CD
+十	CD
 大	JJ
 支柱	NN
 产业	NN
@@ -4135,7 +4135,7 @@ NUM	CD
 设备	NN
 工业	NN
 等	ETC
-NUM	CD
+七	CD
 大	JJ
 产业	NN
 均	AD
@@ -4144,7 +4144,7 @@ NUM	CD
 分布	VV
 。	PU
 
-LOCATION	NR
+无锡市	NR
 沿	P
 运河	NN
 企业	NN
@@ -4162,7 +4162,7 @@ LOCATION	NR
 家	M
 ，	PU
 成为	VV
-LOCATION	NR
+无锡市	NN
 经济	NN
 发展	NN
 的	DEG
@@ -4170,23 +4170,23 @@ LOCATION	NR
 骨架	NN
 。	PU
 
-LOCATION	NR
+镇江市	NR
 沿	P
 运河	NN
 分布	VV
 各	DT
 类	M
 企业	NN
-NUM	CD
+四百三十五	CD
 家	M
 ，	PU
-CAL	JJ
+年	JJ
 产值	NN
-NUM	CD
+二十二亿	CD
 元	M
 ，	PU
 利税	NN
-NUM	CD
+一点六八亿	CD
 元	M
 ，	PU
 是	VC
@@ -4197,7 +4197,7 @@ NUM	CD
 支柱	NN
 。	PU
 
-LOCATION	NR
+扬州市	NR
 傍	NN
 河	NN
 而	MSP
@@ -4210,7 +4210,7 @@ LOCATION	NR
 家	M
 ，	PU
 该	DT
-LOCATION	NN
+市	NN
 的	DEG
 名牌	NN
 产品	NN
@@ -4226,7 +4226,7 @@ LOCATION	NN
 分布	VV
 ，	PU
 成为	VV
-LOCATION	NR
+扬州	NR
 经济	NN
 新	VA
 的	DEC
@@ -4244,8 +4244,8 @@ LOCATION	NR
 了	AS
 沿	P
 河	NN
-LOCATION	NN
-LOCATION	NN
+市	NN
+县	NN
 的	DEG
 投资	NN
 环境	NN
@@ -4267,7 +4267,7 @@ LOCATION	NN
 发展	NN
 。	PU
 
-LOCATION	NR
+常州市	NR
 的	DEG
 大多数	CD
 重点	NN
@@ -4281,12 +4281,12 @@ LOCATION	NR
 分布	VV
 在	P
 运河	NN
-NUM	CD
+两	CD
 岸	NN
 。	PU
 
-LOCATION	NR
-CAL	NT
+镇江市	NR
+近年	NT
 依托	VV
 大	JJ
 运河	NN
@@ -4297,7 +4297,7 @@ CAL	NT
 企业	NN
 就	AD
 有	VE
-NUM	CD
+八	CD
 家	M
 ，	PU
 合资	JJ
@@ -4321,8 +4321,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+二十七日	NT
 电	NN
 
 正	AD
@@ -4337,7 +4337,7 @@ CAL	NT
 之	DEC
 际	NN
 ，	PU
-NUM	CD
+一	CD
 项	M
 大型	JJ
 的	DEG
@@ -4347,11 +4347,11 @@ NUM	CD
 研讨会	NN
 将	AD
 于	P
-CAL	NT
-CAL	NT
-CAL	NT
+今年	NT
+四月	NT
+十八日	NT
 至	CC
-CAL	NT
+十九日	NT
 在	P
 北京	NR
 举行	VV
@@ -4368,7 +4368,7 @@ CAL	NT
 的	DEC
 专门	JJ
 讨论	VV
-NUM	CD
+两	CD
 国	NN
 经贸	NN
 交流	NN
@@ -4388,11 +4388,11 @@ NUM	CD
 为	P
 中	NR
 韩	NR
-NUM	CD
+两	CD
 国	NN
 经贸界	NN
 提供	VV
-NUM	CD
+一	CD
 次	M
 扩大	VV
 交流	NN
@@ -4402,12 +4402,12 @@ NUM	CD
 良机	NN
 。	PU
 
-CAL	NT
+近年	NT
 来	LC
 ，	PU
 中	NR
 韩	NR
-NUM	CD
+两	CD
 国	NN
 之间	LC
 的	DEG
@@ -4418,8 +4418,8 @@ NUM	CD
 。	PU
 
 截止	P
-CAL	NT
-CAL	NT
+去年	NT
+九月	NT
 ，	PU
 韩国	NR
 在	P
@@ -4428,7 +4428,7 @@ CAL	NT
 企业	NN
 总数	NN
 为	VC
-NUM	CD
+五千八百八十三	CD
 家	M
 ，	PU
 中国	NR
@@ -4447,34 +4447,34 @@ NUM	CD
 海关	NN
 统计	VV
 ，	PU
-CAL	NT
-NUM	CD
+一九九五年	NT
+两	CD
 国	NN
 贸易额	NN
 已	AD
 达	VV
-NUM	CD
+一百六十九点八亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+前年	NT
 增长	VV
-NUM	CD
+百分之四十四点八	CD
 。	PU
 
 经济	NN
 专家	NN
 预计	VV
 ，	PU
-CAL	NT
+今年	NT
 中	NR
 韩	NR
-NUM	CD
+两	CD
 国	NN
 贸易额	NN
 将	AD
 增至	VV
-NUM	CD
+二百五十亿	CD
 美元	M
 。	PU
 
@@ -4489,7 +4489,7 @@ NUM	CD
 的	DEC
 专门	JJ
 讨论	VV
-NUM	CD
+两	CD
 国	NN
 经贸	NN
 交流	NN
@@ -4517,7 +4517,7 @@ NUM	CD
 即将	AD
 公布	VV
 的	DEC
-NUM	CD
+一	CD
 系列	M
 对	P
 外	NN
@@ -4530,7 +4530,7 @@ NUM	CD
 ，	PU
 其中	NN
 包括	VV
-有关	JJ
+有关	P
 降低	VV
 进口	NN
 产品	NN
@@ -4584,7 +4584,7 @@ NUM	CD
 和	CC
 程控	JJ
 交换机	NN
-NUM	CD
+四	CD
 大	JJ
 领域	NN
 的	DEG
@@ -4600,7 +4600,7 @@ NUM	CD
 研讨会	NN
 主要	AD
 议题	NN
-NUM	NN
+之一	NN
 。	PU
 
 这	DT
@@ -4664,29 +4664,29 @@ NUM	NN
 
 深圳	NR
 沙头角	NN
-LOCATION	NN
+保税区	NN
 绘就	VV
 “	PU
-NUM	NT
+九五	NT
 ”	PU
 新	JJ
 规划	NN
 
 新华社	NR
 深圳	NR
-CAL	NT
-CAL	NT
+二月	NT
+二十八日	NT
 电	NN
 
-LOCATION	NR
+深圳市	NR
 沙头角	NN
-LOCATION	NN
+保税区	NN
 今后	NT
-CAL	NT
+五年	NT
 将	AD
 充分	AD
 发挥	VV
-LOCATION	NN
+保税区	NN
 的	DEC
 区位	NN
 优势	NN
@@ -4721,7 +4721,7 @@ LOCATION	NN
 ，	PU
 把	BA
 沙头角	NN
-LOCATION	NN
+保税区	NN
 建成	VV
 按	P
 国际	NN
@@ -4740,7 +4740,7 @@ LOCATION	NN
 其	PN
 成为	VV
 该	DT
-LOCATION	NN
+市	NN
 外向型	NN
 经济	NN
 的	DEG
@@ -4754,7 +4754,7 @@ LOCATION	NN
 规划	NN
 ，	PU
 沙头角	NN
-LOCATION	NN
+保税区	NN
 除	P
 继续	VV
 完备	VV
@@ -4799,7 +4799,7 @@ LOCATION	NN
 的	DEC
 “	PU
 自由	JJ
-LOCATION	NN
+贸易区	NN
 ”	PU
 为	VV
 参照	NN
@@ -4816,7 +4816,7 @@ LOCATION	NN
 ，	PU
 逐步	AD
 做到	VV
-LOCATION	NN
+区	NN
 内	LC
 的	DEG
 人员	NN
@@ -4851,7 +4851,7 @@ LOCATION	NN
 
 以	P
 建立	VV
-LOCATION	NN
+保税区	NN
 管理局	NN
 为	VV
 契机	NN
@@ -4870,7 +4870,7 @@ LOCATION	NN
 、	PU
 服务	NN
 “	PU
-NUM	CD
+一	CD
 条	M
 龙	NN
 ”	PU
@@ -4885,7 +4885,7 @@ NUM	CD
 。	PU
 
 今后	NT
-CAL	NT
+五年	NT
 要	VV
 加快	VV
 引资	NN
@@ -4904,14 +4904,14 @@ CAL	NT
 ，	PU
 实现	VV
 “	PU
-NUM	CD
+三	CD
 个	M
 转变	NN
 ”	PU
 ，	PU
 即	AD
 从	P
-NUM	CD
+单一	CD
 的	DEG
 出口	NN
 加工	NN
@@ -4960,10 +4960,10 @@ NUM	CD
 
 根据	P
 沙头角	NN
-LOCATION	NN
+保税区	NN
 的	DEG
 “	PU
-NUM	NT
+九五	NT
 ”	PU
 计划	NN
 ，	PU
@@ -4972,47 +4972,47 @@ NUM	NT
 世纪	NN
 末	LC
 ，	PU
-LOCATION	NR
+保税区	NR
 的	DEG
 出口	NN
 加工	NN
-CAL	JJ
+年	JJ
 产值	NN
 将	AD
 达	VV
-NUM	CD
+一百五十亿	CD
 元	M
 ，	PU
-CAL	NT
+年	NT
 出口	NN
 创汇	NN
-NUM	CD
+十五亿	CD
 美元	M
 ，	PU
-CAL	NT
+年	NT
 进口	NN
 贸易	NN
 总额	NN
-NUM	CD
+二亿	CD
 美元	M
 ，	PU
-CAL	NT
+年	NT
 仓储	NN
 能力	NN
 达到	VV
-NUM	CD
+二十万	CD
 吨	M
 。	PU
 
 沙头角	NN
-LOCATION	NN
+保税区	NN
 是	VC
 中国	NR
 目前	NT
 最早	AD
 创办	VV
 的	DEC
-LOCATION	NR
+保税区	NR
 ，	PU
 各	DT
 项	M
@@ -5026,21 +5026,21 @@ LOCATION	NR
 前列	NN
 。	PU
 
-CAL	NT
+去年	NT
 实现	VV
 工业	NN
 产值	NN
-NUM	CD
+二十点五亿	CD
 元	M
 ，	PU
 出口	VV
 创汇	VV
-NUM	CD
+一点五亿	CD
 美元	M
 。	PU
 
-NUM	CD
-CAL	M
+八	CD
+年	M
 来	LC
 ，	PU
 先后	AD
@@ -5049,16 +5049,16 @@ CAL	M
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 的	DEG
 客商	NN
 进	VV
-LOCATION	NN
+保税区	NN
 投资	VV
 ，	PU
 到	P
-CAL	NT
-CAL	NT
+去年	NT
+十二月	NT
 底	LC
 ，	PU
 已	AD
@@ -5067,7 +5067,7 @@ CAL	NT
 外商	NN
 投资	NN
 企业	NN
-NUM	CD
+二百一十六	CD
 家	M
 。	PU
 
@@ -5091,19 +5091,19 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+二十九日	NT
 电	NN
 （	PU
 记者	NN
-张锦胜	NN
+张锦胜	NR
 ）	PU
 
 国家	NN
 统计局	NN
 预测	VV
 ，	PU
-CAL	NT
+一九九六年	NT
 全球	NN
 经济	NN
 将	AD
@@ -5134,14 +5134,14 @@ CAL	NT
 据	P
 预测	NN
 ，	PU
-CAL	NT
+今年	NT
 全球	NN
 经济	NN
 增长	NN
 幅度	NN
 可	VV
 达到	VV
-NUM	CD
+百分之四点一	CD
 。	PU
 
 推动	VV
@@ -5152,7 +5152,7 @@ NUM	CD
 因素	NN
 是	VC
 亚洲	NR
-LOCATION	NN
+地区	NN
 经济	NN
 发展	NN
 依然	AD
@@ -5160,13 +5160,13 @@ LOCATION	NN
 有力	VA
 ，	PU
 全	DT
-LOCATION	NN
+地区	NN
 经济	NN
 增长	NN
 速度	NN
 将	AD
 达到	VV
-NUM	CD
+百分之七点九	CD
 ，	PU
 而	CC
 中国	NR
@@ -5174,7 +5174,7 @@ NUM	CD
 速度	NN
 可	VV
 高达	VV
-NUM	CD
+百分之九点七	CD
 。	PU
 
 国家	NN
@@ -5191,10 +5191,10 @@ NUM	CD
 条件	NN
 主要	AD
 有	VE
-NUM	CD
+两	CD
 方面	NN
 ：	PU
-NUM	CD
+一	CD
 是	VC
 世界	NN
 经济	NN
@@ -5226,9 +5226,9 @@ NUM	CD
 环境	NN
 。	PU
 
-NUM	CD
+二	CD
 是	VC
-CAL	NT
+一九九六年	NT
 中国	NR
 大幅度	AD
 降低	VV
@@ -5266,7 +5266,7 @@ CAL	NT
 下	LC
 ，	PU
 中国	NR
-CAL	NT
+今年	NT
 经济	NN
 发展	NN
 仍	AD
@@ -5294,7 +5294,7 @@ CAL	NT
 、	PU
 农业	NN
 基础	NN
-薄弱	VV
+薄弱	VA
 、	PU
 国有	JJ
 企业	NN
@@ -5338,7 +5338,7 @@ CAL	NT
 企业	NN
 负债	NN
 高达	VV
-NUM	CD
+七千亿	CD
 元	M
 ，	PU
 其	PN
@@ -5413,8 +5413,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+二月	NT
+二十九日	NT
 电	NN
 
 国家	NN
@@ -5429,7 +5429,7 @@ CAL	NT
 地	DEV
 发行	VV
 了	AS
-NUM	CD
+三百亿	CD
 日元	M
 武士	JJ
 债券	NN
@@ -5466,11 +5466,11 @@ NUM	CD
 ，	PU
 发行	NN
 期限	NN
-NUM	CD
-CAL	M
+十	CD
+年	M
 ，	PU
 到期	VV
-NUM	CD
+一	CD
 次	M
 偿还	VV
 。	PU
@@ -5481,14 +5481,14 @@ NUM	CD
 这	DT
 次	M
 发行	VV
-武士	NN
+武士	JJ
 债券	NN
 的	DEC
 条件	NN
 是	VC
 近	AD
 几	CD
-CAL	M
+年	M
 来	LC
 比较	AD
 优惠	VA
@@ -5536,7 +5536,7 @@ CAL	M
 资金	NN
 。	PU
 
-CAL	NT
+一九九五年	NT
 ，	PU
 国家	NN
 开发	NN
@@ -5547,7 +5547,7 @@ CAL	NT
 了	AS
 首	OD
 次	M
-NUM	CD
+五千万	CD
 美元	M
 外国	NN
 银团	NN
@@ -5561,7 +5561,7 @@ NUM	CD
 工程	NN
 、	PU
 秦山	NR
-NUM	CD
+二	OD
 期	M
 核电	NN
 等	ETC
@@ -5577,7 +5577,7 @@ NUM	CD
 内资	NN
 和	CC
 外资	NN
-NUM	CD
+两	CD
 个	M
 方面	NN
 不断	AD
@@ -5621,12 +5621,12 @@ NUM	CD
 
 新华社	NR
 海口	NR
-CAL	NT
-CAL	NT
+二月	NT
+三日	NT
 电	NN
 （	PU
 记者	NN
-胡辛	NN
+胡辛	NR
 ）	PU
 
 中国	NR
@@ -5658,10 +5658,10 @@ CAL	NT
 在	P
 中国	NR
 的	DEG
-NUM	CD
+五	CD
 个	M
 经济	NN
-LOCATION	NN
+特区	NN
 中	LC
 ，	PU
 海南	NR
@@ -5710,7 +5710,7 @@ LOCATION	NN
 以下	JJ
 措施	NN
 ，	PU
-NUM	CD
+一	CD
 是	VC
 继续	VV
 鼓励	VV
@@ -5735,7 +5735,7 @@ NUM	CD
 的	DEC
 要求	NN
 ；	PU
-NUM	CD
+二	CD
 是	VC
 在	P
 一定	JJ
@@ -5753,17 +5753,17 @@ NUM	CD
 国际	NN
 旅游业	NN
 ；	PU
-NUM	CD
+三	CD
 是	VC
 以	P
 建设	VV
 洋浦	NR
-LOCATION	NN
+保税区	NN
 和	CC
 三亚	NR
 国际性	NN
 旅游	NN
-LOCATION	NN
+城市	NN
 为	VV
 突破	NN
 ，	PU
@@ -5779,7 +5779,7 @@ LOCATION	NN
 这些	DT
 建议	NN
 分为	VV
-NUM	CD
+六	CD
 个	M
 部分	NN
 ，	PU
@@ -5788,11 +5788,11 @@ NUM	CD
 ：	PU
 按照	P
 “	PU
-NUM	CD
+一	CD
 线	NN
 放开	VV
 ，	PU
-NUM	CD
+二	CD
 线	NN
 隔离	VV
 ”	PU
@@ -5800,7 +5800,7 @@ NUM	CD
 原则	NN
 加速	VV
 洋浦	NR
-LOCATION	NN
+保税区	NN
 的	DEG
 开发	NN
 建设	NN
@@ -5816,7 +5816,7 @@ LOCATION	NN
 成	VV
 国际性	JJ
 旅游	NN
-LOCATION	NN
+城市	NN
 ；	PU
 采取	VV
 优惠	NN
@@ -5835,7 +5835,7 @@ LOCATION	NN
 努力	AD
 争取	VV
 实现	VV
-琼台	JJ
+琼台	NN
 农业	NN
 项	M
 下	LC
@@ -5886,7 +5886,7 @@ LOCATION	NN
 应	VV
 实施	VV
 的	DEC
-NUM	CD
+一	CD
 系列	M
 具体	JJ
 措施	NN
@@ -5900,15 +5900,15 @@ NUM	CD
 ）	PU
 
 宁波	NR
-LOCATION	NN
+保税区	NN
 建设	NN
 成就	NN
 显著	VA
 
 新华社	NR
 宁波	NR
-CAL	NT
-CAL	NT
+二月	NT
+七日	NT
 电	NN
 （	PU
 记者	NN
@@ -5919,15 +5919,15 @@ CAL	NT
 
 总	JJ
 面积	NN
-NUM	CD
+二点三	CD
 平方公里	M
-的	DEC
+的	DEG
 宁波	NR
-LOCATION	NN
+保税区	NN
 ，	PU
 经过	P
-NUM	CD
-CAL	M
+三	CD
+年	M
 建设	NN
 ，	PU
 已	AD
@@ -5937,16 +5937,16 @@ CAL	M
 。	PU
 
 宁波	NR
-LOCATION	NN
+保税区	NN
 是	VC
 中国	NR
-NUM	CD
+十三	CD
 个	M
-LOCATION	NN
-NUM	NN
+保税区	NN
+之一	NN
 ，	PU
 于	P
-CAL	NT
+一九九二年	NT
 经	P
 国务院	NN
 批准	VV
@@ -5955,7 +5955,7 @@ CAL	NT
 
 目前	NT
 ，	PU
-LOCATION	NR
+保税区	NR
 的	DEG
 各	DT
 项	M
@@ -5970,7 +5970,7 @@ LOCATION	NR
 在	P
 中国	NR
 各	DT
-LOCATION	NN
+保税区	NN
 中	LC
 名列前茅	VV
 。	PU
@@ -5979,41 +5979,41 @@ LOCATION	NN
 统计	NN
 ，	PU
 至	P
-CAL	NT
+去年	NT
 年底	NT
 ，	PU
 宁波	NR
-LOCATION	NR
+保税区	NN
 累计	AD
 完成	VV
 进出口	NN
 贸易额	NN
-NUM	CD
+八点一二亿	CD
 美元	M
 ，	PU
 仅	AD
-CAL	NT
-NUM	CD
-CAL	M
+去年	NT
+一	CD
+年	M
 通过	VV
-LOCATION	NN
+保税区	NR
 海关	NN
 的	DEG
 进出口	NN
 贸易额	NN
 就	AD
 达	VV
-NUM	CD
+三点六五亿	CD
 美元	M
 。	PU
 
 目前	NT
 ，	PU
-LOCATION	NN
+区	NN
 内	LC
 已	AD
 有	VE
-NUM	CD
+十	CD
 个	M
 保税	JJ
 仓库	NN
@@ -6025,29 +6025,29 @@ NUM	CD
 平方米	M
 ；	PU
 仅	AD
-CAL	NT
-NUM	CD
-CAL	M
+去年	NT
+一	CD
+年	M
 ，	PU
-LOCATION	NN
+区	NN
 内	LC
 储有	VV
 货物	NN
 就	AD
 达	VV
-NUM	CD
+二十六点二七亿	CD
 元	M
 人民币	NN
 。	PU
 
 随着	P
 从	P
-CAL	NT
-CAL	NT
-开始	NT
+今年	NT
+四月	NT
+开始	LC
 中国	NR
 对	P
-LOCATION	NR
+保税区	NR
 外	LC
 有关	JJ
 特殊	JJ
@@ -6055,7 +6055,7 @@ LOCATION	NR
 的	DEG
 调整	NN
 ，	PU
-LOCATION	NR
+保税区	NR
 免证	NN
 、	PU
 免税	JJ
@@ -6070,7 +6070,7 @@ LOCATION	NR
 明显	VA
 ，	PU
 国内外	NN
-NUM	CD
+一	CD
 大	JJ
 批	M
 实业	NN
@@ -6078,42 +6078,42 @@ NUM	CD
 项目	NN
 相继	AD
 在	P
-LOCATION	NN
+区	NN
 内	LC
 落户	VV
 。	PU
 
 到	P
-CAL	NT
-CAL	NT
+去年	NT
+十二月	NT
 底	LC
 ，	PU
-LOCATION	NN
+区	NN
 内	LC
 已	AD
 累计	AD
 设立	VV
 企业	NN
-NUM	CD
+一千六百一十四	CD
 家	M
 ，	PU
 总	JJ
 投资	NN
 达	VV
-NUM	CD
+十二亿	CD
 美元	M
 ，	PU
 其中	NN
 外商	NN
 投资	NN
 企业	NN
-NUM	CD
+二百六十	CD
 家	M
 ，	PU
 实际	AD
 利用	VV
 外资	NN
-NUM	CD
+一点一三亿	CD
 美元	M
 。	PU
 
@@ -6124,7 +6124,7 @@ NUM	CD
 企业	NN
 也	AD
 通过	P
-LOCATION	NR
+保税区	NN
 与	P
 国际	NN
 市场	NN
@@ -6137,12 +6137,12 @@ LOCATION	NR
 机制	NN
 上	LC
 与	P
-LOCATION	NR
+保税区	NR
 相	AD
 配套	VV
 ，	PU
 宁波	NR
-LOCATION	NN
+保税区	NN
 率先	AD
 在	P
 中国	NR
@@ -6164,10 +6164,10 @@ LOCATION	NN
 
 同时	AD
 ，	PU
-LOCATION	NR
+保税区	NR
 大力	AD
 抓好	VV
-LOCATION	NN
+区	NN
 内	LC
 信息	NN
 高速	JJ
@@ -6204,8 +6204,8 @@ LOCATION	NN
 
 新华社	NR
 太原	NR
-CAL	NT
-CAL	NT
+二月	NT
+七日	NT
 电	NN
 （	PU
 记者	NN
@@ -6222,8 +6222,8 @@ CAL	NT
 陕西	NR
 、	PU
 河南	NR
-NUM	CD
-LOCATION	NN
+三	CD
+省	NN
 交界处	NN
 ，	PU
 人	NN
@@ -6235,7 +6235,7 @@ LOCATION	NN
 的	DEG
 风陵渡	NN
 经济	NN
-LOCATION	NN
+开发区	NN
 ，	PU
 日益	AD
 受到	VV
@@ -6253,25 +6253,25 @@ LOCATION	NN
 
 风陵渡	NN
 经济	NN
-LOCATION	NN
+开发区	NN
 是	VC
 中国	NR
 境内	NN
-NUM	CD
-NUM	CD
+唯一	CD
+一	CD
 个	M
 依托	VV
 小	JJ
-LOCATION	NN
+城镇	NN
 建成	VV
 的	DEC
-LOCATION	NN
+开发区	NN
 ，	PU
 也	AD
 是	VC
 内陆	NN
 省份	NN
-LOCATION	NN
+山西省	NN
 对	P
 外	NN
 联系	VV
@@ -6281,15 +6281,15 @@ LOCATION	NN
 。	PU
 
 经过	P
-NUM	CD
-CAL	M
+三	CD
+年	M
 多	AD
 的	DEG
 建设	NN
 ，	PU
 这	DT
-NUM	CD
-LOCATION	NN
+一	CD
+开发区	NN
 已	AD
 初	AD
 具	VV
@@ -6320,7 +6320,7 @@ LOCATION	NN
 
 目前	NT
 ，	PU
-LOCATION	NN
+开发区	NN
 内	LC
 楼房	AD
 林立	VV
@@ -6328,10 +6328,10 @@ LOCATION	NN
 商贾	AD
 云集	VV
 ，	PU
-NUM	CD
+一	CD
 座	M
 投资	VV
-NUM	CD
+六千万	CD
 元	M
 的	DEC
 多功能	JJ
@@ -6346,7 +6346,7 @@ NUM	CD
 近	VV
 尾声	NN
 ，	PU
-NUM	CD
+二千	CD
 门	M
 程控	JJ
 电话	NN
@@ -6354,7 +6354,7 @@ NUM	CD
 投入	VV
 使用	NN
 ，	PU
-NUM	CD
+十千	CD
 伏	M
 高压	NN
 电路	NN
@@ -6394,7 +6394,7 @@ NUM	CD
 妇科	NN
 、	PU
 儿科	NN
-NUM	CD
+三	CD
 个	M
 专科	NN
 医院	NN
@@ -6425,7 +6425,7 @@ NUM	CD
 、	PU
 法	NR
 、	PU
-CAL	NR
+日	NR
 、	PU
 韩	NR
 、	PU
@@ -6433,7 +6433,7 @@ CAL	NR
 等	ETC
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 的	DEC
 五十多	CD
 家	M
@@ -6442,7 +6442,7 @@ LOCATION	NN
 客商	NN
 正在	AD
 对	P
-NUM	CD
+三十一	CD
 个	M
 项目	NN
 进行	VV
@@ -6451,7 +6451,7 @@ NUM	CD
 投资	NN
 总额	NN
 高达	VV
-NUM	CD
+三点二亿	CD
 元	M
 。	PU
 
@@ -6462,26 +6462,26 @@ NUM	CD
 三峡	NR
 工程	NN
 引进	VV
-NUM	CD
+第一	CD
 笔	M
 外资	NN
 
 新华社	NR
 宜昌	NR
-CAL	NT
-CAL	NT
+三月	NT
+八日	NT
 电	NN
 （	PU
 记者	NN
-施勇峰	NN
+施勇峰	NR
 ）	PU
 
 长江	NR
 三峡	NR
 工程	NN
-CAL	NT
+近日	NT
 引进	VV
-NUM	CD
+第一	CD
 笔	M
 外资	NN
 。	PU
@@ -6490,7 +6490,7 @@ NUM	CD
 笔	M
 数额	NN
 为	VC
-NUM	CD
+一千二百五十万	CD
 美元	M
 的	DEG
 贷款	NN
@@ -6574,8 +6574,8 @@ NUM	CD
 管理	NN
 。	PU
 
-CAL	NT
-CAL	NT
+一九九五年	NT
+十月	NT
 ，	PU
 中国	NR
 长江	NR
@@ -6615,8 +6615,8 @@ CAL	NT
 总公司	NN
 。	PU
 
-CAL	NT
-CAL	NT
+二月	NT
+二十八日	NT
 ，	PU
 中国	NR
 银行	NN
@@ -6644,7 +6644,7 @@ CAL	NT
 浙江	NR
 确定	VV
 “	PU
-NUM	NT
+九五	NT
 ”	PU
 对	P
 外	NN
@@ -6653,16 +6653,16 @@ NUM	NT
 规划	NN
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+杭州	NR
+三月	NT
+十日	NT
 电	NN
 （	PU
 记者	NN
-曹银康	NN
+曹银康	NR
 ）	PU
 
-LOCATION	NR
+浙江省	NR
 今后	NT
 将	AD
 进一步	AD
@@ -6698,17 +6698,17 @@ LOCATION	NR
 
 这	PN
 是	VC
-LOCATION	NR
+浙江省	NR
 制定	VV
 的	DEC
 “	PU
-NUM	NT
+九五	NT
 ”	PU
 期间	NN
 （	PU
-NUM	NT
+一九九六	NT
 ――	PU
-CAL	NT
+二０００年	NT
 ）	PU
 对	P
 外	NN
@@ -6726,50 +6726,50 @@ CAL	NT
 为止	LC
 ，	PU
 该	DT
-LOCATION	NN
+省	NN
 共	AD
 有	VE
-NUM	CD
+三十四	CD
 个	M
-LOCATION	NN
+市	NN
 、	PU
-LOCATION	NN
+县	NN
 被	SB
 列为	VV
 沿海	NN
 经济	NN
 开放	NN
-LOCATION	NN
-LOCATION	NN
+市	NN
+县	NN
 ，	PU
 占	VV
 全	DT
-LOCATION	NN
+省	NN
 总	JJ
 面积	NN
 的	DEG
-NUM	CD
+百分之四十四	CD
 ，	PU
 其中	NN
 国家级	JJ
 的	DEG
 各	DT
 种	M
-LOCATION	NN
-NUM	CD
+开发区	NN
+七	CD
 个	M
 ，	PU
 还	AD
 有	VE
-NUM	CD
+一	CD
 批	M
 省级	JJ
 经济	NN
-LOCATION	NN
+开发区	NN
 和	CC
-省级	JJ
+省级	NN
 农业	NN
-LOCATION	NN
+开发区	NN
 。	PU
 
 此外	AD
@@ -6786,7 +6786,7 @@ LOCATION	NN
 实行	VV
 经济	NN
 技术	NN
-LOCATION	NN
+开发区	NN
 的	DEG
 优惠	NN
 政策	NN
@@ -6794,7 +6794,7 @@ LOCATION	NN
 
 浙江	NR
 “	PU
-NUM	NT
+九五	NT
 ”	PU
 经贸	NN
 发展	NN
@@ -6814,7 +6814,7 @@ NUM	NT
 高	JJ
 层次	NN
 、	PU
-宽	JJ
+宽	NN
 领域	NN
 、	PU
 纵深化	NN
@@ -6825,14 +6825,14 @@ NUM	NT
 
 围绕	VV
 发挥	VV
-LOCATION	NN
+杭州	NN
 、	PU
 宁波	NR
 、	PU
-LOCATION	NR
+温州	NR
 等	ETC
 中心	NN
-LOCATION	NN
+城市	NN
 对	P
 外	NN
 开放	VV
@@ -6843,7 +6843,7 @@ LOCATION	NN
 加快	VV
 浙江	NR
 中西部	NN
-LOCATION	NN
+地区	NN
 和	CC
 农业	NN
 、	PU
@@ -6888,8 +6888,8 @@ LOCATION	NN
 了解	NN
 ，	PU
 未来	NT
-NUM	CD
-CAL	M
+五	CD
+年	M
 间	LC
 ，	PU
 浙江	NR
@@ -6981,27 +6981,27 @@ CAL	M
 目标	NN
 ，	PU
 到	P
-CAL	NT
+二０００年	NT
 ，	PU
-LOCATION	NR
+浙江省	NR
 进出口	NN
 总额	NN
 将	AD
 达到	VV
-NUM	CD
+二百亿	CD
 美元	M
 ，	PU
 其中	NN
 出口	NN
-NUM	CD
+一百五十亿	CD
 美元	M
 ，	PU
 进口	NN
-NUM	CD
+五十亿	CD
 美元	M
 ；	PU
 “	PU
-NUM	NT
+九五	NT
 ”	PU
 期间	NN
 利用	VV
@@ -7009,14 +7009,14 @@ NUM	NT
 额	NN
 将	AD
 达到	VV
-NUM	CD
+六十亿	CD
 美元	M
 ，	PU
 其中	NN
 外商	NN
 直接	AD
 投资	VV
-NUM	CD
+五十亿	CD
 美元	M
 。	PU
 
@@ -7027,16 +7027,16 @@ NUM	CD
 中国	NR
 闽	NR
 东南	NN
-LOCATION	NN
+乡镇	NN
 企业	NN
 发展	NN
 继续	VV
 领先	VV
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+福州	NR
+三月	NT
+十日	NT
 电	NN
 （	PU
 记者	NN
@@ -7052,14 +7052,14 @@ CAL	NT
 半壁江山	NN
 ”	PU
 的	DEC
-LOCATION	NN
+乡镇	NN
 企业	NN
 发展	NN
 中	LC
 ，	PU
 闽	NR
 东南	NN
-LOCATION	NN
+地区	NN
 继续	VV
 发挥	VV
 了	AS
@@ -7067,66 +7067,66 @@ LOCATION	NN
 作用	NN
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
-LOCATION	NR
+福州	NR
 、	PU
 厦门	NR
 、	PU
-LOCATION	NR
+泉州	NR
 、	PU
-LOCATION	NR
+漳州	NR
 、	PU
 莆田	NN
-NUM	CD
+五	CD
 地	NN
-LOCATION	NN
-LOCATION	NN
+市	NN
+乡镇	NN
 企业	NN
 经济	NN
 总量	NN
 占	VV
 全	DT
-LOCATION	NN
-NUM	CD
+省	NN
+百分之七十	CD
 以上	LC
 。	PU
 
 据	P
 福建	NR
-LOCATION	NN
+乡镇	NN
 企业局	NN
 统计	VV
 ，	PU
-CAL	NT
-LOCATION	NR
-LOCATION	NN
+一九九五年	NT
+福建省	NR
+乡镇	NN
 企业	NN
 总	JJ
 产值	NN
 已	AD
 达	VV
-NUM	CD
+二千三百八十一点五亿	CD
 元	M
 人民币	NN
 ，	PU
 其中	NN
 工业	NN
 产值	NN
-NUM	CD
+一千五百五十九亿	CD
 元	M
 人民币	NN
 ，	PU
 全	DT
-CAL	M
+年	M
 创	VV
 利润	NN
-NUM	CD
+一百零九亿	CD
 元	M
 人民币	NN
 。	PU
 
-LOCATION	NR
+乡镇	NR
 企业	NN
 创造	VV
 的	DEC
@@ -7135,51 +7135,51 @@ LOCATION	NR
 总值	NN
 约	AD
 占	VV
-LOCATION	NR
+福建省	NR
 国民	NN
 生产	NN
 总值	NN
 的	DEG
-NUM	CD
+三分之一	CD
 。	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 （	PU
-NUM	NT
+一九九一	NT
 至	CC
-CAL	NT
+一九九五年	NT
 ）	PU
 ，	PU
-LOCATION	NR
-LOCATION	NN
+福建省	NR
+乡镇	NN
 企业	NN
 累计	AD
 上缴	VV
 了	AS
-NUM	CD
+一百八十五点六亿	CD
 元	M
 人民币	NN
-的	DEC
+的	DEG
 税金	NN
 ，	PU
 完成	VV
 出口	NN
 交货值	NN
-NUM	CD
+一千零五十五亿	CD
 元	M
 人民币	NN
 。	PU
 
 全	DT
-LOCATION	NN
+省	NN
 已	AD
 有	VE
-NUM	CD
+十一	CD
 家	M
-LOCATION	NN
+乡镇	NN
 企业	NN
 跻身	VV
 中国	NR
@@ -7187,7 +7187,7 @@ LOCATION	NN
 最佳	JJ
 经济	NN
 效益	NN
-LOCATION	NN
+乡镇	NN
 企业	NN
 ”	PU
 行列	NN
@@ -7195,11 +7195,11 @@ LOCATION	NN
 
 目前	NT
 ，	PU
-LOCATION	NR
+福建省	NR
 已	AD
 涌现	VV
 出	VV
-NUM	CD
+一	CD
 批	M
 科技	NN
 含量	NN
@@ -7211,10 +7211,10 @@ NUM	CD
 较	AD
 足	VA
 的	DEC
-LOCATION	NN
+乡镇	NN
 企业	NN
 或	CC
-LOCATION	NN
+乡镇	NR
 企业	NN
 集团	NN
 。	PU
@@ -7224,20 +7224,20 @@ LOCATION	NN
 ，	PU
 在	P
 全	DT
-LOCATION	NN
-NUM	CD
+省	NN
+一百九十一	CD
 个	M
 已	AD
 建立	VV
 的	DEC
-LOCATION	NR
+乡镇	NN
 企业	NN
 集团	NN
 中	LC
 ，	PU
 产值	NN
 上	VV
-NUM	CD
+亿	CD
 元	M
 人民币	NN
 的	DEC
@@ -7249,32 +7249,32 @@ NUM	CD
 有些	NN
 已	AD
 达	VV
-NUM	CD
+五	CD
 至	CC
-NUM	CD
+十亿	CD
 元	M
 。	PU
 
-LOCATION	NR
-LOCATION	NN
+福州	NR
+鼓山镇	NN
 的	DEG
 福兴	JJ
-LOCATION	NN
+投资区	NN
 、	PU
 晋江	NR
 安海	NN
-的	DEC
+的	DEG
 桥头	NN
-LOCATION	NN
+工业区	NN
 均	AD
 成为	VV
 全	DT
 国	NN
-LOCATION	NN
+乡镇	NN
 企业	NN
 示范	NN
 小	JJ
-LOCATION	NN
+区	NN
 。	PU
 
 （	PU
@@ -7282,23 +7282,23 @@ LOCATION	NN
 ）	PU
 
 内蒙古	NR
-呼伦贝尔盟	AD
+呼伦贝尔盟	CD
 加大	VV
 开放	NN
 力度	NN
 
 新华社	NR
 呼和浩特	NR
-CAL	NT
-CAL	NT
+三月	NT
+二日	NT
 电	NN
 （	PU
 记者	NN
-何涛	NN
+何涛	NR
 ）	PU
 
 最近	NT
-NUM	CD
+一	CD
 个	M
 时期	NN
 ，	PU
@@ -7311,7 +7311,7 @@ NUM	CD
 内蒙古	NR
 呼伦贝尔盟	NN
 采取	VV
-NUM	CD
+一	CD
 系列	M
 措施	NN
 ，	PU
@@ -7354,12 +7354,12 @@ NUM	CD
 分布	VV
 着	AS
 国家	NN
-NUM	OD
+一	OD
 、	PU
-NUM	OD
+二	OD
 类	M
 口岸	NN
-NUM	CD
+九	CD
 个	M
 。	PU
 
@@ -7378,8 +7378,8 @@ NUM	CD
 ，	PU
 呼伦贝尔盟	NN
 自	P
-CAL	NT
-CAL	NT
+去年	NT
+下半年	NT
 开始	LC
 ，	PU
 认真	AD
@@ -7408,11 +7408,11 @@ CAL	NT
 。	PU
 
 从	P
-CAL	NT
+去年	NT
 十月份	NT
 开始	LC
 ，	PU
-呼伦贝尔盟	CD
+呼伦贝尔盟	AD
 出台	VV
 了	AS
 新	VA
@@ -7440,7 +7440,7 @@ CAL	NT
 除	P
 勒令	VV
 取消	VV
-NUM	CD
+一百四十八	CD
 项	M
 不合理	JJ
 收费	NN
@@ -7465,7 +7465,7 @@ NUM	CD
 目前	NT
 ，	PU
 全	DT
-盟	M
+盟	NN
 已	AD
 撤掉	VV
 各	DT
@@ -7476,7 +7476,7 @@ NUM	CD
 。	PU
 
 在	P
-LOCATION	NN
+海拉尔市	NN
 ，	PU
 重点	AD
 抓	VV
@@ -7498,13 +7498,13 @@ LOCATION	NN
 由	P
 原来	JJ
 的	DEG
-NUM	CD
+一	CD
 个	M
-CAL	NN
+月	NN
 左右	LC
 限定	VV
 在	P
-NUM	CD
+七	CD
 天	M
 以内	LC
 。	PU
@@ -7513,26 +7513,26 @@ NUM	CD
 工商	NN
 部门	NN
 对	P
-个体	NN
+个体	AD
 私营	JJ
 企业	NN
 申办	VV
 营业	NN
 执照	NN
 实行	VV
-NUM	CD
+一	CD
 张	M
 表格	NN
 、	PU
-NUM	CD
+一	CD
 张	M
 照片	NN
 、	PU
-NUM	CD
+一	CD
 张	M
 身份证	NN
 、	PU
-NUM	CD
+一	CD
 天	M
 办	VV
 完	VV
@@ -7545,9 +7545,9 @@ NUM	CD
 部门	NN
 将	AD
 原来	AD
-NUM	CD
+七	CD
 至	CC
-NUM	CD
+十	CD
 天	M
 完成	VV
 的	DEC
@@ -7556,9 +7556,9 @@ NUM	CD
 时间	NN
 缩短	VV
 到	VV
-NUM	CD
+一	CD
 至	CC
-NUM	CD
+三	CD
 天	M
 。	PU
 
@@ -7569,9 +7569,9 @@ NUM	CD
 将	AD
 原来	AD
 要	VV
-NUM	CD
+二	CD
 至	CC
-NUM	CD
+三	CD
 天	M
 办	VV
 完	VV
@@ -7579,7 +7579,7 @@ NUM	CD
 出入境	NN
 手续	NN
 改为	VV
-NUM	CD
+一	CD
 天	M
 办	VV
 完	VV
@@ -7587,11 +7587,11 @@ NUM	CD
 
 迄今	AD
 ，	PU
-呼伦贝尔盟	DT
-NUM	CD
+呼伦贝尔盟	NN
+十三	CD
 个	M
 旗	NN
-LOCATION	NN
+市	NN
 已	AD
 全部	AD
 进入	VV
@@ -7614,17 +7614,17 @@ LOCATION	NN
 、	PU
 满洲里	NN
 等	ETC
-LOCATION	NN
+城市	NN
 先后	AD
 建起	VV
-星级	NN
+星级	JJ
 宾馆	NN
 饭店	NN
 十余	CD
 所	M
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
 海拉尔	NN
 飞机场	NN
@@ -7633,7 +7633,7 @@ CAL	NT
 国际	NN
 航空港	NN
 ，	PU
-NUM	CD
+三０一	CD
 国道	NN
 海拉尔	NN
 至	CC
@@ -7642,7 +7642,7 @@ NUM	CD
 建成	VV
 通车	VV
 ，	PU
-额尔古纳河	AD
+额尔古纳河	NN
 航运	NN
 试航	VV
 成功	VA
@@ -7679,7 +7679,7 @@ NUM	CD
 、	PU
 洽谈	VV
 生意	NN
-的	DEC
+的	DEG
 需要	NN
 。	PU
 
@@ -7709,16 +7709,16 @@ NUM	CD
 。	PU
 
 加拿大	NR
-太平	NN
+太平	AD
 矿业	NN
 有限	JJ
 公司	NN
 投资	VV
-NUM	CD
+二千九百七十万	CD
 元	M
 与	CC
 呼盟	NN
-NUM	CD
+一	CD
 家	M
 铅	NN
 锌	NN
@@ -7732,24 +7732,24 @@ NUM	CD
 公司	NN
 ，	PU
 瑞士	NR
-特联	NN
+特联	JJ
 投资	NN
 集团	NN
 投资	VV
-NUM	CD
+二千万	CD
 美元	M
 与	P
-宝日希勒	CD
+宝日希勒	NN
 煤矿	NN
 联合	AD
 建立	VV
-NUM	CD
+六十万	CD
 千瓦	M
 的	DEG
 电站	NN
 ，	PU
 美国	NR
-环球	NN
+环球	AD
 集团	NN
 有限	JJ
 公司	NN
@@ -7769,26 +7769,26 @@ NUM	CD
 不完全	JJ
 统计	NN
 ，	PU
-CAL	NT
+一九九四年	NT
 以来	LC
 ，	PU
 呼盟	AD
 新建	VV
 三资	JJ
 企业	NN
-NUM	CD
+四十二	CD
 家	M
 ，	PU
 累计	AD
 引进	VV
 国外	NN
 资金	NN
-NUM	CD
+四千多万	CD
 美元	M
 、	PU
 国内	NN
 资金	NN
-NUM	CD
+六千多万	CD
 元	M
 ，	PU
 引进	VV
@@ -7818,17 +7818,17 @@ NUM	CD
 据	P
 了解	NN
 ，	PU
-CAL	NT
-呼盟	NT
-易货	NN
+去年	NT
+呼盟	NN
+易货	JJ
 贸易	NN
 完成	VV
-NUM	CD
+三点五亿	CD
 美元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 现汇	JJ
 贸易	NN
 成倍	AD
@@ -7836,14 +7836,14 @@ CAL	M
 ，	PU
 出口	VV
 创汇	VV
-NUM	CD
+一千零三十七万	CD
 美元	M
 ，	PU
 是	VC
 上	DT
-CAL	NN
+年	NN
 的	DEG
-NUM	CD
+四	CD
 倍	M
 多	AD
 ，	PU
@@ -7851,14 +7851,14 @@ NUM	CD
 技术	NN
 合作	NN
 完成	VV
-NUM	CD
+二千八百三十万	CD
 美元	M
 ，	PU
 是	VC
 上	DT
-CAL	NN
+年	NN
 的	DEG
-NUM	CD
+一点五	CD
 倍	M
 。	PU
 
@@ -7876,8 +7876,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+三月	NT
+十三日	NT
 电	NN
 
 据	P
@@ -7888,8 +7888,8 @@ CAL	NT
 统计	NN
 数据	NN
 ，	PU
-CAL	NT
-NUM	NT
+今年	NT
+一	NT
 至	CC
 二月份	NT
 中国	NR
@@ -7905,40 +7905,40 @@ NUM	NT
 进出口	NN
 总值	NN
 达	VV
-NUM	CD
+三百六十一亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 增长	VV
-NUM	CD
+百分之十三点九	CD
 。	PU
 
 其中	NN
 出口	NN
 为	VC
-NUM	CD
+一百七十八点三亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 下降	VV
-NUM	CD
+百分之一点三	CD
 ；	PU
 进口	NN
-NUM	CD
+一百八十二点七亿	CD
 美元	M
 ，	PU
 增长	VV
-NUM	CD
+百分之三十四点一	CD
 。	PU
 
-CAL	NT
-NUM	NT
+今年	NT
+一	NT
 至	CC
 二月份	NT
 ，	PU
@@ -7961,45 +7961,45 @@ NUM	NT
 进出口	NN
 总额	NN
 达	VV
-NUM	CD
+一百八十四点九亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 增长	VV
-NUM	CD
+百分之二十三点六	CD
 ，	PU
 占	VV
 全部	DT
 进出口	NN
 总额	NN
 的	DEG
-NUM	CD
+百分之五十一点二	CD
 。	PU
 
 经济	NN
-LOCATION	NN
+特区	NN
 进出口	NN
 总值	NN
 为	VC
-NUM	CD
+四十二点九亿	CD
 美元	M
 ，	PU
 增长	VV
-NUM	CD
+百分之三点四	CD
 。	PU
 
-LOCATION	NR
+保税区	NR
 进出口	NN
 总值	NN
 为	VC
-NUM	CD
+四点九亿	CD
 美元	M
 ，	PU
 增长	VV
-NUM	CD
+一点三	CD
 倍	M
 。	PU
 
@@ -8023,28 +8023,28 @@ NUM	CD
 其中	NN
 ，	PU
 出口	NN
-NUM	CD
+五十七点九亿	CD
 美元	M
 ，	PU
 占	VV
 总	JJ
 出口	NN
 的	DEG
-NUM	CD
+百分之三十二点五	CD
 ；	PU
 进口	NN
-NUM	CD
+八十五点二亿	CD
 美元	M
 ，	PU
 占	VV
 总	JJ
 进口	NN
 的	DEG
-NUM	CD
+百分之四十六点四	CD
 ，	PU
 均	AD
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 有所	VV
@@ -8059,7 +8059,7 @@ CAL	NT
 出口	NN
 则	AD
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 下降	VV
@@ -8092,18 +8092,18 @@ CAL	NT
 形状	NN
 塑料	NN
 进口	VV
-NUM	CD
+一百一十万	CD
 吨	M
 ，	PU
 增长	VV
-NUM	CD
+百分之四十七点七	CD
 ，	PU
 价值	VV
-NUM	CD
+九点五亿	CD
 美元	M
 ，	PU
 成为	VV
-CAL	NT
+今年	NT
 以来	LC
 中国	NR
 最	AD
@@ -8117,13 +8117,13 @@ CAL	NT
 外商	NN
 投资	NN
 企业	NN
-NUM	NT
+一	NT
 至	CC
 二月份	NT
 进出口	NN
 总值	NN
 为	VC
-NUM	CD
+一百六十五点九亿	CD
 美元	M
 ，	PU
 占	VV
@@ -8134,14 +8134,14 @@ NUM	CD
 的	DEC
 比重	NN
 由	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 的	DEG
-NUM	CD
+百分之三十七	CD
 上升	VV
 到	VV
-NUM	CD
+百分之四十五点九	CD
 。	PU
 
 （	PU
@@ -8161,12 +8161,12 @@ NUM	CD
 
 新华社	NR
 大连	NR
-CAL	NT
-CAL	NT
+三月	NT
+十六日	NT
 电	NN
 （	PU
 记者	NN
-赵华	NN
+赵华	NR
 ）	PU
 
 记者	NN
@@ -8176,7 +8176,7 @@ CAL	NT
 此间	NN
 召开	VV
 的	DEC
-LOCATION	NR
+大连市	NR
 对	P
 外	NN
 开放	NN
@@ -8185,22 +8185,22 @@ LOCATION	NR
 上	LC
 获悉	VV
 ，	PU
-CAL	NT
+一九九五年	NT
 ，	PU
-LOCATION	NR
+大连市	NR
 “	PU
 三资	JJ
 ”	PU
 企业	NN
 出口额	NN
 达	VV
-NUM	CD
+十四点四亿	CD
 美元	M
 ，	PU
 占	VV
 这	DT
 个	M
-LOCATION	NN
+市	NN
 出口额	NN
 的	DEG
 一半	CD
@@ -8216,8 +8216,8 @@ LOCATION	NN
 最	AD
 集中	VV
 的	DEC
-LOCATION	NN
-NUM	NN
+城市	NN
+之一	NN
 ，	PU
 目前	NT
 已	AD
@@ -8225,32 +8225,32 @@ NUM	NN
 外商	NN
 投资	NN
 企业	NN
-NUM	CD
+五千二百二十六	CD
 家	M
 ，	PU
 合同	NN
 金额	NN
-NUM	CD
+一百五十八点一亿	CD
 美元	M
 ，	PU
 协议	NN
 外资	NN
 金额	NN
-NUM	CD
+八十二点七亿	CD
 美元	M
 ，	PU
 实际	AD
 利用	VV
 外资	NN
-NUM	CD
+三十一点六亿	CD
 美元	M
 。	PU
 
 据	P
 介绍	NN
 ，	PU
-LOCATION	NR
-CAL	NT
+大连市	NR
+去年	NT
 外贸	NN
 出口	NN
 在	P
@@ -8267,21 +8267,21 @@ CAL	NT
 势头	NN
 ，	PU
 全	DT
-CAL	M
+年	M
 出口额	NN
 达	VV
-NUM	CD
+二十五点二四亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+前年	NT
 增长	VV
 了	AS
 两成半	CD
 以上	LC
 ，	PU
 高于	VV
-LOCATION	NR
+大连市	NR
 国内	NN
 生产	NN
 总值	NN
@@ -8302,12 +8302,12 @@ LOCATION	NR
 在	P
 中国	NR
 各	DT
-LOCATION	NN
+城市	NN
 出口	NN
 排名	NN
 中	LC
 列	VV
-NUM	OD
+第七	OD
 位	M
 。	PU
 
@@ -8327,21 +8327,21 @@ NUM	OD
 作用	NN
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
 三资	JJ
 企业	NN
 出口	NN
 比	P
-CAL	NT
+前年	NT
 同	DT
 期	NN
 增长	VV
 了	AS
-NUM	CD
+百分之十五点七	CD
 ，	PU
 达	VV
-NUM	CD
+十四点四亿	CD
 美元	M
 。	PU
 
@@ -8360,7 +8360,7 @@ NUM	CD
 出口额	NN
 均	AD
 超过	VV
-NUM	CD
+一亿	CD
 美元	M
 ，	PU
 东芝	NR
@@ -8381,7 +8381,7 @@ NUM	CD
 出口额	NN
 也	AD
 达到	VV
-NUM	CD
+六千万	CD
 美元	M
 以上	LC
 。	PU
@@ -8407,7 +8407,7 @@ NUM	CD
 档次	NN
 ，	PU
 使	VV
-LOCATION	NR
+大连市	NN
 出口	NN
 商品	NN
 结构	NN
@@ -8421,7 +8421,7 @@ LOCATION	NR
 
 目前	NT
 ，	PU
-LOCATION	NR
+大连市	NR
 出口	NN
 商品	NN
 结构	NN
@@ -8461,7 +8461,7 @@ LOCATION	NR
 资料	NN
 表明	VV
 ，	PU
-CAL	NT
+去年	NT
 ，	PU
 大连	NR
 对	P
@@ -8488,13 +8488,13 @@ CAL	NT
 投资	NN
 已	AD
 连续	AD
-NUM	CD
-CAL	M
+三	CD
+年	M
 保持	VV
 持续	VV
 增长	VV
 ，	PU
-CAL	NT
+去年	NT
 ，	PU
 大连	NR
 批准	VV
@@ -8503,24 +8503,24 @@ CAL	NT
 投资	NN
 企业	NN
 达	VV
-NUM	CD
+一百六十六	CD
 家	M
 ，	PU
 协议	NN
 外资	NN
 金额	NN
 达	VV
-NUM	CD
+三点二亿	CD
 美元	M
 ，	PU
 分别	AD
 比	P
-CAL	NT
+前年	NT
 增长	VV
 了	AS
 三成多	CD
 和	CC
-NUM	CD
+一	CD
 倍	M
 半	CD
 。	PU
@@ -8531,7 +8531,7 @@ NUM	CD
 
 缅	NR
 泰	NR
-NUM	CD
+两	CD
 国	NN
 签订	VV
 边贸	NN
@@ -8539,12 +8539,12 @@ NUM	CD
 
 新华社	NR
 仰光	NT
-CAL	NT
-CAL	NT
+３月	NT
+１７日	NT
 电	NN
 （	PU
 记者	NN
-张云飞	NN
+张云飞	NR
 ）	PU
 
 缅甸	NR
@@ -8557,7 +8557,7 @@ CAL	NT
 此间	NN
 签订	VV
 了	AS
-NUM	CD
+两	CD
 国	NN
 边境	NN
 贸易	NN
@@ -8613,7 +8613,7 @@ NUM	CD
 。	PU
 
 自	P
-CAL	NT
+１９８８年	NT
 以来	LC
 ，	PU
 缅甸	NR
@@ -8636,24 +8636,24 @@ CAL	NT
 官员	NN
 透露	VV
 ，	PU
-CAL	NT
+１９９５年	NT
 ，	PU
 缅	NR
 泰	NR
-NUM	CD
+两	CD
 国	NN
 贸易	NN
 总额	NN
 超过	VV
-NUM	CD
+３亿	CD
 美元	M
 。	PU
 
-班汉	NN
+班汉	AD
 是	VC
 自	P
-CAL	NT
-CAL	NT
+１９８０年	NT
+下半年	NT
 以来	LC
 首	OD
 位	M
@@ -8677,7 +8677,7 @@ CAL	NT
 改善	VV
 和	CC
 发展	VV
-NUM	CD
+两	CD
 国	NN
 关系	NN
 ，	PU
@@ -8703,13 +8703,13 @@ NUM	CD
 重新	AD
 开放	VV
 了	AS
-CAL	NT
+去年	NT
 关闭	VV
 的	DEC
 缅	NR
 泰	NR
 边境	NN
-LOCATION	NN
+地区	NN
 的	DEG
 ３	CD
 个	M
@@ -8727,15 +8727,15 @@ LOCATION	NN
 在	P
 华	NR
 成立	VV
-NUM	CD
+第十四	CD
 家	M
 合资	JJ
 企业	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+三月	NT
+十八日	NT
 电	NN
 
 美国	NR
@@ -8750,13 +8750,13 @@ CAL	NT
 西南	NN
 医用	NN
 设备厂	NN
-CAL	NT
+近日	NT
 签定	VV
 合同	NN
 ，	PU
 共同	AD
 投资	VV
-NUM	CD
+六百万	CD
 美元	M
 ，	PU
 在	P
@@ -8777,7 +8777,7 @@ NUM	CD
 投资	VV
 成立	VV
 的	DEC
-NUM	CD
+第十四	CD
 家	M
 合资	JJ
 企业	NN
@@ -8792,7 +8792,7 @@ NUM	CD
 总额	NN
 已	AD
 达	VV
-NUM	CD
+一亿五千万	CD
 美元	M
 。	PU
 
@@ -8863,20 +8863,20 @@ NUM	CD
 华	NR
 职工	NN
 超过	VV
-NUM	CD
+八千	CD
 名	M
 。	PU
 
 另外	AD
 ，	PU
-CAL	NT
+一九九四年	NT
 ，	PU
 通用	NR
 在	P
 中国	NR
 购买	VV
 了	AS
-NUM	CD
+四千多万	CD
 美元	M
 的	DEC
 产品	NN
@@ -8885,8 +8885,8 @@ NUM	CD
 计划	VV
 在	P
 今后	NT
-NUM	CD
-CAL	M
+两	CD
+年	M
 增加	VV
 对	P
 中国	NR
@@ -8907,16 +8907,16 @@ CAL	M
 
 新华社	NR
 沈阳	NR
-CAL	NT
-CAL	NT
+三月	NT
+十九日	NT
 电	NN
 
 中国	NR
 工业	NN
 大	JJ
-LOCATION	NN
+省	NN
 辽宁	NR
-CAL	NT
+今年	NT
 年初	NT
 进出口	NN
 贸易	NN
@@ -8924,32 +8924,32 @@ CAL	NT
 增长	VV
 。	PU
 
-CAL	NT
+今年	NT
 前	DT
-NUM	CD
+两	CD
 个	M
-CAL	NN
+月	NN
 ，	PU
 进出口	NN
 贸易	NN
 总额	NN
 达	VV
-NUM	CD
+十二点四亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 增长	VV
-NUM	CD
+百分之六	CD
 。	PU
 
 据	P
 统计	NN
 ，	PU
-CAL	NT
-NUM	NT
+今年	NT
+一	NT
 至	CC
 二月份	NT
 ，	PU
@@ -8957,15 +8957,15 @@ NUM	NT
 出口	NN
 总额	NN
 完成	VV
-NUM	CD
+十亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 增长	VV
-NUM	CD
+百分之四点七	CD
 ，	PU
 其中	NN
 ，	PU
@@ -8978,11 +8978,11 @@ NUM	CD
 产品	NN
 出口额	NN
 为	VC
-NUM	CD
+七点八亿	CD
 美元	M
 。	PU
 
-LOCATION	NR
+辽宁省	NR
 的	DEG
 三资	JJ
 企业	NN
@@ -8992,54 +8992,54 @@ LOCATION	NR
 开始	VV
 加大	VV
 ，	PU
-NUM	CD
+一	NT
 至	CC
 二月份	NT
 ，	PU
 全	DT
-LOCATION	NN
+省	NN
 三资	JJ
 企业	NN
 出口额	NN
 达	VV
-NUM	CD
+二点六亿	CD
 美元	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 增长	VV
-NUM	CD
+一	CD
 倍	M
 ，	PU
 占	VV
 全	DT
-LOCATION	NN
+省	NN
 外贸	NN
 出口	NN
 总额	NN
 的	DEC
 比重	NN
 比	P
-CAL	NT
+去年	NT
 同	DT
 期	NN
 提高	VV
-NUM	CD
+十二	CD
 个	M
 百分点	NN
 。	PU
 
 目前	NT
 ，	PU
-LOCATION	NR
+辽宁省	NR
 拥有	VV
-LOCATION	NN
+省	NN
 、	PU
-LOCATION	NN
+市	NN
 、	PU
-LOCATION	NN
+县	NN
 各	DT
 类	M
 外贸	NN
@@ -9070,14 +9070,14 @@ LOCATION	NN
 家	M
 。	PU
 
-CAL	NT
+去年	NT
 全	DT
-CAL	M
+年	M
 共	AD
 完成	VV
 进出口	NN
 总额	NN
-NUM	CD
+一百零九点九亿	CD
 美元	M
 。	PU
 
@@ -9087,7 +9087,7 @@ NUM	CD
 
 中国	NR
 筹建	VV
-NUM	CD
+五	CD
 家	M
 新	VA
 的	DEC
@@ -9096,12 +9096,12 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+三月	NT
+二十三日	NT
 电	NN
 （	PU
 记者	NN
-钞文	NN
+钞文	NR
 ）	PU
 
 经	P
@@ -9117,7 +9117,7 @@ CAL	NT
 有限	JJ
 公司	NN
 等	ETC
-NUM	CD
+五	CD
 家	M
 保险	NN
 公司	NN
@@ -9132,18 +9132,18 @@ NUM	CD
 ，	PU
 新建	VV
 的	DEC
-NUM	CD
+五	CD
 家	M
 保险	NN
 公司	NN
 ，	PU
-NUM	CD
+三	CD
 家	M
 是	VC
 全国性	JJ
 的	DEG
 ，	PU
-NUM	CD
+两	CD
 家	M
 是	VC
 地区性	NN
@@ -9187,7 +9187,7 @@ NUM	CD
 发起	VV
 ，	PU
 募集	VV
-NUM	CD
+五亿	CD
 元	M
 人民币	NN
 企业	NN
@@ -9200,7 +9200,7 @@ NUM	CD
 有	VE
 保险	NN
 公司	NN
-NUM	CD
+二十六	CD
 家	M
 ，	PU
 境外	NN
@@ -9211,7 +9211,7 @@ NUM	CD
 设立	VV
 办事	NN
 机构	NN
-的	DEG
+的	DEC
 有	VE
 一百多	CD
 家	M
@@ -9245,7 +9245,7 @@ NUM	CD
 批准	VV
 建立	VV
 的	DEC
-NUM	CD
+五	CD
 家	M
 保险	NN
 公司	NN
@@ -9257,7 +9257,7 @@ NUM	CD
 此	PN
 推出	VV
 的	DEC
-NUM	CD
+一	CD
 大	JJ
 举措	NN
 。	PU
@@ -9278,9 +9278,9 @@ NUM	CD
 制度	NN
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+广州	NR
+三月	NT
+二十八日	NT
 电	NN
 （	PU
 记者	NN
@@ -9304,7 +9304,7 @@ CAL	NT
 主办	VV
 的	DEC
 “	PU
-NUM	CD
+九六	CD
 税改	NN
 及	CC
 进口	NN
@@ -9315,7 +9315,7 @@ NUM	CD
 研讨会	NN
 ”	PU
 在	P
-LOCATION	NR
+广州	NR
 举行	VV
 ，	PU
 向	P
@@ -9325,23 +9325,23 @@ LOCATION	NR
 内地	NN
 客商	NN
 介绍	VV
-CAL	NT
+今年	NT
 国家	NN
 将	AD
 实行	VV
 的	DEC
 外经贸	NN
-NUM	CD
+三	CD
 大	JJ
 政策	NN
 调整	NN
 。	PU
 
-CAL	NT
+今年	NT
 国家	NN
 实行	VV
 外经贸	NN
-NUM	CD
+三	CD
 大	JJ
 政策	NN
 调整	NN
@@ -9372,13 +9372,13 @@ NUM	CD
 ，	PU
 将	AD
 于	P
-CAL	NT
-CAL	NT
+今年	NT
+七月	NT
 在	P
 全	DT
 国	NN
 实施	VV
-的	DEG
+的	DEC
 加工	NN
 贸易	NN
 保证金	NN
@@ -9396,9 +9396,9 @@ CAL	NT
 据	P
 介绍	NN
 ，	PU
-CAL	NT
+近年	NT
 来	LC
-LOCATION	NR
+广东省	NR
 对	P
 外	NN
 经贸	NN
@@ -9428,29 +9428,29 @@ LOCATION	NR
 份额	NN
 。	PU
 
-CAL	NT
-LOCATION	NR
+去年	NT
+广东省	NR
 整	DT
 个	M
 加工	NN
 贸易	NN
 出口值	NN
 达	VV
-NUM	CD
+四百多亿	CD
 美元	M
 ，	PU
 约	AD
 占	VV
 全	DT
-LOCATION	NN
+省	NN
 出口	NN
 总值	NN
 的	DEG
-NUM	CD
+百分之八十	CD
 。	PU
 
 其中	NN
-一般	AD
+一般	JJ
 贸易	NN
 的	DEG
 一半	CD
@@ -9458,13 +9458,13 @@ NUM	CD
 来料	NN
 加工	NN
 的	DEG
-NUM	CD
+百分之百	CD
 和	CC
 外商	NN
 投资	NN
 企业	NN
 的	DEG
-NUM	CD
+百分之八十	CD
 以上	LC
 属	VV
 加工	NN
@@ -9474,18 +9474,18 @@ NUM	CD
 
 目前	NT
 全	DT
-LOCATION	NN
+省	NN
 从事	VV
 加工	NN
 贸易	NN
 人数	NN
-NUM	CD
+五百多万	CD
 ，	PU
 仅	AD
 “	PU
-NUM	CD
+三	CD
 来	M
-NUM	CD
+一	CD
 补	NN
 ”	PU
 的	DEC
@@ -9497,12 +9497,12 @@ NUM	CD
 ，	PU
 从业	JJ
 人员	NN
-NUM	NN
+二百多万	NN
 。	PU
 
 近	AD
 几	CD
-CAL	M
+年	M
 台湾	NR
 厂商	NN
 也	AD
@@ -9541,7 +9541,7 @@ CAL	M
 内容	NN
 。	PU
 
-LOCATION	NR
+广东省	NR
 外经贸委	NN
 有关	JJ
 负责人	NN
@@ -9611,13 +9611,13 @@ LOCATION	NR
 台帐	NN
 时	LC
 收取	VV
-NUM	CD
+一百	CD
 元	M
 的	DEC
 手续费	NN
 ，	PU
 因而	AD
-将	BA
+将	AD
 减轻	VV
 企业	NN
 的	DEG
@@ -9634,18 +9634,18 @@ NUM	CD
 台帐	NN
 制度	NN
 试点	NN
-LOCATION	NN
-LOCATION	NN
+城市	NN
+东莞市	NN
 ，	PU
-CAL	NT
-CAL	NT
-CAL	NT
+去年	NT
+十一月	NT
+二十七日	NT
 到	P
-CAL	NT
-CAL	NT
-CAL	NT
+今年	NT
+三月	NT
+十五日	NT
 东莞	NR
-LOCATION	NN
+地区	NN
 海关	NN
 共	AD
 接受	VV
@@ -9676,7 +9676,7 @@ LOCATION	NN
 ）	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 中国	NR
@@ -9689,8 +9689,8 @@ NUM	NT
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+三月	NT
+三日	NT
 电	NN
 （	PU
 记者	NN
@@ -9698,13 +9698,13 @@ CAL	NT
 ）	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 （	PU
-CAL	NT
+一九九一年	NT
 至	CC
-CAL	NT
+一九九五年	NT
 ）	PU
 ，	PU
 中国	NR
@@ -9748,7 +9748,7 @@ CAL	NT
 个	M
 领域	NN
 ，	PU
-NUM	CD
+一	CD
 个	M
 全	DT
 国	NN
@@ -9770,7 +9770,7 @@ NUM	CD
 资料	NN
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 中国	NR
@@ -9779,21 +9779,21 @@ NUM	NT
 总额	NN
 累计	AD
 达	VV
-NUM	CD
+一点零一万亿	CD
 美元	M
 ，	PU
 比	P
 “	PU
-NUM	NT
+七五	NT
 ”	PU
 时期	NN
 （	PU
-CAL	NT
+一九八六年	NT
 至	CC
-CAL	NT
+一九九０年	NT
 ）	PU
 增长	VV
-NUM	CD
+一	CD
 倍	M
 以上	LC
 ，	PU
@@ -9804,17 +9804,17 @@ NUM	CD
 的	DEG
 排位	NN
 由	P
-CAL	NT
+一九九０年	NT
 的	DEG
-NUM	CD
+第十五	CD
 位	M
 上升	VV
 至	VV
-NUM	OD
+第十一	OD
 位	M
 。	PU
 
-而且	NN
+而且	AD
 ，	PU
 出口	NN
 商品	NN
@@ -9822,7 +9822,7 @@ NUM	OD
 继续	VV
 优化	VV
 ，	PU
-CAL	NT
+去年	NT
 工业	NN
 制成品	NN
 出口额	NN
@@ -9834,13 +9834,13 @@ CAL	NT
 的	DEC
 比重	NN
 达	VV
-NUM	CD
+百分之八十五点六	CD
 ，	PU
 比	P
-CAL	NT
+一九九０年	NT
 提高	VV
 了	AS
-NUM	CD
+十一点一	CD
 个	M
 百分点	NN
 ，	PU
@@ -9865,7 +9865,7 @@ NUM	CD
 初级	JJ
 产品	NN
 作为	VV
-主力	JJ
+主力	NN
 出口	NN
 产品	NN
 的	DEG
@@ -9897,7 +9897,7 @@ NUM	CD
 。	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 ，	PU
@@ -9907,27 +9907,27 @@ NUM	NT
 外商	NN
 投资	NN
 项目	NN
-NUM	CD
+二十二点九八万	CD
 个	M
 ，	PU
 实际	AD
 利用	VV
 外资额	NN
 为	VC
-NUM	CD
+一千一百四十七亿	CD
 美元	M
 ，	PU
 分别	AD
 比	P
 “	PU
-NUM	NT
+七五	CD
 ”	PU
 增长	VV
 了	AS
-NUM	CD
+九点一	CD
 倍	M
 和	CC
-NUM	CD
+六点八四	CD
 倍	M
 ，	PU
 而且	CC
@@ -9965,7 +9965,7 @@ NUM	CD
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 进口	VV
 技术	NN
 和	CC
@@ -9977,11 +9977,11 @@ LOCATION	NN
 金额	NN
 比	P
 “	PU
-NUM	NT
+七五	CD
 ”	PU
 增长	VV
 近	AD
-NUM	CD
+百分之五十	CD
 ，	PU
 并	CC
 向	P
@@ -9990,7 +9990,7 @@ NUM	CD
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 出口	VV
 技术	NN
 ，	PU
@@ -9998,15 +9998,15 @@ LOCATION	NN
 合同	NN
 金额	NN
 达	VV
-NUM	CD
+八十多亿	CD
 美元	M
 ，	PU
 比	P
 “	PU
-NUM	NT
+七五	CD
 ”	PU
 增长	VV
-NUM	CD
+二点七	CD
 倍	M
 。	PU
 
@@ -10041,10 +10041,10 @@ NUM	CD
 依存度	NN
 已	AD
 接近	VV
-NUM	CD
+百分之五十	CD
 ，	PU
 这	DT
-NUM	CD
+一	CD
 指标	NN
 意味	VV
 着	AS
@@ -10069,7 +10069,7 @@ NUM	CD
 是	VC
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 中国	NR
@@ -10087,7 +10087,7 @@ NUM	NT
 向	P
 内陆	NN
 边远	JJ
-LOCATION	NN
+地区	NN
 梯次	AD
 推进	VV
 的	DEC
@@ -10096,10 +10096,10 @@ LOCATION	NN
 以往	NT
 经济	NN
 相对	AD
-落后	VV
+落后	VA
 的	DEC
 内陆	NN
-LOCATION	NN
+地区	NN
 如今	NT
 也	AD
 掀起	VV
@@ -10115,18 +10115,18 @@ LOCATION	NN
 国	NN
 已	AD
 有	VE
-NUM	CD
+一千一百九十四	CD
 个	M
-LOCATION	NN
+县	NN
 （	PU
-LOCATION	NN
+市	NN
 ）	PU
 对	P
 外	NN
 开放	VV
 ，	PU
 仅	AD
-NUM	CD
+一	CD
 类	M
 对	P
 外	NN
@@ -10134,14 +10134,14 @@ NUM	CD
 口岸	NN
 便	AD
 达	VV
-NUM	CD
+二百二十二	CD
 个	M
 。	PU
 
 同时	AD
 ，	PU
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 时期	NN
 的	DEG
@@ -10215,7 +10215,7 @@ NUM	NT
 
 广东	NR
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 电子	NN
@@ -10228,24 +10228,24 @@ NUM	NT
 位	M
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+广州	NR
+三月	NT
+四日	NT
 电	NN
 （	PU
 记者	NN
-顾万明	NN
+顾万明	NR
 ）	PU
 
 广东	NR
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 （	PU
-NUM	NT
+一九九一	NT
 至	CC
-CAL	NT
+一九九五年	NT
 ）	PU
 电子	NN
 工业	NN
@@ -10259,39 +10259,39 @@ CAL	NT
 好	VA
 。	PU
 
-CAL	NT
+一九九五年	NT
 ，	PU
 全	DT
-LOCATION	NN
+省	NN
 电子	NN
 工业	NN
 产值	NN
 达到	VV
-NUM	CD
+五百一十五亿	CD
 元	M
 ，	PU
 比	P
-CAL	NT
+一九九０年	NT
 增长	VV
-NUM	CD
+三点八	CD
 倍	M
 ，	PU
 年均	JJ
 增长	NN
 速度	NN
 为	VC
-NUM	CD
+百分之三十六点九	CD
 ，	PU
 电子	NN
 工业	NN
 产值	NN
 居	VV
 中国	NR
-NUM	OD
+第一	OD
 。	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 ，	PU
@@ -10299,7 +10299,7 @@ NUM	NT
 电子	NN
 工业	NN
 投资	VV
-NUM	CD
+七十亿	CD
 元	M
 进行	VV
 企业	NN
@@ -10310,7 +10310,7 @@ NUM	CD
 目前	NT
 已	AD
 有	VE
-NUM	CD
+二十	CD
 个	M
 重点	NN
 项目	NN
@@ -10318,7 +10318,7 @@ NUM	CD
 投产	VV
 ，	PU
 使	VV
-NUM	OD
+四	OD
 大	JJ
 类	M
 产品	NN
@@ -10345,22 +10345,22 @@ NUM	OD
 产品	NN
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
 电话机	NN
 生产	VV
-NUM	CD
+一千六百一十一万	CD
 部	M
 ，	PU
 程控	JJ
 交换机	NN
 生产	VV
-NUM	CD
-线	M
+三百三十四万	CD
+线	NN
 ，	PU
-微机	NN
+微机	AD
 生产	VV
-NUM	CD
+十二万	CD
 台	NR
 ，	PU
 产量	NN
@@ -10380,16 +10380,16 @@ NUM	CD
 速度	NN
 加快	VV
 ，	PU
-CAL	NT
+一九九五年	NT
 完成	VV
 产值	NN
-NUM	CD
+一百三十八点七亿	CD
 元	M
 ，	PU
 比	P
-CAL	NT
+一九九０年	NT
 增长	VV
-NUM	CD
+十	CD
 倍	M
 ，	PU
 发展	NN
@@ -10402,7 +10402,7 @@ NUM	CD
 。	PU
 
 “	PU
-NUM	NT
+八五	NT
 ”	PU
 期间	NN
 ，	PU
@@ -10410,7 +10410,7 @@ NUM	NT
 电子	NN
 工业	NN
 优化	VV
-LOCATION	NN
+地区	NN
 布局	NN
 ，	PU
 形成	VV
@@ -10432,41 +10432,41 @@ LOCATION	NN
 工业	NN
 产值	NN
 前	DT
-NUM	CD
+七	CD
 名	M
 的	DEC
-LOCATION	NR
+市	NR
 均	AD
 在	VV
 三角洲	NN
 内	LC
 ，	PU
-CAL	NT
+一九九五年	NT
 这	DT
-NUM	CD
+七	CD
 个	M
-LOCATION	NN
+市	NN
 的	DEG
 电子	NN
 工业	NN
 产值	NN
-NUM	CD
+四百八十亿	CD
 元	M
 ，	PU
 占	VV
 全	DT
-LOCATION	NN
+省	NN
 电子	NN
 工业	NN
 总	JJ
 产值	NN
 的	DEG
-NUM	CD
+百分之九十	CD
 。	PU
 
 深圳	NR
 、	PU
-LOCATION	NR
+惠州	NR
 成为	VV
 电子	NN
 工业	NN
@@ -10474,8 +10474,8 @@ LOCATION	NR
 出口	NN
 基地	NN
 ，	PU
-NUM	CD
-LOCATION	NN
+两	CD
+市	NN
 生产	VV
 的	DEC
 电脑	NN
@@ -10509,24 +10509,24 @@ LOCATION	NN
 迅猛	AD
 增多	VV
 ，	PU
-CAL	NT
+一九九五年	NT
 出口	VV
 电话机	NN
-NUM	CD
+七百三十二点五万	CD
 台	NR
 ，	PU
 彩电	NN
-NUM	CD
+三百一十九万	CD
 台	NR
 ，	PU
 收录放机	NN
-NUM	CD
+一千零六十五万	CD
 台	NR
 ，	PU
 组合	JJ
 音响	NN
 近	AD
-NUM	CD
+三百万	CD
 台	NR
 ，	PU
 出口量	NN
@@ -10535,18 +10535,18 @@ NUM	CD
 总	JJ
 产量	NN
 的	DEG
-NUM	CD
+百分之五十	CD
 至	CC
-NUM	CD
+百分之九十	CD
 ，	PU
 出口	NN
 交货值	NN
 连续	AD
 多	CD
-CAL	M
+年	M
 居	VV
 中国	NR
-NUM	OD
+第一	OD
 。	PU
 
 （	PU
@@ -10569,9 +10569,9 @@ NUM	OD
 看好	VV
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+福州	NR
+三月	NT
+四日	NT
 电	NN
 （	PU
 记者	NN
@@ -10582,8 +10582,8 @@ CAL	NT
 东南	NN
 沿海	NN
 的	DEC
-LOCATION	NR
-CAL	NT
+福建省	NR
+近年	NT
 来	LC
 从	P
 蓬勃	AD
@@ -10606,7 +10606,7 @@ CAL	NT
 预示	VV
 着	AS
 该	DT
-LOCATION	NN
+省	NN
 产业	NN
 结构	NN
 开始	VV
@@ -10628,7 +10628,7 @@ LOCATION	NN
 “	PU
 科教	NN
 兴	VV
-LOCATION	NN
+省	NN
 ”	PU
 战略	NN
 和	CC
@@ -10642,7 +10642,7 @@ LOCATION	NN
 规划	NN
 ，	PU
 到	P
-CAL	NT
+二０００年	NT
 该	DT
 区域	NN
 高	JJ
@@ -10677,7 +10677,7 @@ CAL	NT
 将	AD
 实现	VV
 产值	NN
-NUM	CD
+六百亿	CD
 元	M
 人民币	NN
 ，	PU
@@ -10687,35 +10687,35 @@ NUM	CD
 总	JJ
 产值	NN
 的	DEG
-NUM	CD
+百分之十六	CD
 ，	PU
 出口额	NN
 占	VV
 全	DT
-LOCATION	NN
+省	NN
 出口	NN
 总额	NN
 的	DEG
-NUM	CD
+百分之十	CD
 以上	LC
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
-LOCATION	NR
+福建省	NR
 高	JJ
 新	JJ
 技术	NN
 产业	NN
 产值	NN
 达到	VV
-NUM	CD
+三百亿	CD
 元	M
 ，	PU
 实现	VV
 销售	NN
 收入	NN
-NUM	CD
+四百九十六亿	CD
 元	M
 。	PU
 
@@ -10747,27 +10747,27 @@ NUM	CD
 可能	NN
 使	VV
 这	DT
-NUM	CD
-LOCATION	NN
+一	CD
+地区	NN
 成为	VV
 海峡	NN
-NUM	CD
+两	CD
 岸	NN
 科技	NN
 、	PU
 经贸	NN
 合作	NN
-的	DEC
+的	DEG
 最佳	JJ
 地带	NN
 。	PU
 
 在	P
 国家级	JJ
-LOCATION	NN
+福州	NN
 高	JJ
 科技	NN
-LOCATION	NN
+园区	NN
 宽阔	VV
 的	DEC
 大	JJ
@@ -10775,17 +10775,17 @@ LOCATION	NN
 旁	LC
 ，	PU
 来自	VV
-LOCATION	NN
+台湾省	NN
 的	DEC
 中华	NR
 映像	NN
 公司	NN
 兴建	VV
 了	AS
-NUM	CD
+一	CD
 座	M
 占地	VV
-NUM	CD
+数十	CD
 亩	M
 的	DEG
 厂房	NN
@@ -10806,7 +10806,7 @@ NUM	CD
 这	DT
 个	M
 斥资	VV
-NUM	CD
+三十亿	CD
 元	M
 人民币	NN
 的	DEC
@@ -10820,11 +10820,11 @@ NUM	CD
 全部	AD
 建成	VV
 后	LC
-CAL	JJ
+年	JJ
 产值	NN
 可	VV
 达	VV
-NUM	CD
+七十亿	CD
 元	M
 人民币	NN
 。	PU
@@ -10835,58 +10835,58 @@ NUM	CD
 介绍	VV
 ，	PU
 除	P
-LOCATION	NR
+福州	NR
 科技	NN
-LOCATION	NN
+园区	NN
 外	LC
 ，	PU
-LOCATION	NR
+福建省	NR
 目前	NT
 在	P
 南部	NN
 的	DEG
 厦门	NR
 经济	NN
-LOCATION	NN
+特区	NN
 也	AD
 拥有	VV
-NUM	CD
+一	CD
 个	M
 国家级	JJ
 高	JJ
 科技	NN
-LOCATION	NN
+园区	NN
 。	PU
 
 此外	AD
 ，	PU
 全	DT
-LOCATION	NN
+省	NN
 还	AD
 在	P
-LOCATION	NR
+泉州	NR
 、	PU
 莆田	NN
 、	PU
-LOCATION	NN
+漳州	NN
 等	ETC
 地	NN
 设立	VV
 了	AS
-NUM	CD
+五	CD
 个	M
 省级	NN
 高	JJ
 科技	NN
 产业	NN
-LOCATION	NN
+开发区	NN
 。	PU
 
-CAL	NT
+去年	NT
 ，	PU
 这些	DT
 科技	NN
-LOCATION	NN
+园区	NN
 内	LC
 被	SB
 正式	AD
@@ -10898,12 +10898,12 @@ LOCATION	NN
 技术	NN
 企业	NN
 达	VV
-NUM	CD
+一百五十	CD
 家	M
 。	PU
 
 上述	JJ
-LOCATION	NN
+开发区	NN
 基本	AD
 位	VV
 于	P
@@ -10913,10 +10913,10 @@ LOCATION	NN
 活跃	VA
 的	DEC
 东南部	NN
-LOCATION	NN
+地区	NN
 。	PU
 
-LOCATION	NN
+区	NN
 内	LC
 企业	NN
 把	BA
@@ -10946,7 +10946,7 @@ LOCATION	NN
 在	P
 过去	NT
 几	CD
-CAL	M
+年	M
 间	LC
 ，	PU
 被	LB
@@ -11016,7 +11016,7 @@ CAL	M
 新	JJ
 技术	NN
 企业	NN
-如	AD
+如	P
 福建	NR
 日立	NR
 有限	JJ
@@ -11043,7 +11043,7 @@ CAL	M
 跻身	VV
 于	P
 中国	NR
-NUM	OD
+百	CD
 家	M
 高	JJ
 科技	NN
@@ -11051,29 +11051,29 @@ NUM	OD
 行列	NN
 。	PU
 
-LOCATION	NR
+福建省	NR
 是	VC
 中国	NR
 政府	NN
 决定	VV
 在	P
-CAL	NT
+九十年代	NT
 加速	AD
 发展	VV
 并	CC
 争取	VV
 用	P
-NUM	CD
-CAL	M
+二十	CD
+年	M
 时间	NN
 基本	AD
 实现	VV
 现代化	NN
 的	DEC
-NUM	CD
+四	CD
 个	M
-LOCATION	NN
-NUM	NN
+地区	NN
+之一	NN
 ，	PU
 同时	AD
 也	AD
@@ -11091,16 +11091,16 @@ NUM	NN
 后劲	NN
 的	DEC
 重点	NN
-LOCATION	NN
+地区	NN
 。	PU
 
 在	P
 过去	NT
-NUM	CD
-CAL	M
+十七	CD
+年	M
 中	LC
 ，	PU
-LOCATION	NR
+福建省	NR
 通过	P
 发展	VV
 外向型	JJ
@@ -11117,11 +11117,11 @@ LOCATION	NR
 之间	LC
 的	DEG
 另	DT
-NUM	CD
+一	CD
 个	M
 经济	NN
 繁荣	VA
-LOCATION	NN
+地区	NN
 。	PU
 
 此间	NN
@@ -11133,13 +11133,13 @@ LOCATION	NN
 个	M
 著名	VA
 的	DEC
-LOCATION	NN
+侨乡	NN
 由于	P
 与	P
 港	NR
 澳	NR
 台	NR
-LOCATION	NN
+地区	NN
 长期	AD
 保持	VV
 着	AS
@@ -11192,8 +11192,8 @@ LOCATION	NN
 
 新华社	NR
 天津	NR
-CAL	NT
-CAL	NT
+四月	NT
+六日	NT
 电	NN
 （	PU
 记者	NN
@@ -11204,7 +11204,7 @@ CAL	NT
 北方	NN
 重要	JJ
 经济	NN
-LOCATION	NN
+城市	NN
 天津	NR
 与	CC
 俄罗斯	NR
@@ -11229,27 +11229,27 @@ LOCATION	NN
 了解	VV
 到	VV
 ，	PU
-CAL	NT
+去年	NT
 天津	NR
 对	P
 俄罗斯	NR
 出口	NN
 贸易额	NN
 为	VC
-NUM	CD
+两千五百万	CD
 美元	M
 ，	PU
 进口	NN
-NUM	CD
+两千多万	CD
 美元	M
 ，	PU
 其中	NN
 出口额	NN
 比	P
-CAL	NT
+九四年	NT
 增长	VV
 超过	VV
-NUM	CD
+百分之八十	CD
 。	PU
 
 此外	AD
@@ -11282,7 +11282,7 @@ NUM	CD
 外方	NN
 投资额	NN
 约	AD
-NUM	CD
+一千万	CD
 美元	M
 。	PU
 
@@ -11323,8 +11323,8 @@ NUM	CD
 。	PU
 
 近	AD
-NUM	CD
-CAL	M
+两	CD
+年	M
 随着	P
 俄罗斯	NR
 联邦	NN
@@ -11379,12 +11379,12 @@ CAL	M
 空港	NN
 ，	PU
 仅	AD
-CAL	NT
-货包机	AD
+去年	NT
+货包机	NN
 起降	NN
 就	AD
 达	VV
-NUM	CD
+四千二百四十一	CD
 架次	M
 ，	PU
 载货	JJ
@@ -11419,7 +11419,7 @@ NUM	CD
 重要	VA
 的	DEC
 工业	NN
-LOCATION	NN
+城市	NN
 和	CC
 有	VE
 广阔	JJ
@@ -11429,7 +11429,7 @@ LOCATION	NN
 外	NN
 贸易港	NN
 ，	PU
-CAL	NT
+去年	NT
 向	P
 俄罗斯	NR
 出口	VV
@@ -11445,7 +11445,7 @@ CAL	NT
 俄	NR
 出口额	NN
 的	DEG
-NUM	CD
+百分之五十	CD
 ；	PU
 而	CC
 从	P
@@ -11463,7 +11463,7 @@ NUM	CD
 进口	NN
 总额	NN
 的	DEG
-NUM	CD
+百分之六十	CD
 。	PU
 
 随着	P
@@ -11484,7 +11484,7 @@ NUM	CD
 逐步	JJ
 稳定	NN
 ，	PU
-LOCATION	NR
+天津市	NR
 众多	VA
 的	DEC
 “	PU
@@ -11496,7 +11496,7 @@ LOCATION	NR
 积极	AD
 寻求	VV
 进入	VV
-俄方	NN
+俄方	JJ
 市场	NN
 。	PU
 
@@ -11507,7 +11507,7 @@ LOCATION	NR
 公司	NN
 亦	AD
 从	P
-CAL	NT
+去年	NT
 底	LC
 开始	VV
 ，	PU
@@ -11534,7 +11534,7 @@ CAL	NT
 随着	P
 中	NR
 俄	NR
-NUM	CD
+两	CD
 国	NN
 政府	NN
 经贸	NN
@@ -11568,15 +11568,15 @@ NUM	CD
 说	VV
 澳	NR
 坚持	VV
-NUM	CD
+一	CD
 个	M
 中国	NR
 政策	NN
 
 新华社	NR
 堪培拉	NR
-CAL	NT
-CAL	NT
+４月	NT
+１２日	NT
 电	NN
 
 澳大利亚	NR
@@ -11591,7 +11591,7 @@ CAL	NT
 政府	NN
 将	AD
 坚持	VV
-NUM	CD
+一	CD
 个	M
 中国	NR
 的	DEG
@@ -11605,7 +11605,7 @@ NUM	CD
 外交	NN
 政策	NN
 的	DEG
-NUM	CD
+一	CD
 个	M
 中心点	NN
 。	PU
@@ -11646,12 +11646,12 @@ NUM	CD
 和	CC
 世界	NN
 其它	DT
-LOCATION	NN
+地区	NN
 政策	NN
 的	DEG
 主要	JJ
 特点	NN
-NUM	NN
+之一	NN
 。	PU
 
 他	PN
@@ -11741,16 +11741,16 @@ NUM	NN
 ）	PU
 
 水东	NN
-LOCATION	NN
+开发区	NN
 成为	VV
 投资	NN
 新	JJ
 热点	NN
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+广州	NR
+四月	NT
+十六日	NT
 电	NN
 （	PU
 记者	NN
@@ -11759,7 +11759,7 @@ CAL	NT
 
 以	P
 茂名	NN
-NUM	CD
+三十万	CD
 吨	M
 乙烯	NN
 工程	NN
@@ -11767,7 +11767,7 @@ NUM	CD
 依托	NN
 的	DEC
 水东	NN
-LOCATION	NN
+开发区	NN
 ，	PU
 不断	AD
 加大	VV
@@ -11779,7 +11779,7 @@ LOCATION	NN
 正在	AD
 成为	VV
 华南	NR
-LOCATION	NN
+地区	NN
 投资	NN
 的	DEG
 新	JJ
@@ -11787,7 +11787,7 @@ LOCATION	NN
 。	PU
 
 水东	NN
-LOCATION	NN
+开发区	NN
 管委会	NN
 副主任	NN
 梁小略	NN
@@ -11795,9 +11795,9 @@ LOCATION	NN
 说	VV
 ，	PU
 自	P
-CAL	NT
-CAL	NT
-LOCATION	NR
+一九九二年	NT
+三月	NT
+开发区	NR
 成立	VV
 以来	LC
 ，	PU
@@ -11816,7 +11816,7 @@ LOCATION	NR
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 的	DEG
 外商	NN
 ，	PU
@@ -11826,7 +11826,7 @@ LOCATION	NN
 投资	NN
 总额	NN
 达	VV
-NUM	CD
+四十五亿	CD
 元	M
 人民币	NN
 的	DEC
@@ -11834,7 +11834,7 @@ NUM	CD
 ，	PU
 在	P
 水东	NN
-LOCATION	NN
+开发区	NN
 内	LC
 进行	VV
 乙烯	NN
@@ -11849,13 +11849,13 @@ LOCATION	NN
 国内	NN
 二十多	CD
 个	M
-LOCATION	NN
-LOCATION	NN
+省	NN
+市	NN
 在内	LC
 ，	PU
 目前	NT
 水东	NN
-LOCATION	NN
+开发区	NN
 内	LC
 签订	VV
 了	AS
@@ -11873,7 +11873,7 @@ LOCATION	NN
 投资	NN
 将	AD
 突破	VV
-NUM	CD
+一百五十亿	CD
 元	M
 ，	PU
 实际	AD
@@ -11881,7 +11881,7 @@ NUM	CD
 资金	NN
 已	AD
 有	VE
-NUM	CD
+三十多亿	CD
 元	M
 ，	PU
 已	AD
@@ -11895,13 +11895,13 @@ NUM	CD
 。	PU
 
 水东	NN
-LOCATION	NN
+开发区	NN
 位	VV
 于	P
 粤西	NR
-LOCATION	NR
+地区	NN
 的	DEG
-LOCATION	NN
+茂名市	NN
 境内	NN
 ，	PU
 面积	NN
@@ -11917,7 +11917,7 @@ LOCATION	NN
 而	MSP
 建立	VV
 的	DEC
-NUM	CD
+一	CD
 个	M
 后继	JJ
 加工	NN
@@ -11925,9 +11925,9 @@ NUM	CD
 。	PU
 
 拥有	VV
-NUM	CD
+一	CD
 个	M
-CAL	NN
+终年	NN
 不	AD
 冻	VA
 的	DEC
@@ -11937,10 +11937,10 @@ CAL	NN
 ，	PU
 是	VC
 水东	NN
-LOCATION	NN
+开发区	NN
 发展	VV
 乙烯	NN
-后继	JJ
+后继	NN
 加工	NN
 项目	NN
 的	DEG
@@ -11949,16 +11949,16 @@ LOCATION	NN
 。	PU
 
 几	CD
-CAL	M
+年	M
 来	LC
 ，	PU
-LOCATION	NR
+开发区	NR
 在	P
 原有	VV
 的	DEC
-NUM	CD
+两	CD
 个	M
-NUM	CD
+三千	CD
 吨	M
 级	NN
 泊位	NN
@@ -11969,22 +11969,22 @@ NUM	CD
 了	AS
 数	CD
 个	M
-NUM	CD
+一万	CD
 吨	M
 级	NN
 、	PU
-NUM	CD
+二万	CD
 吨	M
 级	NN
 、	PU
-NUM	CD
+三万	CD
 吨	M
 级	NN
 和	CC
-NUM	CD
+五万	CD
 吨	M
 级	NN
-的	DEC
+的	DEG
 泊位	NN
 。	PU
 
@@ -11993,7 +11993,7 @@ NUM	CD
 最	AD
 大	VA
 的	DEC
-NUM	CD
+二十五万	CD
 吨	M
 单点	NN
 系泊	VV
@@ -12012,7 +12012,7 @@ NUM	CD
 年吞吐量	NN
 已	AD
 近	AD
-NUM	CD
+一千五百万	CD
 吨	M
 ，	PU
 被	LB
@@ -12024,7 +12024,7 @@ NUM	CD
 外	NN
 开放	VV
 的	DEC
-NUM	OD
+一	OD
 类	M
 口岸	NN
 。	PU
@@ -12032,11 +12032,11 @@ NUM	OD
 此外	AD
 ，	PU
 水东	NN
-LOCATION	NN
+开发区	NN
 还	AD
 投入	VV
 了	AS
-NUM	CD
+数亿	CD
 元	M
 进行	VV
 道路	NN
@@ -12054,7 +12054,7 @@ NUM	CD
 
 目前	NT
 ，	PU
-LOCATION	NN
+开发区	NN
 内	LC
 的	DEG
 市政	NN
@@ -12086,14 +12086,14 @@ LOCATION	NN
 据悉	AD
 ，	PU
 茂名	NN
-NUM	CD
+三十万	CD
 吨	M
 乙烯	NN
 工程	NN
 将	AD
 于	P
-CAL	NT
-CAL	NT
+今年	NT
+下半年	NT
 正式	AD
 点火	VV
 投产	VV
@@ -12124,9 +12124,9 @@ CAL	NT
 集团	NN
 分别	AD
 投资	VV
-NUM	CD
+三十亿	CD
 和	CC
-NUM	CD
+十五亿	CD
 元	M
 人民币	NN
 的	DEC
@@ -12140,11 +12140,11 @@ NUM	CD
 有限	JJ
 公司	NN
 投资	VV
-NUM	CD
+二点五亿	CD
 元	M
 人民币	NN
 兴建	VV
-NUM	CD
+二万	CD
 吨	M
 级	NN
 聚脂	NN
@@ -12158,17 +12158,17 @@ NUM	CD
 并	CC
 进入	VV
 了	AS
-全面	JJ
+全面	AD
 筹建	VV
 阶段	NN
 。	PU
 
 到	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
-水东	AD
-LOCATION	VV
+水东	JJ
+开发区	NN
 已经	AD
 办起	VV
 了	AS
@@ -12183,7 +12183,7 @@ LOCATION	VV
 总	JJ
 产值	NN
 达	VV
-NUM	CD
+八点八四亿	CD
 元	M
 。	PU
 
@@ -12193,7 +12193,7 @@ NUM	CD
 后	LC
 ，	PU
 水东	CS
-LOCATION	NR
+开发区	NR
 可望	AD
 进入	VV
 全面	AD
@@ -12225,9 +12225,9 @@ LOCATION	NR
 基地	NN
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+郑州	NR
+四月	NT
+十八日	NT
 电	NN
 （	PU
 记者	NN
@@ -12253,7 +12253,7 @@ CAL	NT
 玻壳	NN
 有限	JJ
 公司	NN
-NUM	CD
+二	CD
 期	M
 工程	NN
 ，	PU
@@ -12279,7 +12279,7 @@ NUM	CD
 介绍	NN
 ，	PU
 安玻	DT
-NUM	CD
+二	CD
 期	M
 工程	NN
 的	DEG
@@ -12292,18 +12292,18 @@ NUM	CD
 的	DEG
 彩色	JJ
 玻壳	NN
-CAL	JJ
+年	JJ
 生产	NN
 能力	NN
 由	P
-NUM	OD
+一	OD
 期	M
 的	DEG
-NUM	CD
+六百万	CD
 套	M
 扩大	VV
 到	VV
-NUM	CD
+一千一百万	CD
 套	M
 ，	PU
 成为	VV
@@ -12335,7 +12335,7 @@ NUM	CD
 显像管	NN
 玻壳	NN
 ，	PU
-又	AD
+又	CC
 可	VV
 生产	VV
 与	P
@@ -12349,11 +12349,11 @@ NUM	CD
 ，	PU
 规格	NN
 从	P
-NUM	CD
+三十五	CD
 厘米	M
 一直	AD
 到	P
-NUM	CD
+八十四	CD
 厘米	M
 ，	PU
 并	CC
@@ -12375,18 +12375,18 @@ NUM	CD
 基础	NN
 。	PU
 
-安玻	NN
+安玻	JJ
 公司	NN
 是	VC
 中国	NR
 “	PU
-NUM	NT
+七五	NT
 ”	PU
 期间	NN
 （	PU
-NUM	NT
+一九八六	NT
 至	CC
-CAL	NT
+一九九０年	NT
 ）	PU
 成套	JJ
 引进	VV
@@ -12411,7 +12411,7 @@ CAL	NT
 。	PU
 
 自	P
-CAL	NT
+一九九一年	NT
 投产	VV
 以来	LC
 ，	PU
@@ -12423,7 +12423,7 @@ CAL	NT
 开发	NN
 项目	NN
 近	AD
-NUM	CD
+千	CD
 项	M
 ，	PU
 独立	AD
@@ -12444,17 +12444,17 @@ NUM	CD
 新	JJ
 品种	NN
 ，	PU
-CAL	JJ
+年	JJ
 产量	NN
 超过	VV
 设计	NN
 能力	NN
-NUM	NN
+百分之七十八	NN
 ，	PU
-CAL	NT
+去年	NT
 已	AD
 达	VV
-NUM	CD
+七百一十二万	CD
 套	M
 ；	PU
 产品	NN
@@ -12467,9 +12467,9 @@ NUM	CD
 覆盖率	NN
 分别	AD
 达到	VV
-NUM	CD
+百分之七十	CD
 和	CC
-NUM	CD
+百分之九十	CD
 ，	PU
 并	CC
 返销	VV
@@ -12490,18 +12490,18 @@ NUM	CD
 综合	JJ
 经济	NN
 效益	NN
-NUM	CD
+十点六亿	CD
 元	M
 、	PU
 出口	VV
 创汇	VV
-NUM	CD
+四千八百五十六万	CD
 美元	M
 ，	PU
 相当于	VV
 收回	VV
 了	AS
-NUM	CD
+一	CD
 期	M
 工程	NN
 的	DEG
@@ -12522,7 +12522,7 @@ NUM	CD
 ，	PU
 安玻人	NN
 在	P
-NUM	CD
+二	CD
 期	M
 工程	NN
 建设	NN
@@ -12558,7 +12558,7 @@ NUM	CD
 优化	VV
 国际	NN
 国内	NN
-NUM	CD
+两	CD
 种	M
 资源	NN
 ”	PU
@@ -12575,7 +12575,7 @@ NUM	CD
 国家	NN
 有关	JJ
 部门	NN
-的	DEG
+的	DEC
 大力	AD
 支持	NN
 ，	PU
@@ -12593,12 +12593,12 @@ NUM	CD
 奇迹	NN
 。	PU
 
-NUM	CD
+一	CD
 是	VC
 从	P
-CAL	NT
-CAL	NT
-CAL	NT
+一九九四年	NT
+十一月	NT
+十八日	NT
 破土动工	VV
 到	P
 锥炉	NN
@@ -12608,20 +12608,20 @@ CAL	NT
 仅	AD
 用	VV
 了	AS
-NUM	CD
+十三	CD
 个	M
-CAL	NN
+月	NN
 ，	PU
 工期	NN
 比	P
 安玻	NN
-NUM	OD
+一	OD
 期	M
 缩短	VV
 了	AS
-NUM	CD
+十八	CD
 个	M
-CAL	NN
+月	NN
 ，	PU
 比	P
 世界	NN
@@ -12634,11 +12634,11 @@ CAL	NN
 项目	NN
 还	AD
 提前	VV
-NUM	CD
+五	CD
 个	M
-CAL	NN
+月	NN
 ；	PU
-NUM	CD
+二	CD
 是	VC
 实现	VV
 了	AS
@@ -12674,7 +12674,7 @@ NUM	CD
 先进	JJ
 水平	NN
 ；	PU
-NUM	CD
+三	CD
 是	VC
 与	P
 成套	JJ
@@ -12687,14 +12687,14 @@ NUM	CD
 ，	PU
 投资	NN
 大大	AD
-LOCATION	NN
+节省	NN
 。	PU
 
 据	P
 测算	NN
 ，	PU
-安玻	JJ
-NUM	CD
+安玻	NN
+二	CD
 期	M
 工程	NN
 实际	JJ
@@ -12719,7 +12719,7 @@ NUM	CD
 总	JJ
 投资	NN
 的	DEG
-NUM	CD
+二分之一	CD
 。	PU
 
 （	PU
@@ -12741,21 +12741,21 @@ NUM	CD
 
 新华社	NR
 华盛顿	NR
-CAL	NT
-CAL	NT
+４月	NT
+２０日	NT
 电	NN
 （	PU
 记者	NN
-应谦	NN
+应谦	NR
 ）	PU
 
 美国	NR
 商会	NN
 中国	NR
 分会	NN
-CAL	NT
+近日	NT
 派出	VV
-NUM	CD
+一	CD
 个	M
 ２５	CD
 人	NN
@@ -12771,7 +12771,7 @@ NUM	CD
 白宫	NR
 展开	VV
 为期	VV
-NUM	CD
+一	CD
 周	M
 的	DEC
 游说	NN
@@ -12876,9 +12876,9 @@ NUM	CD
 政府	NN
 和	CC
 国会	NN
-NUM	CD
-CAL	M
-NUM	CD
+一	CD
+年	M
+一	CD
 度	M
 对	P
 中国	NR
@@ -12898,8 +12898,8 @@ NUM	CD
 企业	NN
 普遍	AD
 担心	VV
-CAL	NT
-CAL	NT
+今年	NT
+大选年	NT
 的	DEG
 美国	NR
 党派	NN
@@ -12931,7 +12931,7 @@ CAL	NT
 代表	VV
 美国	NR
 商会	NN
-LOCATION	NN
+广州	NN
 分会	NN
 和	CC
 仙妮雷德	NN
@@ -12960,7 +12960,7 @@ LOCATION	NN
 公司	NN
 下属	VV
 的	DEC
-NUM	CD
+数万	CD
 名	M
 经销商	NN
 给	P
@@ -13030,8 +13030,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+四月	NT
+五日	NT
 电	NN
 （	PU
 记者	NN
@@ -13039,8 +13039,8 @@ CAL	NT
 ）	PU
 
 “	PU
-NUM	CD
-CAL	M
+五	CD
+年	M
 前	LC
 ，	PU
 中国	NR
@@ -13087,7 +13087,7 @@ CAL	M
 市场	NN
 份额	NN
 的	DEG
-NUM	OD
+百分之三十六	OD
 ”	PU
 。	PU
 
@@ -13103,12 +13103,12 @@ NUM	OD
 大型	JJ
 计算机	NN
 ，	PU
-克雷	NN
+克雷	AD
 公司	NN
 只	AD
 卖给	VV
 我们	PN
-NUM	CD
+两	CD
 台	NR
 处理器	NN
 。	PU
@@ -13131,7 +13131,7 @@ NUM	CD
 速度	NN
 已	AD
 达	VV
-NUM	CD
+二十五亿	CD
 次	M
 ，	PU
 超过	VV
@@ -13157,7 +13157,7 @@ NUM	CD
 今天	NT
 在	P
 “	PU
-NUM	CD
+八六三	CD
 计划	NN
 ”	PU
 工作	NN
@@ -13165,13 +13165,13 @@ NUM	CD
 上	LC
 讲	VV
 的	DEC
-NUM	CD
+一	CD
 段	M
 话	NN
 。	PU
 
 “	PU
-NUM	CD
+八六三	CD
 计划	NN
 ”	PU
 是	VC
@@ -13183,7 +13183,7 @@ NUM	CD
 ，	PU
 启动	VV
 于	P
-CAL	NT
+一九八六年	NT
 。	PU
 
 西方	NN
@@ -13225,7 +13225,7 @@ CAL	NT
 已	AD
 能	VV
 生产	VV
-NUM	CD
+上万	CD
 门	M
 数字	NN
 电话	NN
@@ -13240,7 +13240,7 @@ NUM	CD
 总设计师	NN
 只	AD
 有	VE
-NUM	CD
+二十八	CD
 岁	M
 ，	PU
 武汉	NR
@@ -13250,7 +13250,7 @@ NUM	CD
 。	PU
 ”	PU
 
-CAL	NT
+去年	NT
 研制	VV
 成功	VA
 的	DEC
@@ -13263,7 +13263,7 @@ CAL	NT
 人员	NN
 大都	AD
 是	VC
-NUM	CD
+三十	CD
 岁	M
 左右	LC
 的	DEG
@@ -13276,7 +13276,7 @@ NUM	CD
 出席	VV
 会议	NN
 的	DEC
-NUM	CD
+数百	CD
 名	M
 高	JJ
 技术	NN
@@ -13299,7 +13299,7 @@ NUM	CD
 所	MSP
 取得	VV
 的	DEC
-NUM	CD
+一	CD
 系列	M
 成就	NN
 ，	PU
@@ -13311,7 +13311,7 @@ NUM	CD
 技术	NN
 高不可攀	VV
 的	DEC
-怯懦	JJ
+怯懦	NN
 思想	NN
 ，	PU
 极	AD
@@ -13325,7 +13325,7 @@ NUM	CD
 实现	VV
 社会主义	NN
 现代化	NN
-的	DEG
+的	DEC
 勇气	NN
 和	CC
 信心	NN
@@ -13334,25 +13334,25 @@ NUM	CD
 
 总	JJ
 投资	NN
-NUM	CD
+一百亿	CD
 元	M
 人民币	NN
 ，	PU
 为期	VV
-NUM	CD
-CAL	M
+十五	CD
+年	M
 的	DEC
 “	PU
-NUM	CD
+八六三	CD
 计划	NN
 ”	PU
 自	P
-CAL	NT
+一九八六年	NT
 实施	VV
 以来	LC
 ，	PU
 在	P
-NUM	CD
+一	CD
 大	JJ
 批	M
 重大	JJ
@@ -13422,7 +13422,7 @@ NUM	CD
 水平	NN
 的	DEC
 有	VE
-NUM	CD
+五百六十	CD
 项	M
 。	PU
 
@@ -13519,11 +13519,11 @@ NUM	CD
 的	DEC
 ａ干扰素	NN
 已经	AD
-LOCATION	NN
+上市	VV
 ，	PU
 为	P
 中国	NR
-NUM	OD
+一点二亿	OD
 乙肝	M
 病毒	NN
 携带者	NN
@@ -13546,8 +13546,8 @@ NUM	OD
 确定	VV
 了	AS
 未来	NT
-NUM	CD
-CAL	M
+五	CD
+年	M
 高	JJ
 技术	NN
 研究	NN
@@ -13646,8 +13646,8 @@ CAL	M
 
 新华社	NR
 福冈	NT
-CAL	NT
-CAL	NT
+５月	NT
+１１日	NT
 电	NN
 （	PU
 记者	NN
@@ -13664,7 +13664,7 @@ CAL	NT
 亚洲	NR
 开发	NN
 银行	NN
-第３０	NN
+第３０	OD
 届	M
 年会	NN
 的	DEG
@@ -13672,7 +13672,7 @@ CAL	NT
 亚洲	NR
 未来	NT
 ３０	CD
-CAL	M
+年	M
 ”	PU
 研讨会	NN
 上	LC
@@ -13707,7 +13707,7 @@ CAL	M
 亚洲	NR
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 的	DEG
 经济	NN
 发展	NN
@@ -13759,7 +13759,7 @@ LOCATION	NN
 将	AD
 为	P
 亚洲	NR
-LOCATION	NN
+地区	NN
 创造	VV
 更	AD
 多	VA
@@ -13769,8 +13769,8 @@ LOCATION	NN
 ，	PU
 在	P
 今后	NT
-NUM	CD
-CAL	M
+四	CD
+年	M
 中	LC
 ，	PU
 中国	NR
@@ -13778,8 +13778,8 @@ CAL	M
 为	P
 世界	NN
 提供	VV
-将近	JJ
-NUM	CD
+将近	NN
+７０００亿	CD
 美元	M
 的	DEC
 市场	NN
@@ -13905,7 +13905,7 @@ NUM	CD
 要	VV
 保持	VV
 亚洲	NR
-LOCATION	NN
+地区	NN
 经济	NN
 增长	NN
 ，	PU
@@ -13925,7 +13925,7 @@ LOCATION	NN
 也	AD
 需要	VV
 进一步	AD
-加强	NN
+加强	AD
 区域	NN
 经济	NN
 合作	NN
@@ -13934,7 +13934,7 @@ LOCATION	NN
 亚洲	NR
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 今后	NT
 除了	P
 在	P
@@ -13978,7 +13978,7 @@ LOCATION	NN
 日本	NR
 前	LC
 首相	NN
-NUM	CD
+宫泽喜一	CD
 、	PU
 印度	NR
 财政	NN
@@ -13988,7 +13988,7 @@ NUM	CD
 芬兰	NR
 环境	NN
 部长	NN
-佩卡・哈维斯托	AD
+佩卡・哈维斯托	NN
 也	AD
 在	P
 研讨会	NN
@@ -14011,12 +14011,12 @@ NUM	CD
 考察	VV
 中国	NR
 中西部	NN
-LOCATION	NN
+地区	NN
 
 新华社	NR
 重庆	NR
-CAL	NT
-CAL	NT
+五月	NT
+十二日	NT
 电	NN
 （	PU
 记者	NN
@@ -14024,17 +14024,17 @@ CAL	NT
 ）	PU
 
 拥有	VV
-NUM	CD
+万亿	CD
 美元	M
 可投	NN
 资金	NN
 、	PU
 每	DT
-CAL	M
+年	M
 都	AD
 要	VV
 选择	VV
-NUM	CD
+一	CD
 个	M
 新兴	JJ
 市场	NN
@@ -14059,7 +14059,7 @@ NUM	CD
 。	PU
 
 从	P
-CAL	NT
+十日	NT
 起	LC
 ，	PU
 这	DT
@@ -14070,12 +14070,12 @@ CAL	NT
 对	P
 刚刚	AD
 升为	VV
-LOCATION	NR
+直辖市	NN
 的	DEC
-LOCATION	NN
+重庆市	NN
 进行	VV
 了	AS
-NUM	CD
+三	CD
 天	M
 的	DEC
 参观	NN
@@ -14088,7 +14088,7 @@ NUM	CD
 中国	NR
 的	DEG
 西南	NN
-LOCATION	NN
+地区	NN
 ，	PU
 是	VC
 中国	NR
@@ -14097,7 +14097,7 @@ LOCATION	NN
 大	VA
 的	DEC
 工业	NN
-LOCATION	NN
+城市	NN
 ，	PU
 也	AD
 是	VC
@@ -14109,26 +14109,26 @@ LOCATION	NN
 最	AD
 多	VA
 的	DEC
-LOCATION	NN
+城市	NN
 。	PU
 
-CAL	NT
-CAL	NT
-CAL	NT
+今年	NT
+三月	NT
+十四日	NT
 重庆	NR
 成为	VV
 中国	NR
-NUM	OD
+第四	OD
 个	M
 、	PU
 也	AD
 是	VC
 西部	NN
-NUM	NN
+唯一	NN
 的	DEG
-NUM	CD
+一	CD
 个	M
-LOCATION	NN
+直辖市	NN
 。	PU
 
 在	P
@@ -14141,7 +14141,7 @@ LOCATION	NN
 了	AS
 市政府	NN
 关于	P
-LOCATION	NR
+重庆市	NR
 发展	NN
 战略	NN
 、	PU
@@ -14214,21 +14214,21 @@ LOCATION	NR
 董事长	NN
 乔治・罗素	NN
 于	P
-CAL	NT
-CAL	NT
+一九九Ｏ年	NT
+六月	NT
 发起	VV
 成立	VV
 的	DEC
 组织	NN
 ，	PU
 由	P
-NUM	CD
+二十	CD
 家	M
 养老金	NN
 基金	NN
 组织	NN
 和	CC
-NUM	CD
+二十	CD
 家	M
 大型	JJ
 投资	NN
@@ -14264,10 +14264,10 @@ NUM	CD
 机构	NN
 ，	PU
 拥有	VV
-NUM	CD
+一万亿	CD
 美元	M
 的	DEC
-可投	NN
+可投	JJ
 资金	NN
 。	PU
 
@@ -14281,7 +14281,7 @@ NUM	CD
 现有	JJ
 投资	NN
 达	VV
-NUM	CD
+二十亿	CD
 美元	M
 ，	PU
 此	DT
@@ -14295,7 +14295,7 @@ NUM	CD
 考察	VV
 中国	NR
 中西部	NN
-LOCATION	NN
+地区	NN
 的	DEG
 投资	NN
 环境	NN
@@ -14326,7 +14326,7 @@ LOCATION	NN
 的	DEC
 中国	NR
 中西部	NN
-LOCATION	NN
+地区	NN
 的	DEG
 考察	NN
 ，	PU
@@ -14359,8 +14359,8 @@ LOCATION	NN
 
 新华社	NR
 青岛	NR
-CAL	NT
-CAL	NT
+五月	NT
+十九日	NT
 电	NN
 （	PU
 记者	NN
@@ -14399,8 +14399,8 @@ CAL	NT
 。	PU
 
 近	AD
-NUM	CD
-CAL	M
+两	CD
+年	M
 来	LC
 ，	PU
 青岛	NR
@@ -14408,13 +14408,13 @@ CAL	M
 个	M
 中国	NR
 沿海	NN
-NUM	CD
+十四	CD
 个	M
 开放	NN
-LOCATION	NN
-NUM	CD
-的	DEG
-LOCATION	NN
+城市	NN
+之一	NN
+的	DEC
+城市	NN
 ，	PU
 在	P
 资金	NN
@@ -14424,12 +14424,12 @@ LOCATION	NN
 重点	NN
 支持	VV
 了	AS
-NUM	CD
+五十	CD
 个	M
 名牌	NN
 产品	NN
 和	CC
-NUM	CD
+五十	CD
 个	M
 重点	NN
 企业	NN
@@ -14449,7 +14449,7 @@ NUM	CD
 家电	NN
 和	CC
 饮料	NN
-NUM	CD
+六	CD
 大	JJ
 支柱	NN
 产业	NN
@@ -14484,7 +14484,7 @@ NUM	CD
 引导	NN
 下	LC
 ，	PU
-NUM	CD
+一	CD
 批	M
 实力	NN
 强劲	VA
@@ -14497,7 +14497,7 @@ NUM	CD
 。	PU
 
 到	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
 海尔	AD
@@ -14507,13 +14507,13 @@ CAL	NT
 收入	NN
 已	AD
 突破	VV
-NUM	CD
+六十亿	CD
 元	M
 ，	PU
 发展	VV
 为	VC
 拥有	VV
-NUM	CD
+九十九	CD
 个	M
 法人	NN
 企业	NN
@@ -14535,8 +14535,8 @@ NUM	CD
 工	NN
 贸	NN
 和	CC
-NUM	CD
-产	M
+三	CD
+产	NN
 于	P
 一体	NN
 的	DEC
@@ -14552,35 +14552,35 @@ NUM	CD
 
 青啤	NN
 公司	NN
-CAL	NT
+近年	NT
 也	AD
 开始	VV
 跨	VV
-LOCATION	NN
+地区	NN
 经营	VV
 和	CC
 异地	VV
 投资	NN
 。	PU
 
-CAL	NT
+一九九四年	NT
 该	DT
 公司	NN
 收购	VV
 了	AS
-LOCATION	NR
+扬州	NR
 啤酒厂	NN
 ，	PU
 啤酒	NN
 产量	NN
 扩大	VV
-NUM	CD
+六点五万	CD
 吨	M
 ；	PU
-CAL	NT
+一九九五年	NT
 又	AD
 以	P
-NUM	CD
+八千二百五十万	CD
 元	M
 控股	VV
 西安	NR
@@ -14596,13 +14596,13 @@ NUM	CD
 青啤	AD
 公司	NN
 到	P
-CAL	NT
+一九九五年	NT
 底	LC
 国有	JJ
 资产	NN
 已	AD
 达	VV
-NUM	CD
+九亿	CD
 元	M
 ，	PU
 本	DT
@@ -14614,11 +14614,11 @@ NUM	CD
 的	DEG
 目标	NN
 是	VC
-CAL	NT
+年	NT
 产	VV
 青岛	NR
 啤酒	NN
-NUM	CD
+一百四十万	CD
 吨	M
 。	PU
 
@@ -14629,7 +14629,7 @@ NUM	CD
 ，	PU
 使	VV
 青岛	NR
-NUM	CD
+一	CD
 批	M
 企业	NN
 迅速	AD
@@ -14657,8 +14657,8 @@ NUM	CD
 。	PU
 
 据	P
-LOCATION	NR
-NUM	OD
+青岛市	NR
+第三	OD
 次	M
 工业	NN
 普查	NN
@@ -14683,11 +14683,11 @@ NUM	OD
 商品	NN
 出口量	NN
 的	DEG
-NUM	CD
+百分之九十	CD
 、	PU
-NUM	CD
+百分之三十	CD
 和	CC
-NUM	CD
+百分之十四	CD
 。	PU
 
 （	PU
@@ -14704,8 +14704,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+五月	NT
+二十一日	NT
 电	NN
 
 随着	P
@@ -14742,7 +14742,7 @@ CAL	NT
 银行	NN
 已	AD
 达	VV
-NUM	CD
+九	CD
 家	M
 。	PU
 
@@ -14754,7 +14754,7 @@ NUM	CD
 中国	NR
 金融业	NN
 的	DEG
-NUM	CD
+一	CD
 支	M
 重要	JJ
 力量	NN
@@ -14764,8 +14764,8 @@ NUM	CD
 统计	NN
 ，	PU
 截至	P
-CAL	NT
-CAL	NT
+今年	NT
+三月	NT
 底	LC
 中国	NR
 营业性	NN
@@ -14773,22 +14773,22 @@ CAL	NT
 金融	NN
 机构	NN
 达	VV
-NUM	CD
+一百五十八	CD
 家	M
 ，	PU
 其中	NN
 分行	NN
-NUM	CD
+一百三十二	CD
 家	M
 ，	PU
 合资	JJ
 银行	NN
-NUM	CD
+七	CD
 家	M
 ，	PU
 独资	AD
 银行	NN
-NUM	CD
+五	CD
 家	M
 ，	PU
 外	NN
@@ -14798,19 +14798,19 @@ NUM	CD
 资	NN
 财务	NN
 公司	NN
-NUM	CD
+五	CD
 家	M
 ，	PU
 保险	NN
 公司	NN
-NUM	CD
+八	CD
 家	M
 ，	PU
 中外	NN
 合资	JJ
 投资	NN
 银行	NN
-NUM	CD
+一	CD
 家	M
 ；	PU
 各	DT
@@ -14819,21 +14819,21 @@ NUM	CD
 机构	NN
 的	DEG
 代表处	NN
-NUM	CD
+五百二十八	CD
 家	M
 。	PU
 
 中国	NR
 已	AD
 有	VE
-NUM	CD
+二十四	CD
 个	M
-LOCATION	NN
+城市	NN
 被	SB
 批准	VV
 允许	VV
 设立	VV
-营业性	NN
+营业性	JJ
 外资	NN
 金融	NN
 机构	NN
@@ -14848,24 +14848,24 @@ LOCATION	NN
 迅速	VA
 ，	PU
 到	P
-CAL	NT
+去年	NT
 底	LC
 ，	PU
 其	PN
 总	JJ
 资产	NN
 为	VC
-NUM	CD
+三百亿	CD
 美元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 增长	VV
-NUM	CD
+百分之五十六点三	CD
 。	PU
 
-CAL	NT
+去年	NT
 年底	NT
 ，	PU
 中国	NR
@@ -14891,7 +14891,7 @@ CAL	NT
 目前	NT
 ，	PU
 人行	NN
-LOCATION	NN
+上海市	NN
 分行	NN
 等	ETC
 有关	JJ
@@ -14931,7 +14931,7 @@ LOCATION	NN
 
 据悉	AD
 ，	PU
-CAL	NT
+今年	NT
 ，	PU
 中国	NR
 人民	NN
@@ -15010,7 +15010,7 @@ CAL	NT
 机构	NN
 数量	NN
 和	CC
-LOCATION	NR
+地区	NR
 分布	NN
 ，	PU
 加强	VV
@@ -15061,8 +15061,8 @@ LOCATION	NR
 
 新华社	NR
 武汉	NR
-CAL	NT
-CAL	NT
+五月	NT
+二十一日	NT
 电	NN
 （	PU
 记者	NN
@@ -15070,7 +15070,7 @@ CAL	NT
 杨希伟	NR
 
 湖北	NR
-LOCATION	NN
+武汉市	NR
 正	AD
 日益	AD
 成为	VV
@@ -15091,23 +15091,23 @@ LOCATION	NN
 ，	PU
 这	DT
 个	M
-LOCATION	NN
-CAL	NT
+市	NN
+连年	NT
 居	VV
 中国	NR
 内地	NN
 开放	NN
-LOCATION	NN
+城市	NN
 之	DEG
 首	NN
 。	PU
 
 至	P
-CAL	NT
-CAL	NT
+今年	NT
+三月	NT
 底	LC
 ，	PU
-LOCATION	NR
+武汉市	NR
 共	AD
 吸引	VV
 世界	NN
@@ -15116,7 +15116,7 @@ LOCATION	NR
 个	M
 国家	NN
 和	CC
-LOCATION	NN
+地区	NN
 的	DEG
 投资	NN
 ，	PU
@@ -15126,57 +15126,57 @@ LOCATION	NN
 外资	NN
 项目	NN
 近	AD
-NUM	CD
+五千	CD
 个	M
 ，	PU
 协议	NN
 外资额	NN
-NUM	CD
+七十一亿	CD
 美元	M
 ，	PU
 实际	AD
 利用	VV
 外资	NN
-NUM	CD
+四十八亿	CD
 美元	M
 ；	PU
 全	DT
-LOCATION	NN
+市	NN
 兴办	VV
 “	PU
 三资	JJ
 ”	PU
 企业	NN
-NUM	CD
+三千七百四十	CD
 家	M
 ，	PU
 协议	NN
 外资额	NN
-NUM	CD
+四十四亿	CD
 美元	M
 ，	PU
 实际	AD
 进	VV
 资	NN
-NUM	CD
+二十二亿	CD
 美元	M
 ，	PU
 进资率	NN
 达	VV
-NUM	CD
+百分之五十	CD
 ，	PU
 高于	VV
 全	DT
 国	NN
 平均	JJ
 水平	NN
-NUM	CD
+十七	CD
 个	M
 百分点	NN
 。	PU
 
 自	P
-CAL	NT
+一九九二年	NT
 武汉	NR
 被	SB
 确认	VV
@@ -15185,14 +15185,14 @@ CAL	NT
 对	P
 外	NN
 开放	NN
-LOCATION	NN
+城市	NN
 以来	LC
 ，	PU
 其	PN
 外资	NN
 利用	NN
 水平	NN
-CAL	AD
+逐年	NT
 提高	VV
 。	PU
 
@@ -15205,7 +15205,7 @@ CAL	AD
 孙怀玉	NR
 介绍	VV
 ，	PU
-CAL	NT
+近年	NT
 来	LC
 ，	PU
 来自	VV
@@ -15217,7 +15217,7 @@ CAL	NT
 、	PU
 美	NR
 、	PU
-CAL	NT
+日	NR
 对	P
 武汉	NR
 的	DEG
@@ -15231,7 +15231,7 @@ CAL	NT
 了解	NN
 ，	PU
 在	P
-CAL	NT
+近年	NT
 新	VA
 的	DEC
 投资	NN
@@ -15242,7 +15242,7 @@ CAL	NT
 、	PU
 美	NR
 、	PU
-CAL	NR
+日	NR
 投资	NN
 的	DEC
 项目	NN
@@ -15252,17 +15252,17 @@ CAL	NR
 了	AS
 总额	NN
 的	DEG
-NUM	CD
+百分之五十	CD
 左右	LC
 。	PU
 
-CAL	NT
-NUM	OD
+今年	NT
+一	OD
 季度	NN
 ，	PU
 则	AD
 达到	VV
-NUM	CD
+百分之八十一	CD
 。	PU
 
 另外	AD
@@ -15278,13 +15278,13 @@ NUM	CD
 代表团	NN
 中	LC
 ，	PU
-NUM	CD
+百分之七十	CD
 来自	VV
 欧	NR
 、	PU
 美	NR
 、	PU
-CAL	NR
+日	NR
 等	ETC
 发达	JJ
 国家	NN
@@ -15308,7 +15308,7 @@ CAL	NR
 最	AD
 大	VA
 的	DEC
-NUM	CD
+五百	CD
 家	M
 公司	NN
 中	LC
@@ -15323,14 +15323,14 @@ NUM	CD
 ，	PU
 其中	NN
 ，	PU
-NUM	CD
+三十	CD
 家	M
 投资	NN
 办	VV
 了	AS
 企业	NN
 ，	PU
-NUM	CD
+三十	CD
 家	M
 设立	VV
 了	AS
@@ -15354,9 +15354,9 @@ NUM	CD
 经济	NN
 连续	AD
 多	CD
-CAL	M
+年	M
 保持	VV
-NUM	CD
+两	CD
 位	M
 数	NN
 增长	NN
@@ -15375,14 +15375,14 @@ NUM	CD
 ，	PU
 外资	NN
 占	VV
-NUM	CD
+百分之三十五	CD
 以上	LC
 ，	PU
 在	P
-LOCATION	NR
+开发区	NR
 则	AD
 达到	VV
-NUM	CD
+百分之六十	CD
 左右	LC
 ，	PU
 “	PU
@@ -15400,7 +15400,7 @@ NUM	CD
 ，	PU
 在	P
 全	DT
-LOCATION	NN
+市	NN
 国民	NN
 经济	NN
 中	LC
@@ -15439,8 +15439,8 @@ LOCATION	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十七日	NT
 电	NN
 
 “	PU
@@ -15459,7 +15459,7 @@ CAL	NT
 。	PU
 
 在	P
-NUM	NT
+周三	NT
 举行	VV
 的	DEC
 中国	NR
@@ -15468,15 +15468,15 @@ NUM	NT
 保护	NN
 协会	NN
 成立	VV
-NUM	CD
-CAL	NN
+十五	CD
+周年	NN
 座谈会	NN
 上	LC
 ，	PU
 许多	CD
 专家	NN
-不约而同	CD
-地	NN
+不约而同	AD
+地	DEV
 提到	VV
 了	AS
 可可西里	NN
@@ -15517,14 +15517,14 @@ CAL	NN
 时	LC
 说	VV
 ，	PU
-可可西里	AD
+可可西里	NN
 位	VV
 于	P
 青藏	NR
 高原	NN
 腹地	NN
 ，	PU
-北	NR-SHORT
+北	P
 界	VV
 昆仑山	NN
 ，	PU
@@ -15533,17 +15533,17 @@ CAL	NN
 唐古拉山	NN
 ，	PU
 海拔	NN
-NUM	CD
+五千	CD
 米	M
 ，	PU
 面积	NN
-NUM	CD
+八点三万	CD
 平方公里	M
 ，	PU
 属于	VV
 高	JJ
 寒	NN
-LOCATION	NN
+地区	NN
 。	PU
 
 可可西里	AD
@@ -15557,11 +15557,11 @@ LOCATION	NN
 ，	PU
 特有	AD
 鸟类	NN
-NUM	CD
+七	CD
 种	M
 ，	PU
 兽类	NN
-NUM	CD
+十一	CD
 种	M
 。	PU
 
@@ -15622,7 +15622,7 @@ NUM	CD
 资源	NN
 。	PU
 
-还有	AD
+还有	NN
 ，	PU
 可可西里	AD
 高	JJ
@@ -15678,17 +15678,17 @@ NUM	CD
 。	PU
 
 从	P
-CAL	NT
+一九八四年	NT
 至今	VV
 ，	PU
 在	P
 青海	NR
 太阳湖	NN
-LOCATION	NN
+地区	NN
 许多	CD
-挖	VA
+挖	VV
 金	NR
-的	DEG
+的	DEC
 农民	NN
 把	BA
 拖拉机	NN
@@ -15698,9 +15698,9 @@ LOCATION	NN
 了	AS
 无	VE
 人	NN
-LOCATION	NN
+区	NN
 ，	PU
-NUM	CD
+一两万	CD
 人	NN
 的	DEG
 生活	NN
@@ -15761,7 +15761,7 @@ NUM	CD
 
 近	AD
 几	CD
-CAL	M
+年	M
 来	LC
 ，	PU
 由于	P
@@ -15793,12 +15793,12 @@ CAL	M
 据	P
 估计	NN
 ，	PU
-NUM	CD
-CAL	M
+十	CD
+年	M
 来	LC
 大约	AD
 有	VE
-NUM	CD
+两万	CD
 只	M
 藏	NR
 羚羊	NN
@@ -15807,9 +15807,9 @@ NUM	CD
 。	PU
 
 而	AD
-NUM	NT
+一九九五	NT
 到	CC
-CAL	NT
+一九九七年	NT
 查出	VV
 的	DEC
 猎杀	VV
@@ -15817,7 +15817,7 @@ CAL	NT
 羚羊	NN
 就	AD
 有	VE
-NUM	CD
+三千	CD
 只	M
 。	PU
 
@@ -15844,10 +15844,10 @@ NUM	CD
 完	VV
 ）	PU
 
-LOCATION	NR
+甘肃省	NR
 国民	NN
 经济	NN
-CAL	NT
+今年	NT
 继续	VV
 保持	VV
 较	AD
@@ -15855,9 +15855,9 @@ CAL	NT
 增长	NN
 
 新华社	NR
-LOCATION	NR
-CAL	NT
-CAL	NT
+兰州	NR
+十二月	NT
+二十七日	NT
 电	NN
 （	PU
 记者	NN
@@ -15865,7 +15865,7 @@ CAL	NT
 谭飞	NN
 ）	PU
 
-CAL	NT
+今年	NT
 以来	LC
 ，	PU
 中国	NR
@@ -15891,7 +15891,7 @@ CAL	NT
 改组	NN
 改造	NN
 等	ETC
-NUM	CD
+一	CD
 系列	M
 政策	NN
 的	DEG
@@ -15899,7 +15899,7 @@ NUM	CD
 下	LC
 ，	PU
 全	DT
-LOCATION	NN
+省	NN
 国民	NN
 经济	NN
 继续	VV
@@ -15914,24 +15914,24 @@ LOCATION	NN
 初步	JJ
 测算	NN
 ，	PU
-CAL	NT
+今年	NT
 这	DT
 个	M
-LOCATION	NN
+省	NN
 国内	NN
 生产	NN
 总值	NN
 将	AD
 达到	VV
-NUM	CD
+八百七十亿	CD
 元	M
 。	PU
 
-CAL	NT
+今年	NT
 ，	PU
-LOCATION	NR
+甘肃省	NR
 全	DT
-CAL	M
+年	M
 粮食	NN
 产量	NN
 创	VV
@@ -15941,7 +15941,7 @@ CAL	M
 水平	NN
 ，	PU
 达到	VV
-NUM	CD
+八百七十万	CD
 吨	M
 。	PU
 
@@ -15977,53 +15977,53 @@ NUM	CD
 势头	NN
 ，	PU
 全	DT
-LOCATION	NN
-猪	NN
+省	NN
+猪	AD
 牛	NN
 羊肉	NN
 总	JJ
 产量	NN
 达	VV
-NUM	CD
+五十二点三万	CD
 吨	M
 ，	PU
 比	P
-CAL	NT
+去年	NT
 增长	VV
-NUM	CD
+百分之六点零九	CD
 。	PU
 
-LOCATION	NR
+乡镇	NR
 企业	NN
 继续	VV
 成为	VV
 推动	VV
-LOCATION	NR
+甘肃省	NR
 农村	NN
 经济	NN
 发展	NN
 的	DEG
 主要	JJ
 力量	NN
-NUM	CD
+之一	CD
 ，	PU
 预计	VV
 全	DT
-CAL	M
+年	M
 全	DT
-LOCATION	NN
-LOCATION	NN
+省	NN
+乡镇	NN
 企业	NN
 增加值	NN
 将	AD
 达到	VV
-NUM	CD
+一百六十五点一亿	CD
 元	M
 。	PU
 
-CAL	NT
+今年	NT
 ，	PU
-LOCATION	NR
+甘肃省	NR
 工业	NN
 生产	NN
 在	P
@@ -16035,19 +16035,19 @@ LOCATION	NR
 ，	PU
 预计	VV
 全	DT
-LOCATION	NN
+省	NN
 工业	NN
 将	AD
 完成	VV
 增加值	NN
-NUM	CD
+三百一十一点八亿	CD
 元	M
 ，	PU
 比	P
 上	DT
-CAL	M
+年	M
 增长	VV
-NUM	CD
+百分之七点五	CD
 。	PU
 
 股份制	NN
@@ -16067,9 +16067,9 @@ NUM	CD
 增速	NN
 。	PU
 
-CAL	NT
+今年	NT
 是	VC
-LOCATION	NR
+甘肃省	NR
 固定	JJ
 资产	NN
 投资	NN
@@ -16077,18 +16077,18 @@ LOCATION	NR
 最	AD
 大	VA
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 ，	PU
 达到	VV
-NUM	CD
+三百三十一亿	CD
 元	M
 ，	PU
 较	P
 上	DT
-CAL	M
+年	M
 增长	VV
-NUM	CD
+百分之二十五点四	CD
 ，	PU
 基本	JJ
 建设	NN
@@ -16104,7 +16104,7 @@ NUM	CD
 
 这	DT
 个	M
-LOCATION	NN
+省	NN
 通过	P
 向	P
 基础	NN
@@ -16126,11 +16126,11 @@ LOCATION	NN
 
 这	DT
 个	M
-LOCATION	NN
+省	NN
 的	DEG
 对外	JJ
 贸易	NN
-CAL	NT
+今年	NT
 继续	VV
 保持	VV
 了	AS
@@ -16139,12 +16139,12 @@ CAL	NT
 ，	PU
 预计	VV
 全	DT
-CAL	M
+年	M
 实现	VV
 外贸	NN
 进出口	NN
 总额	NN
-NUM	CD
+五点五亿	CD
 元	M
 。	PU
 
@@ -16161,17 +16161,17 @@ NUM	CD
 
 新华社	NR
 长春	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十七日	NT
 电	NN
 （	PU
 记者	NN
-张跃文	NN
+张跃文	NR
 ）	PU
 
-LOCATION	NR
-LOCATION	NN
-CAL	NT
+吉林省	NR
+长春市	NN
+今年	NT
 规划	VV
 的	DEC
 首	OD
@@ -16190,12 +16190,12 @@ CAL	NT
 有	VE
 望	NN
 在	P
-CAL	NT
+今年	NT
 年底	NT
 首	OD
 期	M
 竣工	VV
-NUM	CD
+六十五万	CD
 平方米	M
 。	PU
 
@@ -16214,7 +16214,7 @@ NUM	CD
 而	MSP
 采取	VV
 的	DEC
-NUM	CD
+一	CD
 项	M
 比较	AD
 重要	VA
@@ -16263,24 +16263,24 @@ NUM	CD
 建设部	NN
 预计	VV
 ，	PU
-CAL	NT
+今年	NT
 国有	JJ
 商业	NN
 银行	NN
 投放	VV
 在	P
-此	DT
+此	PN
 方面	NN
 的	DEG
 贷款	NN
 有	VE
 望	NN
 达到	VV
-NUM	CD
+三百六十亿	CD
 元	M
 。	PU
 
-LOCATION	NR
+长春市	NR
 位	VV
 于	P
 中国	NR
@@ -16295,10 +16295,10 @@ LOCATION	NR
 小	VA
 。	PU
 
-CAL	NT
+今年	NT
 这	DT
 个	M
-LOCATION	NN
+市	NN
 规划	VV
 首	OD
 批	M
@@ -16308,28 +16308,28 @@ LOCATION	NN
 总	JJ
 面积	NN
 为	VC
-NUM	CD
+一百八十六万	CD
 平方米	M
 ，	PU
 分布	VV
 在	P
-NUM	CD
+六十三	CD
 个	M
 住宅	NN
 小	JJ
-LOCATION	NN
+区	NN
 内	LC
 ，	PU
 总	JJ
 投资	NN
-NUM	CD
+十四点五亿	CD
 元	M
 。	PU
 
 据	P
 这	DT
 个	M
-LOCATION	NN
+市	NN
 经济	NN
 适用	NN
 房	NN
@@ -16362,7 +16362,7 @@ LOCATION	NN
 ，	PU
 这	DT
 个	M
-LOCATION	NN
+市	NN
 加强	VV
 了	AS
 对	P
@@ -16392,13 +16392,13 @@ LOCATION	NN
 总	JJ
 成本	NN
 的	DEG
-NUM	CD
+百分之三	CD
 。	PU
 
 据	P
 了解	NN
 ，	PU
-LOCATION	NR
+长春市	NR
 的	DEG
 经济	NN
 适用	NN
@@ -16406,7 +16406,7 @@ LOCATION	NR
 平均价	NN
 每	DT
 平方米	M
-NUM	CD
+一千五百	CD
 元	M
 ，	PU
 比	P
@@ -16414,7 +16414,7 @@ NUM	CD
 商业	NN
 住房	NN
 降低	VV
-NUM	CD
+三百	CD
 元	M
 左右	LC
 ；	PU
@@ -16425,7 +16425,7 @@ NUM	CD
 面积	NN
 控制	VV
 在	P
-NUM	CD
+八十	CD
 平方米	M
 以内	LC
 ，	PU
@@ -16452,7 +16452,7 @@ NUM	CD
 的	DEC
 住宅	NN
 小	JJ
-LOCATION	NN
+区	NN
 内	LC
 ，	PU
 供水	NN
@@ -16479,7 +16479,7 @@ LOCATION	NN
 青睐	NN
 ，	PU
 在	P
-LOCATION	NR
+长春市	NR
 不久	NT
 前	LC
 举办	VV
@@ -16488,7 +16488,7 @@ LOCATION	NR
 大会	NN
 上	LC
 ，	PU
-NUM	CD
+第一	OD
 天	M
 就	AD
 有	VE
@@ -16503,12 +16503,12 @@ NUM	CD
 总	JJ
 面积	NN
 接近	VV
-NUM	CD
+六万	CD
 米	M
 ，	PU
 售房	NN
 总值	NN
-NUM	CD
+一亿	CD
 元	M
 。	PU
 
@@ -16542,11 +16542,11 @@ NUM	CD
 的	DEG
 提高	NN
 ，	PU
-CAL	NT
+明年	NT
 将	AD
 会	VV
 出现	VV
-NUM	CD
+一	CD
 个	M
 经济	NN
 适用	NN
@@ -16572,18 +16572,18 @@ NUM	CD
 
 新华社	NR
 巴格达	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２７日	NT
 电	NN
 （	PU
 记者	NN
-顾正龙	NN
+顾正龙	NR
 ）	PU
 
 伊拉克	NR
 副总理	NN
 阿齐兹	NR
-CAL	NT
+２７日	NT
 呼吁	VV
 阿拉伯	NR
 各	DT
@@ -16608,7 +16608,7 @@ CAL	NT
 各	DT
 政党	NN
 的	DEG
-NUM	CD
+一	CD
 封	M
 信	NN
 中	LC
@@ -16619,7 +16619,7 @@ NUM	CD
 长	NN
 达	VV
 ８	CD
-CAL	M
+年	M
 的	DEG
 制裁	NN
 已	AD
@@ -16689,14 +16689,14 @@ CAL	M
 长	NN
 达	VV
 ８	CD
-CAL	M
+年	M
 制裁	NN
 问题	NN
 上	LC
 所	MSP
 持	VV
 的	DEC
-暧昧	NN
+暧昧	JJ
 立场	NN
 表示	VV
 不满	NN
@@ -16720,15 +16720,15 @@ CAL	M
 伊拉克	NR
 进行	VV
 了	AS
-NUM	CD
+成千上万	CD
 次	M
 武器	NN
 核查	NN
 ，	PU
 并	CC
 在	P
-５８８	NN
-处	LC
+５８８	AD
+处	AD
 重要	VA
 的	DEC
 场所	NN
@@ -16861,7 +16861,7 @@ NUM	CD
 伊拉克	NR
 总统	NN
 萨达姆	NR
-CAL	NT
+２７日	NT
 在	P
 他	PN
 发布	VV
@@ -16896,7 +16896,7 @@ CAL	NT
 待遇	NN
 。	PU
 
-NUM	CD
+一	CD
 名	M
 最近	NT
 在	P
@@ -16910,8 +16910,8 @@ NUM	CD
 死亡	VV
 的	DEC
 巴勒斯坦	NR
-CAL	NT
-被	SB
+青年	NT
+被	LB
 萨达姆	NR
 封为	VV
 烈士	NN
@@ -16959,7 +16959,7 @@ CAL	NT
 长	NN
 达	VV
 ８	CD
-CAL	M
+年	M
 之	DEG
 久	NN
 的	DEC
@@ -16972,7 +16972,7 @@ CAL	M
 
 综述	NN
 ：	PU
-CAL	NT
+１９９８年	NT
 ：	PU
 美	NR
 伊	NR
@@ -16983,12 +16983,12 @@ CAL	NT
 
 新华社	NR
 巴格达	NR
-CAL	NT
-CAL	NT
+１２月	NT
+日	NT
 电	NN
 综述	NN
 ：	PU
-CAL	NT
+１９９８年	NT
 ：	PU
 美	NR
 伊	NR
@@ -17001,7 +17001,7 @@ CAL	NT
 记者	NN
 顾正龙	NN
 
-CAL	NT
+１９９８年	NT
 岁末	NT
 ，	PU
 海湾	NR
@@ -17068,10 +17068,10 @@ CAL	NT
 美	NR
 英	NR
 在	P
-CAL	NT
-CAL	NT
+１２月	NT
+１７日	NT
 至	CC
-CAL	NT
+２０日	NT
 对	P
 伊拉克	NR
 的	DEG
@@ -17082,7 +17082,7 @@ CAL	NT
 动用	VV
 了	AS
 包括	VV
-NUM	CD
+两	CD
 艘	M
 航空	NN
 母舰	NN
@@ -17183,7 +17183,7 @@ F－１８	NN
 了	AS
 １００多	CD
 枚	M
-战斧式	NN
+战斧式	JJ
 巡航	NN
 导弹	NN
 。	PU
@@ -17203,14 +17203,14 @@ F－１８	NN
 特委会	NN
 主席	NN
 巴特勒	NR
-CAL	NT
+１５日	NT
 向	P
 联合国	NR
 秘书长	NN
 安南	NR
 递交	VV
 的	DEC
-NUM	CD
+一	CD
 份	M
 报告	NN
 。	PU
@@ -17252,7 +17252,7 @@ NUM	CD
 打算	NN
 。	PU
 
-CAL	NT
+今年	NT
 以来	LC
 ，	PU
 美	NR
@@ -17260,12 +17260,12 @@ CAL	NT
 之间	LC
 发生	VV
 了	AS
-NUM	CD
+三	CD
 次	M
 危机	NN
 ，	PU
 每	DT
-NUM	CD
+一	CD
 次	M
 都	AD
 因	P
@@ -17288,7 +17288,7 @@ NUM	CD
 告结	VV
 ，	PU
 其中	NN
-NUM	CD
+两	CD
 次	M
 直接	AD
 导致	VV
@@ -17297,8 +17297,8 @@ NUM	CD
 对峙	NN
 。	PU
 
-CAL	NT
-CAL	NT
+今年	NT
+２月	NT
 ，	PU
 美国	NR
 在	P
@@ -17337,7 +17337,7 @@ CAL	NT
 收兵	VV
 。	PU
 
-CAL	NT
+１０月	NT
 底	LC
 伊拉克	NR
 宣布	VV
@@ -17354,13 +17354,13 @@ CAL	NT
 伊	NR
 爆发	VV
 了	AS
-NUM	CD
+第三	CD
 次	M
-也是	AD
+也是	NN
 最	AD
 严重	VA
 的	DEC
-NUM	CD
+一	CD
 次	M
 危机	NN
 。	PU
@@ -17368,8 +17368,8 @@ NUM	CD
 美国	NR
 总统	NN
 克林顿	NR
-CAL	NT
-CAL	NT
+１１月	NT
+１３日	NT
 下达	VV
 了	AS
 对	P
@@ -17382,7 +17382,7 @@ CAL	NT
 然而	AD
 ，	PU
 这	DT
-NUM	CD
+一	CD
 次	M
 几乎	AD
 是	VC
@@ -17414,7 +17414,7 @@ NUM	CD
 发出	VV
 任何	DT
 警告	NN
-的	DEC
+的	DEG
 情况	NN
 下	LC
 对	P
@@ -17439,7 +17439,7 @@ NUM	CD
 长	AD
 达	VV
 ８	CD
-CAL	M
+年	M
 多	AD
 的	DEG
 制裁	NN
@@ -17454,12 +17454,12 @@ CAL	M
 出口	NN
 就	AD
 蒙受	VV
-NUM	CD
+１２００多亿	CD
 美元	M
 的	DEG
 损失	NN
 ，	PU
-NUM	CD
+１２５万	CD
 儿童	NN
 、	PU
 妇女	NN
@@ -17467,7 +17467,7 @@ NUM	CD
 老人	NN
 死于	VV
 缺	VV
-医	JJ
+医	NN
 少	VV
 药	NN
 和	CC
@@ -17485,10 +17485,10 @@ NUM	CD
 已	AD
 达	VV
 ７	CD
-CAL	M
+年	M
 半	CD
 之	DEG
-久	AD
+久	NN
 ，	PU
 伊拉克	NR
 基本	AD
@@ -17520,7 +17520,7 @@ CAL	M
 拿出	VV
 令	VV
 人	NN
-信服	VV
+信服	VA
 的	DEC
 证据	NN
 ，	PU
@@ -17564,7 +17564,7 @@ CAL	M
 伊拉克人	NN
 看来	VV
 ，	PU
-CAL	NT
+旷日	NT
 持久	VV
 的	DEC
 武器	NN
@@ -17645,7 +17645,7 @@ CAL	NT
 不仅	AD
 没有	VV
 在	P
-原先	JJ
+原先	NN
 的	DEG
 立场	NN
 上	LC
@@ -17744,8 +17744,8 @@ CAL	NT
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十八日	NT
 电	NN
 
 最近	NT
@@ -17759,8 +17759,8 @@ CAL	NT
 高度	AD
 评价	VV
 江泽民	NR
-CAL	NT
-CAL	NT
+十一月	NT
+二十四日	NT
 访问	VV
 俄罗斯	NR
 时	LC
@@ -17768,7 +17768,7 @@ CAL	NT
 的	DEC
 《	PU
 在	P
-新西伯利亚	NN
+新西伯利亚	JJ
 科学城	NN
 会见	VV
 科技界	NN
@@ -17801,7 +17801,7 @@ CAL	NT
 是	VC
 这	DT
 几	CD
-CAL	M
+年	M
 国务	NN
 活动家	NN
 发表	VV
@@ -17810,7 +17810,7 @@ CAL	M
 精彩	VA
 的	DEC
 演讲	NN
-NUM	NN
+之一	NN
 ，	PU
 为	P
 全	DT
@@ -17837,7 +17837,7 @@ NUM	NN
 ，	PU
 “	PU
 是	VC
-NUM	OD
+一	OD
 次	M
 战略	NN
 革命	NN
@@ -17861,7 +17861,7 @@ NUM	OD
 革命	NN
 挑战	NN
 ”	PU
-的	DEG
+的	DEC
 评论员	NN
 文章	NN
 ，	PU
@@ -17876,7 +17876,7 @@ NUM	OD
 气息	NN
 ，	PU
 对	P
-NUM	OD
+二十	OD
 世纪	NN
 全球	NN
 科技	NN
@@ -17934,7 +17934,7 @@ NUM	OD
 现实	NN
 意义	NN
 和	CC
-深远	VV
+深远	VA
 的	DEC
 历史	NN
 意义	NN
@@ -17948,17 +17948,17 @@ NUM	OD
 强调	VV
 ：	PU
 “	PU
-NUM	CD
+一	CD
 个	M
 国家	NN
 ，	PU
-NUM	CD
+一	CD
 个	M
 民族	NN
 ，	PU
 如果	CS
 不	AD
-紧紧	VV
+紧紧	NN
 跟上	VV
 科技	NN
 进步	VA
@@ -18020,7 +18020,7 @@ NUM	CD
 机遇	NN
 ，	PU
 发奋图强	VV
-而	MSP
+而	AD
 不	AD
 是	VC
 墨守陈规	VV
@@ -18030,7 +18030,7 @@ NUM	CD
 的	DEC
 热情	NN
 、	PU
-NUM	CD
+百	CD
 倍	M
 的	DEC
 努力	NN
@@ -18084,14 +18084,14 @@ NUM	CD
 “	PU
 创新	NN
 是	VC
-NUM	CD
+一	CD
 个	M
 民族	NN
 的	DEG
 灵魂	NN
 ，	PU
 是	VC
-NUM	CD
+一	CD
 个	M
 国家	NN
 兴旺	VV
@@ -18112,7 +18112,7 @@ NUM	CD
 对	P
 时代	NN
 脉搏	NN
-的	DEG
+的	DEC
 准确	JJ
 把握	NN
 ，	PU
@@ -18136,7 +18136,7 @@ NUM	CD
 概括	NN
 ，	PU
 是	VC
-NUM	CD
+一	CD
 个	M
 马克思主义	NN
 的	DEG
@@ -18150,7 +18150,7 @@ NUM	CD
 必须	VV
 紧紧	AD
 咬定	VV
-NUM	CD
+一	CD
 个	M
 “	PU
 新	JJ
@@ -18220,8 +18220,8 @@ NUM	CD
 
 新华社	NR
 联合国	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２７日	NT
 电	NN
 （	PU
 记者	NN
@@ -18231,7 +18231,7 @@ CAL	NT
 联合国	NR
 秘书长	NN
 安南	NR
-CAL	NT
+２７日	NT
 发表	VV
 声明	NN
 ，	PU
@@ -18321,16 +18321,16 @@ CAL	NT
 西非	NR
 维和	JJ
 部队	NN
-CAL	NT
+２７日	NT
 正	AD
 在	P
 塞拉利昂	NR
 北部	NN
 小	JJ
-LOCATION	NN
+镇	NN
 马克尼	NR
 附近	NN
-与	CC
+与	P
 反政府	JJ
 武装	NN
 进行	VV
@@ -18338,7 +18338,7 @@ LOCATION	NN
 时	LC
 发表	VV
 这	DT
-NUM	CD
+一	CD
 声明	NN
 的	SP
 。	PU
@@ -18346,7 +18346,7 @@ NUM	CD
 联合国	NR
 发言人	NN
 席尔瓦	NR
-CAL	NT
+２６日	NT
 宣布	VV
 ，	PU
 由于	P
@@ -18370,8 +18370,8 @@ CAL	NT
 几内亚	NR
 。	PU
 
-CAL	NT
-CAL	NT
+１９９７年	NT
+５月	NT
 ，	PU
 塞拉利昂	NR
 发生	VV
@@ -18399,8 +18399,8 @@ CAL	NT
 维和	JJ
 部队	NN
 于	P
-CAL	NT
-CAL	NT
+今年	NT
+２月	NT
 采取	VV
 军事	NN
 行动	NN
@@ -18411,7 +18411,7 @@ CAL	NT
 赶	VV
 下台	VV
 ，	PU
-CAL	NT
+３月	NT
 恢复	VV
 了	AS
 卡巴	NR
@@ -18445,7 +18445,7 @@ CAL	NT
 、	PU
 北部	NN
 边境	NN
-LOCATION	NN
+地区	NN
 与	P
 西非	NR
 维和	JJ
@@ -18458,7 +18458,7 @@ LOCATION	NN
 ，	PU
 反政府	JJ
 武装	NN
-CAL	NT
+近日	NT
 来	LC
 频频	AD
 在	P
@@ -18485,7 +18485,7 @@ CAL	NT
 国际	NN
 生物	NN
 多样性	NN
-CAL	NT
+日	NT
 ”	PU
 纪念	NN
 大会	NN
@@ -18495,12 +18495,12 @@ CAL	NT
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十八日	NT
 电	NN
 （	PU
 记者	NN
-秦杰	NN
+秦杰	NR
 ）	PU
 
 国家	NN
@@ -18517,7 +18517,7 @@ CAL	NT
 国际	NN
 生物	NN
 多样性	NN
-CAL	NT
+日	NT
 ”	PU
 。	PU
 
@@ -18528,9 +18528,9 @@ CAL	NT
 生物	NN
 多样性	NN
 ，	PU
-CAL	NT
+一九九二年	NT
 ，	PU
-NUM	CD
+一百五十三	CD
 个	M
 国家	NN
 签署	VV
@@ -18542,8 +18542,8 @@ NUM	CD
 》	PU
 ，	PU
 同	P
-CAL	NT
-CAL	NT
+年	NT
+十一月	NT
 ，	PU
 中国	NR
 成为	VV
@@ -18554,27 +18554,27 @@ CAL	NT
 的	DEG
 最早	JJ
 缔约国	NN
-NUM	NN
+之一	NN
 。	PU
 
 从	P
-CAL	NT
+一九九五年	NT
 起	LC
 ，	PU
 联合国	NR
 将	AD
 每	DT
-CAL	M
+年	M
 的	DEG
-CAL	NT
-CAL	NT
+十二月	NT
+二十九日	NT
 确定	VV
 为	VC
 “	PU
 国际	NN
 生物	NN
 多样性	NN
-CAL	NT
+日	NT
 ”	PU
 。	PU
 
@@ -18603,7 +18603,7 @@ CAL	NT
 ，	PU
 也	AD
 是	VC
-NUM	CD
+一	CD
 项	M
 重要	VA
 的	DEC
@@ -18706,7 +18706,7 @@ NUM	CD
 。	PU
 
 截止	P
-CAL	NT
+一九九七年	NT
 底	LC
 ，	PU
 中国	NR
@@ -18717,16 +18717,16 @@ CAL	NT
 各	DT
 类	M
 自然	NN
-LOCATION	NN
-NUM	CD
+保护区	NN
+九百二十六	CD
 个	M
 ，	PU
 面积	NN
 达	VV
-NUM	CD
+七千六百九十七万	CD
 公顷	M
 ，	PU
-NUM	CD
+一	CD
 大	JJ
 批	M
 极其	AD
@@ -18818,8 +18818,8 @@ NUM	CD
 
 新华社	NR
 伦敦	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２８日	NT
 电	NN
 （	PU
 记者	NN
@@ -18853,7 +18853,7 @@ CAL	NT
 自己	PN
 组织	VV
 的	DEC
-NUM	CD
+一	CD
 个	M
 假面	NN
 舞会	NN
@@ -18861,8 +18861,8 @@ NUM	CD
 使	VV
 他们	PN
 未来	NT
-NUM	CD
-CAL	M
+一	CD
+年	M
 都	AD
 蒙上	VV
 耻辱	NN
@@ -18877,7 +18877,7 @@ CAL	M
 报道	VV
 说	VV
 ，	PU
-利物浦	AD
+利物浦	NN
 俱乐部	NN
 已经	AD
 开始	VV
@@ -18906,7 +18906,7 @@ CAL	M
 晚上	NT
 散发	VV
 的	DEC
-NUM	CD
+一	CD
 份	M
 新闻	NN
 公报	NN
@@ -18917,11 +18917,11 @@ NUM	CD
 的	DEG
 队员	NN
 每	DT
-CAL	M
+年	M
 都	AD
 要	VV
 举行	VV
-NUM	CD
+一	CD
 个	M
 假面	NN
 舞会	NN
@@ -18958,12 +18958,12 @@ NUM	CD
 。	PU
 ”	PU
 
-CAL	NT
-CAL	NT
-CAL	NT
+今年	NT
+１２月	NT
+２０日	NT
 晚	NN
 ，	PU
-NUM	CD
+八	CD
 名	M
 利物浦队	NR
 运动员	NN
@@ -18971,7 +18971,7 @@ NUM	CD
 了	AS
 在	P
 当地	NN
-NUM	CD
+一	CD
 个	M
 酒吧	NN
 举行	VV
@@ -18996,7 +18996,7 @@ NUM	CD
 欧文	NR
 打扮	VV
 成	VV
-NUM	CD
+一	CD
 部	M
 电影	NN
 中	LC
@@ -19072,11 +19072,11 @@ NUM	CD
 自己	PN
 ，	PU
 将	AD
-NUM	CD
+一	CD
 名	M
 脱衣舞女	NN
 举过	VV
-头	NN
+头	DT
 顶	NN
 ，	PU
 使	VV
@@ -19119,7 +19119,7 @@ NUM	CD
 始终	AD
 只有	AD
 加拉切尔	CD
-NUM	CD
+一	CD
 人	NN
 。	PU
 
@@ -19138,7 +19138,7 @@ NUM	CD
 ，	PU
 不断	AD
 通过	P
-酒吧	NN
+酒吧	JJ
 扩音器	NN
 要求	VV
 加拉切尔	NN
@@ -19150,7 +19150,7 @@ NUM	CD
 不	AD
 要	VV
 作出	VV
-过头	VA
+过头	VV
 的	DEC
 举动	NN
 。	PU
@@ -19183,7 +19183,7 @@ NUM	CD
 该	DT
 假面	NN
 舞会	NN
-的	DEC
+的	DEG
 还	AD
 有	VE
 利物浦队	NR
@@ -19196,22 +19196,22 @@ NUM	CD
 是	VC
 利物浦	NN
 俱乐部	NN
-NUM	OD
+第二	OD
 次	M
 出现	VV
 类似	VV
 事件	NN
 。	PU
 
-NUM	CD
-CAL	M
+两	CD
+年	M
 前	LC
 ，	PU
 该	DT
 队	NN
 队员	NN
 在	P
-NUM	CD
+一	CD
 家	M
 宾馆	NN
 举行	VV
@@ -19249,8 +19249,8 @@ NUM	CD
 
 新华社	NR
 汉城	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２８日	NT
 电	NN
 （	PU
 记者	NN
@@ -19258,7 +19258,7 @@ CAL	NT
 ）	PU
 
 由于	P
-ＬＧ	AD
+ＬＧ	NN
 等	ETC
 韩国	NR
 几	CD
@@ -19307,7 +19307,7 @@ CAL	NT
 的	DEG
 重要	JJ
 课题	NN
-NUM	NN
+之一	NN
 。	PU
 
 韩国	NR
@@ -19321,10 +19321,10 @@ NUM	NN
 、	PU
 大宇	NR
 、	PU
-ＬＧ	NR
+ＬＧ	NN
 和	CC
 鲜京	NR
-NUM	CD
+五	CD
 大	JJ
 财团	NN
 采取	VV
@@ -19333,8 +19333,8 @@ NUM	CD
 ，	PU
 并	CC
 于	P
-CAL	NT
-CAL	NT
+１２月	NT
+７日	NT
 确定	VV
 了	AS
 对	P
@@ -19343,7 +19343,7 @@ CAL	NT
 产业	NN
 结构	NN
 调整	NN
-的	DEC
+的	DEG
 具体	JJ
 方案	NN
 。	PU
@@ -19369,19 +19369,19 @@ CAL	NT
 公司	NN
 在	P
 这	DT
-NUM	CD
+两	CD
 家	M
 公司	NN
 中	LC
 判定	JJ
-NUM	CD
+一	CD
 家	M
 为	VC
 经营	NN
 主体	NN
 ，	PU
 另	AD
-NUM	CD
+一	CD
 家	M
 则	AD
 需	AD
@@ -19389,7 +19389,7 @@ NUM	CD
 经营权	NN
 。	PU
 
-CAL	NT
+２４日	NT
 ，	PU
 现代	JJ
 电子	NN
@@ -19435,7 +19435,7 @@ CAL	NT
 ＬＧ	PN
 都	AD
 有	VE
-相当	AD
+相当	JJ
 规模	NN
 的	DEG
 电子	NN
@@ -19484,7 +19484,7 @@ CAL	NT
 优良	JJ
 产业	NN
 ，	PU
-NUM	CD
+百分之九十五	CD
 的	DEG
 产品	NN
 销往	VV
@@ -19521,7 +19521,7 @@ NUM	CD
 政府	NN
 不	AD
 准备	VV
-直接	AD
+直接	JJ
 干预	VV
 企业	NN
 的	DEG
@@ -19588,8 +19588,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十九日	NT
 电	NN
 （	PU
 记者	NN
@@ -19599,8 +19599,8 @@ CAL	NT
 
 改革	NN
 开放	NN
-NUM	CD
-CAL	M
+二十	CD
+年	M
 来	LC
 ，	PU
 中国	NR
@@ -19613,7 +19613,7 @@ CAL	M
 。	PU
 
 以	P
-CAL	NT
+一九七七年	NT
 恢复	VV
 高考	NN
 为	VV
@@ -19625,7 +19625,7 @@ CAL	NT
 事业	NN
 走上	VV
 了	AS
-NUM	CD
+一	CD
 个	M
 加速	AD
 发展	VV
@@ -19641,38 +19641,38 @@ NUM	CD
 表明	VV
 ，	PU
 截止到	P
-CAL	NT
+一九九七年	NT
 底	LC
 ，	PU
 全	DT
 国	NN
 通过	VV
-NUM	CD
+两	CD
 基	M
 （	PU
 基本	AD
 普及	VV
-NUM	CD
-CAL	M
+九	CD
+年	M
 义务	NN
 教育	NN
 和	CC
-基本	AD
+基本	JJ
 扫除	VV
-CAL	NT
+青壮年	NT
 文盲	NN
 ）	PU
 的	DEC
-LOCATION	NN
+县	NR
 为	VC
-NUM	CD
+一千八百八十二	CD
 个	M
 ，	PU
 人口	NN
 覆盖率	NN
 已	AD
 达	VV
-NUM	CD
+百分之六十五	CD
 以上	LC
 。	PU
 
@@ -19681,22 +19681,22 @@ NUM	CD
 义务	NN
 教育	NN
 的	DEC
-LOCATION	NN
+地区	NN
 达到	VV
-NUM	CD
+百分之九十一	CD
 ，	PU
 小学	NN
 儿童	NN
 入学率	NN
 已	AD
 接近	VV
-NUM	CD
+百分之九十九	CD
 。	PU
 
 在	P
 普及	VV
-NUM	CD
-CAL	M
+九	CD
+年	M
 义务	NN
 教育	NN
 的	DEC
@@ -19714,29 +19714,29 @@ CAL	M
 扩大	VV
 。	PU
 
-CAL	NT
+一九九七年	NT
 高中	NN
 阶段	NN
 在	P
 校	NN
 学生	NN
 为	VC
-NUM	CD
+一千九百三十九点六万	CD
 人	NN
 ，	PU
 比	P
-CAL	NT
+一九八０年	NT
 的	DEG
-NUM	CD
+一千一百九十六万	CD
 增长	VV
-NUM	CD
+百分之六十二	CD
 。	PU
 
 在	P
 一些	CD
 大	JJ
 中	JJ
-LOCATION	NN
+城市	NN
 ，	PU
 已经	AD
 向	P
@@ -19769,29 +19769,29 @@ LOCATION	NN
 起来	VV
 。	PU
 
-CAL	NT
+一九九七年	NT
 普通	JJ
 高校	NN
 招生	NN
 为	VC
-NUM	CD
+一百万	CD
 ，	PU
 比	P
-CAL	NT
+一九七八年	NT
 增加	VV
-NUM	CD
+一点五	CD
 倍	M
 ，	PU
 在	P
 校	NN
 学生	NN
-NUM	CD
+三百一十七点四万	CD
 人	NN
 ，	PU
 比	P
-CAL	NT
+一九七八年	NT
 增长	VV
-NUM	CD
+二点七	CD
 倍	M
 。	PU
 
@@ -19799,7 +19799,7 @@ NUM	CD
 期	NN
 平均	AD
 每	DT
-NUM	CD
+万	CD
 人口	NN
 在	P
 校	NN
@@ -19807,16 +19807,16 @@ NUM	CD
 人数	NN
 ，	PU
 由	P
-NUM	CD
+八点九	CD
 人	NN
 增加	VV
 到	VV
-NUM	CD
+二十五点七	CD
 人	NN
 。	PU
 
-NUM	CD
-CAL	M
+二十	CD
+年	M
 来	LC
 ，	PU
 成人	NN
@@ -19827,8 +19827,8 @@ CAL	M
 素质	NN
 ，	PU
 培养	VV
-应用型	NN
-专门	AD
+应用型	JJ
+专门	JJ
 人才	NN
 方面	NN
 发挥	VV
@@ -19850,7 +19850,7 @@ CAL	M
 共	AD
 培养	VV
 毕业生	NN
-NUM	CD
+一千万	CD
 人	NN
 。	PU
 
@@ -19884,7 +19884,7 @@ NUM	CD
 从	P
 一九九０	NT
 至	CC
-CAL	NT
+一九九六年	NT
 ，	PU
 教育	NN
 投入	NN
@@ -19892,7 +19892,7 @@ CAL	NT
 年平均	JJ
 增长率	NN
 达	VV
-NUM	CD
+百分之二十三点三	CD
 。	PU
 
 （	PU
@@ -19906,17 +19906,17 @@ NUM	CD
 
 新华社	NR
 布鲁塞尔	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２８日	NT
 电	NN
 （	PU
 记者	NN
-张征东	NN
+张征东	NR
 ）	PU
 
-CAL	NT
-CAL	NT
-CAL	NT
+明年	NT
+１月	NT
+１日	NT
 欧元	NN
 即将	AD
 诞生	VV
@@ -19937,8 +19937,8 @@ CAL	NT
 的	DEG
 计划	NN
 ，	PU
-CAL	NT
-CAL	NT
+１２月	NT
+３１日	NT
 将	AD
 在	P
 欧盟	NR
@@ -19994,9 +19994,9 @@ CAL	NT
 时间	NN
 是	VC
 从	P
-CAL	NT
-CAL	NT
-零时	AD
+１月	NT
+１日	NT
+零时	NT
 算起	VV
 ，	PU
 由于	P
@@ -20024,7 +20024,7 @@ CAL	NT
 成员国	NN
 当地	NN
 时间	NN
-零时	NT
+零时	AD
 开始	VV
 算起	VV
 。	PU
@@ -20034,14 +20034,14 @@ CAL	NT
 比	P
 布鲁塞尔	NR
 早	VA
-NUM	CD
+一	CD
 个	M
 小时	NN
 ，	PU
 芬兰	NR
 将	AD
 是	VC
-NUM	CD
+第一	CD
 个	M
 启用	VV
 欧元	NN
@@ -20063,12 +20063,12 @@ NUM	CD
 
 欧元	NN
 作为	P
-NUM	CD
+一	CD
 种	M
 法定	JJ
 货币	NN
-CAL	NT
-CAL	NT
+１月	NT
+１日	NT
 启用	VV
 后	LC
 ，	PU
@@ -20079,23 +20079,23 @@ CAL	NT
 
 过渡期	NN
 从	P
-CAL	NT
-CAL	NT
-CAL	NT
+１９９９年	NT
+１月	NT
+１日	NT
 到	P
-CAL	NT
-CAL	NT
-CAL	NT
+２００１年	NT
+１２月	NT
+３１日	NT
 ，	PU
 为期	VV
 ３	CD
-CAL	M
+年	M
 。	PU
 
 这	DT
 期间	NN
 ，	PU
-新	JJ
+新	AD
 启用	VV
 的	DEC
 欧元	NN
@@ -20130,7 +20130,7 @@ CAL	M
 进行	VV
 。	PU
 
-储户	AD
+储户	NN
 在	P
 银行	NN
 的	DEG
@@ -20159,7 +20159,7 @@ CAL	M
 适应	VV
 欧元	NN
 ，	PU
-LOCATION	NN
+欧元区	NN
 各	DT
 国	NN
 的	DEG
@@ -20181,7 +20181,7 @@ LOCATION	NN
 。	PU
 
 这	DT
-NUM	CD
+一	CD
 工作	NN
 将	AD
 普遍	AD
@@ -20198,12 +20198,12 @@ NUM	CD
 更新期	NN
 将	AD
 从	P
-CAL	NT
-CAL	NT
-CAL	NT
+２００２年	NT
+１月	NT
+１日	NT
 到	P
-CAL	NT
-CAL	NT
+６月	NT
+３０日	NT
 止	VV
 。	PU
 
@@ -20231,7 +20231,7 @@ CAL	NT
 。	PU
 
 半	CD
-CAL	M
+年	M
 后	LC
 ，	PU
 旧	JJ
@@ -20254,7 +20254,7 @@ CAL	M
 
 目前	NT
 ，	PU
-LOCATION	NR
+欧元区	NR
 各	DT
 中央	NN
 银行	NN
@@ -20263,7 +20263,7 @@ LOCATION	NR
 纸币	NN
 和	CC
 硬币	NN
-的	DEG
+的	DEC
 工作	NN
 正在	AD
 加紧	AD
@@ -20275,7 +20275,7 @@ LOCATION	NR
 更新期	NN
 前	LC
 造出	VV
-足够	NN
+足够	JJ
 数额	NN
 的	DEG
 欧元	NN
@@ -20291,17 +20291,17 @@ LOCATION	NR
 体育部	NN
 评选	VV
 出	VV
-CAL	NT
+１９９８年	NT
 中国	NR
 体育	NN
-NUM	CD
+十	CD
 大	JJ
 新闻	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２９日	NT
 电	NN
 
 新华社	NR
@@ -20310,10 +20310,10 @@ CAL	NT
 编辑部	NN
 评选	VV
 出	VV
-CAL	NT
+１９９８年	NT
 中国	NR
 体育	NN
-NUM	CD
+十	CD
 大	JJ
 新闻	NN
 如下	VV
@@ -20321,13 +20321,13 @@ NUM	CD
 
 １	CD
 、	PU
-CAL	NT
+１２月	NT
 在	P
 泰国	NR
 曼谷	NR
 举行	VV
 的	DEC
-NUM	OD
+第十三	OD
 届	M
 亚洲	NR
 运动会	NN
@@ -20352,13 +20352,13 @@ NUM	OD
 金牌	NN
 ，	PU
 连续	AD
-NUM	CD
+第五	CD
 次	M
 获得	VV
 亚运会	NR
 金牌	NN
 总数	NN
-NUM	OD
+第一	OD
 。	PU
 
 ２	CD
@@ -20373,7 +20373,7 @@ NUM	OD
 中国	NR
 香港	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 名义	NN
 参加	VV
 曼谷	NR
@@ -20413,11 +20413,11 @@ LOCATION	NN
 计划	NN
 ，	PU
 中国	NR
-２３７	NN
+２３７	CD
 个	M
-LOCATION	NN
-LOCATION	NN
-CAL	NT
+城市	NN
+社区	NN
+今年	NT
 配建	VV
 ５１１	CD
 个	M
@@ -20437,7 +20437,7 @@ CAL	NT
 管理	NN
 ，	PU
 方便	VV
-LOCATION	NN
+社区	NN
 居民	NN
 使用	VV
 。	PU
@@ -20504,7 +20504,7 @@ LOCATION	NN
 选手	NN
 桑兰	AD
 在	P
-NUM	OD
+第四	OD
 届	M
 友好	JJ
 运动会	NN
@@ -20544,7 +20544,7 @@ NUM	OD
 ６	CD
 、	PU
 在	P
-NUM	OD
+第三十三	OD
 届	M
 奥林匹克	NR
 国际	NN
@@ -20643,12 +20643,12 @@ NUM	OD
 选手	NN
 至少	AD
 破	VV
-NUM	CD
+一	CD
 项	M
 世界	NN
 纪录	NN
 的	DEC
-预期	JJ
+预期	NN
 目标	NN
 。	PU
 
@@ -20669,7 +20669,7 @@ NUM	CD
 女子	NN
 举重队	NN
 连续	AD
-NUM	CD
+第三	OD
 次	M
 为	P
 中国	NR
@@ -20704,7 +20704,7 @@ NUM	CD
 男单	NN
 选手	NN
 无	VE
-NUM	CD
+一	CD
 进入	VV
 决赛	NN
 ；	PU
@@ -20721,7 +20721,7 @@ NUM	CD
 
 １０	CD
 、	PU
-CAL	NT
+９月	NT
 在	P
 南京	NR
 举行	VV
@@ -20745,7 +20745,7 @@ CAL	NT
 这	PN
 是	VC
 中国	NR
-NUM	OD
+第一	OD
 次	M
 在	P
 全国性	JJ
@@ -20782,8 +20782,8 @@ NUM	OD
 
 新华社	NR
 上海	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十九日	NT
 电	NN
 （	PU
 记者	NN
@@ -20804,7 +20804,7 @@ CAL	NT
 证券	NN
 交易	NN
 中心	NN
-LOCATION	NN
+城市	NN
 上海	NR
 后	LC
 ，	PU
@@ -20823,7 +20823,7 @@ LOCATION	NN
 。	PU
 
 上午	NT
-九点	NT
+九点	NN
 过	VV
 后	LC
 ，	PU
@@ -20831,7 +20831,7 @@ LOCATION	NN
 建国西路	NN
 上	LC
 的	DEG
-NUM	CD
+一	CD
 家	M
 证券	NN
 营业部	NN
@@ -20870,7 +20870,7 @@ NUM	CD
 的	DEC
 金招娣	NN
 是	VC
-LOCATION	NR
+上市	NR
 公司	NN
 员工	NN
 ，	PU
@@ -20887,8 +20887,8 @@ LOCATION	NR
 “	PU
 这	DT
 几	CD
-CAL	M
-有关	P
+年	M
+有关	JJ
 证券	NN
 的	DEG
 法规	NN
@@ -20898,7 +20898,7 @@ CAL	M
 了	AS
 不少	CD
 ，	PU
-可	NN
+可	AD
 都	AD
 没有	VV
 用	P
@@ -20939,7 +20939,7 @@ CAL	M
 证券	NN
 市场	NN
 从	P
-CAL	NT
+九十年代	NT
 初	LC
 发展	VV
 到	P
@@ -20948,9 +20948,9 @@ CAL	NT
 经历	VV
 了	AS
 许多	CD
-风风雨雨	M
+风风雨雨	NN
 ，	PU
-其间	NN
+其间	AD
 虽然	CS
 陆续	AD
 出台	VV
@@ -20962,8 +20962,8 @@ CAL	NT
 ，	PU
 但	AD
 一直	AD
-没有	VE
-NUM	CD
+没有	VV
+一	CD
 部	M
 对	P
 市场	NN
@@ -20980,8 +20980,8 @@ NUM	CD
 “	PU
 酝酿	VV
 多	CD
-CAL	M
-的	DEC
+年	M
+的	DEG
 《	PU
 证券法	NN
 》	PU
@@ -21018,10 +21018,10 @@ CAL	M
 可以	VV
 说	VV
 是	VC
-NUM	CD
+一	CD
 个	M
 “	PU
-长期	AD
+长期	NN
 利好	NN
 ”	PU
 。	PU
@@ -21063,7 +21063,7 @@ NUM	CD
 行为	NN
 。	PU
 
-LOCATION	NR
+上市	NR
 公司	NN
 的	DEG
 老总们	NN
@@ -21099,7 +21099,7 @@ LOCATION	NR
 市场	NN
 上	LC
 ，	PU
-LOCATION	NR
+上市	NR
 公司	NN
 就	AD
 象	P
@@ -21112,7 +21112,7 @@ LOCATION	NR
 我们	PN
 有	VE
 了	AS
-NUM	CD
+一	CD
 个	M
 明确	VA
 的	DEC
@@ -21183,7 +21183,7 @@ NUM	CD
 未	AD
 对	P
 上海	NR
-LOCATION	NN
+股市	NN
 造成	VV
 太	AD
 大	VA
@@ -21194,7 +21194,7 @@ LOCATION	NN
 上证	NN
 综指	AD
 报收于	VV
-NUM	CD
+一一五五点八七八	CD
 点	M
 ，	PU
 比	P
@@ -21202,12 +21202,12 @@ NUM	CD
 微	AD
 跌	VV
 了	AS
-NUM	CD
+四	CD
 点	M
 。	PU
 
 中午	NT
-LOCATION	NN
+闭市	NN
 时间	NN
 ，	PU
 证券	NN
@@ -21249,8 +21249,8 @@ LOCATION	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十九日	NT
 电	NN
 （	PU
 记者	NN
@@ -21274,7 +21274,7 @@ CAL	NT
 在	P
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 实施	VV
 的	DEC
 几	CD
@@ -21335,7 +21335,7 @@ LOCATION	NN
 有利于	VV
 实现	VV
 澳门	NR
-顺利	JJ
+顺利	NN
 回归	VV
 并	CC
 继续	VV
@@ -21349,7 +21349,7 @@ LOCATION	NN
 内容	NN
 如下	VV
 ：	PU
-NUM	CD
+一	CD
 、	PU
 凡	AD
 具有	VV
@@ -21417,7 +21417,7 @@ NUM	CD
 的	DEC
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 居民	NN
 ，	PU
 可	VV
@@ -21438,7 +21438,7 @@ LOCATION	NN
 
 确定	VV
 其中	NN
-NUM	CD
+一	CD
 种	M
 国籍	NN
 ，	PU
@@ -21446,7 +21446,7 @@ NUM	CD
 不	AD
 具有	VV
 另	AD
-NUM	CD
+一	CD
 种	M
 国籍	NN
 。	PU
@@ -21454,7 +21454,7 @@ NUM	CD
 上述	JJ
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 居民	NN
 ，	PU
 在	P
@@ -21465,7 +21465,7 @@ LOCATION	NN
 享有	VV
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 基本法	NN
 规定	VV
 的	DEC
@@ -21480,7 +21480,7 @@ LOCATION	NN
 除外	VV
 。	PU
 
-NUM	CD
+二	CD
 、	PU
 凡	AD
 持有	VV
@@ -21495,7 +21495,7 @@ NUM	CD
 在	P
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 成立	VV
 后	LC
 ，	PU
@@ -21508,20 +21508,20 @@ LOCATION	NN
 其他	DT
 国家	NN
 或	CC
-LOCATION	NN
+地区	NN
 旅行	VV
 ，	PU
 但	AD
 在	P
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 和	CC
 中华	NR
 人民	NN
 共和国	NN
 其他	DT
-LOCATION	NN
+地区	NN
 不	AD
 得	VV
 因	P
@@ -21540,7 +21540,7 @@ LOCATION	NN
 权利	NN
 。	PU
 
-NUM	CD
+三	CD
 、	PU
 在	P
 外国	NN
@@ -21549,7 +21549,7 @@ NUM	CD
 的	DEC
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 的	DEG
 中国	NR
 公民	NN
@@ -21566,20 +21566,20 @@ LOCATION	NN
 其他	DT
 国家	NN
 或	CC
-LOCATION	NN
+地区	NN
 旅行	VV
 ，	PU
 但	AD
 在	P
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 和	CC
 中华	NR
 人民	NN
 共和国	NN
 其他	DT
-LOCATION	NN
+地区	NN
 不	AD
 得	VV
 因	P
@@ -21595,12 +21595,12 @@ LOCATION	NN
 权利	NN
 。	PU
 
-NUM	CD
+四	CD
 、	PU
 在	P
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 成立	VV
 以前	LC
 或	CC
@@ -21629,7 +21629,7 @@ LOCATION	NN
 向	P
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 受理	VV
 国籍	NN
 申请	NN
@@ -21638,12 +21638,12 @@ LOCATION	NN
 申报	VV
 。	PU
 
-NUM	CD
+五	CD
 、	PU
 授权	VV
 澳门	NR
 特别	JJ
-LOCATION	NN
+行政区	NN
 政府	NN
 指定	VV
 其	PN
@@ -21673,7 +21673,7 @@ LOCATION	NN
 ）	PU
 
 北京	NR
-CAL	NN
+青年	NN
 认为	VV
 科学家	NN
 对	P
@@ -21685,22 +21685,22 @@ CAL	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-NUM	NT
+十二月	NT
+二十九	NT
 电	NN
 
 在	P
 最近	NT
 进行	VV
 的	DEC
-NUM	CD
+一	CD
 项	M
 社会	NN
 调查	NN
 中	LC
 ，	PU
 北京	NR
-CAL	NN
+青年	NN
 对	P
 科学家	NN
 为	P
@@ -21718,7 +21718,7 @@ CAL	NN
 半数	CD
 的	DEC
 北京	NR
-CAL	NN
+青年	NN
 认为	VV
 科学家	NN
 对	P
@@ -21729,7 +21729,7 @@ CAL	NN
 企业家	NN
 。	PU
 
-LOCATION	NR
+北京市	NR
 团委	NN
 委托	VV
 北京	NR
@@ -21747,12 +21747,12 @@ LOCATION	NR
 显示	VV
 ，	PU
 北京	NR
-CAL	NN
+青年	NN
 将	AD
 科学家	NN
 列为	VV
 最	AD
-受	P
+受	JJ
 尊敬	VV
 的	DEC
 人	NN
@@ -21777,7 +21777,7 @@ CAL	NN
 声望	NN
 在	P
 北京	NR
-CAL	NN
+青年	NN
 心目	NN
 中	LC
 是	VC
@@ -21786,11 +21786,11 @@ CAL	NN
 的	DEC
 。	PU
 
-NUM	CD
+百分之五十三点二	CD
 的	DEG
 被	SB
 调查	VV
-CAL	NT
+青年	NT
 认为	VV
 科学家	NN
 比	P
@@ -21814,7 +21814,7 @@ CAL	NT
 科学	NN
 技术	NN
 是	VC
-NUM	CD
+第一	CD
 生产力	NN
 ”	PU
 有	VE
@@ -21845,7 +21845,7 @@ NUM	CD
 是	VC
 研究	VV
 北京	NR
-CAL	NN
+青年	NN
 的	DEG
 科学	NN
 素质	NN
@@ -21854,13 +21854,13 @@ CAL	NN
 对象	NN
 为	VC
 北京	NR
-LOCATION	NN
-NUM	CD
+城区	NN
+十四	CD
 至	CC
-NUM	CD
+三十五	CD
 岁	M
 的	DEG
-CAL	NT
+青年	NT
 ，	PU
 其中	NN
 接受	VV
@@ -21869,27 +21869,27 @@ CAL	NT
 教育	NN
 的	DEC
 占	VV
-NUM	CD
+百分之二十九	CD
 ，	PU
 高中	NN
 程度	NN
 的	DEG
 占	VV
-NUM	CD
+百分之四十三	CD
 ，	PU
 初中	NN
 以下	LC
 的	DEG
 占	VV
-NUM	CD
+百分之二十八	CD
 。	PU
 
 调查	NN
 发现	VV
 ，	PU
-NUM	NT
+百分之八十九	NT
 的	DEG
-CAL	NT
+青年	NT
 认为	VV
 自己	PN
 的	DEG
@@ -21897,9 +21897,9 @@ CAL	NT
 知识	NN
 不	AD
 够	VA
-丰富	VV
+丰富	VA
 ；	PU
-NUM	CD
+百分之八十三	CD
 的	DEG
 人	NN
 感到	VV
@@ -21910,7 +21910,7 @@ NUM	CD
 的	DEC
 学习	NN
 ；	PU
-NUM	CD
+百分之四十	CD
 的	DEG
 人	NN
 认为	VV
@@ -21921,7 +21921,7 @@ NUM	CD
 是	VC
 计算机	NN
 ，	PU
-NUM	CD
+百分之二十八	CD
 的	DEG
 人	NN
 希望	VV
@@ -21941,7 +21941,7 @@ NUM	CD
 愿望	NN
 ，	PU
 但	AD
-NUM	CD
+百分之五十九	CD
 的	DEG
 人	NN
 感到	VV
@@ -21976,14 +21976,14 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２９日	NT
 电	NN
 
 美国	NR
 选手	NN
-克里斯蒂娜・科兹尼克	NT
-CAL	NT
+克里斯蒂娜・科兹尼克	CC
+２８日	NT
 在	P
 奥地利	NR
 的	DEG
@@ -22005,7 +22005,7 @@ CAL	NT
 高山	NN
 滑雪	NN
 系列赛	NN
-NUM	OD
+第四	OD
 次	M
 小回转	NN
 比赛	NN
@@ -22031,14 +22031,14 @@ NUM	OD
 中	LC
 赢得	VV
 的	DEC
-NUM	CD
+一	CD
 个	M
 冠军	NN
 ，	PU
 也	AD
 是	VC
 克里斯蒂娜・科兹尼克	JJ
-NUM	CD
+第二	CD
 次	M
 赢得	VV
 世界杯赛	NN
@@ -22064,7 +22064,7 @@ NUM	CD
 冠军	NN
 。	PU
 
-CAL	NT
+２８日	NT
 的	DEG
 小回转	NN
 比赛	NN
@@ -22077,7 +22077,7 @@ CAL	NT
 的	DEC
 。	PU
 
-CAL	NT
+今年	NT
 ２３	CD
 岁	M
 的	DEG
@@ -22085,11 +22085,11 @@ CAL	NT
 很	AD
 喜欢	VV
 在	P
-晚上	NT
+晚上	NN
 比赛	VV
 ，	PU
-最后	JJ
-NUM	CD
+最后	AD
+两	CD
 次	M
 滑行	NN
 以	P
@@ -22105,7 +22105,7 @@ NUM	CD
 冠军	NN
 。	PU
 
-CAL	NT
+２０日	NT
 ，	PU
 她	PN
 在	P
@@ -22116,7 +22116,7 @@ CAL	NT
 的	DEC
 世界杯	NR
 系列赛	NN
-NUM	OD
+第三	OD
 次	M
 小回转	NN
 比赛	NN
@@ -22136,15 +22136,15 @@ NUM	OD
 我	PN
 喜欢	VV
 在	P
-晚上	AD
-灯光	VV
+晚上	NN
+灯光	NN
 下	LC
 进行	VV
 比赛	NN
 ，	PU
 过去	NT
 １０	CD
-CAL	M
+年	M
 我	PN
 总是	AD
 在	P
@@ -22171,7 +22171,7 @@ CAL	M
 
 她	PN
 的	DEG
-NUM	CD
+第一	CD
 个	M
 世界杯赛	NN
 冠军	NN
@@ -22202,7 +22202,7 @@ NUM	CD
 岁	M
 的	DEG
 卡琳・罗滕	CD
-CAL	M
+２０日	M
 在	P
 瑞士	NR
 的	DEG
@@ -22212,7 +22212,7 @@ CAL	M
 克里斯蒂娜・科兹尼克	NN
 ，	PU
 赢得	VV
-NUM	OD
+第三	OD
 次	M
 小回转	NN
 比赛	NN
@@ -22220,9 +22220,9 @@ NUM	OD
 冠军	NN
 。	PU
 
-CAL	NT
+２０日	NT
 名列	VV
-NUM	OD
+第三	OD
 的	DEC
 瑞典	NR
 老将	NN
@@ -22231,7 +22231,7 @@ NUM	OD
 次	M
 依然	AD
 获得	VV
-NUM	OD
+第三	OD
 名	M
 ，	PU
 成绩	NN
@@ -22259,7 +22259,7 @@ NUM	OD
 次	M
 仅	AD
 获	VV
-NUM	OD
+第十六	OD
 名	M
 ，	PU
 铜牌	NN
@@ -22269,7 +22269,7 @@ NUM	OD
 的	DEG
 扎利・斯特加尔	NN
 获得	VV
-NUM	OD
+第十二	OD
 名	M
 。	PU
 
@@ -22281,7 +22281,7 @@ NUM	OD
 滑雪	NN
 系列赛	NN
 头	DT
-NUM	CD
+两	CD
 次	M
 女子	NN
 小回转	NN
@@ -22291,8 +22291,8 @@ NUM	CD
 斯洛文尼亚	CD
 选手	NN
 乌尔斯卡・赫罗瓦特	CD
-CAL	M
-CAL	AD
+１１月	M
+２１日	AD
 在	P
 美国	NR
 帕克城	NN
@@ -22304,14 +22304,14 @@ CAL	AD
 ，	PU
 瑞典	NR
 选手	NN
-安娅・派松	CD
-CAL	M
-CAL	AD
+安娅・派松	NT
+１２月	NT
+３日	NT
 在	P
 美国	NR
 马默斯山	NN
 获得	VV
-NUM	OD
+第二	OD
 次	M
 比赛	NN
 冠军	NN
@@ -22338,8 +22338,8 @@ NUM	OD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+二十九日	NT
 电	NN
 
 全	DT
@@ -22348,7 +22348,7 @@ CAL	NT
 常委会	NN
 今天	NT
 审议	VV
-并	CC
+并	AD
 通过	VV
 《	PU
 中华	NR
@@ -22391,7 +22391,7 @@ CAL	NT
 ，	PU
 是	VC
 建立	VV
-与	P
+与	CC
 发展	VV
 充满	VV
 活力	NN
@@ -22436,7 +22436,7 @@ CAL	NT
 ，	PU
 经过	P
 十几	CD
-CAL	M
+年	M
 的	DEG
 探索	NN
 和	CC
@@ -22569,7 +22569,7 @@ CAL	M
 的	DEG
 教训	NN
 ，	PU
-将	BA
+将	AD
 一些	CD
 成熟	VA
 的	DEC
@@ -22624,8 +22624,8 @@ CAL	M
 通过	NN
 ，	PU
 历时	VV
-NUM	CD
-CAL	M
+六	CD
+年	M
 。	PU
 
 在	P
@@ -22639,7 +22639,7 @@ CAL	M
 先后	AD
 审议	VV
 了	AS
-NUM	CD
+五	CD
 次	M
 ，	PU
 并	CC
@@ -22655,7 +22655,7 @@ NUM	CD
 
 这	PN
 是	VC
-NUM	CD
+一	CD
 个	M
 充分	JJ
 发扬	VV
@@ -22714,11 +22714,11 @@ NUM	CD
 完	VV
 ）	PU
 
-CAL	NT
+１９９８年	NT
 年末	NT
 将	AD
 增加	VV
-NUM	CD
+一	CD
 个	M
 “	PU
 闰秒	NN
@@ -22726,8 +22726,8 @@ NUM	CD
 
 新华社	NR
 伦敦	NR
-CAL	NT
-CAL	NT
+１２月	NT
+２９日	NT
 电	NN
 （	PU
 记者	NN
@@ -22737,7 +22737,7 @@ CAL	NT
 英国	NR
 广播	NN
 公司	NN
-CAL	NT
+２９日	NT
 报道	VV
 说	VV
 ，	PU
@@ -22766,15 +22766,15 @@ CAL	NT
 已	AD
 决定	VV
 在	P
-CAL	NT
-CAL	NT
-CAL	NT
+今年	NT
+１２月	NT
+３１日	NT
 的	DEG
 最后	JJ
-NUM	CD
+一	CD
 分钟	M
 增加	VV
-NUM	CD
+一	CD
 个	M
 “	PU
 闰秒	NN
@@ -22842,7 +22842,7 @@ NUM	CD
 子午线	NN
 所	MSP
 在	VV
-LOCATION	NR
+时区	NR
 为	VV
 标准	NN
 的	DEC
@@ -22850,7 +22850,7 @@ LOCATION	NR
 。	PU
 
 这	DT
-NUM	CD
+一	CD
 以	P
 地球	NN
 自转	NN
@@ -22872,7 +22872,7 @@ NUM	CD
 
 本	DT
 世纪	NN
-CAL	NT
+５０年代	NT
 ，	PU
 随着	P
 高	JJ
@@ -22882,7 +22882,7 @@ CAL	NT
 的	DEG
 出现	NN
 ，	PU
-NUM	CD
+一	CD
 种	M
 以	P
 原子	NN
@@ -22904,7 +22904,7 @@ NUM	CD
 速度	NN
 并	AD
 不	AD
-均匀	VV
+均匀	VA
 ，	PU
 世界时	NN
 误差	NN
@@ -22935,18 +22935,18 @@ NUM	CD
 的	DEG
 精确度	NN
 ，	PU
-有关	JJ
+有关	P
 国际	NN
 机构	NN
 于	P
-CAL	NT
+１９７２年	NT
 引入	VV
 “	PU
 协调	NN
 世界时	NN
 ”	PU
 这	DT
-NUM	CD
+一	CD
 新	VA
 的	DEC
 时间	NN
@@ -22987,14 +22987,14 @@ NUM	CD
 增加	VV
 或	CC
 减少	VV
-NUM	CD
+一	CD
 个	M
 “	PU
 闰秒	NN
 ”	PU
 来	MSP
 协调	VV
-NUM	CD
+两	CD
 种	M
 时间	NN
 以	P
@@ -23032,15 +23032,15 @@ NUM	CD
 为	VC
 该	DT
 年度	NN
-CAL	NT
+６月	NT
 或	CC
-CAL	NT
+１２月	NT
 最后	JJ
-NUM	CD
+一	CD
 天	M
 的	DEG
 最后	JJ
-NUM	CD
+一	CD
 分钟	M
 。	PU
 
@@ -23049,7 +23049,7 @@ NUM	CD
 闰秒	NN
 ”	PU
 系统	NN
-CAL	NT
+１９７２年	NT
 实施	VV
 以来	LC
 ，	PU
@@ -23073,7 +23073,7 @@ CAL	NT
 ）	PU
 
 世界	NN
-NUM	OD
+第一	CD
 大	JJ
 峡谷	NN
 比	P
@@ -23085,12 +23085,12 @@ NUM	OD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十日	NT
 电	NN
 （	PU
 记者	NN
-喻菲	NN
+喻菲	NR
 ）	PU
 
 刚刚	AD
@@ -23098,7 +23098,7 @@ CAL	NT
 徒步	AD
 穿越	VV
 世界	NN
-NUM	OD
+第一	OD
 大	JJ
 峡谷	NN
 ――	PU
@@ -23127,11 +23127,11 @@ NUM	OD
 底	LC
 最	AD
 窄	VA
-处	NN
-的	DEG
+处	VA
+的	DEC
 宽度	NN
 只有	AD
-NUM	CD
+三十五	CD
 米	M
 。	PU
 
@@ -23172,7 +23172,7 @@ NUM	CD
 科学家们	NN
 过去	NT
 从未	AD
-涉足	VV
+涉足	VA
 的	DEC
 地方	NN
 。	PU
@@ -23187,7 +23187,7 @@ NUM	CD
 处	NN
 宽度	NN
 为	VC
-NUM	CD
+七十八	CD
 米	M
 。	PU
 
@@ -23255,7 +23255,7 @@ NUM	CD
 青藏	NR
 高原	NN
 ，	PU
-CAL	NT
+一九九四年	NT
 中国	NR
 科学家	NN
 实地	NN
@@ -23265,13 +23265,13 @@ CAL	NT
 其	PN
 为	VV
 世界	NN
-NUM	OD
+第一	CD
 大	JJ
 峡谷	NN
 ，	PU
 它	PN
 长	VA
-NUM	CD
+四百九十六点三	CD
 公里	M
 ，	PU
 平均	AD
@@ -23282,7 +23282,7 @@ NUM	CD
 远远	AD
 超过	VV
 以前	NT
-被	SB
+被	LB
 誉为	VV
 世界	NN
 最	AD
@@ -23308,23 +23308,23 @@ NUM	CD
 介绍	NN
 ，	PU
 科学家	NN
-CAL	NT
+当年	NT
 进行	VV
 这	DT
-NUM	CD
+一	CD
 论证	NN
 时	LC
 ，	PU
 使用	VV
 了	AS
 该	DT
-LOCATION	NN
+地区	NN
 仅有	LC
 的	DEG
-NUM	CD
+一	CD
 比	CC
-NUM	CD
-航测	M
+五万	CD
+航测	NN
 地形图	NN
 和	CC
 卫星	NN
@@ -23343,12 +23343,12 @@ NUM	CD
 够高	VV
 。	PU
 
-CAL	NT
-CAL	NT
-CAL	NT
+今年	NT
+十月	NT
+十九日	NT
 至	CC
-CAL	NT
-CAL	NT
+十二月	NT
+十日	NT
 中国	NR
 科学	NN
 探险	NN
@@ -23409,7 +23409,7 @@ CAL	NT
 峡谷	NN
 设立	VV
 了	AS
-NUM	CD
+三	CD
 个	M
 测绘	NN
 基准点	NN
@@ -23427,17 +23427,17 @@ NUM	CD
 
 唐家璇	NR
 举行	VV
-CAL	NT
+新年	NT
 招待会	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十日	NT
 电	NN
 （	PU
 记者	NN
-张荣典	NN
+张荣典	NR
 ）	PU
 
 外交	NN
@@ -23451,8 +23451,8 @@ CAL	NT
 在	P
 新	VA
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 里	LC
 ，	PU
 中国	NR
@@ -23478,7 +23478,7 @@ CAL	M
 钓鱼台	NR
 国宾馆	NR
 举行	VV
-CAL	NT
+新年	NT
 招待会	NN
 ，	PU
 招待	VV
@@ -23522,7 +23522,7 @@ CAL	NT
 他	PN
 说	VV
 ：	PU
-CAL	NT
+一九九八年	NT
 对于	P
 中国	NR
 来	MSP
@@ -23532,8 +23532,8 @@ CAL	NT
 不	AD
 平凡	VV
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 。	PU
 
 我们	PN
@@ -23555,7 +23555,7 @@ CAL	M
 实现	VV
 了	AS
 经济	NN
-稳步	AD
+稳步	JJ
 增长	NN
 。	PU
 
@@ -23609,7 +23609,7 @@ CAL	M
 唐家璇	NR
 说	VV
 ：	PU
-CAL	NT
+一九九九年	NT
 即将	AD
 来临	VV
 。	PU
@@ -23644,8 +23644,8 @@ CAL	NT
 在	P
 新	VA
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 里	LC
 ，	PU
 我们	PN
@@ -23655,8 +23655,8 @@ CAL	M
 人民	NN
 共和国	NN
 建国	VV
-NUM	CD
-CAL	M
+五十	CD
+周年	M
 和	CC
 恢复	VV
 对	P
@@ -23688,7 +23688,7 @@ CAL	M
 在	P
 和平	AD
 共处	VV
-NUM	CD
+五	CD
 项	M
 原则	NN
 的	DEG
@@ -23741,8 +23741,8 @@ NUM	CD
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+１２月	NT
+３０日	NT
 电	NN
 
 中国	NR
@@ -23807,13 +23807,13 @@ CAL	NT
 字	NN
 。	PU
 
-CAL	NT
+１９５９年	NT
 ，	PU
 中国	NR
 运动员	NN
 容国团	NN
 在	P
-NUM	OD
+第二十五	OD
 届	M
 世乒赛	NN
 上	LC
@@ -23821,7 +23821,7 @@ NUM	OD
 中华	NR
 民族	NN
 夺得	VV
-NUM	CD
+第一	CD
 个	M
 世界	NN
 冠军	NN
@@ -23847,13 +23847,13 @@ NUM	CD
 其中	NN
 还	AD
 在	P
-NUM	OD
+两	OD
 届	M
 世乒赛	NN
 上	LC
 囊括	VV
 全部	DT
-NUM	CD
+七	CD
 项	M
 冠军	NN
 。	PU
@@ -23879,15 +23879,15 @@ NUM	CD
 为	P
 中国	NR
 夺得	VV
-NUM	OD
+第一	OD
 个	M
 世界	NN
 冠军	NN
 ４０	CD
-CAL	M
+周年	M
 和	CC
 ４０	CD
-CAL	M
+年	M
 来	LC
 中国	NR
 乒乓球	NN
@@ -23945,27 +23945,27 @@ CAL	M
 中国	NR
 乒乓球	NN
 运动员	NN
-没有	VE
+没有	VV
 参加	VV
-NUM	CD
+第二十九	CD
 和	CC
-NUM	CD
+三十	CD
 届	M
 世乒赛	NN
 。	PU
 
 因此	AD
 ，	PU
-复制	VA
+复制	VV
 的	DEC
 金牌	NN
 中	LC
 包括	VV
-将	BA
+将	AD
 要	VV
 举行	VV
 的	DEC
-NUM	OD
+第四十五	OD
 届	M
 世乒赛	NN
 金牌	NN
@@ -24004,12 +24004,12 @@ NUM	OD
 为	P
 中国	NR
 夺得	VV
-NUM	OD
+第一	OD
 个	M
 世界	NN
 冠军	NN
 ４０	CD
-CAL	NN
+周年	NN
 纪念	NN
 活动	NN
 。	PU
@@ -24033,13 +24033,13 @@ CAL	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十一日	NT
 电	NN
 
 国务院	NN
 办公厅	NN
-CAL	NT
+近日	NT
 发出	VV
 通知	NN
 ，	PU
@@ -24066,7 +24066,7 @@ CAL	NT
 说	VV
 ，	PU
 最近	NT
-NUM	CD
+一	CD
 段	M
 时间	NN
 ，	PU
@@ -24157,7 +24157,7 @@ NUM	CD
 要求	NN
 ：	PU
 
-NUM	CD
+一	CD
 、	PU
 各	DT
 级	M
@@ -24190,13 +24190,13 @@ NUM	CD
 干预	VV
 金融	NN
 机构	NN
-的	DEG
+的	DEC
 经营	NN
 活动	NN
 。	PU
 
 各	DT
-LOCATION	NN
+地区	NN
 、	PU
 各	DT
 部门	NN
@@ -24285,7 +24285,7 @@ LOCATION	NN
 形成	VV
 支付	NN
 风险	NN
-的	DEG
+的	DEC
 ，	PU
 要	VV
 积极	AD
@@ -24324,7 +24324,7 @@ LOCATION	NN
 责任	NN
 。	PU
 
-NUM	CD
+二	CD
 、	PU
 各	DT
 金融	NN
@@ -24359,7 +24359,7 @@ NUM	CD
 权	NN
 按照	P
 “	PU
-自愿	VV
+自愿	VA
 、	PU
 自主	VA
 、	PU
@@ -24452,7 +24452,7 @@ NUM	CD
 债务	NN
 。	PU
 
-NUM	CD
+三	CD
 、	PU
 各	DT
 金融	NN
@@ -24517,7 +24517,7 @@ NUM	CD
 金融	NN
 机构	NN
 ，	PU
-NUM	CD
+一	CD
 经	P
 发现	NN
 ，	PU
@@ -24539,7 +24539,7 @@ NUM	CD
 利息	NN
 。	PU
 
-NUM	CD
+四	CD
 、	PU
 人民	NN
 银行	NN
@@ -24602,7 +24602,7 @@ NUM	CD
 力	VA
 的	DEC
 ，	PU
-NUM	CD
+一	CD
 经	P
 查实	NN
 ，	PU
@@ -24661,14 +24661,14 @@ NUM	CD
 狮子会	NN
 帮助	VV
 湖北	NR
-灾民	NN
+灾民	CC
 住进	VV
 新居	NN
 
 新华社	NR
 武汉	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十一日	NT
 电	NN
 （	PU
 记者	NN
@@ -24677,12 +24677,12 @@ CAL	NT
 
 家	M
 住	VV
-LOCATION	NN
-LOCATION	NN
+湖北省	NN
+新洲县	NN
 的	DEG
 叶章荣	NN
 在	P
-CAL	NT
+今年	NT
 罕见	VV
 的	DEC
 大	JJ
@@ -24699,15 +24699,15 @@ CAL	NT
 之前	LC
 ，	PU
 他们	PN
-NUM	CD
+一	CD
 家	M
 已经	AD
 住进	VV
-NUM	CD
+一	CD
 幢	M
 崭新	VA
 的	DEC
-NUM	CD
+二	CD
 层	M
 小楼	NN
 里	LC
@@ -24739,13 +24739,13 @@ NUM	CD
 
 再	AD
 过	VV
-NUM	CD
+一	CD
 个	M
 多	CD
-CAL	M
+月	M
 ，	PU
 大约	AD
-NUM	CD
+六百	CD
 名	M
 灾民	NN
 会	VV
@@ -24767,7 +24767,7 @@ NUM	CD
 。	PU
 
 “	PU
-CAL	NT
+今年	NT
 长江	NR
 发水	VV
 前	LC
@@ -24778,19 +24778,19 @@ CAL	NT
 江堤	NN
 外面	NN
 ，	PU
-NUM	CD
-CAL	M
+三	CD
+年	M
 里	LC
 有	VE
-NUM	CD
-CAL	M
+两	CD
+年	M
 遭	VV
 水灾	NN
 ，	PU
 ”	PU
 这	DT
 位	M
-NUM	CD
+五十五	CD
 岁	M
 的	DEG
 菜农	NN
@@ -24820,9 +24820,9 @@ NUM	CD
 个	M
 仅	AD
 用	VV
-NUM	CD
+两三	CD
 个	M
-CAL	NN
+月	NN
 就	AD
 建	VV
 起来	VV
@@ -24845,7 +24845,7 @@ CAL	NN
 重建	NN
 提供	VV
 的	DEC
-NUM	CD
+三百万	CD
 元	M
 的	DEG
 资助	NN
@@ -24859,7 +24859,7 @@ NUM	CD
 机构	NN
 是	VC
 目前	NT
-NUM	CD
+唯一	CD
 与	M
 国家	NN
 建设部	NN
@@ -24908,7 +24908,7 @@ NUM	CD
 户	M
 提供	VV
 约	AD
-NUM	CD
+四分之一	CD
 的	DEG
 建房款	NN
 ，	PU
@@ -24921,7 +24921,7 @@ NUM	CD
 规划	NN
 由	P
 武汉	NR
-LOCATION	NR
+城市	NN
 规划	NN
 设计	NN
 研究院	NN
@@ -24951,8 +24951,8 @@ LOCATION	NR
 ，	PU
 面对	VV
 中国	NR
-NUM	OD
-CAL	M
+百	CD
+年	M
 不	AD
 遇	VV
 的	DEC
@@ -24968,7 +24968,7 @@ CAL	M
 。	PU
 
 建设部	NN
-LOCATION	NN
+城乡	NN
 规划司	NN
 的	DEG
 何兴华	NN
@@ -24984,7 +24984,7 @@ LOCATION	NN
 短短	AD
 几	CD
 个	M
-CAL	NN
+月	NN
 就	AD
 建成	VV
 这	DT
@@ -24999,7 +24999,7 @@ CAL	NN
 国际	NN
 狮子会	NN
 的	DEG
-及时	JJ
+及时	NN
 捐助	NN
 密不可分	VV
 。	PU
@@ -25014,7 +25014,7 @@ CAL	NN
 援助	VV
 重建	VV
 受灾	JJ
-LOCATION	NN
+村镇	NN
 提供	VV
 了	AS
 可以	VV
@@ -25041,7 +25041,7 @@ LOCATION	NN
 全	DT
 国	NN
 其它	DT
-LOCATION	NN
+灾区	NN
 的	DEG
 重建	NN
 工作	NN
@@ -25052,8 +25052,8 @@ LOCATION	NN
 的	DEC
 原	JJ
 址	NN
-原	JJ
-样	JJ
+原	AD
+样	AD
 恢复	VV
 ，	PU
 而	CC
@@ -25066,13 +25066,13 @@ LOCATION	NN
 结合	VV
 ，	PU
 实行	VV
-NUM	CD
+统一	CD
 规划	NN
 、	PU
-NUM	CD
+统一	CD
 设计	NN
 和	CC
-NUM	CD
+统一	CD
 建设	NN
 。	PU
 
@@ -25093,12 +25093,12 @@ NUM	CD
 吉林	NR
 和	CC
 内蒙古	NR
-NUM	CD
-LOCATION	NN
+七	CD
+省区	NN
 的	DEG
 两千五百多	CD
 个	M
-LOCATION	NN
+村镇	NN
 已	AD
 全面	AD
 完成	VV
@@ -25111,7 +25111,7 @@ LOCATION	NN
 据	P
 统计	NN
 ，	PU
-CAL	NT
+今年	NT
 夏天	NT
 发生	VV
 在	P
@@ -25125,7 +25125,7 @@ CAL	NT
 共	AD
 冲毁	VV
 房屋	NN
-NUM	CD
+七百三十多万	CD
 间	M
 ，	PU
 二点三亿多	CD
@@ -25183,13 +25183,13 @@ NUM	CD
 不	AD
 会	VV
 出现	VV
-倒闭	JJ
+倒闭	NN
 危机	NN
 
 新华社	NR
 香港	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十一日	NT
 电	NN
 
 香港	NR
@@ -25200,10 +25200,10 @@ CAL	NT
 表示	VV
 ，	PU
 虽然	CS
-CAL	NT
+今年	NT
 有	VE
-NUM	CD
-NUM	CD
+一	CD
+两	CD
 家	M
 银行	NN
 出现	VV
@@ -25227,7 +25227,7 @@ NUM	CD
 
 他	PN
 预计	VV
-CAL	NT
+明年	NT
 银行业	NN
 会	VV
 更加	AD
@@ -25237,7 +25237,7 @@ CAL	NT
 任志刚	NR
 日前	NT
 在	P
-CAL	NT
+年	NT
 终结会	NN
 上	LC
 指出	VV
@@ -25249,7 +25249,7 @@ CAL	NT
 比率	NN
 高	AD
 达	VV
-NUM	CD
+百分之十八点五	CD
 ，	PU
 且	CC
 资产	NN
@@ -25277,7 +25277,7 @@ NUM	CD
 由于	P
 坏账	NN
 需	VV
-NUM	CD
+一	CD
 段	M
 时间	NN
 才	AD
@@ -25286,14 +25286,14 @@ NUM	CD
 ，	PU
 所以	AD
 银行业	NN
-CAL	NN
+明年	NN
 将	AD
 为	VC
 更	AD
 困难	VA
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 ，	PU
 业界	NN
 需要	VV
@@ -25326,7 +25326,7 @@ CAL	M
 压力	NN
 测试	NN
 ，	PU
-结果	AD
+结果	NN
 显示	VV
 对	P
 银行业	NN
@@ -25336,7 +25336,7 @@ CAL	M
 。	PU
 
 政府	NN
-CAL	NT
+明年	NT
 会	VV
 制定	VV
 银行业	NN
@@ -25356,14 +25356,14 @@ CAL	NT
 银行	NN
 收购	VV
 资产	NN
-的	DEG
+的	DEC
 数额	NN
 若	CS
 超过	VV
 其	PN
 资本	NN
 的	DEG
-NUM	CD
+百分之五	CD
 ，	PU
 便	AD
 要	VV
@@ -25380,7 +25380,7 @@ NUM	CD
 银行	NN
 披露	VV
 资料	NN
-的	DEC
+的	DEG
 指引	NN
 ，	PU
 纳入	VV
@@ -25402,7 +25402,7 @@ NUM	CD
 息	NN
 差	AD
 达	VV
-NUM	CD
+一百二十五	CD
 点	M
 ，	PU
 如果	CS
@@ -25432,7 +25432,7 @@ NUM	CD
 他	PN
 建议	VV
 亚洲	NR
-LOCATION	NN
+地区	NN
 应	VV
 加强	VV
 金融	NN
@@ -25441,11 +25441,11 @@ LOCATION	NN
 如	AD
 与	P
 其他	DT
-LOCATION	NN
+地区	NN
 的	DEG
 货币	NN
 建立	VV
-实时	JJ
+实时	AD
 结算	NN
 联系	NN
 ，	PU
@@ -25479,8 +25479,8 @@ LOCATION	NN
 
 新华社	NR
 北京	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十一日	NT
 电	NN
 
 《	PU
@@ -25509,9 +25509,9 @@ CAL	NT
 刚刚	AD
 过去	VV
 的	DEC
-CAL	NT
+一九九八年	NT
 是	VC
-NUM	CD
+一	CD
 个	M
 重要	JJ
 年份	NN
@@ -25519,10 +25519,10 @@ NUM	CD
 已经	AD
 到来	VV
 的	DEC
-CAL	NT
+一九九九年	NT
 更	AD
 是	VC
-NUM	CD
+一	CD
 个	M
 不	AD
 同	VV
@@ -25534,7 +25534,7 @@ NUM	CD
 文章	NN
 说	VV
 ，	PU
-CAL	NT
+一九九八年	NT
 ，	PU
 在	P
 我们	PN
@@ -25548,25 +25548,25 @@ CAL	NT
 ，	PU
 是	VC
 经受	VV
-严峻	JJ
+严峻	NN
 考验	NN
 ，	PU
 取得	VV
 辉煌	JJ
 成就	NN
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 。	PU
 
 这	DT
-NUM	CD
-CAL	M
+一	CD
+年	M
 ，	PU
 我们	PN
 先后	AD
 出台	VV
-NUM	CD
+一	CD
 系列	M
 重大	JJ
 改革	NN
@@ -25588,8 +25588,8 @@ NUM	CD
 。	PU
 
 这	DT
-NUM	CD
-CAL	M
+一	CD
+年	M
 ，	PU
 我们	PN
 抵御	VV
@@ -25636,7 +25636,7 @@ CAL	M
 文章	NN
 说	VV
 ，	PU
-CAL	NT
+一九九九年	NT
 ，	PU
 在	P
 我们	PN
@@ -25656,8 +25656,8 @@ CAL	NT
 在	P
 新	VA
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 里	LC
 ，	PU
 我们	PN
@@ -25667,8 +25667,8 @@ CAL	M
 人民	NN
 共和国	NN
 建国	VV
-NUM	CD
-CAL	M
+五十	CD
+周年	M
 ，	PU
 迎来	VV
 澳门	NR
@@ -25706,8 +25706,8 @@ CAL	M
 面对	VV
 新	VA
 的	DEC
-NUM	CD
-CAL	M
+一	CD
+年	M
 要	VV
 正确	AD
 运用	VV
@@ -25758,8 +25758,8 @@ CAL	M
 改革	NN
 开放	NN
 经过	P
-NUM	CD
-CAL	M
+二十	CD
+年	M
 的	DEG
 积累	NN
 和	CC
@@ -25770,7 +25770,7 @@ CAL	M
 攻坚	NN
 阶段	NN
 ；	PU
-现代	JJ
+现代	NN
 科学	NN
 技术	NN
 和	CC
@@ -25816,7 +25816,7 @@ CAL	M
 拥有	VV
 的	DEC
 这	DT
-一切	M
+一切	PN
 ，	PU
 更	AD
 高	VA
@@ -25842,7 +25842,7 @@ CAL	M
 中央	NN
 周围	NN
 ，	PU
-NUM	CD
+统一	CD
 思想	NN
 、	PU
 坚定	VV
@@ -25877,7 +25877,7 @@ NUM	CD
 集团	NN
 兼并	VV
 陕西	NR
-NUM	CD
+五	CD
 家	M
 国有	JJ
 大型	JJ
@@ -25886,12 +25886,12 @@ NUM	CD
 
 新华社	NR
 西安	NR
-CAL	NT
-CAL	NT
+十二月	NT
+三十一日	NT
 电	NN
 （	PU
 记者	NN
-吴锦瑜	NN
+吴锦瑜	NR
 ）	PU
 
 中国	NR
@@ -25899,7 +25899,7 @@ CAL	NT
 集团	NN
 兼并	VV
 陕西	NR
-NUM	CD
+五	CD
 家	M
 国有	JJ
 大型	JJ
@@ -25923,21 +25923,21 @@ NUM	CD
 的	DEC
 西北	NN
 国棉	NN
-NUM	OD
+三	CD
 厂	NN
 、	PU
-NUM	CD
+四	CD
 厂	NN
 、	PU
-NUM	CD
+六	CD
 厂	NN
 、	PU
 陕棉	NN
-NUM	CD
+十一	CD
 厂	NN
 和	CC
 西北	NN
-NUM	CD
+第一	CD
 印染厂	NN
 ，	PU
 是	VC
@@ -25949,7 +25949,7 @@ NUM	CD
 企业	NN
 。	PU
 
-NUM	CD
+五	CD
 家	M
 企业	NN
 技术	NN
@@ -25977,7 +25977,7 @@ NUM	CD
 ，	PU
 累计	AD
 亏损	VV
-NUM	CD
+五点七二亿	CD
 元	M
 ，	PU
 资	NN
@@ -26008,7 +26008,7 @@ NUM	CD
 进行	VV
 。	PU
 
-NUM	CD
+五	CD
 户	M
 被	SB
 兼并	VV
@@ -26026,13 +26026,13 @@ NUM	CD
 注册	NN
 资本	NN
 达	VV
-NUM	CD
+二点六四亿	CD
 元	M
 的	DEC
 陕西	NR
-唐华	JJ
+唐华	NN
 纺织	NN
-印染	NN
+印染	JJ
 集团	NN
 有限	JJ
 责任	NN
@@ -26051,7 +26051,7 @@ NUM	CD
 人	NN
 财	NN
 物	NN
-NUM	CD
+统一	CD
 管理	VV
 ，	PU
 通过	P
@@ -26071,14 +26071,14 @@ NUM	CD
 装饰	NN
 用品	NN
 加工	NN
-NUM	CD
+一	CD
 条	M
 龙	NN
 的	DEG
 产业	NN
 结构链	NN
 ，	PU
-以	P
+以	MSP
 高	JJ
 科技	NN
 含量	NN
@@ -26120,7 +26120,7 @@ NUM	CD
 落实	VV
 了	AS
 呆坏帐	NN
-核销	NN
+核销	JJ
 规模	NN
 ，	PU
 并	CC
@@ -26135,9 +26135,9 @@ NUM	CD
 批准	NN
 ，	PU
 自	P
-CAL	NT
-CAL	NT
-CAL	NT
+明年	NT
+一月	NT
+一日	NT
 起	LC
 减免	VV
 银行	NN

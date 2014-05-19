@@ -1,5 +1,6 @@
 from helper import printc
 import sys
+import copy
 
 def poschk2iob(pos_chk_path):
     poschk = open(pos_chk_path, 'r')
@@ -60,7 +61,7 @@ def srl2iob(srl_path, trn=False, test=False):
                 roles = sp[1:]
 
                 if len(roles) == 0:
-                    roles = ['O'] * 20
+                    roles = ['O']
 
                 for idx, role in enumerate(roles):
                     if in_chunk is None:
@@ -153,12 +154,14 @@ def iob2token(wordpath, poschkpath, target, srlpath):
             sp = srl.split('\t')
             predicate = sp[0]
             lineroles = sp[1:]
+            assert(len(lineroles) > 0)
+
             if len(roles) == 0:
                 roles = [ [] for i in range(len(lineroles)) ]
 
             if '-VP' in chunk:
                 if chunk == 'B-VP' or chunk == 'EB-VP':
-                    see_in_the_begin = lineroles;
+                    see_in_the_begin = copy.deepcopy(lineroles)
 
                 for idx, role in enumerate(lineroles):
                     if role == 'EB-V':
@@ -189,16 +192,22 @@ def iob2token(wordpath, poschkpath, target, srlpath):
             else:
                 if chunk[0] == 'B' or (chunk[0] == 'E' and chunk[1] == 'B'):
                     see_in_the_begin2 = lineroles
+                    assert(len(see_in_the_begin2) > 0)
                     # print chunk
                 if chunk[0] == 'E':
                     words.append(word)
                     chunks.append(chunk)
 
                     poses.append(pos)
+
+                    hasv = False
                     for idx, role in enumerate(lineroles):
+                        if role == 'EB-V':
+                            print word, pos, 'in', chunk, role
                         if role[0] == 'E':
                             roles[idx].append(role)
                         else:
+                            # print word, chunk, role
                             roles[idx].append(see_in_the_begin2[idx])
                     see_in_the_begin2 = []
                 if chunk[0] == 'O':
@@ -226,8 +235,6 @@ def iob2token(wordpath, poschkpath, target, srlpath):
                         if '-' in chunk_to_write:
                             chunk_to_write = chunk_to_write.split('-')[1]
                         # print role
-                        if normrole(role) == '-':
-                            print words[idx], role
                         dest.write('%s\t%s\t%s\t%s\n' % (words[idx], poses[idx], chunk_to_write, normrole(role)))
                 dest.write('\n')
             roles = []
@@ -389,10 +396,11 @@ if len(sys.argv) > 1:
         poschk2iob('../data/dev.pos-chk')
         srl2iob('../data/dev.props')
         iob2token('../data/dev.wrd', '../data/dev.pos-chk.iob', '../data/dev.tokens', '../data/dev.props.iob')        
+    elif sys.argv[1] == 'testdev':
+        iob2token('../data/dev.wrd', 'test.pos-chk.iob', 'test.tokens', '../data/dev.props.iob')
     elif sys.argv[1] == 'props':
-        token2props('props.txt', '../data/dev.wrd', '../result.txt')
+        token2props('test.props.txt', '../data/dev.wrd', '../result.txt')
     elif sys.argv[1] == 'test':
-        poschk2iob('test.pos-chk')
         srl2iob('test.tgt', test=True)
         iob2token('test.wrd', 'test.pos-chk.iob', 'test.tokens', 'test.tgt.iob')
 

@@ -287,29 +287,69 @@ class Labeler:
     def tag(self, tagged_sent):
         roled = [[self._normalize(word), tag, chk, None] for word, tag, chk in tagged_sent]
 
-        for it in range(3):
-            for idx, (word, tag, chunk, role) in enumerate(roled):
-                # pred = self.single_tag_words.get(word)
-                pred = None
-                if not pred:
-                    features = self._get_features(idx, roled)
-                    if features['i is-predicate'] == 1:
-                        pred = 'E-V'
-                    else:
-                        pred = self.perceptron.predict(features)
-                roled[idx][3] = pred
+        for idx, (word, tag, chunk, role) in enumerate(roled):
+            # pred = self.single_tag_words.get(word)
+            pred = None
+            if not pred:
+                features = self._get_features(idx, roled)
+                if features['i is-predicate'] == 1:
+                    pred = 'E-V'
+                else:
+                    pred = self.perceptron.predict(features)
+            roled[idx][3] = pred
 
-        # in_role = 'O'
-        # for idx, (word, tag, chunk, role) in enumerate(roled):
-        #     if role[0] == 'E':
-        #         in_role = 'O'
-        #     elif role[0] == 'B':
-        #         in_role = role[2:]
-        #     else:
-        #         if in_role == 'O':
-        #             roled[idx][3] = 'O'
-        #         else:
-        #             roled[idx][3] = 'I-' + in_role
+        in_bracket = False
+        for idx, (word, tag, chunk, role) in enumerate(roled):
+            if role[0] == 'B' or (role[0] == 'E' and role[1] == 'B'):
+                if in_bracket:
+                    if role[0] == 'E':  # in bracket, EB
+                        j = idx-1
+                        while j > 0:
+                            if roled[j][3][0] == 'B':
+                                break
+                            j -= 1
+                        roled[idx][3] = 'E-' + roled[j][3][2:]
+                        in_bracket = False
+                    else:
+                        roled[idx][3] = 'I-' + roled[idx-1][3][2:]
+                else:
+                    if not role[0] == 'E':
+                        in_bracket = True
+            elif role[0] == 'E':
+                if in_bracket:
+                    j = idx-1
+                    while j > 0:
+                        if roled[j][3][0] == 'B':
+                            break
+                        j -= 1
+                    roled[idx][3] = 'E-' + roled[j][3][2:]
+                    in_bracket = False
+                else:
+                    roled[idx][3] = 'EB-' + roled[idx][3][2:]
+            else:
+                if in_bracket:
+                    if idx == len(roled)-1:
+                        j = idx-1
+                        while j > 0:
+                            if roled[j][3][0] == 'B':
+                                break
+                            j -= 1
+                        roled[idx][3] = 'E-' + roled[j][3][2:]
+                    else:
+                        roled[idx][3] = 'I-' + roled[idx-1][3][2:]
+                else:
+                    roled[idx][3] = 'O'
+            if in_bracket and idx == len(roled)-1:
+                j = idx-1
+                while j > 0:
+                    if roled[j][3][0] == 'B':
+                        break
+                    j -= 1
+                roled[idx][3] = 'E-' + roled[j][3][2:]
+
+        for idx, (word, tag, chunk, role) in enumerate(roled):
+            if role.startswith('EB'):
+                roled[idx][3] = 'E' + role[2:]
 
         return roled
 
@@ -412,7 +452,7 @@ if len(sys.argv) > 1:
     if sys.argv[1] == 'real':
         labeler.train(IOBData.trn_iob.sents, niter)
         faults = labeler.evaluate(IOBData.dev_iob.sents)
-    elif sys.argv[1] == 'fake':
+    elif sys.argv[1] == 'dev':
         labeler.train(IOBData.dev_iob.sents, niter)
         faults = labeler.evaluate(IOBData.dev_iob.sents)
     elif sys.argv[1] == 'train':
@@ -420,6 +460,9 @@ if len(sys.argv) > 1:
         faults = labeler.evaluate(IOBData.dev_iob.sents[ntrain:ntrain+ntest])
     elif sys.argv[1] == 'test':
         labeler.train(IOBData.trn_iob.sents, niter)
+        faults = labeler.evaluate(IOBData.tst_iob.sents)
+    elif sys.argv[1] == 'testdev':
+        labeler.train(IOBData.dev_iob.sents, niter)
         faults = labeler.evaluate(IOBData.tst_iob.sents)
 elapsed = time.clock() - start
 print elapsed, 'secs'

@@ -8,6 +8,7 @@ from helper import printc
 from helper import cstr
 import copy
 import time
+import sys
 
 
 class Tagger:
@@ -141,6 +142,7 @@ class Tagger:
         return self._make_features((word, tag), (pword1, ptag1), (pword2, ptag2), fword1, fword2)
 
     def tag(self, sent):
+        original = [[word, None] for word in sent]
         tagged = [[self._normalize(word), None] for word in sent]
 
         for idx, (word, tag) in enumerate(tagged):
@@ -149,8 +151,9 @@ class Tagger:
                 features = self._get_features(idx, tagged)
                 pred = self.perceptron.predict(features)
             tagged[idx][1] = pred
+            original[idx][1] = pred
 
-        return tagged
+        return original
 
     def tag2(self, sent):
         tagged = [[self._normalize(word), None] for word in sent]
@@ -253,7 +256,12 @@ class Tagger:
 
 tagger = Tagger()
 start = time.clock()
-tagger.train(dataset.train.tagged_sents, 7)
-faults = tagger.evaluate(dataset.read_words('test.wrd', 'test.tgt'))
+niter = int(sys.argv[2])
+tagger.train(dataset.train.tagged_sents, niter)
+if sys.argv[1] == 'dev':
+    faults = tagger.evaluate(dataset.develop.tagged_sents, log=True)
+elif sys.argv[1] == 'test':
+    faults = tagger.evaluate(dataset.read_words('test.wrd', 'test.tgt'))
+
 elapsed = time.clock() - start
 print elapsed, 'secs'

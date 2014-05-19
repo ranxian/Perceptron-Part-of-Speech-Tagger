@@ -7,6 +7,7 @@ from perceptron import Perceptron
 from helper import printc
 from helper import cstr
 import copy
+import sys
 
 
 class Chunker:
@@ -52,8 +53,8 @@ class Chunker:
             for word, tag, chunk in sent:
                 counts[word][chunk] += 1
 
-        threshold = 0.98
-        freqthres = 15
+        threshold = 0.95
+        freqthres = 10
 
         for word, tag_freqs in counts.items():
             chunk, freq = max(tag_freqs.items(), key=lambda item: item[1])
@@ -87,20 +88,14 @@ class Chunker:
         def add(name, *args):
             features['_'.join((name, ) + tuple(args))] = 1
 
-        pword1, ptag1, pchk1 = ('START1_WORD', 'START1_TAG', 'START1_CHK') if i <= 0 else sent[i-1]
-        pword2, ptag2, pchk2 = ('START2_WORD', 'START2_TAG', 'START2_CHK') if i <= 1 else sent[i-2]
+        pword1, ptag1, pchk1 = ('START1_WORD', 'START1_TAG', 'EB-START1_CHK') if i <= 0 else sent[i-1]
+        pword2, ptag2, pchk2 = ('START2_WORD', 'START2_TAG', 'EB-START2_CHK') if i <= 1 else sent[i-2]
+
+        pchk1_p = pchk1.split('-')[1] if pchk1 != 'O' else pchk1
+        pchk2_p = pchk2.split('-')[1] if pchk2 != 'O' else pchk2
         word, tag, chk = sent[i]
-        fword1, ftag1, fchk1 = ('END1_WORD', 'END1_TAG', 'END1_CHK') if i >= len(sent)-1 else sent[i+1]
-        fword2, ftag2, fchk2 = ('END2_WORD', 'END2_TAG', 'END2_CHK') if i >= len(sent)-2 else sent[i+2]
-
-        # def deletes(word):
-        #     return word[1:] if word[0] == '*' else word
-
-        # deletes(word)
-        # deletes(fword1)
-        # deletes(fword2)
-        # deletes(pword1)
-        # deletes(pword2)
+        fword1, ftag1, fchk1 = ('END1_WORD', 'END1_TAG', 'EB-END1_CHK') if i >= len(sent)-1 else sent[i+1]
+        fword2, ftag2, fchk2 = ('END2_WORD', 'END2_TAG', 'EB-END2_CHK') if i >= len(sent)-2 else sent[i+2]
 
         features = defaultdict(int)
         add('bias')
@@ -113,23 +108,23 @@ class Chunker:
         add('i-1 word', pword1)
         add('i-1 tag', ptag1)
         add('i-1 tag prefix', ptag1[0])
-        add('i i-1 word', word, pword1)
-        add('i-2 i-1 i pos', ptag2, ptag1, tag)
+        add('i-1 i word', pword1, word)
         add('i-2 i-1 chunk', pchk2, pchk1)
+        add('i-2 i-1 chunk_p', pchk2_p, pchk1_p)
+        add('i-1 chunk', pchk1)
+        add('i-2 chunk', pchk2)
 
         add('i-i i pos', ptag1, tag)
         add('i i+1 pos', tag, ftag1)
+        add('i i+1 i+2 pos', tag, ftag1, ftag2)
         add('i+1 word i pos', fword1, tag)
         add('i-1 word i pos', pword1, tag)
         add('i-1 pos i+1 pos', ptag1, ftag1)
         add('i pos i+2 pos', tag, ftag2)
 
-        # add('i-1 tag i word', ptag1, word)
-        # add('i-1 i-2 tag', ptag1, ptag2)
         add('i-2 word', ptag2)
         add('i-2 tag', ptag2)
         add('i-2 tag prefix', ptag2[0])
-        # add('i-2 tag i-1 word', ptag2, pword1)
 
         add('i+1 word', fword1)
         add('i+1 tag', ftag1)
@@ -139,25 +134,24 @@ class Chunker:
         add('i+2 tag', ftag2)
         add('i+2 tag prefix', ftag2[0])
 
-        for j in xrange(i-1, -1, -1):
-            if sent[j][2].endswith(")"):
-                add('out chunk', sent[j][2])
-                break
-            elif sent[j][2].startswith("("):
-                add('in chunk', sent[j][2].split('*')[0][1:])
+        add('i-1 tag i tag i+2 tag', ptag1, tag, ftag1)
+        add('i-1 tag i word i+2 tag', ptag1, word, ftag1)
+
+        if pchk1[0] == 'E' or pchk1[0] == 'O':
+            add('out chunk')
+        elif pchk1[0] == 'I' or pchk1[0] == 'B':
+            add('in chunk', pchk1[2:])
 
         for j in xrange(i-1, -1, -1):
-            if sent[j][2].endswith(")"):
-                for k in xrange(j, -1, -1):
-                    if sent[k][2].startswith('('):
-                        add('before chunk', sent[k][2].split('*')[0][1:])
-                        break
-            break
+            if sent[j][2][0] == 'E':
+                add('before chunk', sent[j][2].split('-')[1])
+                break
 
         if i == 0:
             add('i begin')
         elif i == len(sent)-1:
             add('i end')
+
         return features
 
     def tag(self, tagged_sent):
@@ -171,52 +165,84 @@ class Chunker:
             chked[idx][2] = pred
 
         in_bracket = False
+
         for idx, (word, tag, chunk) in enumerate(chked):
-            if chunk.startswith('('):
+            if chunk[0] == 'B' or (chunk[0] == 'E' and chunk[1] == 'B'):
                 if in_bracket:
-                    if chunk.endswith(')'):  # in brack
+                    if chunk[0] == 'E':  # in bracket, EB
                         j = idx-1
                         while j > 0:
-                            if chked[j][2].startswith('('):
+                            if chked[j][2][0] == 'B':
                                 break
                             j -= 1
-                        chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                        chked[idx][2] = 'E-' + chked[j][2][2:]
+                        if tag[0] == 'V' and chked[j][2][2:][0] != 'V':
+                            print 1, word, tag, 'to', chked[j][2][2:]
                         in_bracket = False
                     else:
-                        chked[idx][2] = '*'
+                        chked[idx][2] = 'I-' + chked[idx-1][2][2:]
+                        if tag[0] == 'V' and chked[idx-1][2][2:][0] != 'V':
+                            print 2, word, tag, 'to', chked[idx-1][2][2:]
                 else:
-                    if not chunk.endswith(')'):
+                    if not chunk[0] == 'E':
                         in_bracket = True
-            elif chunk.endswith(')'):
+            elif chunk[0] == 'E':
                 if in_bracket:
                     j = idx-1
                     while j > 0:
-                        if chked[j][2].startswith('('):
+                        if chked[j][2][0] == 'B':
                             break
                         j -= 1
-                    chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                    chked[idx][2] = 'E-' + chked[j][2][2:]
+                    if tag[0] == 'V' and chked[j][2][2:][0] != 'V':
+                            print 3, word, tag, 'to', chked[j][2][2:]
                     in_bracket = False
                 else:
-                    chunk = chunk[1:-2]
-                    chked[idx][2] = '(' + chunk + '*' + chunk + ')'
+                    chked[idx][2] = 'EB-' + chked[idx][2][2:]
             else:
                 if in_bracket:
                     if idx == len(chked)-1:
                         j = idx-1
                         while j > 0:
-                            if chked[j][2].startswith('('):
+                            if chked[j][2][0] == 'B':
                                 break
                             j -= 1
-                        chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                        chked[idx][2] = 'E-' + chked[j][2][2:]
+                        if tag[0] == 'V' and chked[j][2][2:][0] != 'V':
+                            print 4, word, tag, 'to', chked[j][2][2:]
                     else:
-                        chked[idx][2] = '*'
+                        chked[idx][2] = 'I-' + chked[idx-1][2][2:]
+                        if tag[0] == 'V' and chked[idx-1][2][2:][0] != 'V':
+                            print 5, word, tag, 'to', chked[idx-1][2][2:]
+                else:
+                    chked[idx][2] = 'O'
             if in_bracket and idx == len(chked)-1:
                 j = idx-1
                 while j > 0:
-                    if chked[j][2].startswith('('):
+                    if chked[j][2][0] == 'B':
                         break
                     j -= 1
-                chked[idx][2] = '*' + chked[j][2][1:-1] + ')'
+                chked[idx][2] = 'E-' + chked[j][2][2:]
+                if tag[0] == 'V' and chked[j][2][2:][0] != 'V':
+                    print word, tag, 'to', chked[j][2][2:]
+
+        for idx, (word, tag, chunk) in enumerate(chked):
+            if tag[0] == 'V' and chunk != 'O' and chunk.split('-')[1][0] != 'V':
+                if idx != 0:
+                    if chked[idx-1][2][0] == 'I':
+                        chked[idx-1][2] = 'E' + chked[idx-1][2][1:]
+                    elif chked[idx-1][2][0] == 'B':
+                        chked[idx-1][2] = 'E' + chked[idx-1][2]
+                if idx != len(chked)-1:
+                    if chked[idx+1][2][0] == 'I':
+                        chked[idx+1][2] = 'B' + chked[idx+1][2][1:]
+                    elif chked[idx+1][2][0] == 'E' and chked[idx+1][2][1] == '-':
+                        chked[idx+1][2] = 'EB' + chked[idx-1][2][1:]
+                chked[idx][2] = 'EB-VP'
+
+        for idx, (word, tag, chunk) in enumerate(chked):
+            if tag[0] == 'V' and chunk != 'O' and chunk.split('-')[1][0] != 'V':
+                print word, tag, 'in', chunk
         return chked
 
     def tag2(self, sent):
@@ -265,15 +291,7 @@ class Chunker:
         likely = {}
         faults_count = defaultdict(int)
 
-        # for chked_sent in chked_sents:
-        #     tagged_sent = [(word, tag) for (word, tag, chunk) in chked_sents]
-        #     chked = self.tag(tagged_sent)
-        #     for word, tag in tagged:
-        #         # print word, tag,
-        #         if tag == 'NR' and not word in likely:
-        #             likely[word] = 'NR'
-
-        f = open('test.pos-chk', 'w')
+        f = open('test.pos-chk.iob', 'w')
         for chked_sent in chked_sents:
             tagged_sent = [(word, tag) for (word, tag, chunk) in chked_sent]
             chked = self.tag(tagged_sent)
@@ -306,10 +324,11 @@ class Chunker:
         return faults
 
 chunker = Chunker()
-chunker.train(dataset.train.chked_sents, 5)
-faults = chunker.evaluate(dataset.read_word_pos('test.pos'), log=False)
-
-f = open('log2.txt', 'w')
-for fault in faults:
-    f.write(cstr(fault))
-    f.write('\n\n')
+niter = int(sys.argv[2])
+chunker.train(dataset.train.chked_sents, niter)
+if sys.argv[1] == 'dev':
+    chunker.evaluate(dataset.develop.chked_sents, log=True)
+elif sys.argv[1] == 'test':
+    chunker.evaluate(dataset.read_word_pos('test.pos'))
+elif sys.argv[1] == 'testdev':
+    chunker.evaluate(dataset.read_word_pos_chunk('test.pos', '../data/dev.pos-chk.iob'), log=True)

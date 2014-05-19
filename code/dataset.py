@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+from helper import printc
 
 class Dataset:
     """
@@ -109,28 +109,33 @@ def read_word_pos(path):
     return tagged_sents
 
 
-    self.vocabulary = set(self.words)
-    self.tag_set = set(tag for (word, tag) in self.tagged_words)
-
-def read_word_pos_chk(wordpath, tgt_path, poschkpath):
-    wordf = open(wordpath, 'r')
-    poschkf = open(poschkpath, 'r')
-    tgtf = open(tgt_path, 'r')
+def read_word_pos_chunk(pospath, goldenpath):
+    posf = open(pospath, 'r')
+    goldenf = open(goldenpath, 'r')
     chked_sents = []
     sent = []
     while True:
-        line = wordf.readline()
-        line2 = tgtf.readline()
-        line3 = poschkf.readline()
+        line = posf.readline()
+        line2 = goldenf.readline()
         if line == '':
             break
         line = line.rstrip('\n')
         line2 = line2.rstrip('\n')
-        line3 = line3.rstrip('\n')
 
-        predicate = line2
-        pos, chk = line3.split('\n')
+        if line == '':
+            # for s in sent:
+            #     printc(s)
+            # print ''
+            chked_sents.append(sent)
+            sent = []
+        else:
+            word, pos = line.split('\t')
+            _, golden = line2.split('\t')
+            sent.append((word, pos, golden))
+
+    return chked_sents
 
 
-train = Dataset('../data/trn.wrd', '../data/trn.pos-chk', '../data/trn.props')
-develop = Dataset('../data/dev.wrd', '../data/dev.pos-chk', '../data/dev.props')
+
+train = Dataset('../data/trn.wrd', '../data/trn.pos-chk.iob', '../data/trn.props')
+develop = Dataset('../data/dev.wrd', '../data/dev.pos-chk.iob', '../data/dev.props')
