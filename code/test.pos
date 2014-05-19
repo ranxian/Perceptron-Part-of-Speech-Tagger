@@ -156,7 +156,7 @@
 活动	NN
 一	AD
 出现	VV
-就	P
+就	AD
 被	SB
 纳入	VV
 法制	NN
@@ -183,7 +183,7 @@
 因为	P
 一	NT
 开始	VV
-就	P
+就	AD
 比较	AD
 规范	VA
 ，	PU
@@ -195,7 +195,7 @@
 一亿多	CD
 元	M
 ，	PU
-没有	VV
+没有	VE
 发现	VV
 一	CD
 例	M
@@ -350,7 +350,7 @@
 的	DEC
 法规性	NN
 文件	NN
-有些	DT
+有些	NN
 比较	AD
 “	PU
 粗	VV
@@ -627,7 +627,7 @@
 ，	PU
 这些	DT
 城市	NN
-去年	AD
+去年	NT
 完成	VV
 国内	NN
 生产	NN
@@ -654,7 +654,7 @@
 、	PU
 凭祥	NR
 、	PU
-珲春	NN
+珲春	NR
 、	PU
 伊宁	NN
 、	PU
@@ -664,7 +664,7 @@
 个	M
 边境	NN
 城市	NN
-为	VC
+为	VV
 对	P
 外	NN
 开放	NN
@@ -889,7 +889,7 @@
 中外	NN
 合资	JJ
 合作	NN
-的	DEG
+的	DEC
 建筑	NN
 企业	NN
 近	AD
@@ -995,7 +995,7 @@
 并	CC
 由	P
 国际	NN
-公开	JJ
+公开	AD
 招标	VV
 的	DEC
 工程	NN
@@ -1113,7 +1113,7 @@
 电	NN
 （	PU
 记者	NN
-央珍	NR
+央珍	NN
 ）	PU
 
 “	PU
@@ -1968,7 +1968,7 @@
 地理	NN
 条件	NN
 和	CC
-悠久	VV
+悠久	VA
 的	DEC
 历史	NN
 ，	PU
@@ -2019,7 +2019,7 @@
 内	LC
 的	DEG
 单位	NN
-足	AD
+足	NN
 不	AD
 出	VV
 岛	NN
@@ -2091,7 +2091,7 @@
 外	NN
 开放	VV
 成绩	NN
-斐然	VA
+斐然	VV
 
 新华社	NR
 南宁	NR
@@ -2100,7 +2100,7 @@
 电	NN
 （	PU
 记者	NN
-刘水玉	NR
+刘水玉	NN
 ）	PU
 
 数	CD
@@ -2139,7 +2139,7 @@
 如	VV
 潮	NN
 ，	PU
-楼房	AD
+楼房	NN
 拔地而起	VV
 。	PU
 
@@ -2255,7 +2255,7 @@
 分别	AD
 比	P
 “	PU
-七五	NT
+七五	OD
 ”	PU
 时期	NN
 （	PU
@@ -2385,8 +2385,8 @@
 ；	PU
 办好	VV
 柳州市	NR
-城市	NR
-综合	NN
+城市	NN
+综合	JJ
 改革	NN
 试验区	NN
 、	PU
@@ -2610,7 +2610,7 @@
 电	NN
 （	PU
 记者	NN
-曲直	NR
+曲直	NN
 ）	PU
 
 如今	NT
@@ -2671,7 +2671,7 @@
 信用	NN
 、	PU
 人身	NN
-四	OD
+四	CD
 大	JJ
 类	M
 主	JJ
@@ -2689,7 +2689,7 @@
 介绍	VV
 ，	PU
 “	PU
-八五	NT
+八五	CD
 ”	PU
 以来	LC
 ，	PU
@@ -2832,8 +2832,8 @@
 ，	PU
 有力	VA
 地	DEV
-促进	JJ
-甘肃省	NN
+促进	VV
+甘肃省	NR
 进出口	NN
 贸易	NN
 发展	VV
@@ -2891,7 +2891,7 @@
 了	AS
 一点九亿	CD
 美元	M
-的	DEC
+的	DEG
 安装	NN
 工程	NN
 保险	NN
@@ -2905,7 +2905,7 @@
 发展	NN
 需求	NN
 ，	PU
-人保	JJ
+人保	NN
 公司	NN
 积极	AD
 推出	VV
@@ -2995,7 +2995,7 @@
 业务	NN
 ，	PU
 为	P
-省	NN
+省	NR
 国际	NN
 公司	NN
 中标	VV
@@ -3281,7 +3281,7 @@
 电	NN
 （	PU
 记者	NN
-唐庆忠	NR
+唐庆忠	NN
 ）	PU
 
 杭州	NR
@@ -3320,7 +3320,7 @@
 新	JJ
 技术	NN
 产业	NN
-的	DEG
+的	DEC
 有	VE
 二百二十三	CD
 家	M
@@ -3480,7 +3480,7 @@
 其中	NN
 五十七	CD
 项	M
-被	SB
+被	LB
 批准	VV
 列入	VV
 国家	NN
@@ -3572,7 +3572,7 @@
 国际	NN
 先进	JJ
 水平	NN
-的	DEG
+的	DEC
 甲肝	NN
 减毒	NN
 活	AD
@@ -3594,7 +3594,7 @@
 生产	VV
 此	DT
 疫苗	NN
-的	DEC
+的	DEG
 普康	NN
 公司	NN
 已	AD
@@ -3644,7 +3644,7 @@
 作	VV
 保护气	NN
 直拉	VV
-硅	JJ
+硅	NN
 单晶	NN
 技术	NN
 ，	PU
@@ -3652,7 +3652,7 @@
 由	P
 该	DT
 区	NN
-浙大	AD
+浙大	NN
 半导体厂	NN
 转化	VV
 为	VV
@@ -3665,7 +3665,7 @@
 佼佼者	NN
 ，	PU
 目前	NT
-硅	DT
+硅	DEG
 单晶	NN
 年产	NN
 已	AD
@@ -3872,7 +3872,7 @@
 经济带	NN
 。	PU
 
-京杭	AD
+京杭	NN
 运河	NN
 古来	AD
 繁华	VV
@@ -3934,7 +3934,7 @@
 万	CD
 吨	M
 上	LC
-的	DEC
+的	DEG
 企业	NN
 就	AD
 有	VE
@@ -4111,7 +4111,7 @@
 
 在	P
 常州	NR
-重点	AD
+重点	NN
 培育	VV
 的	DEC
 十	CD
@@ -4162,7 +4162,7 @@
 家	M
 ，	PU
 成为	VV
-无锡市	NN
+无锡市	NR
 经济	NN
 发展	NN
 的	DEG
@@ -4198,7 +4198,7 @@
 。	PU
 
 扬州市	NR
-傍	NN
+傍	LC
 河	NN
 而	MSP
 建	VV
@@ -4366,7 +4366,7 @@
 次	M
 举办	VV
 的	DEC
-专门	JJ
+专门	AD
 讨论	VV
 两	CD
 国	NN
@@ -4467,7 +4467,7 @@
 预计	VV
 ，	PU
 今年	NT
-中	NR
+中	LC
 韩	NR
 两	CD
 国	NN
@@ -4487,7 +4487,7 @@
 次	M
 举办	VV
 的	DEC
-专门	JJ
+专门	AD
 讨论	VV
 两	CD
 国	NN
@@ -4625,7 +4625,7 @@
 驻华	JJ
 使馆	NN
 、	PU
-大韩	JJ
+大韩	NN
 贸易	NN
 振兴	NN
 公社	NN
@@ -4667,7 +4667,7 @@
 保税区	NN
 绘就	VV
 “	PU
-九五	NT
+九五	CD
 ”	PU
 新	JJ
 规划	NN
@@ -4805,7 +4805,7 @@
 参照	NN
 目标	NN
 ，	PU
-以	MSP
+以	P
 “	PU
 境内	NN
 关外	NN
@@ -4851,7 +4851,7 @@
 
 以	P
 建立	VV
-保税区	NN
+保税区	NR
 管理局	NN
 为	VV
 契机	NN
@@ -4937,7 +4937,7 @@
 从	P
 零散	NN
 状态	NN
-的	DEG
+的	DEC
 小	JJ
 规模	NN
 引进	NN
@@ -4951,7 +4951,7 @@
 公司	NN
 和	CC
 集团	NN
-的	DEG
+的	DEC
 大型	JJ
 工	NN
 贸	NN
@@ -4983,7 +4983,7 @@
 一百五十亿	CD
 元	M
 ，	PU
-年	NT
+年	JJ
 出口	NN
 创汇	NN
 十五亿	CD
@@ -5096,7 +5096,7 @@
 电	NN
 （	PU
 记者	NN
-张锦胜	NR
+张锦胜	NN
 ）	PU
 
 国家	NN
@@ -5244,7 +5244,7 @@
 ，	PU
 吸引	VV
 更	AD
-多	CD
+多	JJ
 外商	NN
 前来	VV
 投资	VV
@@ -5271,7 +5271,7 @@
 发展	NN
 仍	AD
 面临	VV
-严竣	JJ
+严竣	NN
 挑战	NN
 。	PU
 
@@ -5280,7 +5280,7 @@
 快速	AD
 增长	VV
 的	DEC
-背后	JJ
+背后	NN
 还	AD
 存在	VV
 不少	CD
@@ -5294,7 +5294,7 @@
 、	PU
 农业	NN
 基础	NN
-薄弱	VA
+薄弱	VV
 、	PU
 国有	JJ
 企业	NN
@@ -5481,7 +5481,7 @@
 这	DT
 次	M
 发行	VV
-武士	JJ
+武士	NN
 债券	NN
 的	DEC
 条件	NN
@@ -5505,7 +5505,7 @@
 核电	NN
 工程	NN
 、	PU
-伊敏	NN
+伊敏	JJ
 电厂	NN
 和	CC
 绥中	NN
@@ -5520,7 +5520,7 @@
 国家	NN
 开发	NN
 银行	NN
-自	P
+自	AD
 成立	NN
 以来	LC
 ，	PU
@@ -5561,7 +5561,7 @@
 工程	NN
 、	PU
 秦山	NR
-二	OD
+二	CD
 期	M
 核电	NN
 等	ETC
@@ -5626,7 +5626,7 @@
 电	NN
 （	PU
 记者	NN
-胡辛	NR
+胡辛	NN
 ）	PU
 
 中国	NR
@@ -5825,7 +5825,7 @@
 和	CC
 鼓励	VV
 海南	NR
-热带	JJ
+热带	NN
 农业	NN
 及	CC
 加工业	NN
@@ -5835,7 +5835,7 @@
 努力	AD
 争取	VV
 实现	VV
-琼台	NN
+琼台	JJ
 农业	NN
 项	M
 下	LC
@@ -5921,7 +5921,7 @@
 面积	NN
 二点三	CD
 平方公里	M
-的	DEG
+的	DEC
 宁波	NR
 保税区	NN
 ，	PU
@@ -5978,7 +5978,7 @@
 据	P
 统计	NN
 ，	PU
-至	P
+至	CC
 去年	NT
 年底	NT
 ，	PU
@@ -5996,7 +5996,7 @@
 一	CD
 年	M
 通过	VV
-保税区	NR
+保税区	NN
 海关	NN
 的	DEG
 进出口	NN
@@ -6058,7 +6058,7 @@
 保税区	NR
 免证	NN
 、	PU
-免税	JJ
+免税	NN
 ，	PU
 保税	JJ
 政策	NN
@@ -6124,7 +6124,7 @@
 企业	NN
 也	AD
 通过	P
-保税区	NN
+保税区	NR
 与	P
 国际	NN
 市场	NN
@@ -6338,7 +6338,7 @@
 现代化	NN
 商城	NN
 ――	PU
-金三角	AD
+金三角	NN
 新庄	NN
 的	DEG
 建设	NN
@@ -6473,7 +6473,7 @@
 电	NN
 （	PU
 记者	NN
-施勇峰	NR
+施勇峰	NN
 ）	PU
 
 长江	NR
@@ -6524,7 +6524,7 @@
 加拿大	NR
 ＭＡＩ	NN
 公司	NN
-科学	VV
+科学	VA
 的	DEC
 管理	NN
 办法	NN
@@ -6534,7 +6534,7 @@
 计算机	NN
 技术	NN
 ，	PU
-以	P
+以	MSP
 工程	NN
 数据库	NN
 管理	NN
@@ -6547,7 +6547,7 @@
 工程	NN
 的	DEG
 各	DT
-分项	NN
+分项	M
 工程	NN
 的	DEG
 设计	NN
@@ -6644,7 +6644,7 @@
 浙江	NR
 确定	VV
 “	PU
-九五	NT
+九五	CD
 ”	PU
 对	P
 外	NN
@@ -6659,7 +6659,7 @@
 电	NN
 （	PU
 记者	NN
-曹银康	NR
+曹银康	NN
 ）	PU
 
 浙江省	NR
@@ -6706,7 +6706,7 @@
 ”	PU
 期间	NN
 （	PU
-一九九六	NT
+一九九六	CD
 ――	PU
 二０００年	NT
 ）	PU
@@ -6767,7 +6767,7 @@
 经济	NN
 开发区	NN
 和	CC
-省级	NN
+省级	JJ
 农业	NN
 开发区	NN
 。	PU
@@ -6794,7 +6794,7 @@
 
 浙江	NR
 “	PU
-九五	NT
+九五	NN
 ”	PU
 经贸	NN
 发展	NN
@@ -6814,7 +6814,7 @@
 高	JJ
 层次	NN
 、	PU
-宽	NN
+宽	JJ
 领域	NN
 、	PU
 纵深化	NN
@@ -7162,7 +7162,7 @@
 一百八十五点六亿	CD
 元	M
 人民币	NN
-的	DEG
+的	DEC
 税金	NN
 ，	PU
 完成	VV
@@ -7230,7 +7230,7 @@
 已	AD
 建立	VV
 的	DEC
-乡镇	NN
+乡镇	NR
 企业	NN
 集团	NN
 中	LC
@@ -7282,7 +7282,7 @@
 ）	PU
 
 内蒙古	NR
-呼伦贝尔盟	CD
+呼伦贝尔盟	AD
 加大	VV
 开放	NN
 力度	NN
@@ -7294,7 +7294,7 @@
 电	NN
 （	PU
 记者	NN
-何涛	NR
+何涛	NN
 ）	PU
 
 最近	NT
@@ -7327,7 +7327,7 @@
 步伐	NN
 。	PU
 
-呼伦贝尔盟	AD
+呼伦贝尔盟	NN
 位	VV
 于	P
 中国	NR
@@ -7412,7 +7412,7 @@
 十月份	NT
 开始	LC
 ，	PU
-呼伦贝尔盟	AD
+呼伦贝尔盟	NT
 出台	VV
 了	AS
 新	VA
@@ -7509,11 +7509,11 @@
 以内	LC
 。	PU
 
-盟	AD
+盟	JJ
 工商	NN
 部门	NN
 对	P
-个体	AD
+个体	NN
 私营	JJ
 企业	NN
 申办	VV
@@ -7587,7 +7587,7 @@
 
 迄今	AD
 ，	PU
-呼伦贝尔盟	NN
+呼伦贝尔盟	DT
 十三	CD
 个	M
 旗	NN
@@ -7642,7 +7642,7 @@
 建成	VV
 通车	VV
 ，	PU
-额尔古纳河	NN
+额尔古纳河	CD
 航运	NN
 试航	VV
 成功	VA
@@ -7658,7 +7658,7 @@
 水路	NN
 和	CC
 空中	NN
-立体	NN
+立体	JJ
 开放	VV
 、	PU
 多	CD
@@ -7709,14 +7709,14 @@
 。	PU
 
 加拿大	NR
-太平	AD
+太平	NN
 矿业	NN
 有限	JJ
 公司	NN
 投资	VV
 二千九百七十万	CD
 元	M
-与	CC
+与	P
 呼盟	NN
 一	CD
 家	M
@@ -7732,7 +7732,7 @@
 公司	NN
 ，	PU
 瑞士	NR
-特联	JJ
+特联	NN
 投资	NN
 集团	NN
 投资	VV
@@ -7749,7 +7749,7 @@
 电站	NN
 ，	PU
 美国	NR
-环球	AD
+环球	NN
 集团	NN
 有限	JJ
 公司	NN
@@ -7801,7 +7801,7 @@
 与	P
 东北	NN
 、	PU
-华东	NN
+华东	NR
 、	PU
 华南	NR
 、	PU
@@ -7820,7 +7820,7 @@
 ，	PU
 去年	NT
 呼盟	NN
-易货	JJ
+易货	NN
 贸易	NN
 完成	VV
 三点五亿	CD
@@ -7829,7 +7829,7 @@
 比	P
 上	DT
 年	M
-现汇	JJ
+现汇	NN
 贸易	NN
 成倍	AD
 增长	VV
@@ -7841,7 +7841,7 @@
 ，	PU
 是	VC
 上	DT
-年	NN
+年	M
 的	DEG
 四	CD
 倍	M
@@ -7856,7 +7856,7 @@
 ，	PU
 是	VC
 上	DT
-年	NN
+年	M
 的	DEG
 一点五	CD
 倍	M
@@ -8090,7 +8090,7 @@
 ，	PU
 初级	JJ
 形状	NN
-塑料	NN
+塑料	AD
 进口	VV
 一百一十万	CD
 吨	M
@@ -8117,7 +8117,7 @@
 外商	NN
 投资	NN
 企业	NN
-一	NT
+一	NN
 至	CC
 二月份	NT
 进出口	NN
@@ -8166,7 +8166,7 @@
 电	NN
 （	PU
 记者	NN
-赵华	NR
+赵华	NN
 ）	PU
 
 记者	NN
@@ -8281,7 +8281,7 @@
 以上	LC
 ，	PU
 高于	VV
-大连市	NR
+大连市	NN
 国内	NN
 生产	NN
 总值	NN
@@ -8389,7 +8389,7 @@
 这些	DT
 三资	JJ
 企业	NN
-以	P
+以	MSP
 其	PN
 出口	NN
 商品	NN
@@ -8534,17 +8534,17 @@
 两	CD
 国	NN
 签订	VV
-边贸	NN
+边贸	JJ
 协定	NN
 
 新华社	NR
-仰光	NT
+仰光	NR
 ３月	NT
 １７日	NT
 电	NN
 （	PU
 记者	NN
-张云飞	NR
+张云飞	NN
 ）	PU
 
 缅甸	NR
@@ -8777,7 +8777,7 @@
 投资	VV
 成立	VV
 的	DEC
-第十四	CD
+第十四	OD
 家	M
 合资	JJ
 企业	NN
@@ -8969,7 +8969,7 @@
 ，	PU
 其中	NN
 ，	PU
-以	MSP
+以	P
 工业	NN
 制成品	NN
 为主	VV
@@ -9101,7 +9101,7 @@
 电	NN
 （	PU
 记者	NN
-钞文	NR
+钞文	NN
 ）	PU
 
 经	P
@@ -9110,7 +9110,7 @@
 银行	NN
 批准	VV
 ，	PU
-泰康	NN
+泰康	AD
 人寿	NN
 保险	NN
 股份	NN
@@ -9124,7 +9124,7 @@
 正在	AD
 紧张	AD
 筹建	VV
-中	NR
+中	LC
 。	PU
 
 据	P
@@ -9150,7 +9150,7 @@
 的	DEG
 。	PU
 
-泰康	NN
+泰康	AD
 人寿	NN
 保险	NN
 股份	NN
@@ -9211,7 +9211,7 @@
 设立	VV
 办事	NN
 机构	NN
-的	DEC
+的	DEG
 有	VE
 一百多	CD
 家	M
@@ -9364,7 +9364,7 @@
 取消	VV
 进口	NN
 设备	NN
-免税	JJ
+免税	AD
 优惠	NN
 。	PU
 
@@ -9450,7 +9450,7 @@
 。	PU
 
 其中	NN
-一般	JJ
+一般	AD
 贸易	NN
 的	DEG
 一半	CD
@@ -9497,7 +9497,7 @@
 ，	PU
 从业	JJ
 人员	NN
-二百多万	NN
+二百多万	CD
 。	PU
 
 近	AD
@@ -9617,7 +9617,7 @@
 手续费	NN
 ，	PU
 因而	AD
-将	AD
+将	BA
 减轻	VV
 企业	NN
 的	DEG
@@ -9743,7 +9743,7 @@
 中国	NR
 经济	NN
 生活	NN
-的	DEG
+的	DEC
 各	DT
 个	M
 领域	NN
@@ -9784,7 +9784,7 @@
 ，	PU
 比	P
 “	PU
-七五	NT
+七五	OD
 ”	PU
 时期	NN
 （	PU
@@ -9865,7 +9865,7 @@
 初级	JJ
 产品	NN
 作为	VV
-主力	NN
+主力	JJ
 出口	NN
 产品	NN
 的	DEG
@@ -9920,7 +9920,7 @@
 分别	AD
 比	P
 “	PU
-七五	CD
+七五	NT
 ”	PU
 增长	VV
 了	AS
@@ -9977,7 +9977,7 @@
 金额	NN
 比	P
 “	PU
-七五	CD
+七五	NT
 ”	PU
 增长	VV
 近	AD
@@ -10003,7 +10003,7 @@
 ，	PU
 比	P
 “	PU
-七五	CD
+七五	NT
 ”	PU
 增长	VV
 二点七	CD
@@ -10096,7 +10096,7 @@
 以往	NT
 经济	NN
 相对	AD
-落后	VA
+落后	VV
 的	DEC
 内陆	NN
 地区	NN
@@ -10104,7 +10104,7 @@
 也	AD
 掀起	VV
 了	AS
-开放	VV
+开放	VA
 的	DEC
 热潮	NN
 。	PU
@@ -10141,7 +10141,7 @@
 同时	AD
 ，	PU
 “	PU
-八五	NT
+八五	OD
 ”	PU
 时期	NN
 的	DEG
@@ -10234,7 +10234,7 @@
 电	NN
 （	PU
 记者	NN
-顾万明	NR
+顾万明	NN
 ）	PU
 
 广东	NR
@@ -10318,7 +10318,7 @@
 投产	VV
 ，	PU
 使	VV
-四	OD
+四	CD
 大	JJ
 类	M
 产品	NN
@@ -10369,7 +10369,7 @@
 增长	VV
 。	PU
 
-长期	JJ
+长期	AD
 发展	NN
 慢	VA
 的	DEC
@@ -10480,7 +10480,7 @@
 的	DEC
 电脑	NN
 元器件	NN
-大量	CD
+大量	AD
 销往	VV
 世界	NN
 各	DT
@@ -10638,7 +10638,7 @@
 高	JJ
 科技	NN
 产业带	NN
-的	DEC
+的	DEG
 规划	NN
 ，	PU
 到	P
@@ -10757,7 +10757,7 @@
 、	PU
 经贸	NN
 合作	NN
-的	DEG
+的	DEC
 最佳	JJ
 地带	NN
 。	PU
@@ -10949,7 +10949,7 @@
 年	M
 间	LC
 ，	PU
-被	LB
+被	SB
 研制	VV
 开发	VV
 出	VV
@@ -10965,7 +10965,7 @@
 带	VV
 画中画	NN
 功能	NN
-的	DEC
+的	DEG
 数字	NN
 彩色	JJ
 电视机	NN
@@ -10998,14 +10998,14 @@
 被	SB
 行家们	NN
 鉴定	VV
-为	VV
+为	VC
 具有	VV
 国际	NN
 或	CC
 国内	NN
 先进	JJ
 水平	NN
-的	DEG
+的	DEC
 高	JJ
 科技	NN
 产品	NN
@@ -11016,20 +11016,20 @@
 新	JJ
 技术	NN
 企业	NN
-如	P
+如	AD
 福建	NR
 日立	NR
 有限	JJ
 公司	NN
 、	PU
-厦华	NN
+厦华	JJ
 电子	NN
 企业	NN
 有限	JJ
 公司	NN
 、	PU
 福建	NR
-实达	JJ
+实达	NN
 电脑	NN
 股份	NN
 有限	JJ
@@ -11183,7 +11183,7 @@
 ）	PU
 
 天津	NR
-与	P
+与	CC
 俄罗斯	NR
 经贸	NN
 关系	NN
@@ -11343,7 +11343,7 @@
 逐步	AD
 取代	VV
 了	AS
-易货	JJ
+易货	NN
 贸易	NN
 ，	PU
 成交额	NN
@@ -11447,7 +11447,7 @@
 的	DEG
 百分之五十	CD
 ；	PU
-而	CC
+而	AD
 从	P
 俄罗斯	NR
 进口	VV
@@ -11766,7 +11766,7 @@
 为	VV
 依托	NN
 的	DEC
-水东	NN
+水东	JJ
 开发区	NN
 ，	PU
 不断	AD
@@ -11940,7 +11940,7 @@
 开发区	NN
 发展	VV
 乙烯	NN
-后继	NN
+后继	JJ
 加工	NN
 项目	NN
 的	DEG
@@ -12031,8 +12031,8 @@
 
 此外	AD
 ，	PU
-水东	NN
-开发区	NN
+水东	AD
+开发区	VV
 还	AD
 投入	VV
 了	AS
@@ -12192,8 +12192,8 @@
 投产	VV
 后	LC
 ，	PU
-水东	CS
-开发区	NR
+水东	JJ
+开发区	NN
 可望	AD
 进入	VV
 全面	AD
@@ -12236,7 +12236,7 @@
 
 由	P
 中国	NR
-自主	JJ
+自主	AD
 设计	VV
 建设	VV
 、	PU
@@ -12375,7 +12375,7 @@
 基础	NN
 。	PU
 
-安玻	JJ
+安玻	NN
 公司	NN
 是	VC
 中国	NR
@@ -12449,7 +12449,7 @@
 超过	VV
 设计	NN
 能力	NN
-百分之七十八	NN
+百分之七十八	CD
 ，	PU
 去年	NT
 已	AD
@@ -12536,20 +12536,20 @@
 我	PN
 为主	VV
 、	PU
-博	NN
+博	AD
 采	VV
-众	NN
+众	DEV
 长	NN
 、	PU
 别具一格	VV
 、	PU
-自	P
+自	AD
 成	VV
 体系	NN
 ”	PU
 和	CC
 “	PU
-自我	NN
+自我	PN
 技术	NN
 总承包	VV
 、	PU
@@ -12575,7 +12575,7 @@
 国家	NN
 有关	JJ
 部门	NN
-的	DEC
+的	DEG
 大力	AD
 支持	NN
 ，	PU
@@ -12693,7 +12693,7 @@
 据	P
 测算	NN
 ，	PU
-安玻	NN
+安玻	DT
 二	CD
 期	M
 工程	NN
@@ -12746,7 +12746,7 @@
 电	NN
 （	PU
 记者	NN
-应谦	NR
+应谦	NN
 ）	PU
 
 美国	NR
@@ -12791,7 +12791,7 @@
 参加	VV
 这	DT
 次	M
-游说	NN
+游说	AD
 活动	NN
 的	DEG
 美商	NN
@@ -13103,7 +13103,7 @@
 大型	JJ
 计算机	NN
 ，	PU
-克雷	AD
+克雷	NN
 公司	NN
 只	AD
 卖给	VV
@@ -13121,7 +13121,7 @@
 的	DEC
 ‘	PU
 曙光	NN
-１０００	CD
+１０００	NN
 ’	PU
 计算机	NN
 每	DT
@@ -13325,7 +13325,7 @@
 实现	VV
 社会主义	NN
 现代化	NN
-的	DEC
+的	DEG
 勇气	NN
 和	CC
 信心	NN
@@ -13498,7 +13498,7 @@
 国际	NN
 先进	JJ
 水平	NN
-的	DEG
+的	DEC
 重大	JJ
 成就	NN
 ，	PU
@@ -13645,7 +13645,7 @@
 贡献	NN
 
 新华社	NR
-福冈	NT
+福冈	NR
 ５月	NT
 １１日	NT
 电	NN
@@ -13781,7 +13781,7 @@
 将近	NN
 ７０００亿	CD
 美元	M
-的	DEC
+的	DEG
 市场	NN
 。	PU
 
@@ -13845,7 +13845,7 @@
 经济	NN
 发展	NN
 的	DEG
-主导	NN
+主导	JJ
 力量	NN
 。	PU
 
@@ -13925,7 +13925,7 @@
 也	AD
 需要	VV
 进一步	AD
-加强	AD
+加强	JJ
 区域	NN
 经济	NN
 合作	NN
@@ -13976,7 +13976,7 @@
 。	PU
 
 日本	NR
-前	LC
+前	JJ
 首相	NN
 宫泽喜一	CD
 、	PU
@@ -13988,7 +13988,7 @@
 芬兰	NR
 环境	NN
 部长	NN
-佩卡・哈维斯托	NN
+佩卡・哈维斯托	AD
 也	AD
 在	P
 研讨会	NN
@@ -14078,7 +14078,7 @@
 三	CD
 天	M
 的	DEC
-参观	NN
+参观	JJ
 考察	NN
 。	PU
 
@@ -14086,7 +14086,7 @@
 位	VV
 于	P
 中国	NR
-的	DEG
+的	DEC
 西南	NN
 地区	NN
 ，	PU
@@ -14209,7 +14209,7 @@
 养老金	NN
 管理	NN
 公司	NN
-弗兰克・罗素	NN
+弗兰克・罗素	CD
 公司	NN
 董事长	NN
 乔治・罗素	NN
@@ -14536,7 +14536,7 @@
 贸	NN
 和	CC
 三	CD
-产	NN
+产	M
 于	P
 一体	NN
 的	DEC
@@ -14593,7 +14593,7 @@
 据	P
 了解	NN
 ，	PU
-青啤	AD
+青啤	NN
 公司	NN
 到	P
 一九九五年	NT
@@ -14658,7 +14658,7 @@
 
 据	P
 青岛市	NR
-第三	OD
+第三	CD
 次	M
 工业	NN
 普查	NN
@@ -14890,7 +14890,7 @@
 ，	PU
 目前	NT
 ，	PU
-人行	NN
+人行	JJ
 上海市	NN
 分行	NN
 等	ETC
@@ -15010,7 +15010,7 @@
 机构	NN
 数量	NN
 和	CC
-地区	NR
+地区	NN
 分布	NN
 ，	PU
 加强	VV
@@ -15070,7 +15070,7 @@
 杨希伟	NR
 
 湖北	NR
-武汉市	NR
+武汉市	NN
 正	AD
 日益	AD
 成为	VV
@@ -15192,7 +15192,7 @@
 外资	NN
 利用	NN
 水平	NN
-逐年	NT
+逐年	AD
 提高	VV
 。	PU
 
@@ -15217,7 +15217,7 @@
 、	PU
 美	NR
 、	PU
-日	NR
+日	NT
 对	P
 武汉	NR
 的	DEG
@@ -15524,7 +15524,7 @@
 高原	NN
 腹地	NN
 ，	PU
-北	P
+北	NN
 界	VV
 昆仑山	NN
 ，	PU
@@ -15622,12 +15622,12 @@
 资源	NN
 。	PU
 
-还有	NN
+还有	AD
 ，	PU
 可可西里	AD
 高	JJ
 寒	NN
-植被	NN
+植被	AD
 组成	VV
 的	DEC
 生态	NN
@@ -15688,7 +15688,7 @@
 许多	CD
 挖	VV
 金	NR
-的	DEC
+的	DEG
 农民	NN
 把	BA
 拖拉机	NN
@@ -15704,7 +15704,7 @@
 人	NN
 的	DEG
 生活	NN
-垃圾	AD
+垃圾	NN
 污染	VV
 了	AS
 环境	NN
@@ -15978,7 +15978,7 @@
 ，	PU
 全	DT
 省	NN
-猪	AD
+猪	LC
 牛	NN
 羊肉	NN
 总	JJ
@@ -16166,7 +16166,7 @@
 电	NN
 （	PU
 记者	NN
-张跃文	NR
+张跃文	NN
 ）	PU
 
 吉林省	NR
@@ -16269,7 +16269,7 @@
 银行	NN
 投放	VV
 在	P
-此	PN
+此	DT
 方面	NN
 的	DEG
 贷款	NN
@@ -16331,7 +16331,7 @@
 个	M
 市	NN
 经济	NN
-适用	NN
+适用	JJ
 房	NN
 开发	NN
 建设	NN
@@ -16488,7 +16488,7 @@
 大会	NN
 上	LC
 ，	PU
-第一	OD
+第一	CD
 天	M
 就	AD
 有	VE
@@ -16531,7 +16531,7 @@
 住房	NN
 消费	NN
 贷款	NN
-的	DEC
+的	DEG
 大	JJ
 规模	NN
 出现	NN
@@ -16577,7 +16577,7 @@
 电	NN
 （	PU
 记者	NN
-顾正龙	NR
+顾正龙	NN
 ）	PU
 
 伊拉克	NR
@@ -16911,7 +16911,7 @@
 的	DEC
 巴勒斯坦	NR
 青年	NT
-被	LB
+被	SB
 萨达姆	NR
 封为	VV
 烈士	NN
@@ -17098,7 +17098,7 @@ B－５２	CD
 战略	NN
 轰炸机	NN
 、	PU
-B－１	VV
+B－１	CD
 战斗机	NN
 、	PU
 F－１８	NN
@@ -17183,7 +17183,7 @@ F－１８	NN
 了	AS
 １００多	CD
 枚	M
-战斧式	JJ
+战斧式	NN
 巡航	NN
 导弹	NN
 。	PU
@@ -17414,7 +17414,7 @@ F－１８	NN
 发出	VV
 任何	DT
 警告	NN
-的	DEG
+的	DEC
 情况	NN
 下	LC
 对	P
@@ -17467,7 +17467,7 @@ F－１８	NN
 老人	NN
 死于	VV
 缺	VV
-医	NN
+医	JJ
 少	VV
 药	NN
 和	CC
@@ -17488,7 +17488,7 @@ F－１８	NN
 年	M
 半	CD
 之	DEG
-久	NN
+久	AD
 ，	PU
 伊拉克	NR
 基本	AD
@@ -17520,7 +17520,7 @@ F－１８	NN
 拿出	VV
 令	VV
 人	NN
-信服	VA
+信服	VV
 的	DEC
 证据	NN
 ，	PU
@@ -17642,10 +17642,10 @@ F－１８	NN
 。	PU
 
 伊拉克	NR
-不仅	AD
+不仅	CC
 没有	VV
 在	P
-原先	NN
+原先	JJ
 的	DEG
 立场	NN
 上	LC
@@ -17768,7 +17768,7 @@ F－１８	NN
 的	DEC
 《	PU
 在	P
-新西伯利亚	JJ
+新西伯利亚	NN
 科学城	NN
 会见	VV
 科技界	NN
@@ -17958,7 +17958,7 @@ F－１８	NN
 ，	PU
 如果	CS
 不	AD
-紧紧	NN
+紧紧	AD
 跟上	VV
 科技	NN
 进步	VA
@@ -18020,7 +18020,7 @@ F－１８	NN
 机遇	NN
 ，	PU
 发奋图强	VV
-而	AD
+而	MSP
 不	AD
 是	VC
 墨守陈规	VV
@@ -18112,7 +18112,7 @@ F－１８	NN
 对	P
 时代	NN
 脉搏	NN
-的	DEC
+的	DEG
 准确	JJ
 把握	NN
 ，	PU
@@ -18619,7 +18619,7 @@ F－１８	NN
 多样性	NN
 公约	NN
 》	PU
-的	DEC
+的	DEG
 履约国	NN
 ，	PU
 将	AD
@@ -18894,7 +18894,7 @@ F－１８	NN
 会	VV
 对	P
 带头人	NN
-杰米・加拉切尔	NN
+杰米・加拉切尔	AD
 给予	VV
 重	JJ
 罚	NN
@@ -19018,9 +19018,9 @@ F－１８	NN
 ，	PU
 麦克缔尔	NN
 全	DT
-身	M
+身	NN
 贴满	VV
-毛发	NN
+毛发	AD
 把	BA
 自己	PN
 打扮	VV
@@ -19071,13 +19071,13 @@ F－１８	NN
 住	VV
 自己	PN
 ，	PU
-将	AD
+将	BA
 一	CD
 名	M
 脱衣舞女	NN
 举过	VV
 头	DT
-顶	NN
+顶	M
 ，	PU
 使	VV
 她	PN
@@ -19115,10 +19115,10 @@ F－１８	NN
 参加	VV
 下流	NN
 活动	NN
-的	DEG
+的	DEC
 始终	AD
 只有	AD
-加拉切尔	CD
+加拉切尔	AD
 一	CD
 人	NN
 。	PU
@@ -19138,7 +19138,7 @@ F－１８	NN
 ，	PU
 不断	AD
 通过	P
-酒吧	JJ
+酒吧	NN
 扩音器	NN
 要求	VV
 加拉切尔	NN
@@ -19183,7 +19183,7 @@ F－１８	NN
 该	DT
 假面	NN
 舞会	NN
-的	DEG
+的	DEC
 还	AD
 有	VE
 利物浦队	NR
@@ -19222,7 +19222,7 @@ F－１８	NN
 发生	VV
 骚乱	NN
 ，	PU
-被	SB
+被	LB
 警方	NN
 干预	VV
 ，	PU
@@ -19269,7 +19269,7 @@ F－１８	NN
 不	AD
 愿	VV
 按照	P
-原	JJ
+原	AD
 定	VV
 方案	NN
 进行	VV
@@ -19298,7 +19298,7 @@ F－１８	NN
 的	DEG
 低	JJ
 效率	NN
-扩张	AD
+扩张	NN
 是	VC
 韩国	NR
 企业	NN
@@ -19373,7 +19373,7 @@ F－１８	NN
 家	M
 公司	NN
 中	LC
-判定	JJ
+判定	AD
 一	CD
 家	M
 为	VC
@@ -19547,7 +19547,7 @@ F－１８	NN
 进行	VV
 改革	NN
 ，	PU
-将	BA
+将	AD
 通过	P
 银行	NN
 推动	VV
@@ -19564,7 +19564,7 @@ F－１８	NN
 ，	PU
 它	PN
 的	DEG
-债权	NN
+债权	JJ
 银行	NN
 已	AD
 决定	VV
@@ -19650,7 +19650,7 @@ F－１８	NN
 两	CD
 基	M
 （	PU
-基本	AD
+基本	JJ
 普及	VV
 九	CD
 年	M
@@ -19662,7 +19662,7 @@ F－１８	NN
 青壮年	NT
 文盲	NN
 ）	PU
-的	DEC
+的	DEG
 县	NR
 为	VC
 一千八百八十二	CD
@@ -19677,7 +19677,7 @@ F－１８	NN
 。	PU
 
 普及	VV
-初等	NN
+初等	JJ
 义务	NN
 教育	NN
 的	DEC
@@ -19827,7 +19827,7 @@ F－１８	NN
 素质	NN
 ，	PU
 培养	VV
-应用型	JJ
+应用型	NN
 专门	JJ
 人才	NN
 方面	NN
@@ -19883,7 +19883,7 @@ F－１８	NN
 
 从	P
 一九九０	NT
-至	CC
+至	P
 一九九六年	NT
 ，	PU
 教育	NN
@@ -19911,7 +19911,7 @@ F－１８	NN
 电	NN
 （	PU
 记者	NN
-张征东	NR
+张征东	NN
 ）	PU
 
 明年	NT
@@ -20019,12 +20019,12 @@ F－１８	NN
 ，	PU
 欧盟	NR
 规定	VV
-将	BA
+将	AD
 按	P
 成员国	NN
 当地	NN
 时间	NN
-零时	AD
+零时	NT
 开始	VV
 算起	VV
 。	PU
@@ -20095,7 +20095,7 @@ F－１８	NN
 这	DT
 期间	NN
 ，	PU
-新	AD
+新	JJ
 启用	VV
 的	DEC
 欧元	NN
@@ -20130,7 +20130,7 @@ F－１８	NN
 进行	VV
 。	PU
 
-储户	NN
+储户	AD
 在	P
 银行	NN
 的	DEG
@@ -20159,7 +20159,7 @@ F－１８	NN
 适应	VV
 欧元	NN
 ，	PU
-欧元区	NN
+欧元区	NR
 各	DT
 国	NN
 的	DEG
@@ -20263,7 +20263,7 @@ F－１８	NN
 纸币	NN
 和	CC
 硬币	NN
-的	DEC
+的	DEG
 工作	NN
 正在	AD
 加紧	AD
@@ -20275,7 +20275,7 @@ F－１８	NN
 更新期	NN
 前	LC
 造出	VV
-足够	JJ
+足够	NN
 数额	NN
 的	DEG
 欧元	NN
@@ -20347,18 +20347,18 @@ F－１８	NN
 ，	PU
 共	AD
 夺得	VV
-１２９	CD
+１２９	NN
 枚	M
 金牌	NN
 ，	PU
 连续	AD
-第五	CD
+第五	OD
 次	M
 获得	VV
 亚运会	NR
 金牌	NN
 总数	NN
-第一	OD
+第一	NN
 。	PU
 
 ２	CD
@@ -20669,7 +20669,7 @@ F－１８	NN
 女子	NN
 举重队	NN
 连续	AD
-第三	OD
+第三	CD
 次	M
 为	P
 中国	NR
@@ -20823,7 +20823,7 @@ F－１８	NN
 。	PU
 
 上午	NT
-九点	NN
+九点	NT
 过	VV
 后	LC
 ，	PU
@@ -20898,7 +20898,7 @@ F－１８	NN
 了	AS
 不少	CD
 ，	PU
-可	AD
+可	VV
 都	AD
 没有	VV
 用	P
@@ -20916,7 +20916,7 @@ F－１８	NN
 终于	AD
 出台	VV
 ，	PU
-这下	AD
+这下	VV
 我们	PN
 心里	AD
 有	VE
@@ -20962,12 +20962,12 @@ F－１８	NN
 ，	PU
 但	AD
 一直	AD
-没有	VV
+没有	VE
 一	CD
 部	M
 对	P
 市场	NN
-真正	AD
+真正	NN
 起到	VV
 规范	NN
 作用	NN
@@ -21099,7 +21099,7 @@ F－１８	NN
 市场	NN
 上	LC
 ，	PU
-上市	NR
+上市	NN
 公司	NN
 就	AD
 象	P
@@ -21191,8 +21191,8 @@ F－１８	NN
 。	PU
 
 上午	NT
-上证	NN
-综指	AD
+上证	NT
+综指	NN
 报收于	VV
 一一五五点八七八	CD
 点	M
@@ -21289,7 +21289,7 @@ F－１８	NN
 历史	NN
 背景	NN
 和	CC
-现实	JJ
+现实	NN
 情况	NN
 ，	PU
 在	P
@@ -21335,12 +21335,12 @@ F－１８	NN
 有利于	VV
 实现	VV
 澳门	NR
-顺利	NN
+顺利	AD
 回归	VV
 并	CC
 继续	VV
 保持	VV
-稳定	VV
+稳定	VA
 和	CC
 繁荣	VA
 。	PU
@@ -21673,7 +21673,7 @@ F－１８	NN
 ）	PU
 
 北京	NR
-青年	NN
+青年	NT
 认为	VV
 科学家	NN
 对	P
@@ -21686,7 +21686,7 @@ F－１８	NN
 新华社	NR
 北京	NR
 十二月	NT
-二十九	NT
+二十九	CD
 电	NN
 
 在	P
@@ -21700,7 +21700,7 @@ F－１８	NN
 中	LC
 ，	PU
 北京	NR
-青年	NN
+青年	NT
 对	P
 科学家	NN
 为	P
@@ -21747,7 +21747,7 @@ F－１８	NN
 显示	VV
 ，	PU
 北京	NR
-青年	NN
+青年	NT
 将	AD
 科学家	NN
 列为	VV
@@ -21845,7 +21845,7 @@ F－１８	NN
 是	VC
 研究	VV
 北京	NR
-青年	NN
+青年	NT
 的	DEG
 科学	NN
 素质	NN
@@ -21982,7 +21982,7 @@ F－１８	NN
 
 美国	NR
 选手	NN
-克里斯蒂娜・科兹尼克	CC
+克里斯蒂娜・科兹尼克	VV
 ２８日	NT
 在	P
 奥地利	NR
@@ -22085,10 +22085,10 @@ F－１８	NN
 很	AD
 喜欢	VV
 在	P
-晚上	NN
+晚上	NT
 比赛	VV
 ，	PU
-最后	AD
+最后	JJ
 两	CD
 次	M
 滑行	NN
@@ -22136,8 +22136,8 @@ F－１８	NN
 我	PN
 喜欢	VV
 在	P
-晚上	NN
-灯光	NN
+晚上	NT
+灯光	NT
 下	LC
 进行	VV
 比赛	NN
@@ -22180,7 +22180,7 @@ F－１８	NN
 在	P
 晚上	NT
 获得	VV
-的	DEC
+的	SP
 。	PU
 
 瑞士	NR
@@ -22348,7 +22348,7 @@ F－１８	NN
 常委会	NN
 今天	NT
 审议	VV
-并	AD
+并	CC
 通过	VV
 《	PU
 中华	NR
@@ -22391,7 +22391,7 @@ F－１８	NN
 ，	PU
 是	VC
 建立	VV
-与	CC
+与	P
 发展	VV
 充满	VV
 活力	NN
@@ -22569,7 +22569,7 @@ F－１８	NN
 的	DEG
 教训	NN
 ，	PU
-将	AD
+将	BA
 一些	CD
 成熟	VA
 的	DEC
@@ -22621,7 +22621,7 @@ F－１８	NN
 从	P
 起草	NN
 到	P
-通过	NN
+通过	P
 ，	PU
 历时	VV
 六	CD
@@ -22657,7 +22657,7 @@ F－１８	NN
 是	VC
 一	CD
 个	M
-充分	JJ
+充分	AD
 发扬	VV
 民主	NN
 ，	PU
@@ -22672,7 +22672,7 @@ F－１８	NN
 的	DEG
 民主	NN
 集中制	NN
-的	DEG
+的	DEC
 过程	NN
 ，	PU
 反映	VV
@@ -22810,7 +22810,7 @@ F－１８	NN
 地球	NN
 绕	VV
 其	PN
-轴心	NN
+轴心	JJ
 自转	VV
 和	CC
 绕	VV
@@ -22888,9 +22888,9 @@ F－１８	NN
 原子	NN
 振荡	NN
 周期	NN
-为	VV
+为	VC
 基准	NN
-的	DEC
+的	DEG
 新	JJ
 原子时	NN
 系统	NN
@@ -22904,10 +22904,10 @@ F－１８	NN
 速度	NN
 并	AD
 不	AD
-均匀	VA
+均匀	VV
 ，	PU
-世界时	NN
-误差	NN
+世界时	AD
+误差	AD
 会	VV
 不断	AD
 增大	VV
@@ -22935,7 +22935,7 @@ F－１８	NN
 的	DEG
 精确度	NN
 ，	PU
-有关	P
+有关	JJ
 国际	NN
 机构	NN
 于	P
@@ -22974,7 +22974,7 @@ F－１８	NN
 差值	NN
 超过	VV
 此	DT
-限	NN
+限	M
 ，	PU
 将	AD
 通过	P
@@ -23001,7 +23001,7 @@ F－１８	NN
 使	VV
 其	PN
 步调	NN
-一致	VA
+一致	VV
 。	PU
 
 是否	AD
@@ -23038,7 +23038,7 @@ F－１８	NN
 最后	JJ
 一	CD
 天	M
-的	DEG
+的	DEC
 最后	JJ
 一	CD
 分钟	M
@@ -23073,7 +23073,7 @@ F－１８	NN
 ）	PU
 
 世界	NN
-第一	CD
+第一	OD
 大	JJ
 峡谷	NN
 比	P
@@ -23090,7 +23090,7 @@ F－１８	NN
 电	NN
 （	PU
 记者	NN
-喻菲	NR
+喻菲	NN
 ）	PU
 
 刚刚	AD
@@ -23172,7 +23172,7 @@ F－１８	NN
 科学家们	NN
 过去	NT
 从未	AD
-涉足	VA
+涉足	VV
 的	DEC
 地方	NN
 。	PU
@@ -23183,7 +23183,7 @@ F－１８	NN
 大	JJ
 峡谷	NN
 最	AD
-窄	VA
+窄	VV
 处	NN
 宽度	NN
 为	VC
@@ -23226,7 +23226,7 @@ F－１８	NN
 峡谷	NN
 长度	NN
 、	PU
-平均	NN
+平均	JJ
 深度	NN
 和	CC
 最大	JJ
@@ -23258,14 +23258,14 @@ F－１８	NN
 一九九四年	NT
 中国	NR
 科学家	NN
-实地	NN
+实地	JJ
 勘察	VV
 后	LC
 确认	VV
 其	PN
-为	VV
+为	VC
 世界	NN
-第一	CD
+第一	OD
 大	JJ
 峡谷	NN
 ，	PU
@@ -23274,15 +23274,15 @@ F－１８	NN
 四百九十六点三	CD
 公里	M
 ，	PU
-平均	AD
+平均	NN
 深度	AD
 五千余	CD
 米	M
 ，	PU
 远远	AD
 超过	VV
-以前	NT
-被	LB
+以前	LC
+被	SB
 誉为	VV
 世界	NN
 最	AD
@@ -23365,7 +23365,7 @@ F－１８	NN
 次	M
 实现	VV
 了	AS
-徒步	AD
+徒步	JJ
 穿越	VV
 大	JJ
 峡谷	NN
@@ -23555,7 +23555,7 @@ F－１８	NN
 实现	VV
 了	AS
 经济	NN
-稳步	JJ
+稳步	AD
 增长	NN
 。	PU
 
@@ -23563,7 +23563,7 @@ F－１８	NN
 战胜	VV
 了	AS
 历史	NN
-罕见	VV
+罕见	VA
 的	DEC
 特大	JJ
 洪涝	NN
@@ -23676,7 +23676,7 @@ F－１８	NN
 一如既往	VV
 地	DEV
 奉行	VV
-独立自主	VA
+独立自主	VV
 的	DEC
 和平	NN
 外交	NN
@@ -23864,7 +23864,7 @@ F－１８	NN
 被	SB
 誉为	VV
 “	PU
-长	NN
+长	AD
 盛	VA
 不	AD
 衰	VV
@@ -23949,7 +23949,7 @@ F－１８	NN
 参加	VV
 第二十九	CD
 和	CC
-三十	CD
+三十	OD
 届	M
 世乒赛	NN
 。	PU
@@ -24039,7 +24039,7 @@ F－１８	NN
 
 国务院	NN
 办公厅	NN
-近日	NT
+近日	AD
 发出	VV
 通知	NN
 ，	PU
@@ -24190,7 +24190,7 @@ F－１８	NN
 干预	VV
 金融	NN
 机构	NN
-的	DEC
+的	DEG
 经营	NN
 活动	NN
 。	PU
@@ -24285,7 +24285,7 @@ F－１８	NN
 形成	VV
 支付	NN
 风险	NN
-的	DEC
+的	DEG
 ，	PU
 要	VV
 积极	AD
@@ -24373,7 +24373,7 @@ F－１８	NN
 账户	NN
 ，	PU
 服从	VV
-开户	JJ
+开户	NN
 机构	NN
 的	DEG
 管理	NN
@@ -24661,7 +24661,7 @@ F－１８	NN
 狮子会	NN
 帮助	VV
 湖北	NR
-灾民	CC
+灾民	JJ
 住进	VV
 新居	NN
 
@@ -24860,7 +24860,7 @@ F－１８	NN
 是	VC
 目前	NT
 唯一	CD
-与	M
+与	CC
 国家	NN
 建设部	NN
 合作	VV
@@ -24999,7 +24999,7 @@ F－１８	NN
 国际	NN
 狮子会	NN
 的	DEG
-及时	NN
+及时	JJ
 捐助	NN
 密不可分	VV
 。	PU
@@ -25028,7 +25028,7 @@ F－１８	NN
 主管	VV
 灾	NN
 后	LC
-重建	JJ
+重建	VV
 工作	NN
 的	DEC
 官员	NN
@@ -25052,8 +25052,8 @@ F－１８	NN
 的	DEC
 原	JJ
 址	NN
-原	AD
-样	AD
+原	JJ
+样	NN
 恢复	VV
 ，	PU
 而	CC
@@ -25183,7 +25183,7 @@ F－１８	NN
 不	AD
 会	VV
 出现	VV
-倒闭	NN
+倒闭	JJ
 危机	NN
 
 新华社	NR
@@ -25326,7 +25326,7 @@ F－１８	NN
 压力	NN
 测试	NN
 ，	PU
-结果	NN
+结果	AD
 显示	VV
 对	P
 银行业	NN
@@ -25375,12 +25375,12 @@ F－１８	NN
 
 此外	AD
 ，	PU
-将	AD
+将	BA
 目前	NT
 银行	NN
 披露	VV
 资料	NN
-的	DEG
+的	DEC
 指引	NN
 ，	PU
 纳入	VV
@@ -25445,7 +25445,7 @@ F－１８	NN
 的	DEG
 货币	NN
 建立	VV
-实时	AD
+实时	JJ
 结算	NN
 联系	NN
 ，	PU
@@ -25583,7 +25583,7 @@ F－１８	NN
 整体	NN
 上	LC
 向	P
-纵深	NN
+纵深	JJ
 推进	VV
 。	PU
 
@@ -25770,7 +25770,7 @@ F－１８	NN
 攻坚	NN
 阶段	NN
 ；	PU
-现代	NN
+现代	JJ
 科学	NN
 技术	NN
 和	CC
@@ -25873,7 +25873,7 @@ F－１８	NN
 。	PU
 
 中国	NR
-华诚	JJ
+华诚	NN
 集团	NN
 兼并	VV
 陕西	NR
@@ -25891,11 +25891,11 @@ F－１８	NN
 电	NN
 （	PU
 记者	NN
-吴锦瑜	NR
+吴锦瑜	NN
 ）	PU
 
 中国	NR
-华诚	JJ
+华诚	NN
 集团	NN
 兼并	VV
 陕西	NR
@@ -25919,11 +25919,11 @@ F－１８	NN
 。	PU
 
 历史	NN
-悠久	VV
+悠久	VA
 的	DEC
 西北	NN
 国棉	NN
-三	CD
+三	OD
 厂	NN
 、	PU
 四	CD
@@ -26014,7 +26014,7 @@ F－１８	NN
 兼并	VV
 企业	NN
 作为	P
-华诚	JJ
+华诚	NN
 集团	NN
 的	DEG
 全资	JJ
@@ -26032,7 +26032,7 @@ F－１８	NN
 陕西	NR
 唐华	NN
 纺织	NN
-印染	JJ
+印染	NN
 集团	NN
 有限	JJ
 责任	NN
@@ -26078,7 +26078,7 @@ F－１８	NN
 产业	NN
 结构链	NN
 ，	PU
-以	MSP
+以	P
 高	JJ
 科技	NN
 含量	NN
@@ -26101,7 +26101,7 @@ F－１８	NN
 公司	NN
 的	DEG
 中国	NR
-华诚	JJ
+华诚	NN
 集团	NN
 此	DT
 次	M
@@ -26120,7 +26120,7 @@ F－１８	NN
 落实	VV
 了	AS
 呆坏帐	NN
-核销	JJ
+核销	NN
 规模	NN
 ，	PU
 并	CC

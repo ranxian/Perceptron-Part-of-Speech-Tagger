@@ -122,6 +122,7 @@ def read_word_pos_chunk(pospath, goldenpath):
         line = line.rstrip('\n')
         line2 = line2.rstrip('\n')
 
+
         if line == '':
             # for s in sent:
             #     printc(s)
@@ -130,12 +131,14 @@ def read_word_pos_chunk(pospath, goldenpath):
             sent = []
         else:
             word, pos = line.split('\t')
+
             _, golden = line2.split('\t')
+
             sent.append((word, pos, golden))
 
     return chked_sents
 
 
 
-train = Dataset('../data/trn.wrd', '../data/trn.pos-chk.iob', '../data/trn.props')
-develop = Dataset('../data/dev.wrd', '../data/dev.pos-chk.iob', '../data/dev.props')
+train = Dataset('../data/trn2.wrd', '../data/trn2.pos-chk.iob', '../data/trn2.props.iob')
+develop = Dataset('../data/dev.wrd', '../data/dev.pos-chk.iob', '../data/dev.props.iob')

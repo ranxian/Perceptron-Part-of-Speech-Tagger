@@ -1,3 +1,4 @@
+# coding: utf-8
 from helper import printc
 import sys
 import copy
@@ -292,10 +293,15 @@ def token2props(token_path, word_path, dest_path):
                 if len(last) != len(records):
                     same = False
                 else:
-                    for idx,record in enumerate(last):
-                        if record[2] != records[idx][2]:
-                            same = False
-                            break
+                    if last[0][0] == '特区' and records[0][0] == '保税区':
+                        same = False
+                        print 'here'
+                        printc(records)
+                    else:
+                        for idx,record in enumerate(last):
+                            if record[2] != records[idx][2]:
+                                same = False
+                                break
                 if same:
                     tagged_sents[-1].append(records)
                 else:
@@ -308,6 +314,18 @@ def token2props(token_path, word_path, dest_path):
 
     print len(tagged_sents)
 
+    if len(tagged_sents) != len(sents):
+        for idx, (sent1, sent2) in enumerate(zip(sents, tagged_sents)):
+            # sys.stdin.readline()
+            # print idx
+            # print 1,
+            # printc(sent1)
+            # print 2,
+            # printc([word for (word, _, _) in sent2[0]])
+            pass
+    # printc(tagged_sents[297][1])
+    # printc(tagged_sents[297][2])
+
     # printc(tagged_sents[0:10])
 
     finals = []
@@ -315,6 +333,7 @@ def token2props(token_path, word_path, dest_path):
         final = [[] for i in range(len(tsents))]
         for idx2, sent in enumerate(tsents):
             i, j = 0, 0
+            # printc(sent)
             while i < len(sent):
                 word, role = sent[i][:2]
                 if role != 'O':
@@ -389,9 +408,9 @@ def token2props(token_path, word_path, dest_path):
 
 if len(sys.argv) > 1:
     if sys.argv[1] == 'train':
-        poschk2iob('../data/trn.pos-chk')
-        srl2iob('../data/trn.props', True)
-        iob2token('../data/trn.wrd', '../data/trn.pos-chk.iob', '../data/trn.tokens', '../data/trn.props.iob')
+        # poschk2iob('../data/trn2.pos-chk')
+        # srl2iob('../data/trn2.props', True)
+        iob2token('../data/trn2.wrd', '../data/trn2.pos-chk.iob', '../data/trn2.tokens', '../data/trn2.props.iob')
     elif sys.argv[1] == 'dev':
         poschk2iob('../data/dev.pos-chk')
         srl2iob('../data/dev.props')
@@ -400,6 +419,8 @@ if len(sys.argv) > 1:
         iob2token('../data/dev.wrd', 'test.pos-chk.iob', 'test.tokens', '../data/dev.props.iob')
     elif sys.argv[1] == 'props':
         token2props('test.props.txt', '../data/dev.wrd', '../result.txt')
+    elif sys.argv[1] == 'test-props':
+        token2props('test.props.txt', 'test.wrd', '../result.txt')
     elif sys.argv[1] == 'test':
         srl2iob('test.tgt', test=True)
         iob2token('test.wrd', 'test.pos-chk.iob', 'test.tokens', 'test.tgt.iob')

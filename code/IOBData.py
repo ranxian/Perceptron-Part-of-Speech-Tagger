@@ -19,6 +19,6 @@ class IOBData:
         print '%d sents loaded' % len(self.sents)
         token_file.close()
 
-trn_iob = IOBData('../data/trn.tokens')
+trn_iob = IOBData('../data/trn2.tokens')
 dev_iob = IOBData('../data/dev.tokens')
 tst_iob = IOBData('test.tokens')
