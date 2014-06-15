@@ -140,5 +140,5 @@ def read_word_pos_chunk(pospath, goldenpath):
 
 
 
-train = Dataset('../data/trn2.wrd', '../data/trn2.pos-chk.iob', '../data/trn2.props.iob')
+train = Dataset('../data/trn.wrd', '../data/trn.pos-chk.iob', '../data/trn.props.iob')
 develop = Dataset('../data/dev.wrd', '../data/dev.pos-chk.iob', '../data/dev.props.iob')

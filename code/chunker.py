@@ -130,12 +130,12 @@ class Chunker:
         add('i+1 tag', ftag1)
         add('i+1 tag prefix', ftag1[0])
 
-        add('i+1 word', fword2)
+        add('i+2 word', fword2)
         add('i+2 tag', ftag2)
         add('i+2 tag prefix', ftag2[0])
 
-        add('i-1 tag i tag i+2 tag', ptag1, tag, ftag1)
-        add('i-1 tag i word i+2 tag', ptag1, word, ftag1)
+        add('i-1 tag i tag i+1 tag', ptag1, tag, ftag1)
+        add('i-1 tag i word i+1 tag', ptag1, word, ftag1)
 
         if pchk1[0] == 'E' or pchk1[0] == 'O':
             add('out chunk')

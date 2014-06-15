@@ -410,7 +410,7 @@ if len(sys.argv) > 1:
     if sys.argv[1] == 'train':
         # poschk2iob('../data/trn2.pos-chk')
         # srl2iob('../data/trn2.props', True)
-        iob2token('../data/trn2.wrd', '../data/trn2.pos-chk.iob', '../data/trn2.tokens', '../data/trn2.props.iob')
+        iob2token('../data/trn.wrd', '../data/trn.pos-chk.iob', '../data/trn.tokens', '../data/trn.props.iob')
     elif sys.argv[1] == 'dev':
         poschk2iob('../data/dev.pos-chk')
         srl2iob('../data/dev.props')
